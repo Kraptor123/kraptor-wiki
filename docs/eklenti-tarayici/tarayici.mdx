@@ -1,0 +1,18 @@
+---
+title: Eklenti Tarayıcısını Aç
+sidebar_position: 2
+---
+Yönlendiriliyor...
+
+import BrowserOnly from '@docusaurus/BrowserOnly';
+
+<BrowserOnly>
+    {() => {
+        if (typeof window !== 'undefined') {
+            window.location.replace('/eklentitarayici/repolar.html');
+        }
+        return null;
+    }}
+</BrowserOnly>
+
+Yakında Yönlendirileceksiniz...
