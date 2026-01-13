@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
     {
         title: 'Cs-Kraptor',
-        imgSrc: '/img/kraptorlogo.png',
+        imgSrc: './img/kraptorlogo.png',
         description: (
             <>
                 Cs-Kraptor sadece Türk kullanıcıları ilgilendiren eklentileri barındıran ana repodur.
@@ -14,7 +14,7 @@ const FeatureList = [
     },
     {
         title: 'Cs-Karma',
-        imgSrc: '/img/cskarma.png',
+        imgSrc: './img/cskarma.png',
         description: (
             <>
                 Cs-Karma eklentileri türlerine takılmadan karma şekilde yüklenen birden çok ülkeye destek veren yan repodur.
@@ -23,7 +23,7 @@ const FeatureList = [
     },
     {
         title: 'Gizli Keyif',
-        imgSrc: '/img/gizlikeyifogo.png',
+        imgSrc: './img/gizlikeyifogo.png',
         description: (
             <>
                 Bunu boşverin.
