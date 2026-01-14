@@ -1,14 +1,24 @@
-# Website
+# Kraptor Wiki
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Kraptor'un CloudStream Wikisi.
 
-## Installation
+## İçerikler:
+1. Eklenti Tarayıcı.
+2. Son Commitleri Görme.
+3. CloudStream hakkında yardımlar.
+4. Yaşanabilecek hataların çözümleri.
+5. Diğer repolar hakkında bilgiler.
+6. Ve daha fazlası
+
+Bu website [Docusaurus](https://docusaurus.io/) kullanarak oluşturuldu, modern bir statik website oluşturucusu.
+
+## İndirme
 
 ```bash
 yarn
 ```
 
-## Local Development
+## Lokal Geliştirme
 
 ```bash
 yarn start
