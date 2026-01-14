@@ -76,7 +76,7 @@ class CloudStreamBrowser {
     async loadAllPlugins() {
         this.showLoading(true);
         const fetches = this.repos.map(repo =>
-            fetch(repo.url, { signal: AbortSignal.timeout(10000) })
+            fetch(repo.url + '?nocache=' + Date.now(), { signal: AbortSignal.timeout(10000) })
                 .then(res => res.ok ? res.json() : [])
                 // BURADA redirectUrl bilgisini de veri setine ekliyoruz:
                 .then(data => data.map(p => ({
@@ -204,11 +204,21 @@ class CloudStreamBrowser {
     }
 
     isNew(p) {
+        const defaultRepo = p.repos[0];
+        const version = p._perRepo[defaultRepo.code]?.version || '0';
+
+        const seenKey = this.LS_SEEN_PREFIX + p.id + '_' + version;
+
         const now = Date.now();
         const duration = this.NEW_DAYS * 24 * 60 * 60 * 1000;
-        const seenKey = this.LS_SEEN_PREFIX + p.id;
+
         const firstSeen = localStorage.getItem(seenKey);
-        if (!firstSeen) { localStorage.setItem(seenKey, now.toString()); return true; }
+
+        if (!firstSeen) {
+            localStorage.setItem(seenKey, now.toString());
+            return true;
+        }
+
         return (now - parseInt(firstSeen)) < duration;
     }
 
