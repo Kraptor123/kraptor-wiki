@@ -235,12 +235,21 @@ export default function CommitsPage() {
 
                                     {commit.note && (
                                         <div style={{
-                                            marginTop: '1rem', padding: '0.8rem 1rem',
-                                            backgroundColor: 'var(--ifm-color-info-lightest)',
-                                            borderRadius: '8px', borderLeft: '3px solid var(--ifm-color-info)',
-                                            fontSize: '0.9rem', color: 'var(--ifm-color-content)'
+                                            marginTop: '1rem',
+                                            padding: '1rem',
+                                            backgroundColor: 'rgba(54, 162, 235, 0.1)',
+                                            borderLeft: '4px solid #36a2eb',
+                                            borderRadius: '8px',
+                                            fontSize: '0.95rem',
+                                            color: 'var(--ifm-font-color-base)',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            gap: '10px'
                                         }}>
-                                            <strong>💡 Not:</strong> {commit.note}
+                                            <span style={{ fontSize: '1.2rem' }}>💡</span>
+                                            <div>
+                                                <strong style={{ color: '#36a2eb' }}>Not:</strong> {commit.note}
+                                            </div>
                                         </div>
                                     )}
 
