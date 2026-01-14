@@ -8,7 +8,7 @@ authors: [kraptor, byayzen]
 ## Telegram
 
 - [Duyuru Kanalımız](https://t.me/kraptorcs)
-- [Sohbet ve Yardım Grubumuz](https://t.me/+v2DqXgnBVgEzZWE8)
+- [Sohbet ve Yardım Grubumuz](https://t.me/+y2ALI0k6659mNDE8)
 
 ## Bağış Yapmak İstiyorum
 
@@ -16,4 +16,6 @@ authors: [kraptor, byayzen]
 
 - [BuyMeACoffee](https://buymeacoffee.com/kraptor123)
 - [Patreon](https://patreon.com/kraptorcs)
-- Bnb SmartChain Adresi = **0x3aa158e862948a14c8efed3fc5074fbbce078364**
+- [ko-fi](https://ko-fi.com/kraptorcs)
+- **BNB Smart Chain (BEP-20) adresim:**  
+`0x3aa158e862948a14c8efed3fc5074fbbce078364`

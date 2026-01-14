@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}'den Merhaba!`}
+      description="CloudStream, eklentiler ve uygulama ile alakalı bilgiler edinebileceğiniz kraptor'un repolarının official wikisidir.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
