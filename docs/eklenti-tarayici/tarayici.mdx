@@ -2,17 +2,25 @@
 title: Eklenti Tarayıcısını Aç
 sidebar_position: 2
 ---
-Yönlendiriliyor...
 
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<BrowserOnly>
-    {() => {
-        if (typeof window !== 'undefined') {
-            window.location.replace('./eklentitarayici/repolar.html');
-        }
-        return null;
-    }}
-</BrowserOnly>
+export const RedirectComponent = () => {
+    const targetUrl = useBaseUrl('/tarayici/repolar.html');
 
-Yakında Yönlendirileceksiniz...
+    return (
+        <BrowserOnly>
+            {() => {
+                if (typeof window !== 'undefined') {
+                    window.location.replace(targetUrl);
+                }
+                return null;
+            }}
+        </BrowserOnly>
+    );
+};
+
+<RedirectComponent />
+
+Yönlendiriliyorsunuz, lütfen bekleyin...
