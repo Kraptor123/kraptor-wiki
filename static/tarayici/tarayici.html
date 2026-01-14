@@ -4,71 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CloudStream Eklenti Tarayıcısı</title>
+    <meta name="description" content="CloudStream eklentileri için gelişmiş tarayıcı ve arama motoru.">
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Kraptor123/cs-kraptor/refs/heads/master/.github/icons/logo/kraptorfaviconicon.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="navigation">
-    <button id="backButton" class="nav-button" title="Geri Dön">
+    <button id="backButton" class="nav-button" aria-label="Geri Dön">
         <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
             <line x1="19" y1="12" x2="5" y2="12"></line>
             <polyline points="12 19 5 12 12 5"></polyline>
         </svg>
     </button>
-    <button id="themeToggle" class="nav-button" title="Temayı Değiştir">
-        <span class="theme-icon"></span>
+    <button id="themeToggle" class="nav-button" aria-label="Temayı Değiştir">
+            <span class="theme-icon">
+            </span>
     </button>
 </div>
 
 <div class="container">
+
+    <!-- Başlık Alanı -->
     <div class="header">
-        <img src="https://raw.githubusercontent.com/Kraptor123/cs-kraptor/refs/heads/master/.github/icons/logo/kraptorfaviconicon.png" alt="Logo" class="header-logo">
+        <img src="https://raw.githubusercontent.com/Kraptor123/cs-kraptor/refs/heads/master/.github/icons/logo/kraptorfaviconicon.png" alt="CloudStream Logo" class="header-logo">
         <h1>CloudStream</h1>
     </div>
 
+    <!-- İstatistik Kartları -->
     <div class="stats-grid">
-        <div class="stat-card"><div class="stat-number" id="totalPlugins">0</div><div class="stat-label">Toplam Eklenti</div></div>
-        <div class="stat-card"><div class="stat-number" id="totalRepos">0</div><div class="stat-label">Aktif Depo</div></div>
-        <div class="stat-card"><div class="stat-number" id="totalTypes">0</div><div class="stat-label">İçerik Türü</div></div>
+        <div class="stat-card">
+            <div class="stat-number" id="totalPlugins">0</div>
+            <div class="stat-label">Toplam Eklenti</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="totalRepos">0</div>
+            <div class="stat-label">Aktif Depo</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="totalTypes">0</div>
+            <div class="stat-label">İçerik Türü</div>
+        </div>
+        <!-- Git Geçmişi Linki-->
         <div class="stat-card clickable-stat" onclick="window.location.href='/kraptor-wiki/commits'">
-            <div class="stat-number">Git</div><div class="stat-label">Commit Geçmişi</div>
+            <div class="stat-number">Git</div>
+            <div class="stat-label">Commit Geçmişi</div>
         </div>
     </div>
 
+    <!-- Filtreleme Kontrolleri -->
     <div class="controls">
         <div class="controls-row">
-            <div class="control-group"><label>Depo Seç</label><select id="repoFilter"><option value="">Tüm Depolar</option></select></div>
-            <div class="control-group"><label>İçerik Türü</label><select id="typeFilter"><option value="">Tüm Türler</option></select></div>
-            <div class="control-group"><label>Dil</label><select id="languageFilter"><option value="">Tüm Diller</option></select></div>
-            <div class="control-group"><label>Geliştirici</label><select id="developerFilter"><option value="">Tüm Geliştiriciler</option></select></div>
+            <div class="control-group">
+                <label for="repoFilter">Depo Seç</label>
+                <select id="repoFilter">
+                    <option value="">Tüm Depolar</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="typeFilter">İçerik Türü</label>
+                <select id="typeFilter">
+                    <option value="">Tüm Türler</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="languageFilter">Dil</label>
+                <select id="languageFilter">
+                    <option value="">Tüm Diller</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="developerFilter">Geliştirici</label>
+                <select id="developerFilter">
+                    <option value="">Tüm Geliştiriciler</option>
+                </select>
+            </div>
         </div>
+
         <div class="control-group search-group">
-            <label>Ara</label><input type="text" id="searchInput" placeholder="Eklenti adı, açıklama veya yazar ara...">
+            <label for="searchInput">Arama</label>
+            <input type="text" id="searchInput" placeholder="Eklenti adı, açıklama veya yazar ara..." autocomplete="off">
         </div>
     </div>
 
+    <!-- Yükleniyor Göstergesi -->
     <div id="loadingIndicator" class="loading">
-        <div class="spinner"></div><span>Veriler çekiliyor...</span>
+        <div class="spinner"></div>
+        <span>Veriler çekiliyor...</span>
     </div>
 
-    <div id="pluginsGrid" class="plugins-grid"></div>
+    <!-- Eklenti Listesi (Grid) -->
+    <div id="pluginsGrid" class="plugins-grid">
+    </div>
 
-    <div id="noResults" class="no-results" style="display: none;">Aradığınız kriterlere uygun eklenti bulunamadı.</div>
+    <!-- Sonuç Bulunamadı Mesajı -->
+    <div id="noResults" class="no-results" style="display: none; text-align: center; color: var(--text-secondary); padding: 40px;">
+        <h3>Sonuç Bulunamadı</h3>
+        <p>Aradığınız kriterlere uygun eklenti mevcut değil.</p>
+    </div>
+
 </div>
 
+<!-- Yetişkin İçerik Onay Modalı -->
 <div id="adultOverlay" class="overlay">
     <div class="adult-modal">
         <h2>Yetişkin İçerik Uyarısı</h2>
         <p>Bu içerik 18 yaş ve üzeri kullanıcılar içindir. Görüntülemek istiyor musunuz?</p>
-        <div class="adult-actions">
+        <div style="margin-top: 20px;">
             <button id="adultYes" class="btn btn-yes">Evet, Göster</button>
             <button id="adultNo" class="btn btn-no">Hayır</button>
         </div>
     </div>
 </div>
 
+<!-- JavaScript Dosyası -->
 <script src="script.js"></script>
 </body>
 </html>
