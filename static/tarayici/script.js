@@ -283,7 +283,7 @@ class CloudStreamBrowser {
         <div class="plugin-card" data-id="${p.id}">
             <div class="plugin-header">
                 <div class="header-left">
-                    <img src="${data.iconUrl || ''}" class="plugin-icon" loading="lazy" onerror="this.src='https://placehold.co/72/black/white/?text=kraptor'">
+                    <img src="${data.iconUrl || ''}" class="plugin-icon" loading="lazy" onerror="this.src='https://placehold.co/72/black/white/?text=Kraptor\\nWiki'">
                     <div class="plugin-info">
                         <div class="plugin-name-row">
                             <span class="plugin-name">${this.escapeHtml(p.name)}</span>
@@ -328,7 +328,7 @@ class CloudStreamBrowser {
 
                 card.querySelector('.plugin-version').textContent = `v${data.version||'?'}`;
                 card.querySelector('.plugin-description').textContent = data.description || 'Açıklama yok.';
-                card.querySelector('.plugin-icon').src = data.iconUrl || 'https://placehold.co/72/black/white/?text=kraptor';
+                card.querySelector('.plugin-icon').src = data.iconUrl || 'https://placehold.co/72/black/white/?text=Kraptor\\nWiki';
                 card.querySelector('.card-lang').textContent = data.language ? data.language.toUpperCase() : '';
                 card.querySelector('.plugin-authors').innerHTML = this.createAuthorsHTML(data.authors, data.authorsCanon);
 
