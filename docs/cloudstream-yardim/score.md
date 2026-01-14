@@ -21,8 +21,4 @@ Cloudstream'in 4.5.2 sürümünü veya daha alt bir sürümde kalmışsanız, sc
 
 [CloudStream Kurulum](cskurulum)
 
-<!-- truncate -->
-
-![Score Hatasi](./img/score.jpg)
-
-<!-- truncate -->
+<img src="./img/score.jpg" alt="Score Hatası" width="245" />
