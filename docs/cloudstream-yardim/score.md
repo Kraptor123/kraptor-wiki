@@ -2,6 +2,7 @@
 sidebar_position: 8
 tags:
   - CloudStream Yardım
+  - Hata
 authors: [kraptor, byayzen]
 ---
 # Score sistemi nedir?

@@ -2,6 +2,7 @@
 sidebar_position: 5
 tags:
   - CloudStream Yardım
+  - Hata
 authors: [kraptor, byayzen]
 ---
 # Altyazı sorunu

@@ -2,7 +2,7 @@
 sidebar_position: 5
 tags:
   - CloudStream Yardım
-  - hata
+  - Hata
 authors: [kraptor, byayzen]
 ---
 

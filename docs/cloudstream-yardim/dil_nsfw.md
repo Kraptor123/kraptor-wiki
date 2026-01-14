@@ -2,6 +2,7 @@
 sidebar_position: 6
 tags:
   - CloudStream Yardım
+  - Hata
 authors: [kraptor, byayzen]
 ---
 # Dil ve NSFW sorunları

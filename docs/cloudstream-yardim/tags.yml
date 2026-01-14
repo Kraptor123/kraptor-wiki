@@ -2,6 +2,6 @@ CloudStream Yardım:
   label: CloudStream Yardım
   description: CloudStream yardım içeren tagler.
 
-  Hatalar:
-    label: CloudStream Yardım
-    description: CloudStream yardım içeren tagler.
+  Hata:
+    label: Hata
+    description: hata etiketi.
