@@ -8,7 +8,7 @@ export default function CommitsPage() {
     const [searchTerm, setSearchTerm] = useState('');
 
     useEffect(() => {
-        fetch('/data/commit-notes.json')
+        fetch('./data/commit-notes.json')
             .then(res => res.json())
             .then(data => {
                 // Object'i array'e çevir ve tarihe göre sırala
