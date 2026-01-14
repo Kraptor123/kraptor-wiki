@@ -98,7 +98,7 @@ class CloudStreamBrowser {
 
         const backBtn = document.getElementById('backButton');
         if (backBtn) backBtn.addEventListener('click', () => {
-            window.location.href = '/docs/category/eklenti-tarayıcı';
+            window.location.href = '/kraptor-wiki/docs/eklenti-tarayici';
         });
 
         const headerLogo = document.querySelector('.header-logo');
