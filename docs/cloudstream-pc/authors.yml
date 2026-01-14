@@ -1,0 +1,25 @@
+kraptor:
+  name: Kraptor
+  title: CloudStream kraptor reposunu kuran kişi.
+  url: https://github.com/Kraptor123
+  image_url: https://avatars.githubusercontent.com/u/89366989
+  page: true
+#  socials:
+#    x: yangshunz
+#    linkedin: yangshun
+#    github: yangshun
+#    newsletter: https://www.greatfrontend.com
+
+byayzen:
+  name: ByAyzen
+  title: CloudStream kraptor reposunun aktif geliştiricilerinden.
+  url: https://github.com/ByAyzen
+  image_url: https://avatars.githubusercontent.com/u/189399597
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+#    permalink: '/all-sebastien-lorber-articles'
+#  socials:
+#    x: sebastienlorber
+#    linkedin: sebastienlorber
+#    github: slorber
+#    newsletter: https://thisweekinreact.com
