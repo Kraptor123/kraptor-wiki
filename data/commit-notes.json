@@ -95,7 +95,7 @@
   },
   "0450024e44bcaa979129c787cd620f6a54a32672": {
     "sha": "0450024e44bcaa979129c787cd620f6a54a32672",
-    "message": "Update: Sinezy",
+    "message": "AAAAA",
     "description": "",
     "date": "2026-01-12",
     "author": "ByAyzen",
@@ -152,7 +152,7 @@
   "d58b3c824b7f61f080831903804f7ef50fcf2125": {
     "sha": "d58b3c824b7f61f080831903804f7ef50fcf2125",
     "message": "Bip Bop Bop Bip",
-    "description": "Bip bopuma takılma kraptor sanki birisi görüyo",
+    "description": "Bip bopuma takılma ibne kraptor sanki birisi görüyo",
     "date": "2026-01-10",
     "author": "ByAyzen",
     "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
@@ -166,7 +166,7 @@
   "e0e372add5522508a9ecd256cd45f341958f452a": {
     "sha": "e0e372add5522508a9ecd256cd45f341958f452a",
     "message": "Youtube Fix",
-    "description": "Youtube extractor için düzeltme",
+    "description": "",
     "date": "2026-01-09",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
@@ -192,7 +192,7 @@
   "0c1a380e6e439507c96972532b1188acbe8c2d35": {
     "sha": "0c1a380e6e439507c96972532b1188acbe8c2d35",
     "message": "Dizilla dublaj",
-    "description": "dizilla için dublaj kategorisi eklendi.",
+    "description": "",
     "date": "2026-01-09",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
@@ -220,7 +220,7 @@
   "d7191e04f8daa89ccc6f04f7332ce5662b611578": {
     "sha": "d7191e04f8daa89ccc6f04f7332ce5662b611578",
     "message": "Youtube Extractor",
-    "description": "Youtube extractor için küçük düzeltme.",
+    "description": "",
     "date": "2026-01-09",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
@@ -271,6 +271,20 @@
     "hidden": true,
     "tags": [
       "__Temel"
+    ]
+  },
+  "652adfeb771da6324b03d94cd50d99228b3ac959": {
+    "sha": "652adfeb771da6324b03d94cd50d99228b3ac959",
+    "message": "♻️ Domain Değişikliği",
+    "description": "🔄 Otomatik domain güncellemeleri yapıldı.",
+    "date": "2026-01-14",
+    "author": "github-actions[bot]",
+    "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmCehennemi"
     ]
   }
 }
