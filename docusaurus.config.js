@@ -111,11 +111,11 @@ const config = {
             items: [
               {
                 label: 'Telegram Duyuru',
-                href: 'https://t.me/+y2ALI0k6659mNDE8',
+                href: 'https://t.me/kraptorcs',
               },
               {
                 label: 'Telegram Grubu',
-                href: 'https://t.me/kraptorcs',
+                href: 'https://t.me/+y2ALI0k6659mNDE8',
               }
             ],
           },
