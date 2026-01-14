@@ -8,7 +8,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": []
   },
   "1afe3a60ba036074cca7b7d09be97c1bf7a34e10": {
@@ -20,7 +20,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": []
   },
   "f019572a7d4f9a0b073bc2b411ab5081d122fe8c": {
@@ -32,7 +32,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": []
   },
   "652adfeb771da6324b03d94cd50d99228b3ac959": {
@@ -58,7 +58,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": []
   },
   "bf43aef185a0d40a99290f98a671506fbd01de2c": {
@@ -70,7 +70,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": []
   },
   "20672a54acb44604155b165333d90019dbeb4e74": {
@@ -82,7 +82,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": []
   },
   "ca07b708b2b37a359b8d74d07c62eb996a3db3b2": {
@@ -94,7 +94,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": []
   },
   "856823f6b7338acb1a54991efc4605b65fac32a7": {
@@ -106,7 +106,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": []
   },
   "470509c7e2d1424796021f9f04311d051ff37ad0": {
@@ -145,7 +145,7 @@
   },
   "0450024e44bcaa979129c787cd620f6a54a32672": {
     "sha": "0450024e44bcaa979129c787cd620f6a54a32672",
-    "message": "AAAAA",
+    "message": "Sinezy: minor fix",
     "description": "",
     "date": "2026-01-12",
     "author": "ByAyzen",
@@ -174,7 +174,7 @@
   "408fb7f4b857f130b8abda8111ff3071dca65f1c": {
     "sha": "408fb7f4b857f130b8abda8111ff3071dca65f1c",
     "message": "kraptorplus toplu fix",
-    "description": "",
+    "description": "Toplu extractor düzeltmeleri",
     "date": "2026-01-11",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
@@ -187,7 +187,7 @@
   },
   "fa3f7a5d6bbfdedd712d8da6d0b6c508ddb998d6": {
     "sha": "fa3f7a5d6bbfdedd712d8da6d0b6c508ddb998d6",
-    "message": "Arama falan",
+    "message": "RoketDizi: Arama",
     "description": "",
     "date": "2026-01-10",
     "author": "ByAyzen",
@@ -202,7 +202,7 @@
   "d58b3c824b7f61f080831903804f7ef50fcf2125": {
     "sha": "d58b3c824b7f61f080831903804f7ef50fcf2125",
     "message": "Bip Bop Bop Bip",
-    "description": "Bip bopuma takılma ibne kraptor sanki birisi görüyo",
+    "description": "Bip bopuma takılma kraptor sanki birisi görüyo",
     "date": "2026-01-10",
     "author": "ByAyzen",
     "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
@@ -216,7 +216,7 @@
   "e0e372add5522508a9ecd256cd45f341958f452a": {
     "sha": "e0e372add5522508a9ecd256cd45f341958f452a",
     "message": "Youtube Fix",
-    "description": "",
+    "description": "Youtube küçük düzeltme.",
     "date": "2026-01-09",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
@@ -236,13 +236,13 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": []
   },
   "0c1a380e6e439507c96972532b1188acbe8c2d35": {
     "sha": "0c1a380e6e439507c96972532b1188acbe8c2d35",
     "message": "Dizilla dublaj",
-    "description": "",
+    "description": "dublaj kategorisi eklendi",
     "date": "2026-01-09",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
