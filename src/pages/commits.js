@@ -137,14 +137,14 @@ export default function CommitsPage() {
                                 }}>
                                     <span>👤 {commit.author}</span>
                                     <span style={{ margin: '0 0.5rem' }}>•</span>
-                                    <a
-                                        href={commit.url}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        style={{ fontFamily: 'monospace' }}
-                                    >
+                                    <code style={{
+                                        backgroundColor: 'var(--ifm-color-emphasis-200)',
+                                        padding: '0.2rem 0.4rem',
+                                        borderRadius: '4px',
+                                        fontSize: '0.8rem'
+                                    }}>
                                         {commit.sha.substring(0, 7)}
-                                    </a>
+                                    </code>
                                 </div>
 
                                 {/* Tags */}
