@@ -186,3 +186,38 @@ select:focus, input:focus { border-color: var(--accent); box-shadow: 0 0 0 4px r
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
+
+.repo-header-info {
+    display: flex;
+    justify-content: space-between; /* Label solda, kod sağda */
+    align-items: center;
+    margin-bottom: 8px; /* Input ile mesafe */
+}
+
+.repo-shortcode {
+    font-family: 'Consolas', 'Monaco', monospace; /* Kod olduğu belli olsun */
+    font-size: 0.75rem;
+    font-weight: 700; /* Kalın font */
+    font-style: normal; /* İtalik olmasın */
+
+    /* Renkler senin temanın değişkenlerinden gelir */
+    color: var(--accent);
+    background: rgba(99, 102, 241, 0.1); /* Accent renginin çok şeffaf hali */
+    border: 1px solid var(--border);
+
+    padding: 3px 8px;
+    border-radius: 6px; /* Hafif yuvarlatılmış */
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+/* Light tema için özel ayar (otomatik var(--accent) alacak ama garanti olsun) */
+body.light-theme .repo-shortcode {
+    background: rgba(79, 70, 229, 0.1);
+}
+
+.repo-shortcode:hover {
+    background: var(--accent);
+    color: #fff; /* Üzerine gelince içi dolsun */
+    transform: translateY(-1px);
+}

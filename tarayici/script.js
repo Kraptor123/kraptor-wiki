@@ -239,20 +239,27 @@ class CloudStreamBrowser {
         const defaultRepo = p.repos[0];
         const data = p._perRepo[defaultRepo.code];
         const isNew = this.isNew(p);
-        const initialRedirect = data.redirectUrl || '#'; // Varsayılan URL
+        const initialRedirect = data.redirectUrl || '#';
 
-        // --- YÖNLENDİRME (LİNK) MANTIĞI BURADA GÜNCELLENDİ ---
+        // --- YENİ TASARIMLI BAŞLIK ALANI ---
+        const headerHTML = `
+            <div class="repo-header-info">
+                <label>KAYNAK DEPO</label>
+                <span class="repo-shortcode" title="Repo Kısa Kodu">${defaultRepo.code}</span>
+            </div>
+        `;
+
         let repoSectionHTML = '';
+
         if (p.repos.length > 1) {
             const repoOptions = p.repos.map((r, idx) => {
                 const safeData = encodeURIComponent(JSON.stringify(p._perRepo[r.code]));
                 return `<option value="${r.code}" data-per="${safeData}" ${idx===0?'selected':''}>${r.name}</option>`;
             }).join('');
 
-            // Çoklu depo: Select kutusu + Yanında git butonu
             repoSectionHTML = `
                 <div class="repo-select-area">
-                    <label>Kaynak Depo</label>
+                    ${headerHTML}
                     <div class="repo-multi-wrapper" style="display:flex; gap:8px;">
                         <select class="card-repo-select" style="flex:1;">${repoOptions}</select>
                         <a href="${initialRedirect}" class="repo-link-btn" target="_blank" title="Depoya Git">
@@ -261,10 +268,9 @@ class CloudStreamBrowser {
                     </div>
                 </div>`;
         } else {
-            // Tek depo: İsim artık tıklanabilir bir <a> etiketi
             repoSectionHTML = `
                 <div class="repo-select-area">
-                    <label>Kaynak Depo</label>
+                    ${headerHTML}
                     <div class="single-repo-display">
                         <span>Mevcut:</span>
                         <a href="${initialRedirect}" class="single-repo-link" target="_blank">${defaultRepo.name}</a>
@@ -283,7 +289,7 @@ class CloudStreamBrowser {
         <div class="plugin-card" data-id="${p.id}">
             <div class="plugin-header">
                 <div class="header-left">
-                    <img src="${data.iconUrl || ''}" class="plugin-icon" loading="lazy" onerror="this.src='https://placehold.co/72/black/white/?text=Kraptor\\nWiki'">
+                    <img src="${data.iconUrl || ''}" class="plugin-icon" loading="lazy" onerror="this.src='https://placehold.co/72/black/white/?text=CS'">
                     <div class="plugin-info">
                         <div class="plugin-name-row">
                             <span class="plugin-name">${this.escapeHtml(p.name)}</span>
@@ -299,9 +305,7 @@ class CloudStreamBrowser {
             
             <div class="card-footer">
                 <div class="plugin-types">${typesHTML}</div>
-                
                 ${repoSectionHTML}
-                
                 <div class="plugin-authors-container">
                     <div class="plugin-authors">${authorsHTML}</div>
                 </div>
@@ -326,6 +330,11 @@ class CloudStreamBrowser {
                 const opt = e.target.options[e.target.selectedIndex];
                 const data = JSON.parse(decodeURIComponent(opt.getAttribute('data-per')));
 
+                const shortcodeEl = card.querySelector('.repo-shortcode');
+                if (shortcodeEl) {
+                    shortcodeEl.textContent = e.target.value;
+                }
+
                 card.querySelector('.plugin-version').textContent = `v${data.version||'?'}`;
                 card.querySelector('.plugin-description').textContent = data.description || 'Açıklama yok.';
                 card.querySelector('.plugin-icon').src = data.iconUrl || 'https://placehold.co/72/black/white/?text=Kraptor\\nWiki';
@@ -336,6 +345,10 @@ class CloudStreamBrowser {
                 const linkBtn = card.querySelector('.repo-link-btn');
                 if (linkBtn && data.redirectUrl) {
                     linkBtn.href = data.redirectUrl;
+                }
+
+                if(card.querySelector('.repo-code-text')) {
+                    card.querySelector('.repo-code-text').textContent = e.target.value;
                 }
 
                 this.attachAuthorClicks(card);
