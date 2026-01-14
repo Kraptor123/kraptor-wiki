@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkkraptor_wiki=globalThis.webpackChunkkraptor_wiki||[]).push([[194],{536(a){a.exports=JSON.parse('{"tags":[{"label":"CloudStream Yard\u0131m","permalink":"/kraptor-wiki/docs/tags/cloud-stream-yardim","count":12},{"label":"hata","permalink":"/kraptor-wiki/docs/tags/hata","count":2}]}')}}]);
