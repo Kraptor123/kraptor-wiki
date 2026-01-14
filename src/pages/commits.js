@@ -11,9 +11,9 @@ export default function CommitsPage() {
 
     // Filtre State'leri
     const [searchTerm, setSearchTerm] = useState('');
-    const [selectedAuthor, setSelectedAuthor] = useState('all'); // Geliştirici Filtresi
-    const [selectedTag, setSelectedTag] = useState('all');       // Eklenti/Tag Filtresi
-    const [onlyHighlighted, setOnlyHighlighted] = useState(false); // Sadece Önemliler
+    const [selectedAuthor, setSelectedAuthor] = useState('all');
+    const [selectedTag, setSelectedTag] = useState('all');
+    const [onlyHighlighted, setOnlyHighlighted] = useState(false);
 
     useEffect(() => {
         const dataPath = `${siteConfig.baseUrl}data/commit-notes.json`.replace(/\/+/g, '/');
@@ -24,6 +24,7 @@ export default function CommitsPage() {
                 return res.json();
             })
             .then(data => {
+                // Saat bilgisi artık JSON'da olduğu için burası milisaniye hassasiyetinde sıralayacak
                 const commitsArray = Object.values(data).sort((a, b) =>
                     new Date(b.date) - new Date(a.date)
                 );
@@ -34,9 +35,9 @@ export default function CommitsPage() {
                 console.error('Veri yükleme hatası:', err);
                 setLoading(false);
             });
-    }, []);
+    }, [siteConfig.baseUrl]);
 
-    // Verilerden dinamik olarak filtre listelerini oluşturuyoruz (Tekrar tekrar hesaplamamak için useMemo)
+    // Filtre Seçenekleri
     const filterOptions = useMemo(() => {
         const authors = new Set();
         const tags = new Set();
@@ -58,18 +59,12 @@ export default function CommitsPage() {
     const filteredCommits = commits.filter(commit => {
         if (commit.hidden === true) return false;
 
-        // 1. Öne Çıkanlar Filtresi
         if (onlyHighlighted && !commit.highlight) return false;
-
-        // 2. Geliştirici Filtresi
         if (selectedAuthor !== 'all' && commit.author !== selectedAuthor) return false;
-
-        // 3. Eklenti/Tag Filtresi
         if (selectedTag !== 'all') {
             if (!commit.tags || !commit.tags.includes(selectedTag)) return false;
         }
 
-        // 4. Metin Arama
         const searchLower = searchTerm.toLowerCase();
         const matchesSearch =
             commit.message.toLowerCase().includes(searchLower) ||
@@ -79,7 +74,6 @@ export default function CommitsPage() {
         return matchesSearch;
     });
 
-    // Temizle butonu için fonksiyon
     const clearFilters = () => {
         setSearchTerm('');
         setSelectedAuthor('all');
@@ -101,7 +95,7 @@ export default function CommitsPage() {
                     <p style={{ fontSize: '1.1rem', opacity: 0.7 }}>Sistemdeki tüm teknik değişimlerin kronolojik listesi.</p>
                 </header>
 
-                {/* Gelişmiş Filtreleme Alanı */}
+                {/* Filtreleme Alanı */}
                 <div style={{
                     marginBottom: '2.5rem',
                     padding: '1.5rem',
@@ -110,8 +104,6 @@ export default function CommitsPage() {
                     border: '1px solid var(--ifm-color-emphasis-200)'
                 }}>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '15px', marginBottom: '15px' }}>
-
-                        {/* Arama Kutusu */}
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
                             <label style={{ fontSize: '0.85rem', fontWeight: 'bold', marginLeft: '5px' }}>🔍 Arama</label>
                             <input
@@ -127,7 +119,6 @@ export default function CommitsPage() {
                             />
                         </div>
 
-                        {/* Geliştirici Seçimi */}
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
                             <label style={{ fontSize: '0.85rem', fontWeight: 'bold', marginLeft: '5px' }}>👤 Geliştirici</label>
                             <select
@@ -146,7 +137,6 @@ export default function CommitsPage() {
                             </select>
                         </div>
 
-                        {/* Eklenti/Modül Seçimi (Tags) */}
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
                             <label style={{ fontSize: '0.85rem', fontWeight: 'bold', marginLeft: '5px' }}>📦 Eklenti / Modül</label>
                             <select
@@ -166,9 +156,7 @@ export default function CommitsPage() {
                         </div>
                     </div>
 
-                    {/* Alt Satır: Checkbox ve Sonuç Sayısı */}
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '10px', paddingTop: '10px', borderTop: '1px solid var(--ifm-color-emphasis-200)' }}>
-
                         <label style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', gap: '8px', userSelect: 'none' }}>
                             <input
                                 type="checkbox"
@@ -214,7 +202,6 @@ export default function CommitsPage() {
                                 borderLeft: commit.highlight ? '5px solid #e67e22' : '1px solid var(--ifm-color-emphasis-300)',
                                 position: 'relative', overflow: 'hidden'
                             }}>
-                                {/* Header: Avatar, İsim, Tarih */}
                                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
                                     <div style={{ display: 'flex', gap: '12px' }}>
                                         {commit.avatar ? (
@@ -225,6 +212,7 @@ export default function CommitsPage() {
                                         <div>
                                             <div style={{ fontWeight: '700', fontSize: '0.95rem' }}>{commit.author}</div>
                                             <div style={{ fontSize: '0.8rem', opacity: 0.6 }}>
+                                                {/* Ekranda sadece tarih göster, saat gösterme (tercihen) */}
                                                 {new Date(commit.date).toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })}
                                                 {' • '}
                                                 <code style={{ fontSize: '0.7rem', opacity: 0.8 }}>{commit.sha.substring(0, 7)}</code>
@@ -234,7 +222,6 @@ export default function CommitsPage() {
                                     {commit.highlight && <span style={{ fontSize: '1.5rem' }} title="Önemli Güncelleme">⭐</span>}
                                 </div>
 
-                                {/* İçerik */}
                                 <div style={{ paddingLeft: '52px' }}>
                                     <h2 style={{ margin: '0 0 0.5rem 0', fontSize: '1.2rem', color: 'var(--ifm-color-primary)' }}>
                                         {commit.message}
@@ -257,13 +244,12 @@ export default function CommitsPage() {
                                         </div>
                                     )}
 
-                                    {/* Etiketler */}
                                     {commit.tags && commit.tags.length > 0 && (
                                         <div style={{ marginTop: '1rem', display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
                                             {commit.tags.map(tag => (
                                                 <span
                                                     key={tag}
-                                                    onClick={() => setSelectedTag(tag)} // Etikete tıklayınca filtrele
+                                                    onClick={() => setSelectedTag(tag)}
                                                     style={{
                                                         fontSize: '0.75rem', padding: '2px 10px', borderRadius: '12px',
                                                         backgroundColor: selectedTag === tag ? 'var(--ifm-color-primary)' : 'var(--ifm-color-emphasis-200)',
