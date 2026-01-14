@@ -17,7 +17,7 @@ class CloudStreamBrowser {
         this.adultConfirmed = localStorage.getItem('adultConfirmed') === 'true';
         this.darkTheme = localStorage.getItem('darkTheme') !== 'false';
         this.colors = ['#6366f1', '#10b981', '#f43f5e', '#f59e0b', '#8b5cf6', '#06b6d4', '#ec4899', '#3b82f6'];
-        this.NEW_DAYS = 3;
+        this.NEW_DAYS = 10;
         this.LS_SEEN_PREFIX = 'cs_seen_';
 
         this.moonSVG = `<svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>`;
@@ -47,7 +47,7 @@ class CloudStreamBrowser {
     bindEvents() {
         const get = id => document.getElementById(id);
         get('themeToggle')?.addEventListener('click', () => { this.darkTheme = !this.darkTheme; localStorage.setItem('darkTheme', this.darkTheme); this.setupTheme(); });
-        get('backButton')?.addEventListener('click', () => window.location.href = '/kraptor-wiki/docs/category/eklenti-tarayıcı');
+        get('backButton')?.addEventListener('click', () => window.location.href = '/kraptor-wiki/docs/hosgeldin');
         ['repoFilter', 'typeFilter', 'languageFilter', 'developerFilter'].forEach(id => { get(id)?.addEventListener('change', (e) => this.handleFilterChange(e)); });
         get('searchInput')?.addEventListener('input', () => this.filterPlugins());
     }
@@ -247,10 +247,9 @@ class CloudStreamBrowser {
 
         return `
         <div class="plugin-card" data-id="${p.id}">
-            <!-- DÜZELTME 2: Dil Etiketi Flex İçine Alındı -->
             <div class="plugin-header">
                 <div class="header-left">
-                    <img src="${data.iconUrl || ''}" class="plugin-icon" loading="lazy" onerror="this.src='https://via.placeholder.com/72?text=?'">
+                    <img src="${data.iconUrl || ''}" class="plugin-icon" loading="lazy" onerror="this.src='https://placehold.co/72/black/white/?text=kraptor'">
                     <div class="plugin-info">
                         <div class="plugin-name-row">
                             <span class="plugin-name">${this.escapeHtml(p.name)}</span>
@@ -295,7 +294,7 @@ class CloudStreamBrowser {
 
                 card.querySelector('.plugin-version').textContent = `v${data.version||'?'}`;
                 card.querySelector('.plugin-description').textContent = data.description || 'Açıklama yok.';
-                card.querySelector('.plugin-icon').src = data.iconUrl || 'https://via.placeholder.com/72?text=?';
+                card.querySelector('.plugin-icon').src = data.iconUrl || 'https://placehold.co/72/black/white/?text=kraptor';
                 // Dil etiketi
                 card.querySelector('.card-lang').textContent = data.language ? data.language.toUpperCase() : '';
                 card.querySelector('.plugin-authors').innerHTML = this.createAuthorsHTML(data.authors, data.authorsCanon);
