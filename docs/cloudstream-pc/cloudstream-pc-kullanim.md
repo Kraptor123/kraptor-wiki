@@ -22,4 +22,4 @@ Var, ancak bazı ekstra gereksinimler var ve kurulum zahmetli de olabilir. Windo
 👉 [Wsa Linki](https://github.com/MustardChef/WSABuilds)
 
 
-👉  [Cloudstream'de yaşanabilen hatalar ile ilgili bilgiler!](https://kraptor123.github.io/kraptor-wiki/docs/cloudstream-yardim/hatalar")
+👉  [Cloudstream'de yaşanabilen hatalar ile ilgili bilgiler!](../cloudstream-yardim/Hatalar.md)
