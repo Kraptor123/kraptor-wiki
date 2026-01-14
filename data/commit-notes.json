@@ -5,9 +5,9 @@
     "date": "2026-01-14",
     "author": "kraptor123",
     "url": "https://github.com/Kraptor123/kraptoranime/commit/856823f6b7338acb1a54991efc4605b65fac32a7",
-    "note": "",
+    "note": "Özel Not Test",
     "highlight": false,
-    "tags": []
+    "tags": ["test", "tag test"]
   },
   "470509c7e2d1424796021f9f04311d051ff37ad0": {
     "sha": "470509c7e2d1424796021f9f04311d051ff37ad0",
