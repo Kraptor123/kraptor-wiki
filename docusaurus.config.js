@@ -83,6 +83,11 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
+            to: '/commits',
+            label: '📝 Commitler',
+            position: 'left', // veya 'right'
+          },
+          {
             href: 'https://github.com/Kraptor123',
             label: 'GitHub',
             position: 'right',
