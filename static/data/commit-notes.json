@@ -111,7 +111,7 @@
   },
   "470509c7e2d1424796021f9f04311d051ff37ad0": {
     "sha": "470509c7e2d1424796021f9f04311d051ff37ad0",
-    "message": "Update plugin statuses and improve extraction logic",
+    "message": "Çalışmayan eklentilerin devre dışı bırakılması ve geliştirmeler!",
     "description": "AsyaFanatiklerim, Filmizle, Superfilmgeldi ve\nFilmkutu artık devre dışı.\n\nJetfilmizle recommendation posteri düzeltildi.\nDiziyo başlık düzeltildi.\nTRAnimaci video düzeltildi.",
     "date": "2026-01-13",
     "author": "ByAyzen",
@@ -132,7 +132,7 @@
   "3338390f61f773670a15d02bf52da443efc340f9": {
     "sha": "3338390f61f773670a15d02bf52da443efc340f9",
     "message": "Yabancidizi update",
-    "description": "Async ile aldırdım kaynakları telegramdakinin dediğine göre 8 ve 9da altyazı gelmiyordu şimdi geliyor ama 10da gelmiyor ne garip site bu aq",
+    "description": "Artık video kaynakları async ile tek bir istek içerisinden alınıyor bu sayede anlık olarak videolar gelebiliyor. Bu güncellemeyle birlikte sitede türkçe dublaj veya altyazılardan en azından bir tanesinin gelmeme sorunu çözüldü ancak yinede bazı bölümlerde gelemiyor.",
     "date": "2026-01-12",
     "author": "ByAyzen",
     "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
@@ -160,7 +160,7 @@
   "eaf7b5966b90a0cb62d32276fe7a5c520fc2a286": {
     "sha": "eaf7b5966b90a0cb62d32276fe7a5c520fc2a286",
     "message": "Update: HDFilmDelisi",
-    "description": "title score falan",
+    "description": "Başlık ve score yani puan sistemi alındı.",
     "date": "2026-01-11",
     "author": "ByAyzen",
     "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
@@ -173,7 +173,7 @@
   },
   "408fb7f4b857f130b8abda8111ff3071dca65f1c": {
     "sha": "408fb7f4b857f130b8abda8111ff3071dca65f1c",
-    "message": "kraptorplus toplu fix",
+    "message": "KraptorPlus geliştirmeleri.",
     "description": "Toplu extractor düzeltmeleri",
     "date": "2026-01-11",
     "author": "kraptor123",
@@ -187,8 +187,8 @@
   },
   "fa3f7a5d6bbfdedd712d8da6d0b6c508ddb998d6": {
     "sha": "fa3f7a5d6bbfdedd712d8da6d0b6c508ddb998d6",
-    "message": "RoketDizi: Arama",
-    "description": "",
+    "message": "RoketDizi",
+    "description": "Arama özelliği düzeltild, ayrıca kategorilerde sayfalama eklendi.",
     "date": "2026-01-10",
     "author": "ByAyzen",
     "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
@@ -215,7 +215,7 @@
   },
   "e0e372add5522508a9ecd256cd45f341958f452a": {
     "sha": "e0e372add5522508a9ecd256cd45f341958f452a",
-    "message": "Youtube Fix",
+    "message": "Youtube fix",
     "description": "Youtube küçük düzeltme.",
     "date": "2026-01-09",
     "author": "kraptor123",
@@ -242,7 +242,7 @@
   "0c1a380e6e439507c96972532b1188acbe8c2d35": {
     "sha": "0c1a380e6e439507c96972532b1188acbe8c2d35",
     "message": "Dizilla dublaj",
-    "description": "dublaj kategorisi eklendi",
+    "description": "Dublaj kategorisi eklendi",
     "date": "2026-01-09",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
