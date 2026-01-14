@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Layout from '@theme/Layout';
-import styles from './commits.module.css';
 
 export default function CommitsPage() {
     const [commits, setCommits] = useState([]);
