@@ -7,7 +7,7 @@ class CloudStreamBrowser {
             { code: 'sarapcanagii', name: 'SarapcanAgii', url: 'https://raw.githubusercontent.com/sarapcanagii/Pitipitii/builds/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/builds/repo.json' },
             { code: 'Makoto2', name: 'Makoto2', url: 'https://raw.githubusercontent.com/Sertel392/Makotogecici/main/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/Sertel392/Makotogecici/refs/heads/main/repo.json' },
             { code: 'gizlikeyif', name: 'Gizli-Keyif', url: 'https://raw.githubusercontent.com/Kraptor123/Cs-GizliKeyif/refs/heads/builds/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/Kraptor123/Cs-GizliKeyif/refs/heads/master/repo.json' },
-            { code: 'AyzenCS3', name: 'Ayzen-CS3', url: 'https://raw.githubusercontent.com/ByAyzen/AyzenCS3/refs/heads/builds/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://https://raw.githubusercontent.com/ByAyzen/AyzenCS3/refs/heads/builds/repo.json' }
+            { code: 'AyzenCS3', name: 'Ayzen-CS3', url: 'https://raw.githubusercontent.com/ByAyzen/AyzenCS3/refs/heads/builds/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/ByAyzen/AyzenCS3/refs/heads/builds/repo.json' }
         ];
 
         this.typeMap = { movie:'Film', tvseries:'Dizi', anime:'Anime', animemovie:'Anime Filmi', asiandrama:'Asya Dizisi', cartoon:'Çizgi Film', documentary:'Belgesel', ova:'OVA', live:'Canlı', nsfw:'Yetişkin' };
