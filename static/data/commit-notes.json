@@ -299,5 +299,19 @@
       "Tv8",
       "YeniWatch"
     ]
+  },
+  "a3e967e6a30391c82b66bcda613745f5def941e3": {
+    "sha": "a3e967e6a30391c82b66bcda613745f5def941e3",
+    "message": "KraptorPlus: Extractor",
+    "description": "Çalışmayan Extractorlar Düzeltildi.",
+    "date": "2026-01-14",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
