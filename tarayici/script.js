@@ -78,7 +78,13 @@ class CloudStreamBrowser {
         const fetches = this.repos.map(repo =>
             fetch(repo.url, { signal: AbortSignal.timeout(10000) })
                 .then(res => res.ok ? res.json() : [])
-                .then(data => data.map(p => ({...p, repoName: repo.name, repoCode: repo.code})))
+                // BURADA redirectUrl bilgisini de veri setine ekliyoruz:
+                .then(data => data.map(p => ({
+                    ...p,
+                    repoName: repo.name,
+                    repoCode: repo.code,
+                    redirectUrl: repo.redirectUrl // ÖNEMLİ DEĞİŞİKLİK
+                })))
                 .catch(() => [])
         );
 
@@ -101,11 +107,21 @@ class CloudStreamBrowser {
                 iconUrl: p.iconUrl,
                 authors: authors,
                 authorsCanon: authorsCanon,
-                language: p.language
+                language: p.language,
+                redirectUrl: p.redirectUrl // ÖNEMLİ DEĞİŞİKLİK: Burada saklıyoruz
             };
 
             if (!map.has(key)) {
-                map.set(key, { id: id, name: p.name, repos: [{ name: p.repoName, code: p.repoCode }], allTypes: new Set(types), allAuthors: new Set(authors), allAuthorsCanon: new Set(authorsCanon), language: p.language, _perRepo: { [p.repoCode]: perRepoObj } });
+                map.set(key, {
+                    id: id,
+                    name: p.name,
+                    repos: [{ name: p.repoName, code: p.repoCode }],
+                    allTypes: new Set(types),
+                    allAuthors: new Set(authors),
+                    allAuthorsCanon: new Set(authorsCanon),
+                    language: p.language,
+                    _perRepo: { [p.repoCode]: perRepoObj }
+                });
             } else {
                 const existing = map.get(key);
                 if (!existing.repos.find(r => r.code === p.repoCode)) existing.repos.push({ name: p.repoName, code: p.repoCode });
@@ -213,31 +229,39 @@ class CloudStreamBrowser {
         const defaultRepo = p.repos[0];
         const data = p._perRepo[defaultRepo.code];
         const isNew = this.isNew(p);
+        const initialRedirect = data.redirectUrl || '#'; // Varsayılan URL
 
-        // Tek Repo Kontrolü
+        // --- YÖNLENDİRME (LİNK) MANTIĞI BURADA GÜNCELLENDİ ---
         let repoSectionHTML = '';
         if (p.repos.length > 1) {
             const repoOptions = p.repos.map((r, idx) => {
                 const safeData = encodeURIComponent(JSON.stringify(p._perRepo[r.code]));
                 return `<option value="${r.code}" data-per="${safeData}" ${idx===0?'selected':''}>${r.name}</option>`;
             }).join('');
+
+            // Çoklu depo: Select kutusu + Yanında git butonu
             repoSectionHTML = `
                 <div class="repo-select-area">
                     <label>Kaynak Depo</label>
-                    <select class="card-repo-select">${repoOptions}</select>
+                    <div class="repo-multi-wrapper" style="display:flex; gap:8px;">
+                        <select class="card-repo-select" style="flex:1;">${repoOptions}</select>
+                        <a href="${initialRedirect}" class="repo-link-btn" target="_blank" title="Depoya Git">
+                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                        </a>
+                    </div>
                 </div>`;
         } else {
+            // Tek depo: İsim artık tıklanabilir bir <a> etiketi
             repoSectionHTML = `
                 <div class="repo-select-area">
                     <label>Kaynak Depo</label>
                     <div class="single-repo-display">
                         <span>Mevcut:</span>
-                        <span class="single-repo-name">${defaultRepo.name}</span>
+                        <a href="${initialRedirect}" class="single-repo-link" target="_blank">${defaultRepo.name}</a>
                     </div>
                 </div>`;
         }
 
-        // Tıklanabilir Türler
         const typesHTML = p.tvTypes.slice(0,3).map(t => {
             const color = this.colors[this.hash(t) % this.colors.length];
             return `<span class="type-badge clickable-type" style="background:${color}" data-type="${t.toLowerCase()}">${this.typeMap[t.toLowerCase()] || t}</span>`;
@@ -295,27 +319,31 @@ class CloudStreamBrowser {
                 card.querySelector('.plugin-version').textContent = `v${data.version||'?'}`;
                 card.querySelector('.plugin-description').textContent = data.description || 'Açıklama yok.';
                 card.querySelector('.plugin-icon').src = data.iconUrl || 'https://placehold.co/72/black/white/?text=kraptor';
-                // Dil etiketi
                 card.querySelector('.card-lang').textContent = data.language ? data.language.toUpperCase() : '';
                 card.querySelector('.plugin-authors').innerHTML = this.createAuthorsHTML(data.authors, data.authorsCanon);
+
+                // --- Link Güncelleme ---
+                const linkBtn = card.querySelector('.repo-link-btn');
+                if (linkBtn && data.redirectUrl) {
+                    linkBtn.href = data.redirectUrl;
+                }
+
                 this.attachAuthorClicks(card);
             });
         });
 
-        // Tıklanabilir Türler Listener
+        // Tıklanabilir Türler
         document.querySelectorAll('.clickable-type').forEach(badge => {
             badge.addEventListener('click', (e) => {
                 const type = e.target.getAttribute('data-type');
                 const select = document.getElementById('typeFilter');
                 if (select && type) {
                     select.value = type;
-                    // Eğer NSFW seçildiyse ve onay yoksa modal açılır
                     if (type === 'nsfw' && !this.adultConfirmed) {
                         document.getElementById('adultOverlay').style.display = 'flex';
                         select.value = '';
                     } else {
                         this.filterPlugins();
-                        // Sayfayı yukarı kaydır
                         document.querySelector('.controls').scrollIntoView({ behavior: 'smooth' });
                     }
                 }
