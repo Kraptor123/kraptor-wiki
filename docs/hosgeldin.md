@@ -9,4 +9,7 @@ authors: [kraptor, byayzen]
 
 Bu wiki CloudStream ve ilgili sorunlar için kısa rehberler içerir. Sol menüden konu seçerek okumaya başlayabilirsin
 
-[Konular](/docs/category/cloudstream-yardım)
+- [Konular](/docs/category/cloudstream-yardım)
+
+Cs-Kraptor reposuna yapılan güncellemeleri görüntüle
+- [Commitler](/commits)
