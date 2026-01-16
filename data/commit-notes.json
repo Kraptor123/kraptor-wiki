@@ -305,5 +305,19 @@
       "RoketDizi",
       "SelcukFlix"
     ]
+  },
+  "15996ae057f7a520e7e83412c876fcc71fba33ab": {
+    "sha": "15996ae057f7a520e7e83412c876fcc71fba33ab",
+    "message": "KraptorPlus extractor güncellemeleri.",
+    "description": "FullHDFilmizlesene ve DizipalOrijinal kaynakları eklendi. FHD sorunsuz çalışıyor olup, Dizipal için bir kaç güncelleme daha gerekli.",
+    "date": "2026-01-16T11:27:34Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
