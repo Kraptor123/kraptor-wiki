@@ -319,5 +319,33 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "a6badeefc8ad23e87928b4abf8e62d479fe6c8fe": {
+    "sha": "a6badeefc8ad23e87928b4abf8e62d479fe6c8fe",
+    "message": "HDFilmCehennemi: Extractor düzeltmesi",
+    "description": "Kaynak isimleri tam tanımlandı ayrıca video çıkartma için bir kaç düzeltme yapıldı sorunlar çözüldü",
+    "date": "2026-01-16T22:43:47Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmCehennemi"
+    ]
+  },
+  "2ebfdac2422c227d4142e5b646cf0809f6c3eecb": {
+    "sha": "2ebfdac2422c227d4142e5b646cf0809f6c3eecb",
+    "message": "KraptorPlus: Extractor düzeltmesi",
+    "description": "Yeni eklenen dizipal ve fhdfizle de bazı sorunlar düzeltildi.",
+    "date": "2026-01-16T22:41:27Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
