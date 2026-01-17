@@ -347,5 +347,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "3cd83f1ded08a42f5cf4cd12dc22ef32cc640d0b": {
+    "sha": "3cd83f1ded08a42f5cf4cd12dc22ef32cc640d0b",
+    "message": "♻️ Domain Değişikliği",
+    "description": "🔄 Otomatik domain güncellemeleri yapıldı.",
+    "date": "2026-01-17T02:24:35Z",
+    "author": "github-actions[bot]",
+    "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife"
+    ]
   }
 }
