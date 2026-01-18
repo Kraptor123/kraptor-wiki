@@ -397,8 +397,8 @@
     "date": "2026-01-18T00:45:08Z",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
-    "note": "",
-    "highlight": false,
+    "note": "Dizilerin açılmaması sorunu çözüldü, kategorilerin açılmaması sorunu çözüldü, canlılarda posterler yan yatırıldı gereksiz gelen içerikler çıkartıldı.",
+    "highlight": true,
     "hidden": false,
     "tags": [
       "InatBox"
@@ -413,7 +413,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": [
       "InatBox"
     ]
