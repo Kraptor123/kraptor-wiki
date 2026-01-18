@@ -403,5 +403,19 @@
     "tags": [
       "InatBox"
     ]
+  },
+  "7863d3e0729b09ea2caf77bdd9367c9e949ea425": {
+    "sha": "7863d3e0729b09ea2caf77bdd9367c9e949ea425",
+    "message": "InatBox: içerik temizliği",
+    "description": "canlılarda posterler yan yatırıldı dizilerin açılmama sorunu giderildi gereksiz gelen içerikler çıkartıldı.",
+    "date": "2026-01-18T01:26:26Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "InatBox"
+    ]
   }
 }
