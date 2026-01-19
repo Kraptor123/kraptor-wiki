@@ -515,5 +515,19 @@
       "HDFilmCehennemi",
       "KraptorPlus"
     ]
+  },
+  "618a83acfcfe952a89bf13b353dbdd1361e657c8": {
+    "sha": "618a83acfcfe952a89bf13b353dbdd1361e657c8",
+    "message": "Kraptorplus güncellemeleri",
+    "description": "Sinewix ve Animecix kaynakları eklendi, animeler artık anime olarak gözükecek.",
+    "date": "2026-01-19T20:40:43Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
