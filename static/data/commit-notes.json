@@ -471,5 +471,19 @@
     "tags": [
       "WebteIzle"
     ]
+  },
+  "a3862d0960c20aa7dd6256fc4c539712c02cefec": {
+    "sha": "a3862d0960c20aa7dd6256fc4c539712c02cefec",
+    "message": "AnimeElysium: Ana güncelleme",
+    "description": "Site tasarımı tamamiyle değiştiği için baştan aşağı yeniden yapıldı.",
+    "date": "2026-01-19T14:14:41Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeElysium"
+    ]
   }
 }
