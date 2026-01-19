@@ -445,5 +445,31 @@
     "tags": [
       "InatBox"
     ]
+  },
+  "911cdf6df4df633e705ef5c388c80ee020f88bda": {
+    "sha": "911cdf6df4df633e705ef5c388c80ee020f88bda",
+    "message": "Merge branch 'master' of https://github.com/Kraptor123/kraptoranime",
+    "description": "",
+    "date": "2026-01-19T13:09:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": []
+  },
+  "e5f14a3c75af9e49283a18c19a0b0f9965ae0f08": {
+    "sha": "e5f14a3c75af9e49283a18c19a0b0f9965ae0f08",
+    "message": "Webteizle: Extractor güncellemesi",
+    "description": "Filemoon extractoru eklendi. Normal şartlarda filemoon player'ını içeren diğer eklentilerden birini yüklemek gerekli iken şuanda gerekmeyecek.",
+    "date": "2026-01-19T13:09:13Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WebteIzle"
+    ]
   }
 }
