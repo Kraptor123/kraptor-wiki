@@ -16,16 +16,19 @@ class CloudStreamBrowser {
         // --- Durum Değişkenleri ---
         this.allPlugins = [];
         this.filteredPlugins = [];
-        this.inventory = {}; // LocalStorage'dan yüklenecek eklenti hafızası
-        this.isFirstVisitEver = false; // Kullanıcının siteye ilk girişi mi?
+
+        // Envanter Yapısı: { meta: { initTimestamp: 123... }, items: { 'pluginId': { v:'1.0', fs:123, lu:123 } } }
+        this.inventoryData = { meta: null, items: {} };
 
         this.adultConfirmed = localStorage.getItem('adultConfirmed') === 'true';
         this.darkTheme = localStorage.getItem('darkTheme') !== 'false';
 
         // --- Sabitler ---
         this.colors = ['#6366f1', '#10b981', '#f43f5e', '#f59e0b', '#8b5cf6', '#06b6d4', '#ec4899', '#3b82f6'];
-        this.BADGE_DURATION_DAYS = 10;
-        this.LS_INVENTORY_KEY = 'cs_plugin_inventory';
+
+        this.DAYS_NEW = 10;      // Yeni etiketi süresi
+        this.DAYS_UPDATED = 3;   // Güncellendi etiketi süresi
+        this.LS_INVENTORY_KEY = 'cs_plugin_inventory_v2'; // Key'i değiştirdim ki eski hatalı veri karışmasın
 
         this.moonSVG = `<svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>`;
         this.sunSVG = `<svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>`;
@@ -99,7 +102,7 @@ class CloudStreamBrowser {
         return Math.abs(h);
     }
 
-    // --- Veri Yükleme ve İşleme ---
+    // --- Veri Yükleme ---
     async loadAllPlugins() {
         this.showLoading(true);
 
@@ -119,7 +122,7 @@ class CloudStreamBrowser {
         const rawPlugins = results.flat();
         const map = new Map();
 
-        // Eklentileri Birleştir (Farklı repolardaki aynı eklentiler tek kartta)
+        // Eklentileri Birleştir
         rawPlugins.forEach(p => {
             const id = (p.internalName || p.name || '').trim();
             const key = id.toLowerCase();
@@ -167,10 +170,10 @@ class CloudStreamBrowser {
             authorsCanon: Array.from(p.allAuthorsCanon)
         }));
 
-        // 1. Önce eklenti durumlarını (Yeni/Güncellendi) hesapla
+        // 1. Durumları İşle
         this.processPluginStatuses();
 
-        // 2. İstatistikleri ve Filtreleri (Sayılarına göre sıralı) doldur
+        // 2. İstatistikleri ve Filtreleri Hazırla
         this.updateStats();
         this.populateFilterOptions();
 
@@ -179,83 +182,94 @@ class CloudStreamBrowser {
         this.showLoading(false);
     }
 
-    // --- YENİ / GÜNCELLENDİ MANTIĞI ---
+    // --- YENİ / GÜNCELLENDİ MANTIĞI (Düzeltilmiş) ---
     processPluginStatuses() {
-        const rawInventory = localStorage.getItem(this.LS_INVENTORY_KEY);
+        const rawLS = localStorage.getItem(this.LS_INVENTORY_KEY);
         const now = Date.now();
+        let changed = false;
 
-        if (!rawInventory) {
-            // İLK ZİYARET: Veritabanını oluştur ama görsel olarak işaretleme
-            this.isFirstVisitEver = true;
-            this.inventory = {};
-            this.allPlugins.forEach(p => {
-                const defaultVer = this.getMainVersion(p);
-                this.inventory[p.id] = {
-                    v: defaultVer,      // Version
-                    fs: now,            // First Seen
-                    lu: now             // Last Update
-                };
-            });
-            localStorage.setItem(this.LS_INVENTORY_KEY, JSON.stringify(this.inventory));
-        } else {
-            // SONRAKİ ZİYARETLER: Karşılaştırma yap
-            this.inventory = JSON.parse(rawInventory);
-            let inventoryChanged = false;
-
-            this.allPlugins.forEach(p => {
-                const currentVer = this.getMainVersion(p);
-                const record = this.inventory[p.id];
-
-                if (!record) {
-                    // YENİ EKLENTİ
-                    this.inventory[p.id] = { v: currentVer, fs: now, lu: now };
-                    inventoryChanged = true;
-                } else if (record.v !== currentVer) {
-                    // GÜNCELLENMİŞ EKLENTİ
-                    record.v = currentVer;
-                    record.lu = now; // Son güncelleme zamanını yenile
-                    inventoryChanged = true;
-                }
-            });
-
-            if (inventoryChanged) {
-                localStorage.setItem(this.LS_INVENTORY_KEY, JSON.stringify(this.inventory));
+        // 1. LS'den Veriyi Yükle veya İlk Kez Oluştur
+        if (rawLS) {
+            try {
+                this.inventoryData = JSON.parse(rawLS);
+                // Eski format koruması (eğer yapı bozuksa sıfırla)
+                if (!this.inventoryData.meta || !this.inventoryData.items) throw new Error();
+            } catch (e) {
+                this.inventoryData = { meta: { initTimestamp: now }, items: {} };
+                changed = true;
             }
+        } else {
+            // İLK ZİYARET: "initTimestamp" şu anki zaman olur.
+            this.inventoryData = { meta: { initTimestamp: now }, items: {} };
+            changed = true;
+        }
+
+        // 2. Mevcut Eklentileri Envanterle Karşılaştır
+        this.allPlugins.forEach(p => {
+            const currentVer = this.getMainVersion(p);
+            const record = this.inventoryData.items[p.id];
+
+            if (!record) {
+                // HİÇ BİLİNMEYEN EKLENTİ (Veritabanına ekle)
+                // fs (first seen) = now
+                // lu (last updated) = now
+                this.inventoryData.items[p.id] = { v: currentVer, fs: now, lu: now };
+                changed = true;
+            } else {
+                // ZATEN BİLİNEN EKLENTİ
+                if (record.v !== currentVer) {
+                    // Versiyon değişmiş -> Güncelle
+                    record.v = currentVer;
+                    record.lu = now; // Son güncellenme tarihini şimdi yap
+                    changed = true;
+                }
+            }
+        });
+
+        if (changed) {
+            localStorage.setItem(this.LS_INVENTORY_KEY, JSON.stringify(this.inventoryData));
         }
     }
 
     getMainVersion(p) {
-        // Genelde ilk repodaki versiyonu baz alıyoruz
         const defRepo = p.repos[0];
         return p._perRepo[defRepo.code]?.version || '0';
     }
 
-    // Bir eklentinin durumunu döndürür: 'new', 'updated', veya null
     getPluginStatus(p) {
-        if (this.isFirstVisitEver) return null; // İlk ziyarette etiket yok
+        const record = this.inventoryData.items[p.id];
+        const initTime = this.inventoryData.meta.initTimestamp;
 
-        const record = this.inventory[p.id];
         if (!record) return null;
 
         const now = Date.now();
-        const duration = this.BADGE_DURATION_DAYS * 24 * 60 * 60 * 1000;
+        const newDuration = this.DAYS_NEW * 24 * 60 * 60 * 1000;
+        const updateDuration = this.DAYS_UPDATED * 24 * 60 * 60 * 1000;
 
-        // 1. Öncelik: Yeni mi? (İlk görülme tarihi 10 günden yeniyse)
-        if ((now - record.fs) < duration) {
+        // 1. YENİ Mİ?
+        // Kural: Eklentinin ilk görülme tarihi (fs), sistemin kuruluş tarihinden (initTime) BÜYÜK olmalı.
+        // Eşitse (veya çok yakınsa), bu eklenti "kurucu parti"dendir, yeni değildir.
+        // Ayrıca 10 gün geçmemiş olmalı.
+
+        // Güvenlik marjı (1 saniye): Kod çalışırken milisaniye farkları olabilir.
+        const isPartOfInitialBatch = (record.fs - initTime) < 1000;
+
+        if (!isPartOfInitialBatch && (now - record.fs) < newDuration) {
             return 'new';
         }
 
-        // 2. Öncelik: Güncellendi mi? (Son güncelleme tarihi 10 günden yeniyse)
-        if ((now - record.lu) < duration) {
-            // Eğer fs ve lu aynıysa (yani eklenti yeni eklenmişse) yukarıdaki 'new' yakalar.
-            // Buraya düşüyorsa fs eskidir ama lu yenidir -> GÜNCELLENDİ.
+        // 2. GÜNCELLENDİ Mİ?
+        // Kural: Son güncelleme tarihi (lu), ilk görülme tarihinden (fs) büyük olmalı.
+        // (Yani eklendiği anda güncellenmiş sayılmaz).
+        // Ve güncelleme üzerinden 3 gün geçmemiş olmalı.
+        if (record.lu > record.fs && (now - record.lu) < updateDuration) {
             return 'updated';
         }
 
         return null;
     }
 
-    // --- Filtre Doldurma (SIRALAMA MANTIĞI EKLENDİ) ---
+    // --- Filtre Doldurma ---
     populateFilterOptions() {
         const fill = (id, items) => {
             const el = document.getElementById(id);
@@ -265,7 +279,7 @@ class CloudStreamBrowser {
             }).join('');
         };
 
-        // 1. Repo Sıralaması (Eklenti sayısına göre azalan)
+        // Repo Sıralaması
         const repoCounts = {};
         this.allPlugins.forEach(p => {
             p.repos.forEach(r => {
@@ -273,30 +287,26 @@ class CloudStreamBrowser {
             });
         });
         const sortedRepos = Object.entries(repoCounts)
-            .sort((a, b) => b[1] - a[1]) // Sayıya göre azalan
+            .sort((a, b) => b[1] - a[1])
             .map(([name, count]) => ({ val: name, txt: `${name} (${count})` }));
-
         fill('repoFilter', sortedRepos);
 
-        // 2. Geliştirici Sıralaması (Eklenti sayısına göre azalan)
-        const devStats = new Map(); // canon -> {name, count}
+        // Geliştirici Sıralaması
+        const devStats = new Map();
         this.allPlugins.forEach(p => {
             p.authors.forEach((originalName, i) => {
                 const canon = p.authorsCanon[i] || this.canonicalAuthor(originalName);
-                if (!devStats.has(canon)) {
-                    devStats.set(canon, { name: originalName, count: 0 });
-                }
+                if (!devStats.has(canon)) devStats.set(canon, { name: originalName, count: 0 });
                 devStats.get(canon).count++;
             });
         });
 
         const sortedDevs = Array.from(devStats.entries())
-            .sort((a, b) => b[1].count - a[1].count) // Count'a göre azalan
+            .sort((a, b) => b[1].count - a[1].count)
             .map(([canon, data]) => ({ val: canon, txt: `${data.name} (${data.count})` }));
-
         fill('developerFilter', sortedDevs);
 
-        // 3. Diğerleri (Standart)
+        // Diğerleri
         const langs = new Set();
         this.allPlugins.forEach(p => { if (p.language) langs.add(p.language); });
 
@@ -321,7 +331,6 @@ class CloudStreamBrowser {
             const pTypes = p.tvTypes.map(t => t.toLowerCase());
             if (pTypes.includes('nsfw') && !this.adultConfirmed) return false;
 
-            // Repo filtresi artık "name" üzerinden eşleşiyor, value olarak name atadık
             if (filters.repo && !p.repos.some(r => r.name === filters.repo)) return false;
             if (filters.type && !pTypes.includes(filters.type)) return false;
             if (filters.lang && p.language !== filters.lang) return false;
@@ -364,7 +373,6 @@ class CloudStreamBrowser {
             statusBadge = '<span class="badge-updated">GÜNCELLENDİ</span>';
         }
 
-        // Repo Header
         const headerHTML = `
             <div class="repo-header-info">
                 <label>KAYNAK DEPO</label>
@@ -445,7 +453,6 @@ class CloudStreamBrowser {
     }
 
     attachCardEvents() {
-        // Repo Seçimi
         document.querySelectorAll('.card-repo-select').forEach(sel => {
             sel.addEventListener('change', (e) => {
                 const card = e.target.closest('.plugin-card');
@@ -460,15 +467,12 @@ class CloudStreamBrowser {
                 card.querySelector('.plugin-icon').src = data.iconUrl || 'https://placehold.co/72/black/white/?text=Kraptor\\nWiki';
                 card.querySelector('.card-lang').textContent = data.language ? data.language.toUpperCase() : '';
                 card.querySelector('.plugin-authors').innerHTML = this.createAuthorsHTML(data.authors, data.authorsCanon);
-
                 const linkBtn = card.querySelector('.repo-link-btn');
                 if (linkBtn && data.redirectUrl) linkBtn.href = data.redirectUrl;
-
                 this.attachAuthorClicks(card);
             });
         });
 
-        // Tür Filtreleme Tık
         document.querySelectorAll('.clickable-type').forEach(badge => {
             badge.addEventListener('click', (e) => {
                 const type = e.target.getAttribute('data-type');
