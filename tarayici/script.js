@@ -1,5 +1,6 @@
 class CloudStreamBrowser {
     constructor() {
+        // --- Yapılandırma ---
         this.repos = [
             { code: 'kraptorcs', name: 'CS-Kraptor', url: 'https://raw.githubusercontent.com/Kraptor123/cs-kraptor/refs/heads/builds/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/Kraptor123/cs-kraptor/refs/heads/master/repo.json' },
             { code: 'cskarma', name: 'CS-Karma', url: 'https://raw.githubusercontent.com/Kraptor123/Cs-Karma/refs/heads/builds/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/Kraptor123/cs-Karma/refs/heads/master/repo.json' },
@@ -12,13 +13,19 @@ class CloudStreamBrowser {
 
         this.typeMap = { movie:'Film', tvseries:'Dizi', anime:'Anime', animemovie:'Anime Filmi', asiandrama:'Asya Dizisi', cartoon:'Çizgi Film', documentary:'Belgesel', ova:'OVA', live:'Canlı', nsfw:'Yetişkin' };
 
+        // --- Durum Değişkenleri ---
         this.allPlugins = [];
         this.filteredPlugins = [];
+        this.inventory = {}; // LocalStorage'dan yüklenecek eklenti hafızası
+        this.isFirstVisitEver = false; // Kullanıcının siteye ilk girişi mi?
+
         this.adultConfirmed = localStorage.getItem('adultConfirmed') === 'true';
         this.darkTheme = localStorage.getItem('darkTheme') !== 'false';
+
+        // --- Sabitler ---
         this.colors = ['#6366f1', '#10b981', '#f43f5e', '#f59e0b', '#8b5cf6', '#06b6d4', '#ec4899', '#3b82f6'];
-        this.NEW_DAYS = 10;
-        this.LS_SEEN_PREFIX = 'cs_seen_';
+        this.BADGE_DURATION_DAYS = 10;
+        this.LS_INVENTORY_KEY = 'cs_plugin_inventory';
 
         this.moonSVG = `<svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>`;
         this.sunSVG = `<svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>`;
@@ -33,6 +40,7 @@ class CloudStreamBrowser {
         await this.loadAllPlugins();
     }
 
+    // --- Tema ve Olaylar ---
     setupTheme() {
         const icon = document.querySelector('.theme-icon');
         if (!this.darkTheme) {
@@ -68,22 +76,41 @@ class CloudStreamBrowser {
         document.getElementById('adultNo')?.addEventListener('click', () => ov.style.display = 'none');
     }
 
+    // --- Yardımcı Fonksiyonlar ---
     canonicalAuthor(raw) {
         if (!raw) return 'bilinmiyor';
         return String(raw).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-zA-Z0-9]/g, '').toLowerCase().replace(/\d+$/, '');
     }
 
+    normalizeArray(input) {
+        if (!input) return [];
+        if (Array.isArray(input)) return input.filter(Boolean).map(String);
+        return String(input).split(',').map(s => s.trim()).filter(Boolean);
+    }
+
+    escapeHtml(text) {
+        if (!text) return '';
+        return text.replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' })[m]);
+    }
+
+    hash(str) {
+        let h = 0;
+        for (let i=0; i<str.length; i++) h = Math.imul(31, h) + str.charCodeAt(i) | 0;
+        return Math.abs(h);
+    }
+
+    // --- Veri Yükleme ve İşleme ---
     async loadAllPlugins() {
         this.showLoading(true);
+
         const fetches = this.repos.map(repo =>
             fetch(repo.url + '?nocache=' + Date.now(), { signal: AbortSignal.timeout(10000) })
                 .then(res => res.ok ? res.json() : [])
-                // BURADA redirectUrl bilgisini de veri setine ekliyoruz:
                 .then(data => data.map(p => ({
                     ...p,
                     repoName: repo.name,
                     repoCode: repo.code,
-                    redirectUrl: repo.redirectUrl // ÖNEMLİ DEĞİŞİKLİK
+                    redirectUrl: repo.redirectUrl
                 })))
                 .catch(() => [])
         );
@@ -92,6 +119,7 @@ class CloudStreamBrowser {
         const rawPlugins = results.flat();
         const map = new Map();
 
+        // Eklentileri Birleştir (Farklı repolardaki aynı eklentiler tek kartta)
         rawPlugins.forEach(p => {
             const id = (p.internalName || p.name || '').trim();
             const key = id.toLowerCase();
@@ -102,13 +130,13 @@ class CloudStreamBrowser {
             const authorsCanon = authors.map(a => this.canonicalAuthor(a));
 
             const perRepoObj = {
-                version: p.version,
+                version: String(p.version || '0'),
                 description: p.description,
                 iconUrl: p.iconUrl,
                 authors: authors,
                 authorsCanon: authorsCanon,
                 language: p.language,
-                redirectUrl: p.redirectUrl // ÖNEMLİ DEĞİŞİKLİK: Burada saklıyoruz
+                redirectUrl: p.redirectUrl
             };
 
             if (!map.has(key)) {
@@ -132,51 +160,154 @@ class CloudStreamBrowser {
             }
         });
 
-        this.allPlugins = Array.from(map.values()).map(p => ({ ...p, tvTypes: Array.from(p.allTypes), authors: Array.from(p.allAuthors), authorsCanon: Array.from(p.allAuthorsCanon) }));
+        this.allPlugins = Array.from(map.values()).map(p => ({
+            ...p,
+            tvTypes: Array.from(p.allTypes),
+            authors: Array.from(p.allAuthors),
+            authorsCanon: Array.from(p.allAuthorsCanon)
+        }));
 
+        // 1. Önce eklenti durumlarını (Yeni/Güncellendi) hesapla
+        this.processPluginStatuses();
+
+        // 2. İstatistikleri ve Filtreleri (Sayılarına göre sıralı) doldur
         this.updateStats();
         this.populateFilterOptions();
+
+        // 3. Ekrana Bas
         this.filterPlugins();
         this.showLoading(false);
     }
 
-    normalizeArray(input) {
-        if (!input) return [];
-        if (Array.isArray(input)) return input.filter(Boolean).map(String);
-        return String(input).split(',').map(s => s.trim()).filter(Boolean);
+    // --- YENİ / GÜNCELLENDİ MANTIĞI ---
+    processPluginStatuses() {
+        const rawInventory = localStorage.getItem(this.LS_INVENTORY_KEY);
+        const now = Date.now();
+
+        if (!rawInventory) {
+            // İLK ZİYARET: Veritabanını oluştur ama görsel olarak işaretleme
+            this.isFirstVisitEver = true;
+            this.inventory = {};
+            this.allPlugins.forEach(p => {
+                const defaultVer = this.getMainVersion(p);
+                this.inventory[p.id] = {
+                    v: defaultVer,      // Version
+                    fs: now,            // First Seen
+                    lu: now             // Last Update
+                };
+            });
+            localStorage.setItem(this.LS_INVENTORY_KEY, JSON.stringify(this.inventory));
+        } else {
+            // SONRAKİ ZİYARETLER: Karşılaştırma yap
+            this.inventory = JSON.parse(rawInventory);
+            let inventoryChanged = false;
+
+            this.allPlugins.forEach(p => {
+                const currentVer = this.getMainVersion(p);
+                const record = this.inventory[p.id];
+
+                if (!record) {
+                    // YENİ EKLENTİ
+                    this.inventory[p.id] = { v: currentVer, fs: now, lu: now };
+                    inventoryChanged = true;
+                } else if (record.v !== currentVer) {
+                    // GÜNCELLENMİŞ EKLENTİ
+                    record.v = currentVer;
+                    record.lu = now; // Son güncelleme zamanını yenile
+                    inventoryChanged = true;
+                }
+            });
+
+            if (inventoryChanged) {
+                localStorage.setItem(this.LS_INVENTORY_KEY, JSON.stringify(this.inventory));
+            }
+        }
     }
 
+    getMainVersion(p) {
+        // Genelde ilk repodaki versiyonu baz alıyoruz
+        const defRepo = p.repos[0];
+        return p._perRepo[defRepo.code]?.version || '0';
+    }
+
+    // Bir eklentinin durumunu döndürür: 'new', 'updated', veya null
+    getPluginStatus(p) {
+        if (this.isFirstVisitEver) return null; // İlk ziyarette etiket yok
+
+        const record = this.inventory[p.id];
+        if (!record) return null;
+
+        const now = Date.now();
+        const duration = this.BADGE_DURATION_DAYS * 24 * 60 * 60 * 1000;
+
+        // 1. Öncelik: Yeni mi? (İlk görülme tarihi 10 günden yeniyse)
+        if ((now - record.fs) < duration) {
+            return 'new';
+        }
+
+        // 2. Öncelik: Güncellendi mi? (Son güncelleme tarihi 10 günden yeniyse)
+        if ((now - record.lu) < duration) {
+            // Eğer fs ve lu aynıysa (yani eklenti yeni eklenmişse) yukarıdaki 'new' yakalar.
+            // Buraya düşüyorsa fs eskidir ama lu yenidir -> GÜNCELLENDİ.
+            return 'updated';
+        }
+
+        return null;
+    }
+
+    // --- Filtre Doldurma (SIRALAMA MANTIĞI EKLENDİ) ---
     populateFilterOptions() {
-        const fill = (id, items, mapFn) => {
+        const fill = (id, items) => {
             const el = document.getElementById(id);
             if (!el) return;
             el.innerHTML = '<option value="">Tümü</option>' + items.map(i => {
-                const val = mapFn ? mapFn(i).val : i;
-                const txt = mapFn ? mapFn(i).txt : i;
-                return `<option value="${val}">${txt}</option>`;
+                return `<option value="${i.val}">${i.txt}</option>`;
             }).join('');
         };
 
-        const langs = new Set();
-        const devs = new Map();
-
+        // 1. Repo Sıralaması (Eklenti sayısına göre azalan)
+        const repoCounts = {};
         this.allPlugins.forEach(p => {
-            if (p.language) langs.add(p.language);
-            p.authors.forEach((a, i) => {
-                const canon = p.authorsCanon[i] || this.canonicalAuthor(a);
-                if (!devs.has(canon)) devs.set(canon, a);
+            p.repos.forEach(r => {
+                repoCounts[r.name] = (repoCounts[r.name] || 0) + 1;
+            });
+        });
+        const sortedRepos = Object.entries(repoCounts)
+            .sort((a, b) => b[1] - a[1]) // Sayıya göre azalan
+            .map(([name, count]) => ({ val: name, txt: `${name} (${count})` }));
+
+        fill('repoFilter', sortedRepos);
+
+        // 2. Geliştirici Sıralaması (Eklenti sayısına göre azalan)
+        const devStats = new Map(); // canon -> {name, count}
+        this.allPlugins.forEach(p => {
+            p.authors.forEach((originalName, i) => {
+                const canon = p.authorsCanon[i] || this.canonicalAuthor(originalName);
+                if (!devStats.has(canon)) {
+                    devStats.set(canon, { name: originalName, count: 0 });
+                }
+                devStats.get(canon).count++;
             });
         });
 
-        fill('repoFilter', this.repos.map(r => ({val: r.name, txt: r.name})), x => x);
+        const sortedDevs = Array.from(devStats.entries())
+            .sort((a, b) => b[1].count - a[1].count) // Count'a göre azalan
+            .map(([canon, data]) => ({ val: canon, txt: `${data.name} (${data.count})` }));
+
+        fill('developerFilter', sortedDevs);
+
+        // 3. Diğerleri (Standart)
+        const langs = new Set();
+        this.allPlugins.forEach(p => { if (p.language) langs.add(p.language); });
+
         const sortedTypes = Object.keys(this.typeMap).sort((a,b) => this.typeMap[a].localeCompare(this.typeMap[b]));
-        fill('typeFilter', sortedTypes, t => ({ val: t, txt: this.typeMap[t] }));
+        fill('typeFilter', sortedTypes.map(t => ({ val: t, txt: this.typeMap[t] })));
+
         const langMap = { tr:'Türkçe', en:'İngilizce', ar:'Arapça', ru:'Rusça', de:'Almanca', fr:'Fransızca' };
-        fill('languageFilter', Array.from(langs).sort(), l => ({ val: l, txt: langMap[l] || l.toUpperCase() }));
-        const sortedDevs = Array.from(devs.entries()).sort((a,b) => a[1].localeCompare(b[1]));
-        fill('developerFilter', sortedDevs, d => ({ val: d[0], txt: d[1] }));
+        fill('languageFilter', Array.from(langs).sort().map(l => ({ val: l, txt: langMap[l] || l.toUpperCase() })));
     }
 
+    // --- Filtreleme ---
     filterPlugins() {
         const filters = {
             repo: document.getElementById('repoFilter').value,
@@ -189,6 +320,8 @@ class CloudStreamBrowser {
         this.filteredPlugins = this.allPlugins.filter(p => {
             const pTypes = p.tvTypes.map(t => t.toLowerCase());
             if (pTypes.includes('nsfw') && !this.adultConfirmed) return false;
+
+            // Repo filtresi artık "name" üzerinden eşleşiyor, value olarak name atadık
             if (filters.repo && !p.repos.some(r => r.name === filters.repo)) return false;
             if (filters.type && !pTypes.includes(filters.type)) return false;
             if (filters.lang && p.language !== filters.lang) return false;
@@ -203,25 +336,7 @@ class CloudStreamBrowser {
         this.render();
     }
 
-    isNew(p) {
-        const defaultRepo = p.repos[0];
-        const version = p._perRepo[defaultRepo.code]?.version || '0';
-
-        const seenKey = this.LS_SEEN_PREFIX + p.id + '_' + version;
-
-        const now = Date.now();
-        const duration = this.NEW_DAYS * 24 * 60 * 60 * 1000;
-
-        const firstSeen = localStorage.getItem(seenKey);
-
-        if (!firstSeen) {
-            localStorage.setItem(seenKey, now.toString());
-            return true;
-        }
-
-        return (now - parseInt(firstSeen)) < duration;
-    }
-
+    // --- Render ---
     render() {
         const grid = document.getElementById('pluginsGrid');
         const noRes = document.getElementById('noResults');
@@ -238,10 +353,18 @@ class CloudStreamBrowser {
     createCardHTML(p) {
         const defaultRepo = p.repos[0];
         const data = p._perRepo[defaultRepo.code];
-        const isNew = this.isNew(p);
+        const status = this.getPluginStatus(p);
         const initialRedirect = data.redirectUrl || '#';
 
-        // --- YENİ TASARIMLI BAŞLIK ALANI ---
+        // Badge HTML
+        let statusBadge = '';
+        if (status === 'new') {
+            statusBadge = '<span class="badge-new">YENİ</span>';
+        } else if (status === 'updated') {
+            statusBadge = '<span class="badge-updated">GÜNCELLENDİ</span>';
+        }
+
+        // Repo Header
         const headerHTML = `
             <div class="repo-header-info">
                 <label>KAYNAK DEPO</label>
@@ -250,7 +373,6 @@ class CloudStreamBrowser {
         `;
 
         let repoSectionHTML = '';
-
         if (p.repos.length > 1) {
             const repoOptions = p.repos.map((r, idx) => {
                 const safeData = encodeURIComponent(JSON.stringify(p._perRepo[r.code]));
@@ -293,7 +415,7 @@ class CloudStreamBrowser {
                     <div class="plugin-info">
                         <div class="plugin-name-row">
                             <span class="plugin-name">${this.escapeHtml(p.name)}</span>
-                            ${isNew ? '<span class="badge-new">YENİ</span>' : ''}
+                            ${statusBadge}
                         </div>
                         <div class="plugin-version">v${data.version || '1.0'}</div>
                     </div>
@@ -323,7 +445,7 @@ class CloudStreamBrowser {
     }
 
     attachCardEvents() {
-        // Repo Select Listener
+        // Repo Seçimi
         document.querySelectorAll('.card-repo-select').forEach(sel => {
             sel.addEventListener('change', (e) => {
                 const card = e.target.closest('.plugin-card');
@@ -331,9 +453,7 @@ class CloudStreamBrowser {
                 const data = JSON.parse(decodeURIComponent(opt.getAttribute('data-per')));
 
                 const shortcodeEl = card.querySelector('.repo-shortcode');
-                if (shortcodeEl) {
-                    shortcodeEl.textContent = e.target.value;
-                }
+                if (shortcodeEl) shortcodeEl.textContent = e.target.value;
 
                 card.querySelector('.plugin-version').textContent = `v${data.version||'?'}`;
                 card.querySelector('.plugin-description').textContent = data.description || 'Açıklama yok.';
@@ -341,21 +461,14 @@ class CloudStreamBrowser {
                 card.querySelector('.card-lang').textContent = data.language ? data.language.toUpperCase() : '';
                 card.querySelector('.plugin-authors').innerHTML = this.createAuthorsHTML(data.authors, data.authorsCanon);
 
-                // --- Link Güncelleme ---
                 const linkBtn = card.querySelector('.repo-link-btn');
-                if (linkBtn && data.redirectUrl) {
-                    linkBtn.href = data.redirectUrl;
-                }
-
-                if(card.querySelector('.repo-code-text')) {
-                    card.querySelector('.repo-code-text').textContent = e.target.value;
-                }
+                if (linkBtn && data.redirectUrl) linkBtn.href = data.redirectUrl;
 
                 this.attachAuthorClicks(card);
             });
         });
 
-        // Tıklanabilir Türler
+        // Tür Filtreleme Tık
         document.querySelectorAll('.clickable-type').forEach(badge => {
             badge.addEventListener('click', (e) => {
                 const type = e.target.getAttribute('data-type');
@@ -388,17 +501,6 @@ class CloudStreamBrowser {
                 }
             });
         });
-    }
-
-    hash(str) {
-        let h = 0;
-        for (let i=0; i<str.length; i++) h = Math.imul(31, h) + str.charCodeAt(i) | 0;
-        return Math.abs(h);
-    }
-
-    escapeHtml(text) {
-        if (!text) return '';
-        return text.replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' })[m]);
     }
 
     updateStats() {

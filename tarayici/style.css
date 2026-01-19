@@ -221,3 +221,15 @@ body.light-theme .repo-shortcode {
     color: #fff; /* Üzerine gelince içi dolsun */
     transform: translateY(-1px);
 }
+
+.badge-updated {
+    background: linear-gradient(135deg, #0ea5e9, #3b82f6);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
+    margin-left: 6px;
+}

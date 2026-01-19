@@ -289,7 +289,7 @@
   "8c0573aa19b60e0bb4ef367b7513ae78509f5517": {
     "sha": "8c0573aa19b60e0bb4ef367b7513ae78509f5517",
     "message": "VidMoxy: Extractor Düzeltmesi",
-    "description": "Fullhdfilmizlesene ve bir kaç tane eklentide çalışması için düzeltildi.",
+    "description": "",
     "date": "2026-01-16T04:19:52Z",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
@@ -379,7 +379,7 @@
   "efeb1a893fba325ab408aee3e6360ee4f668c429": {
     "sha": "efeb1a893fba325ab408aee3e6360ee4f668c429",
     "message": "Youtube: sadece canlı yayınlar çalışan versiyon",
-    "description": "Mevcut olarak sadece canlı yayınlar çalışıyor. Bir açık bulunduğu takdirde tamamen düzeltilecek.",
+    "description": "",
     "date": "2026-01-17T20:24:58Z",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
@@ -393,7 +393,7 @@
   "ba0b9701d94095da58f58dc376d020b6542e37b9": {
     "sha": "ba0b9701d94095da58f58dc376d020b6542e37b9",
     "message": "InatBox: hatalar düzeltildi",
-    "description": "İnatbox uygulamasının yeni yaptığı güncelleme için eklentiye güncelleme yapıldı.",
+    "description": "",
     "date": "2026-01-18T00:45:08Z",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
@@ -407,7 +407,7 @@
   "7863d3e0729b09ea2caf77bdd9367c9e949ea425": {
     "sha": "7863d3e0729b09ea2caf77bdd9367c9e949ea425",
     "message": "InatBox: içerik temizliği",
-    "description": "Canlı yayınlarda posterler yan yatırıldı, dizilerin açılmama sorunu giderildi ve gereksiz gelen içerikler çıkartıldı.",
+    "description": "canlılarda posterler yan yatırıldı dizilerin açılmama sorunu giderildi gereksiz gelen içerikler çıkartıldı.",
     "date": "2026-01-18T01:26:26Z",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
@@ -421,7 +421,7 @@
   "2c8c12d585027921f2cd70b8406d35872513530c": {
     "sha": "2c8c12d585027921f2cd70b8406d35872513530c",
     "message": "Anizm: düzeltme",
-    "description": "Eklenti anlık bir bozulma yaşamıştı. Şuanda sorun çıkartmıyor.",
+    "description": "",
     "date": "2026-01-18T18:49:51Z",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
@@ -435,7 +435,7 @@
   "8e7c6630255142b7db01e024500742bcbe9f83ea": {
     "sha": "8e7c6630255142b7db01e024500742bcbe9f83ea",
     "message": "InatBox: minik düzeltme",
-    "description": "Videoların oynatılamama sorunu çözüldü.",
+    "description": "",
     "date": "2026-01-19T12:18:33Z",
     "author": "kraptor123",
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
@@ -445,6 +445,18 @@
     "tags": [
       "InatBox"
     ]
+  },
+  "911cdf6df4df633e705ef5c388c80ee020f88bda": {
+    "sha": "911cdf6df4df633e705ef5c388c80ee020f88bda",
+    "message": "Merge branch 'master' of https://github.com/Kraptor123/kraptoranime",
+    "description": "",
+    "date": "2026-01-19T13:09:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": []
   },
   "e5f14a3c75af9e49283a18c19a0b0f9965ae0f08": {
     "sha": "e5f14a3c75af9e49283a18c19a0b0f9965ae0f08",
