@@ -529,5 +529,20 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "e883e0cfacf3e671ce7dbf0320b62ae64d2178fd": {
+    "sha": "e883e0cfacf3e671ce7dbf0320b62ae64d2178fd",
+    "message": "Animecix + KraptorPlus: Animecix için bazı iyileştirmeler",
+    "description": "Çevirmen isimleri ve video kaynak ismi eklendi",
+    "date": "2026-01-19T22:45:25Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "KraptorPlus"
+    ]
   }
 }
