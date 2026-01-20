@@ -570,5 +570,17 @@
     "highlight": false,
     "hidden": false,
     "tags": []
+  },
+  "323baf503507a9ef474a904f0b9f3ff4d74bb24c": {
+    "sha": "323baf503507a9ef474a904f0b9f3ff4d74bb24c",
+    "message": "Update build.gradle.kts",
+    "description": "",
+    "date": "2026-01-20T04:12:45Z",
+    "author": "Kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": []
   }
 }
