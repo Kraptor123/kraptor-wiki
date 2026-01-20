@@ -568,7 +568,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": []
   },
   "323baf503507a9ef474a904f0b9f3ff4d74bb24c": {
@@ -580,7 +580,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": []
   },
   "4a6050fea3760b1c952ced43aa2029eea40f2587": {
@@ -592,7 +592,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": []
   },
   "2978496976c1873ae42acbafabe991f7538b3345": {
@@ -604,7 +604,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": []
   },
   "ffeaef522ba95e2c5865cb4cb101b651af55ee77": {
@@ -616,7 +616,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": [
       "gradle",
       "gradlew"
@@ -631,7 +631,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
     "note": "",
     "highlight": false,
-    "hidden": false,
+    "hidden": true,
     "tags": [
       "gradle"
     ]
