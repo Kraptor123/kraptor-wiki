@@ -582,5 +582,17 @@
     "highlight": false,
     "hidden": false,
     "tags": []
+  },
+  "4a6050fea3760b1c952ced43aa2029eea40f2587": {
+    "sha": "4a6050fea3760b1c952ced43aa2029eea40f2587",
+    "message": "Update Android Gradle plugin version to 8.13.2",
+    "description": "",
+    "date": "2026-01-20T19:14:40Z",
+    "author": "Kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": []
   }
 }
