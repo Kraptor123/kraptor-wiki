@@ -594,5 +594,32 @@
     "highlight": false,
     "hidden": false,
     "tags": []
+  },
+  "2978496976c1873ae42acbafabe991f7538b3345": {
+    "sha": "2978496976c1873ae42acbafabe991f7538b3345",
+    "message": "Merge branch 'master' of https://github.com/Kraptor123/kraptoranime",
+    "description": "",
+    "date": "2026-01-20T21:35:20Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": []
+  },
+  "ffeaef522ba95e2c5865cb4cb101b651af55ee77": {
+    "sha": "ffeaef522ba95e2c5865cb4cb101b651af55ee77",
+    "message": "Update dependencies",
+    "description": "",
+    "date": "2026-01-20T21:35:07Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "gradle",
+      "gradlew"
+    ]
   }
 }
