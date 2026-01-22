@@ -649,5 +649,19 @@
     "tags": [
       "DiziLife"
     ]
+  },
+  "da0c27272755e6b6d13188b431217822d6903684": {
+    "sha": "da0c27272755e6b6d13188b431217822d6903684",
+    "message": "Animeler: Düzeltme",
+    "description": "Site tasarımı değiştiği için baştan aşağı düzenleme yapıldı.",
+    "date": "2026-01-22T13:54:16Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Animeler"
+    ]
   }
 }
