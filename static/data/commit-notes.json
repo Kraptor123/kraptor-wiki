@@ -635,5 +635,19 @@
     "tags": [
       "gradle"
     ]
+  },
+  "4c7f452aac19701b0446285db6abacad380d1298": {
+    "sha": "4c7f452aac19701b0446285db6abacad380d1298",
+    "message": "♻️ Domain Değişikliği",
+    "description": "🔄 Otomatik domain güncellemeleri yapıldı.",
+    "date": "2026-01-22T13:16:03Z",
+    "author": "github-actions[bot]",
+    "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife"
+    ]
   }
 }
