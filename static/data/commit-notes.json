@@ -663,5 +663,19 @@
     "tags": [
       "Animeler"
     ]
+  },
+  "aa9f592b080feb31b50dafab327ef0b2f5eb0583": {
+    "sha": "aa9f592b080feb31b50dafab327ef0b2f5eb0583",
+    "message": "OpenAnime",
+    "description": "Sitenin yaptığı değişikliklerden dolayı eklenti bozulmuştu. Şimdi düzeltildi.",
+    "date": "2026-01-22T15:20:28Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "OpenAnime"
+    ]
   }
 }
