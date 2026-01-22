@@ -6,7 +6,7 @@ authors: [kraptor, byayzen]
 ---
 # CloudStream nedir?
 
-**CloudStream**, [eklentiler](Eklentiler.md) sayesinde internet sitelerini gezip oradan film ve dizi bilgisi getiren bir programdır. CLoudStream'i bir tarayıcı gibi düşünebilirsiniz.
+**CloudStream**, [eklentiler](Eklentiler.md) sayesinde internet sitelerini gezip oradan film ve dizi bilgisi getiren bir programdır. CloudStream'i bir tarayıcı gibi düşünebilirsiniz.
 
 ## Nasıl çalışır?
 
