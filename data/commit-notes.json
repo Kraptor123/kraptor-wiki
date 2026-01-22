@@ -677,5 +677,19 @@
     "tags": [
       "OpenAnime"
     ]
+  },
+  "40f813af83d88378ee9cad8fe2eff1c92695f857": {
+    "sha": "40f813af83d88378ee9cad8fe2eff1c92695f857",
+    "message": "KraptorPlus: Dizipal Extractor Düzenlemesi.",
+    "description": "",
+    "date": "2026-01-22T17:40:05Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
