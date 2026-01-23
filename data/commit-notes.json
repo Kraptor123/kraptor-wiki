@@ -691,5 +691,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "fae6f7363412268aa237513d8dee33df3cd2eadf": {
+    "sha": "fae6f7363412268aa237513d8dee33df3cd2eadf",
+    "message": "InatBox: Eksik kategori sorunu çözüldü.",
+    "description": "",
+    "date": "2026-01-23T02:25:15Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "InatBox"
+    ]
   }
 }
