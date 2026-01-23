@@ -705,5 +705,19 @@
     "tags": [
       "InatBox"
     ]
+  },
+  "dda7b05c4e8f9b9cc33d3b7729c1b9f3d95c36c0": {
+    "sha": "dda7b05c4e8f9b9cc33d3b7729c1b9f3d95c36c0",
+    "message": "♻️ Domain Değişikliği",
+    "description": "🔄 Otomatik domain güncellemeleri yapıldı.",
+    "date": "2026-01-23T18:55:27Z",
+    "author": "github-actions[bot]",
+    "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife"
+    ]
   }
 }
