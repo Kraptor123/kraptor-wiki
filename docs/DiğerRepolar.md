@@ -29,5 +29,8 @@ Cs-Karma reposu Cs-Kraptor için uygun görmediğimiz ayrıca yabancı istekler 
 
 <img src="../img/gizlikeyifogo.png" alt="Gizli Keyif Logosu" width="85" />
 
+## Ayzen Repo
 
-
+Ayzen repo [ByAyzen](https://github.com/ByAyzen) tarafından keyfi olarak geliştirilmiş
+eklentileri içeren ayrı bir repomuzdur.
+[Repo Hakkında İçerikler](./ayzen-repo/bilgilendirme.md)

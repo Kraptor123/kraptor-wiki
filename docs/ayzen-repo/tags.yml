@@ -1,0 +1,11 @@
+CloudStream Yardım:
+  label: CloudStream Yardım
+  description: CloudStream yardım içeren etiketler.
+
+  Hata:
+    label: Hata
+    description: hata etiketi.
+
+  Ayzen Repo:
+    label: Ayzen Repo
+    description: Ayzen repo ve eklentileri hakkinda ki etiketler.
