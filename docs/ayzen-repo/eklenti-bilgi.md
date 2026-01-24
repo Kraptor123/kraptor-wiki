@@ -2,6 +2,7 @@
 sidebar_position: 2
 tags:
   - CloudStream Yardım
+  - Ayzen Repo
 authors: [kraptor, byayzen]
 ---
 # Filmbol Eklentisi Bilgilendirme
