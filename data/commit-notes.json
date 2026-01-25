@@ -751,5 +751,19 @@
       "KraptorPlus",
       "SelcukFlix"
     ]
+  },
+  "53287cdccb0fc34f769569f05e7d0ac70e09e070": {
+    "sha": "53287cdccb0fc34f769569f05e7d0ac70e09e070",
+    "message": "Anizm: Düzeltme",
+    "description": "Sitenin aldığı önlemlere karşın düzeltildi.",
+    "date": "2026-01-25T12:43:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Anizm"
+    ]
   }
 }
