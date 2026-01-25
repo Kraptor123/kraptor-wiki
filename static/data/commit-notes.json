@@ -779,5 +779,19 @@
     "tags": [
       "DiziLife"
     ]
+  },
+  "6cfead8babc0132524412c6d486b3a30f0d1bf93": {
+    "sha": "6cfead8babc0132524412c6d486b3a30f0d1bf93",
+    "message": "YTS: Düzeltme",
+    "description": "Uzun süredir YTS çalışmıyordu, şuanda çalışıyor.",
+    "date": "2026-01-25T13:15:40Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "YTS"
+    ]
   }
 }
