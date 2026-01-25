@@ -793,5 +793,17 @@
     "tags": [
       "YTS"
     ]
+  },
+  "a425548d696fdb0a19182cd139b9054e65817357": {
+    "sha": "a425548d696fdb0a19182cd139b9054e65817357",
+    "message": "Merge branch 'master'",
+    "description": "# Conflicts:\n#\tAnizm/build.gradle.kts\n#\tAnizm/src/main/kotlin/com/kraptor/Anizm.kt\n#\tAnizm/src/main/kotlin/com/kraptor/SessionManager.kt",
+    "date": "2026-01-25T15:13:08Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": []
   }
 }
