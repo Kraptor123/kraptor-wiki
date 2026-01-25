@@ -805,5 +805,19 @@
     "highlight": false,
     "hidden": false,
     "tags": []
+  },
+  "404c8605c23f4b53de7cc0b5870aecc70c366912": {
+    "sha": "404c8605c23f4b53de7cc0b5870aecc70c366912",
+    "message": "InatBox: Spor kategorisinde açılmayan içeriğin düzeltilmesi.",
+    "description": "",
+    "date": "2026-01-25T18:03:19Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "InatBox"
+    ]
   }
 }
