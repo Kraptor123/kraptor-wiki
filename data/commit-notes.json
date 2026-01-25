@@ -765,5 +765,19 @@
     "tags": [
       "Anizm"
     ]
+  },
+  "c14f21f8e6e3b3a279b8589309fb62c4fa500c07": {
+    "sha": "c14f21f8e6e3b3a279b8589309fb62c4fa500c07",
+    "message": "♻️ Domain Değişikliği",
+    "description": "🔄 Otomatik domain güncellemeleri yapıldı.",
+    "date": "2026-01-25T13:07:17Z",
+    "author": "github-actions[bot]",
+    "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife"
+    ]
   }
 }
