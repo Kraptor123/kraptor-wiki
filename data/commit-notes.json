@@ -833,5 +833,19 @@
     "tags": [
       "Anizm"
     ]
+  },
+  "38892f60b98b574724764280178b9274e5ad6b56": {
+    "sha": "38892f60b98b574724764280178b9274e5ad6b56",
+    "message": "Dizipal: Güncelleme",
+    "description": "Site tamamen değiştiği için baştan aşağı düzenlendi.",
+    "date": "2026-01-27T06:07:13Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPal"
+    ]
   }
 }
