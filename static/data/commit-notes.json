@@ -933,5 +933,19 @@
     "tags": [
       "FilmHane"
     ]
+  },
+  "db90f7c6fb06119dd0dee6dfce8e09c2e6906af0": {
+    "sha": "db90f7c6fb06119dd0dee6dfce8e09c2e6906af0",
+    "message": "Webteizle: Güncelleme",
+    "description": "Vidmoly kaynağı düzeltildi.",
+    "date": "2026-01-29T19:44:54Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WebteIzle"
+    ]
   }
 }
