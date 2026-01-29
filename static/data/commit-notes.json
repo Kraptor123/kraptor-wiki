@@ -919,5 +919,19 @@
     "tags": [
       "DiziLife"
     ]
+  },
+  "c96a51df77e3a59382b05e571943c75d4c3229ee": {
+    "sha": "c96a51df77e3a59382b05e571943c75d4c3229ee",
+    "message": "♻️ Domain Değişikliği",
+    "description": "🔄 Otomatik domain güncellemeleri yapıldı.",
+    "date": "2026-01-29T13:35:49Z",
+    "author": "github-actions[bot]",
+    "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmHane"
+    ]
   }
 }
