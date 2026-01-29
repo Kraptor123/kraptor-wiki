@@ -905,5 +905,19 @@
       "Dizilla",
       "SelcukFlix"
     ]
+  },
+  "ee7f0ed550cbad32827d22584699ffbe74b92c32": {
+    "sha": "ee7f0ed550cbad32827d22584699ffbe74b92c32",
+    "message": "♻️ Domain Değişikliği",
+    "description": "🔄 Otomatik domain güncellemeleri yapıldı.",
+    "date": "2026-01-29T03:08:43Z",
+    "author": "github-actions[bot]",
+    "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife"
+    ]
   }
 }
