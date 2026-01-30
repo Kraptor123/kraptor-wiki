@@ -975,5 +975,19 @@
     "tags": [
       "DiziYo"
     ]
+  },
+  "ff1845d3df9cb1abe93071b9fdffcc1396c0042f": {
+    "sha": "ff1845d3df9cb1abe93071b9fdffcc1396c0042f",
+    "message": "Anizm: Devre dışı",
+    "description": "Sitenin repomuz için önlem alması sebebiyle devre dışı bırakıldı.",
+    "date": "2026-01-30T10:16:57Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Anizm"
+    ]
   }
 }
