@@ -989,5 +989,19 @@
     "tags": [
       "Anizm"
     ]
+  },
+  "a7b82787c06b0e6a419c58915b9e225791565609": {
+    "sha": "a7b82787c06b0e6a419c58915b9e225791565609",
+    "message": "OpenAnime: Yeni Kategori",
+    "description": "Son eklenenler kategorisi eklenmiş olup kod temizlemesi yapılmıştır.",
+    "date": "2026-01-30T12:50:47Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "OpenAnime"
+    ]
   }
 }
