@@ -1035,7 +1035,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
     "note": "",
     "highlight": false,
-    "hidden": true,
+    "hidden": false,
     "tags": [
       "HintDizi"
     ]
@@ -1049,7 +1049,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
     "note": "",
     "highlight": false,
-    "hidden": true,
+    "hidden": false,
     "tags": [
       "HintDizi"
     ]
@@ -1063,9 +1063,23 @@
     "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
     "note": "",
     "highlight": false,
-    "hidden": true,
+    "hidden": false,
     "tags": [
       "HintDizi"
+    ]
+  },
+  "7b80e40980347e227b8396c3c6ee6963ba3fb1b7": {
+    "sha": "7b80e40980347e227b8396c3c6ee6963ba3fb1b7",
+    "message": "Update RoketDiziPlugin.kt",
+    "description": "",
+    "date": "2026-01-30T18:14:18Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "RoketDizi"
     ]
   }
 }
