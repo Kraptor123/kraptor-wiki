@@ -961,5 +961,19 @@
     "tags": [
       "WebteIzle"
     ]
+  },
+  "41a3ca142ed0c12b7925e0f9674e55477935ef1f": {
+    "sha": "41a3ca142ed0c12b7925e0f9674e55477935ef1f",
+    "message": "Diziyo: Güncelleme",
+    "description": "Site içerisinde yapılan değişiklikler sebebiyle tüm eklenti baştan aşağı değiştirildi.",
+    "date": "2026-01-30T07:24:29Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziYo"
+    ]
   }
 }
