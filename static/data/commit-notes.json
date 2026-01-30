@@ -1081,5 +1081,19 @@
     "tags": [
       "RoketDizi"
     ]
+  },
+  "dfbe09cf61c0020cf8ac32de9f23950af4b56a6f": {
+    "sha": "dfbe09cf61c0020cf8ac32de9f23950af4b56a6f",
+    "message": "♻️ Domain Değişikliği",
+    "description": "🔄 Otomatik domain güncellemeleri yapıldı.",
+    "date": "2026-01-30T19:05:25Z",
+    "author": "github-actions[bot]",
+    "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife"
+    ]
   }
 }
