@@ -947,5 +947,19 @@
     "tags": [
       "WebteIzle"
     ]
+  },
+  "2d74af7ba31222178a93e956323222d917821e4f": {
+    "sha": "2d74af7ba31222178a93e956323222d917821e4f",
+    "message": "Webteizle: Güncelleme",
+    "description": "Kod hatasının geri çekilmesi.",
+    "date": "2026-01-30T06:06:36Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WebteIzle"
+    ]
   }
 }
