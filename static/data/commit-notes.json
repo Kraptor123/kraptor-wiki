@@ -1095,5 +1095,19 @@
     "tags": [
       "DiziLife"
     ]
+  },
+  "b0bd9d076c702df39e2c4031eeb57c42ac82ee7c": {
+    "sha": "b0bd9d076c702df39e2c4031eeb57c42ac82ee7c",
+    "message": "Dizipal: Devre dışı",
+    "description": "Cloudflare engeline yakalanması ve çözülememesi sebebiyle devre dışı bırakıldı.",
+    "date": "2026-01-31T09:06:50Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPal"
+    ]
   }
 }
