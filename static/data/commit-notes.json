@@ -1109,5 +1109,19 @@
     "tags": [
       "DiziPal"
     ]
+  },
+  "f8b313a78cc19159c66f192c14d6c6a2f7faae34": {
+    "sha": "f8b313a78cc19159c66f192c14d6c6a2f7faae34",
+    "message": "♻️ Domain Değişikliği",
+    "description": "🔄 Otomatik domain güncellemeleri yapıldı.",
+    "date": "2026-02-01T03:31:54Z",
+    "author": "github-actions[bot]",
+    "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "JetFilmizle"
+    ]
   }
 }
