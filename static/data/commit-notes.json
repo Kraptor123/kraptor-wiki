@@ -1123,5 +1123,19 @@
     "tags": [
       "JetFilmizle"
     ]
+  },
+  "2c211ae4a0429e0fec6757b19ef1030a6a0b7294": {
+    "sha": "2c211ae4a0429e0fec6757b19ef1030a6a0b7294",
+    "message": "Dizilla altyazı sorunu düzeltildi",
+    "description": "",
+    "date": "2026-02-01T19:27:41Z",
+    "author": "kerimmkirac",
+    "avatar": "https://avatars.githubusercontent.com/u/127618379?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Dizilla"
+    ]
   }
 }
