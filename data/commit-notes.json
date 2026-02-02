@@ -1165,5 +1165,19 @@
     "tags": [
       "MirrorVerse"
     ]
+  },
+  "ea171c235fc2f444a9f4dd413e2d705d78df83d8": {
+    "sha": "ea171c235fc2f444a9f4dd413e2d705d78df83d8",
+    "message": "Dizipal: Hata giderme",
+    "description": "Bölüm sıralaması düzenleme",
+    "date": "2026-02-02T13:55:03Z",
+    "author": "kerimmkirac",
+    "avatar": "https://avatars.githubusercontent.com/u/127618379?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPal"
+    ]
   }
 }
