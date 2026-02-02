@@ -1137,5 +1137,19 @@
     "tags": [
       "Dizilla"
     ]
+  },
+  "f0b018cf889b258b48a1cc281b049b33a2d0f6c2": {
+    "sha": "f0b018cf889b258b48a1cc281b049b33a2d0f6c2",
+    "message": "Dizipal: Tekrar Aktifleştirildi.",
+    "description": "Cloudflare engeli kaldırıldığı için tekrar aktif ediyoruz.",
+    "date": "2026-02-02T08:28:43Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPal"
+    ]
   }
 }
