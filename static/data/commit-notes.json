@@ -1151,5 +1151,19 @@
     "tags": [
       "DiziPal"
     ]
+  },
+  "941872243471bfc3a060556de73c68aa6dbba390": {
+    "sha": "941872243471bfc3a060556de73c68aa6dbba390",
+    "message": "Mirrorverse: Güncelleme",
+    "description": "Netflix kaynağında olan sorun giderildi ve geliştirmeler yapıldı.",
+    "date": "2026-02-02T10:19:52Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "MirrorVerse"
+    ]
   }
 }
