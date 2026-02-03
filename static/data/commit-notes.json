@@ -1330,5 +1330,23 @@
     "tags": [
       "DiziKorea"
     ]
+  },
+  "66d32e0b87717cb53087bd08a1908f28e49272eb": {
+    "sha": "66d32e0b87717cb53087bd08a1908f28e49272eb",
+    "message": "Hata giderildi.",
+    "description": "",
+    "date": "2026-02-03T23:33:45Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziKorea",
+      "Dizist",
+      "Filmzal",
+      "YTS",
+      "YabanciDizi"
+    ]
   }
 }
