@@ -1208,5 +1208,22 @@
       "AsyaFilmIzlesene",
       "FilmIzle"
     ]
+  },
+  "965193b19c9834b295bbc1055006b7c718227115": {
+    "sha": "965193b19c9834b295bbc1055006b7c718227115",
+    "message": "Toplu Güncellemeler",
+    "description": "TVDiziler: Video sorunları çözüldü ancak bazı videolar yine açılmayabilir yada siteden dolayı telif yemiş olabilirler.\n\nYeniWatch: Video sorunu çözüldü.\n\nJetfilmizle: Yeni tasarımdan dolayı güncelleme yapıldı.\n\nFullHDİzle: Video sorunu çözüldü.",
+    "date": "2026-02-03T09:43:01Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FullHDIzle",
+      "JetFilmizle",
+      "TvDiziler",
+      "YeniWatch"
+    ]
   }
 }
