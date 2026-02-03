@@ -1302,5 +1302,19 @@
       "YeniWatch",
       "YesilCamTv"
     ]
+  },
+  "579f0a36a170b6e6f6c0e1e01919a12a370cd1f7": {
+    "sha": "579f0a36a170b6e6f6c0e1e01919a12a370cd1f7",
+    "message": "Update DiziBox.kt",
+    "description": "",
+    "date": "2026-02-03T22:57:35Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziBox"
+    ]
   }
 }
