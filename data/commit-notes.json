@@ -1193,5 +1193,20 @@
     "tags": [
       "AsyaFanatiklerim"
     ]
+  },
+  "abb6a6274cf98a0f602ed179fdc36a5b64580d96": {
+    "sha": "abb6a6274cf98a0f602ed179fdc36a5b64580d96",
+    "message": "Filmizle ve Asyafilmizlesene Devre dışı.",
+    "description": "Sitelerinin sorunlu olması sebebiyle devre dışı bırakıldılar.",
+    "date": "2026-02-02T20:27:30Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaFilmIzlesene",
+      "FilmIzle"
+    ]
   }
 }
