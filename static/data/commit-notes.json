@@ -1425,5 +1425,20 @@
       "YeniKaynak",
       "YesilCamTv"
     ]
+  },
+  "204207015331d3e1d6014cf87c87dc71ed46b94c": {
+    "sha": "204207015331d3e1d6014cf87c87dc71ed46b94c",
+    "message": "KraptorPlus: Yeni Kaynak",
+    "description": "WebDramaTurkey kaynağı eklenmiştir.",
+    "date": "2026-02-04T22:35:02Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus",
+      "WebDramaTurkey"
+    ]
   }
 }
