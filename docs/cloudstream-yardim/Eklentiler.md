@@ -28,7 +28,7 @@ Bu yönlendirmeler sayesinde site, CloudStream ile uyumlu hâle gelir.
 
 ## Streamed
 
-**Streamed** eklentisi `cskarma` reposunda bulunur.
+**Streamed** eklentisi `cskarma` reposunda bulunur ve Spor yayınları içerir.
 
 ## Kraptor+
 

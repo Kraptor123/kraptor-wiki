@@ -13,5 +13,5 @@ Kısa Kodu **AyzenCS3** olan bu repoda bazı özel eklentiler bulunur.
 
 Bunlar sırasıyla şöyledir:
 
-* M3uPlayer
+* [M3uPlayer](m3uplayer-bilgilendirme.md)
 * [FilmBol](eklenti-bilgi.md)

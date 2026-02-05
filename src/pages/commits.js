@@ -5,15 +5,27 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 export default function CommitsPage() {
     const { siteConfig } = useDocusaurusContext();
 
-    // Veri State'leri
     const [commits, setCommits] = useState([]);
     const [loading, setLoading] = useState(true);
-
-    // Filtre State'leri
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedAuthor, setSelectedAuthor] = useState('all');
     const [selectedTag, setSelectedTag] = useState('all');
     const [onlyHighlighted, setOnlyHighlighted] = useState(false);
+
+    const getAuthorColor = (author) => {
+        const authorLower = author?.toLowerCase();
+        if (authorLower?.includes('byayzen')) return '#5DADE2';
+        if (authorLower?.includes('kerim')) return '#F4D03F';
+        if (authorLower?.includes('github-actions') || authorLower?.includes('bot')) return '#EC7063';
+        return 'inherit';
+    };
+
+    const formatAuthorName = (author) => {
+        if (author?.toLowerCase().includes('github-actions[bot]')) {
+            return 'Github Botu';
+        }
+        return author;
+    };
 
     useEffect(() => {
         const dataPath = `${siteConfig.baseUrl}data/commit-notes.json`.replace(/\/+/g, '/');
@@ -24,7 +36,6 @@ export default function CommitsPage() {
                 return res.json();
             })
             .then(data => {
-                // Saat bilgisi artık JSON'da olduğu için burası milisaniye hassasiyetinde sıralayacak
                 const commitsArray = Object.values(data).sort((a, b) =>
                     new Date(b.date) - new Date(a.date)
                 );
@@ -37,15 +48,21 @@ export default function CommitsPage() {
             });
     }, [siteConfig.baseUrl]);
 
-    // Filtre Seçenekleri
     const filterOptions = useMemo(() => {
         const authors = new Set();
         const tags = new Set();
+        const excludedTags = ['gradle', 'gradlew'];
 
         commits.forEach(commit => {
-            if (commit.author) authors.add(commit.author);
+            if (commit.author) {
+                authors.add(formatAuthorName(commit.author));
+            }
             if (commit.tags && Array.isArray(commit.tags)) {
-                commit.tags.forEach(tag => tags.add(tag));
+                commit.tags.forEach(tag => {
+                    if (!excludedTags.includes(tag.toLowerCase())) {
+                        tags.add(tag);
+                    }
+                });
             }
         });
 
@@ -55,22 +72,21 @@ export default function CommitsPage() {
         };
     }, [commits]);
 
-    // Filtreleme Mantığı
     const filteredCommits = commits.filter(commit => {
         if (commit.hidden === true) return false;
-
         if (onlyHighlighted && !commit.highlight) return false;
-        if (selectedAuthor !== 'all' && commit.author !== selectedAuthor) return false;
+        if (selectedAuthor !== 'all') {
+            const formattedAuthor = formatAuthorName(commit.author);
+            if (formattedAuthor !== selectedAuthor) return false;
+        }
         if (selectedTag !== 'all') {
             if (!commit.tags || !commit.tags.includes(selectedTag)) return false;
         }
-
         const searchLower = searchTerm.toLowerCase();
         const matchesSearch =
             commit.message.toLowerCase().includes(searchLower) ||
             (commit.description || "").toLowerCase().includes(searchLower) ||
             (commit.note || "").toLowerCase().includes(searchLower);
-
         return matchesSearch;
     });
 
@@ -83,7 +99,9 @@ export default function CommitsPage() {
 
     if (loading) return (
         <Layout title="Yükleniyor...">
-            <div style={{ textAlign: 'center', padding: '5rem', fontSize: '1.2rem' }}>Günlük verileri hazırlanıyor...</div>
+            <div style={{ textAlign: 'center', padding: '5rem', fontSize: '1.2rem' }}>
+                Günlük verileri hazırlanıyor...
+            </div>
         </Layout>
     );
 
@@ -91,11 +109,14 @@ export default function CommitsPage() {
         <Layout title="Geliştirme Günlüğü" description="Proje teknik detayları ve commit notları">
             <div className="container" style={{ padding: '3rem 0', maxWidth: '1000px' }}>
                 <header style={{ marginBottom: '2rem', textAlign: 'center' }}>
-                    <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '10px' }}>🚀 Geliştirme Günlüğü</h1>
-                    <p style={{ fontSize: '1.1rem', opacity: 0.7 }}>Sistemdeki tüm teknik değişimlerin kronolojik listesi.</p>
+                    <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '10px' }}>
+                        🚀 Geliştirme Günlüğü
+                    </h1>
+                    <p style={{ fontSize: '1.1rem', opacity: 0.7 }}>
+                        Sistemdeki tüm teknik değişimlerin kronolojik listesi.
+                    </p>
                 </header>
 
-                {/* Filtreleme Alanı */}
                 <div style={{
                     marginBottom: '2.5rem',
                     padding: '1.5rem',
@@ -103,16 +124,24 @@ export default function CommitsPage() {
                     borderRadius: '16px',
                     border: '1px solid var(--ifm-color-emphasis-200)'
                 }}>
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '15px', marginBottom: '15px' }}>
+                    <div style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+                        gap: '15px',
+                        marginBottom: '15px'
+                    }}>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                            <label style={{ fontSize: '0.85rem', fontWeight: 'bold', marginLeft: '5px' }}>🔍 Arama</label>
+                            <label style={{ fontSize: '0.85rem', fontWeight: 'bold', marginLeft: '5px' }}>
+                                🔍 Arama
+                            </label>
                             <input
                                 type="text"
                                 placeholder="Başlık veya not ara..."
                                 value={searchTerm}
                                 onChange={(e) => setSearchTerm(e.target.value)}
                                 style={{
-                                    padding: '0.6rem 1rem', borderRadius: '8px',
+                                    padding: '0.6rem 1rem',
+                                    borderRadius: '8px',
                                     border: '1px solid var(--ifm-color-emphasis-300)',
                                     backgroundColor: 'var(--ifm-background-color)'
                                 }}
@@ -120,12 +149,15 @@ export default function CommitsPage() {
                         </div>
 
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                            <label style={{ fontSize: '0.85rem', fontWeight: 'bold', marginLeft: '5px' }}>👤 Geliştirici</label>
+                            <label style={{ fontSize: '0.85rem', fontWeight: 'bold', marginLeft: '5px' }}>
+                                👤 Geliştirici
+                            </label>
                             <select
                                 value={selectedAuthor}
                                 onChange={(e) => setSelectedAuthor(e.target.value)}
                                 style={{
-                                    padding: '0.6rem', borderRadius: '8px',
+                                    padding: '0.6rem',
+                                    borderRadius: '8px',
                                     border: '1px solid var(--ifm-color-emphasis-300)',
                                     backgroundColor: 'var(--ifm-background-color)'
                                 }}
@@ -138,12 +170,15 @@ export default function CommitsPage() {
                         </div>
 
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                            <label style={{ fontSize: '0.85rem', fontWeight: 'bold', marginLeft: '5px' }}>📦 Eklenti / Modül</label>
+                            <label style={{ fontSize: '0.85rem', fontWeight: 'bold', marginLeft: '5px' }}>
+                                📦 Eklenti / Modül
+                            </label>
                             <select
                                 value={selectedTag}
                                 onChange={(e) => setSelectedTag(e.target.value)}
                                 style={{
-                                    padding: '0.6rem', borderRadius: '8px',
+                                    padding: '0.6rem',
+                                    borderRadius: '8px',
                                     border: '1px solid var(--ifm-color-emphasis-300)',
                                     backgroundColor: 'var(--ifm-background-color)'
                                 }}
@@ -156,8 +191,22 @@ export default function CommitsPage() {
                         </div>
                     </div>
 
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '10px', paddingTop: '10px', borderTop: '1px solid var(--ifm-color-emphasis-200)' }}>
-                        <label style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', gap: '8px', userSelect: 'none' }}>
+                    <div style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                        flexWrap: 'wrap',
+                        gap: '10px',
+                        paddingTop: '10px',
+                        borderTop: '1px solid var(--ifm-color-emphasis-200)'
+                    }}>
+                        <label style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            cursor: 'pointer',
+                            gap: '8px',
+                            userSelect: 'none'
+                        }}>
                             <input
                                 type="checkbox"
                                 checked={onlyHighlighted}
@@ -175,8 +224,12 @@ export default function CommitsPage() {
                                 <button
                                     onClick={clearFilters}
                                     style={{
-                                        border: 'none', background: 'none', color: 'var(--ifm-color-danger)',
-                                        cursor: 'pointer', fontSize: '0.9rem', textDecoration: 'underline'
+                                        border: 'none',
+                                        background: 'none',
+                                        color: 'var(--ifm-color-danger)',
+                                        cursor: 'pointer',
+                                        fontSize: '0.9rem',
+                                        textDecoration: 'underline'
                                     }}
                                 >
                                     Filtreleri Temizle
@@ -186,94 +239,175 @@ export default function CommitsPage() {
                     </div>
                 </div>
 
-                {/* Liste */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                     {filteredCommits.length === 0 ? (
-                        <div style={{ textAlign: 'center', padding: '3rem', opacity: 0.5, border: '2px dashed var(--ifm-color-emphasis-300)', borderRadius: '15px' }}>
+                        <div style={{
+                            textAlign: 'center',
+                            padding: '3rem',
+                            opacity: 0.5,
+                            border: '2px dashed var(--ifm-color-emphasis-300)',
+                            borderRadius: '15px'
+                        }}>
                             <h3>Sonuç bulunamadı 😔</h3>
                             <p>Filtreleri değiştirerek tekrar deneyin.</p>
                         </div>
                     ) : (
-                        filteredCommits.map(commit => (
-                            <article key={commit.sha} style={{
-                                border: '1px solid var(--ifm-color-emphasis-300)',
-                                borderRadius: '16px', padding: '1.5rem',
-                                backgroundColor: commit.highlight ? 'rgba(230, 126, 34, 0.04)' : 'var(--ifm-card-background-color)',
-                                borderLeft: commit.highlight ? '5px solid #e67e22' : '1px solid var(--ifm-color-emphasis-300)',
-                                position: 'relative', overflow: 'hidden'
-                            }}>
-                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
-                                    <div style={{ display: 'flex', gap: '12px' }}>
-                                        {commit.avatar ? (
-                                            <img src={commit.avatar} alt={commit.author} style={{ width: '40px', height: '40px', borderRadius: '50%', border: '2px solid var(--ifm-background-color)' }} />
-                                        ) : (
-                                            <div style={{ width: '40px', height: '40px', borderRadius: '50%', backgroundColor: '#eee', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.2rem' }}>👤</div>
-                                        )}
-                                        <div>
-                                            <div style={{ fontWeight: '700', fontSize: '0.95rem' }}>{commit.author}</div>
-                                            <div style={{ fontSize: '0.8rem', opacity: 0.6 }}>
-                                                {/* Ekranda sadece tarih göster, saat gösterme (tercihen) */}
-                                                {new Date(commit.date).toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })}
-                                                {' • '}
-                                                <code style={{ fontSize: '0.7rem', opacity: 0.8 }}>{commit.sha.substring(0, 7)}</code>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {commit.highlight && <span style={{ fontSize: '1.5rem' }} title="Önemli Güncelleme">⭐</span>}
-                                </div>
+                        filteredCommits.map(commit => {
+                            const formattedAuthorName = formatAuthorName(commit.author);
+                            const authorColor = getAuthorColor(commit.author);
 
-                                <div style={{ paddingLeft: '52px' }}>
-                                    <h2 style={{ margin: '0 0 0.5rem 0', fontSize: '1.2rem', color: 'var(--ifm-color-primary)' }}>
-                                        {commit.message}
-                                    </h2>
-
-                                    {commit.description && (
-                                        <div style={{ fontSize: '0.95rem', opacity: 0.85, whiteSpace: 'pre-wrap', marginBottom: '1rem', lineHeight: '1.5' }}>
-                                            {commit.description}
-                                        </div>
-                                    )}
-
-                                    {commit.note && (
-                                        <div style={{
-                                            marginTop: '1rem',
-                                            padding: '1rem',
-                                            backgroundColor: 'rgba(54, 162, 235, 0.1)',
-                                            borderLeft: '4px solid #36a2eb',
-                                            borderRadius: '8px',
-                                            fontSize: '0.95rem',
-                                            color: 'var(--ifm-font-color-base)',
-                                            display: 'flex',
-                                            alignItems: 'center',
-                                            gap: '10px'
-                                        }}>
-                                            <span style={{ fontSize: '1.2rem' }}>💡</span>
-                                            <div>
-                                                <strong style={{ color: '#36a2eb' }}>Not:</strong> {commit.note}
-                                            </div>
-                                        </div>
-                                    )}
-
-                                    {commit.tags && commit.tags.length > 0 && (
-                                        <div style={{ marginTop: '1rem', display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
-                                            {commit.tags.map(tag => (
-                                                <span
-                                                    key={tag}
-                                                    onClick={() => setSelectedTag(tag)}
+                            return (
+                                <article key={commit.sha} style={{
+                                    border: '1px solid var(--ifm-color-emphasis-300)',
+                                    borderRadius: '16px',
+                                    padding: '1.5rem',
+                                    backgroundColor: commit.highlight
+                                        ? 'rgba(230, 126, 34, 0.04)'
+                                        : 'var(--ifm-card-background-color)',
+                                    borderLeft: commit.highlight
+                                        ? '5px solid #e67e22'
+                                        : '1px solid var(--ifm-color-emphasis-300)',
+                                    position: 'relative',
+                                    overflow: 'hidden'
+                                }}>
+                                    <div style={{
+                                        display: 'flex',
+                                        justifyContent: 'space-between',
+                                        alignItems: 'flex-start',
+                                        marginBottom: '1rem'
+                                    }}>
+                                        <div style={{ display: 'flex', gap: '12px' }}>
+                                            {commit.avatar ? (
+                                                <img
+                                                    src={commit.avatar}
+                                                    alt={formattedAuthorName}
                                                     style={{
-                                                        fontSize: '0.75rem', padding: '2px 10px', borderRadius: '12px',
-                                                        backgroundColor: selectedTag === tag ? 'var(--ifm-color-primary)' : 'var(--ifm-color-emphasis-200)',
-                                                        color: selectedTag === tag ? '#fff' : 'var(--ifm-color-emphasis-700)',
-                                                        fontWeight: '600', cursor: 'pointer', transition: 'all 0.2s'
+                                                        width: '40px',
+                                                        height: '40px',
+                                                        borderRadius: '50%',
+                                                        border: '2px solid var(--ifm-background-color)'
                                                     }}
-                                                >
-                                                    #{tag}
-                                                </span>
-                                            ))}
+                                                />
+                                            ) : (
+                                                <div style={{
+                                                    width: '40px',
+                                                    height: '40px',
+                                                    borderRadius: '50%',
+                                                    backgroundColor: '#eee',
+                                                    display: 'flex',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center',
+                                                    fontSize: '1.2rem'
+                                                }}>
+                                                    👤
+                                                </div>
+                                            )}
+                                            <div>
+                                                <div style={{
+                                                    fontWeight: '700',
+                                                    fontSize: '0.95rem',
+                                                    color: authorColor
+                                                }}>
+                                                    {formattedAuthorName}
+                                                </div>
+                                                <div style={{ fontSize: '0.8rem', opacity: 0.6 }}>
+                                                    {new Date(commit.date).toLocaleDateString('tr-TR', {
+                                                        day: 'numeric',
+                                                        month: 'long',
+                                                        year: 'numeric'
+                                                    })}
+                                                    {' • '}
+                                                    <code style={{ fontSize: '0.7rem', opacity: 0.8 }}>
+                                                        {commit.sha.substring(0, 7)}
+                                                    </code>
+                                                </div>
+                                            </div>
                                         </div>
-                                    )}
-                                </div>
-                            </article>
-                        ))
+                                        {commit.highlight && (
+                                            <span style={{ fontSize: '1.5rem' }} title="Önemli Güncelleme">
+                                                ⭐
+                                            </span>
+                                        )}
+                                    </div>
+
+                                    <div style={{ paddingLeft: '52px' }}>
+                                        <h2 style={{
+                                            margin: '0 0 0.5rem 0',
+                                            fontSize: '1.2rem',
+                                            color: 'var(--ifm-color-primary)'
+                                        }}>
+                                            {commit.message}
+                                        </h2>
+
+                                        {commit.description && (
+                                            <div style={{
+                                                fontSize: '0.95rem',
+                                                opacity: 0.85,
+                                                whiteSpace: 'pre-wrap',
+                                                marginBottom: '1rem',
+                                                lineHeight: '1.5'
+                                            }}>
+                                                {commit.description}
+                                            </div>
+                                        )}
+
+                                        {commit.note && (
+                                            <div style={{
+                                                marginTop: '1rem',
+                                                padding: '1rem',
+                                                backgroundColor: 'rgba(54, 162, 235, 0.1)',
+                                                borderLeft: '4px solid #36a2eb',
+                                                borderRadius: '8px',
+                                                fontSize: '0.95rem',
+                                                color: 'var(--ifm-font-color-base)',
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                gap: '10px'
+                                            }}>
+                                                <span style={{ fontSize: '1.2rem' }}>💡</span>
+                                                <div>
+                                                    <strong style={{ color: '#36a2eb' }}>Not:</strong> {commit.note}
+                                                </div>
+                                            </div>
+                                        )}
+
+                                        {commit.tags && commit.tags.length > 0 && (
+                                            <div style={{
+                                                marginTop: '1rem',
+                                                display: 'flex',
+                                                gap: '6px',
+                                                flexWrap: 'wrap'
+                                            }}>
+                                                {commit.tags
+                                                    .filter(tag => !['gradle', 'gradlew'].includes(tag.toLowerCase()))
+                                                    .map(tag => (
+                                                        <span
+                                                            key={tag}
+                                                            onClick={() => setSelectedTag(tag)}
+                                                            style={{
+                                                                fontSize: '0.75rem',
+                                                                padding: '2px 10px',
+                                                                borderRadius: '12px',
+                                                                backgroundColor: selectedTag === tag
+                                                                    ? 'var(--ifm-color-primary)'
+                                                                    : 'var(--ifm-color-emphasis-200)',
+                                                                color: selectedTag === tag
+                                                                    ? '#fff'
+                                                                    : 'var(--ifm-color-emphasis-700)',
+                                                                fontWeight: '600',
+                                                                cursor: 'pointer',
+                                                                transition: 'all 0.2s'
+                                                            }}
+                                                        >
+                                                            {tag}
+                                                        </span>
+                                                    ))}
+                                            </div>
+                                        )}
+                                    </div>
+                                </article>
+                            );
+                        })
                     )}
                 </div>
             </div>

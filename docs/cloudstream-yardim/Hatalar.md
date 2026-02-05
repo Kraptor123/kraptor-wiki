@@ -11,14 +11,35 @@ authors: [kraptor, byayzen]
 - [Score Hatası](score.md)
 - [Bağlantı Bulunamadı](https://cloudstream.miraheze.org/wiki/Extension/tr#Hi%C3%A7_ba%C4%9Flant%C4%B1_bulunamad%C4%B1)
 - [Depo İndiremiyorum](https://cloudstream.miraheze.org/wiki/Extension/tr#Depo_indiremiyorum)
-- 4001 Hatası
 
-## 4001 Hatası nedir?
+## Oynatıcı Hataları ve 4001 Nedir?
 
-Cloudstream'de karşılaşılan 4001 hatası, cihazın videoyu oynatmak için gerekli olan donanım gücünü bulamadığı için yaşanır. Cihazınızda HEVC, AV1 vb. video formatları desteklenmiyorsa veya DRM için ihtiyaç olan L1 veya L3 gibi sertifikalar bulunmuyorsa bu hata ile karşılaşabilirsiniz.
+Cloudstream arka planda **ExoPlayer** kullanır. Videolar yüklenirken karşılaşabileceğiniz hata kodlarının anlamları ve çözüm yolları şunlardır:
 
-Çözüm önerileri:  
-Ayarlar → Oynatıcı → Yazılımsal kod çözücü ayarı açık ise kapalı, kapalı ise açık yapıp deneyiniz.  Eğer bu yöntem işe yaramıyorsa maalesef ki cihazınızda yapabileceğiniz başka bir şey bulunmuyor.
+### Bağlantı ve Erişim Hataları 2000
+* **2004 (Erişim Reddedildi):** Sunucu isteğinizi reddettiğinde oluşur. Linkin süresi dolmuş olabilir. Sayfayı yenilemek veya DNS değiştirmek çözüm olabilir.
+* **2003 (Geçersiz İçerik):** Oynatıcı video beklerken sunucunun video yerine hatalı bir veri (reklam, captcha veya hata sayfası) göndermesi durumudur. Genellikle farklı bir kaynak seçilmesi gerekir.
+* **2001 & 2002 (Ağ Hatası):** İnternet hızının yetersizliği veya sunucuya ulaşılamaması durumudur.
+
+### Kod Çözme Hataları 3000
+Cihazın videoyu indirdiği ancak görüntüye çeviremediği durumlardır. **3001** (Codec başlatılamadı) veya **3003** (Video dosyası bozuk) olarak görülebilir.
+
+### Donanım ve Sertifika Hatası 4001
+Cihazın videoyu oynatmak için gerekli olan donanım gücünü bulamadığı veya Codec desteğinin yetersiz olduğu durumlarda yaşanır. Cihazınızda HEVC, AV1 vb. video formatları desteklenmiyorsa veya DRM (L1/L3 sertifikaları) sorunları varsa bu hata oluşur.
+
+**4001 Hatası Çözüm Önerisi:** Ayarlar → Oynatıcı → Yazılımsal kod çözücü ayarı açık ise kapalı, kapalı ise açık yapıp deneyiniz. Eğer bu yöntem işe yaramıyorsa maalesef cihazınız bu video formatını donanımsal olarak desteklemiyor demektir.
+
+### Hata Kodları Özet Tablosu
+
+| Kod | Tanım                             | Önerilen İşlem |
+| :--- |:----------------------------------| :--- |
+| **2001** | Ağ Hatası                         | Bağlantınızı kontrol edin |
+| **2003** | Yanlış Format                     | Farklı bir kaynak/link seçin |
+| **2004** | HTTP 403 (Videoya giriş izni yok) | DNS değiştirin veya sayfayı yenileyin |
+| **3003** | Bozuk Veri                        | Farklı bir video kalitesi seçin |
+| **4001** | Donanım/Sertifika                 | Yazılımsal dekoderi açın/kapatın |
+
+---
 
 ### Yardım İste
 
