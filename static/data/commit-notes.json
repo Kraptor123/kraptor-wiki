@@ -1455,5 +1455,19 @@
       "KraptorPlus",
       "WebDramaTurkey"
     ]
+  },
+  "f9080cb4099ab90d8ec3f5d26bba8fb7431baf47": {
+    "sha": "f9080cb4099ab90d8ec3f5d26bba8fb7431baf47",
+    "message": "KraptorPlus: Yeni kaynak ve temizleme işlemi.",
+    "description": "Selcukflix kaynağı eklendi. Diğer türk kaynakları ise temizlendi ve asıl eklenti ile birleştirildi. Eğer cihazınızda Selcukflix, fullhdfilmizlesene vb. eklentiler kurulu değil ise bu kaynakları KraptorPlus'da kullanamayacaksınız.",
+    "date": "2026-02-05T13:59:36Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
