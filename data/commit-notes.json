@@ -1597,5 +1597,19 @@
     "tags": [
       "NowTv"
     ]
+  },
+  "37855c063ac51aeea0fa4e6c77ab9fdc078cf32a": {
+    "sha": "37855c063ac51aeea0fa4e6c77ab9fdc078cf32a",
+    "message": "Mirrorverse: Güncelleme",
+    "description": "Sezon mantığı ve domain sistemi yenilendi.",
+    "date": "2026-02-06T11:23:56Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "MirrorVerse"
+    ]
   }
 }
