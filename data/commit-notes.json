@@ -1637,5 +1637,19 @@
     "tags": [
       "NowTv"
     ]
+  },
+  "217fb323458d5f94a8de056088c3d1079d80d7fa": {
+    "sha": "217fb323458d5f94a8de056088c3d1079d80d7fa",
+    "message": "Webteizle: Düzeltme",
+    "description": "Kaynak düzeltmesi yapıldı ve ayarlar butonu eklendi. Ayarlar içerisinde deneysel bir özellik bulunmaktadır ve çalışma garantisi yoktur.",
+    "date": "2026-02-07T10:03:34Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WebteIzle"
+    ]
   }
 }
