@@ -1691,5 +1691,22 @@
     "highlight": false,
     "hidden": true,
     "tags": []
+  },
+  "8533195e3e4f407f3152cbf649e69135517edd30": {
+    "sha": "8533195e3e4f407f3152cbf649e69135517edd30",
+    "message": "Eski eklentilerin silinmesi.",
+    "description": ":hidden:",
+    "date": "2026-02-07T11:37:56Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": true,
+    "tags": [
+      "Anizm",
+      "FilmIzle",
+      "FilmKutu",
+      "SuperFilmGeldi"
+    ]
   }
 }
