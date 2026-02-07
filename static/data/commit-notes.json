@@ -1708,5 +1708,19 @@
       "FilmKutu",
       "SuperFilmGeldi"
     ]
+  },
+  "afcc394ac16b0c6ae41edcc4067ea388fc60dd5b": {
+    "sha": "afcc394ac16b0c6ae41edcc4067ea388fc60dd5b",
+    "message": "Webteizle: Güncelleme",
+    "description": "Webview sistemi sorun çıkarttığı için geri alındı, ayarlara yeni kategoriler eklendi.",
+    "date": "2026-02-07T12:26:05Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WebteIzle"
+    ]
   }
 }
