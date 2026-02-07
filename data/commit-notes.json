@@ -1737,5 +1737,20 @@
       "NowTv",
       "Tomato"
     ]
+  },
+  "49f04347db93cf3615f2fd26c11efaa9b7b91c68": {
+    "sha": "49f04347db93cf3615f2fd26c11efaa9b7b91c68",
+    "message": "Revert \"Fyptt: Update\"",
+    "description": "This reverts commit ef9454460851c8b9d03c12e34852ddb469023f52.",
+    "date": "2026-02-07T14:44:59Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "NowTv",
+      "Tomato"
+    ]
   }
 }
