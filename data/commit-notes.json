@@ -1752,5 +1752,19 @@
       "NowTv",
       "Tomato"
     ]
+  },
+  "598165f7f2de95ed24346cc7c71c1f4ff0b45bbf": {
+    "sha": "598165f7f2de95ed24346cc7c71c1f4ff0b45bbf",
+    "message": "SezonlukDizi: Düzeltme ve Güncelleme",
+    "description": "Arama ve video oynatma sorunları düzeltildi. Yeni kaynak Rubystream eklendi ve video içerisine dublaj, altyazı etiketleri eklendi.",
+    "date": "2026-02-08T14:42:43Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SezonlukDizi"
+    ]
   }
 }
