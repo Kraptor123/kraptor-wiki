@@ -1766,5 +1766,24 @@
     "tags": [
       "SezonlukDizi"
     ]
+  },
+  "f99dfd2fe25ab60f30ca154a01a67e249a4c982f": {
+    "sha": "f99dfd2fe25ab60f30ca154a01a67e249a4c982f",
+    "message": "Altyazı sorununa dair güncelleme.",
+    "description": "Bazı altyazıların gözüküp yüklenmeme sorunu için güncelleme yapıldı.",
+    "date": "2026-02-08T15:09:04Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaWatch",
+      "DiziPalOrijinal",
+      "DiziYo",
+      "DiziYou",
+      "RoketDizi",
+      "SelcukFlix"
+    ]
   }
 }
