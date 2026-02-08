@@ -1785,5 +1785,19 @@
       "RoketDizi",
       "SelcukFlix"
     ]
+  },
+  "13bb99947b328ad29fbea86b32f7272e82d4a79e": {
+    "sha": "13bb99947b328ad29fbea86b32f7272e82d4a79e",
+    "message": "KickTR: Güncelleme",
+    "description": "Artık canlı yayınlar film olarak gözükecek ve izlemeye devam et listesinde görünebilecek.",
+    "date": "2026-02-08T15:17:28Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KickTR"
+    ]
   }
 }
