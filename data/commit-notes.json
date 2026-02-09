@@ -1799,5 +1799,17 @@
     "tags": [
       "KickTR"
     ]
+  },
+  "ce554264a4eff2a0d9e5a698fc0f06eb0d8720cd": {
+    "sha": "ce554264a4eff2a0d9e5a698fc0f06eb0d8720cd",
+    "message": "Kontrol botu silindi.",
+    "description": ":hidden:",
+    "date": "2026-02-09T21:17:38Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": true,
+    "tags": []
   }
 }
