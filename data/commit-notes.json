@@ -1811,5 +1811,19 @@
     "highlight": false,
     "hidden": true,
     "tags": []
+  },
+  "244a8428798c337b4c23edec91864abc770736e9": {
+    "sha": "244a8428798c337b4c23edec91864abc770736e9",
+    "message": "Dizipal: Güncelleme",
+    "description": "Deneysel ana sayfa güncellemesi yapıldı. Hız arttırması için yapılan bu güncelleme eğer olumsuz sonuç verirse kaldırılacaktır.",
+    "date": "2026-02-10T10:57:00Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPal"
+    ]
   }
 }
