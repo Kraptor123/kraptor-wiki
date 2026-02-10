@@ -1853,5 +1853,19 @@
     "tags": [
       "AnimeElysium"
     ]
+  },
+  "c16a301bea6e90c87c77a984bae9498d4db84cd8": {
+    "sha": "c16a301bea6e90c87c77a984bae9498d4db84cd8",
+    "message": "Türkanime: Hata düzeltme",
+    "description": "Domain hatası çözüldü.",
+    "date": "2026-02-10T20:10:33Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "TurkAnime"
+    ]
   }
 }
