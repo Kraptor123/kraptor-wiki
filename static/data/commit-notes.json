@@ -1895,5 +1895,19 @@
     "tags": [
       "CizgiveDizi"
     ]
+  },
+  "5bdc978167d36751ef74f361d48d238371dc6b0c": {
+    "sha": "5bdc978167d36751ef74f361d48d238371dc6b0c",
+    "message": "ATV: Güncelleme",
+    "description": "Kategorilerin sıralaması ayarlandı ve video linkleri düzenlendi.",
+    "date": "2026-02-11T15:03:56Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Atv"
+    ]
   }
 }
