@@ -1923,5 +1923,19 @@
     "tags": [
       "JetFilmizle"
     ]
+  },
+  "25fb7f5cc1379876ea46374d3a550f7f6332435f": {
+    "sha": "25fb7f5cc1379876ea46374d3a550f7f6332435f",
+    "message": "RecTV: Devre dışı bırakıldı",
+    "description": "Uygulamanın güncelleme yapması ve eklentinin bozulması sebebiyle devre dışı bırakıldı.",
+    "date": "2026-02-11T22:22:10Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "RecTV"
+    ]
   }
 }
