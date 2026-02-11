@@ -1881,5 +1881,19 @@
     "tags": [
       "AnimeciX"
     ]
+  },
+  "83ae07ac20fba4776551303227db48a60cb4572c": {
+    "sha": "83ae07ac20fba4776551303227db48a60cb4572c",
+    "message": "Çizgivedizi: Güncelleme",
+    "description": "Alınamayan video kısımları alındı, filmlerdeki açıklama sorunu giderildi ve bir kaç ekstra geliştirme yapıldı.",
+    "date": "2026-02-11T14:48:25Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiveDizi"
+    ]
   }
 }
