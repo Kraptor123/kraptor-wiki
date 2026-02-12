@@ -1951,5 +1951,19 @@
     "tags": [
       "DiziPal"
     ]
+  },
+  "1d5f1c7c9f17892c362c9b0e0229bc99930d05d6": {
+    "sha": "1d5f1c7c9f17892c362c9b0e0229bc99930d05d6",
+    "message": "Animecix: Güncelleme",
+    "description": "Video kaynağındaki Animecix ismi silindi ve Kaynak ismi öne alındı.",
+    "date": "2026-02-12T21:59:34Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX"
+    ]
   }
 }
