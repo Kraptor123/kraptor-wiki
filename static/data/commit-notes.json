@@ -1979,5 +1979,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "5e62a81ad5b2cb0fa380ec8fbc2fca5fd32c7361": {
+    "sha": "5e62a81ad5b2cb0fa380ec8fbc2fca5fd32c7361",
+    "message": "RecTV: Tekrar Aktif",
+    "description": "Düzeltme yapılmaya gerek kalmadan eklenti çalışmaya devam ediyor.",
+    "date": "2026-02-13T17:27:55Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "RecTV"
+    ]
   }
 }
