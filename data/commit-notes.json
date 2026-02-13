@@ -2007,5 +2007,19 @@
     "tags": [
       "Youtube"
     ]
+  },
+  "6c22958ba1f9fd72612541edabef1b0a39bc339a": {
+    "sha": "6c22958ba1f9fd72612541edabef1b0a39bc339a",
+    "message": "TurkAnime: Güncelleme",
+    "description": "Yeni kaynak eklendi, bir kaynak eklentiye bağlandı ve Yeni kategoriler eklendi.",
+    "date": "2026-02-13T20:46:44Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "TurkAnime"
+    ]
   }
 }
