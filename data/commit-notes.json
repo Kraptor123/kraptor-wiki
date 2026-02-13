@@ -1965,5 +1965,19 @@
     "tags": [
       "AnimeciX"
     ]
+  },
+  "b05feac4365f24a43ab54c0b128bd4a8e6df2cb8": {
+    "sha": "b05feac4365f24a43ab54c0b128bd4a8e6df2cb8",
+    "message": "Kraptorplus: Güncelleme",
+    "description": "Ayar sistemi değişti ve yeni kategoriler eklendi.",
+    "date": "2026-02-13T15:43:59Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
