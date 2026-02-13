@@ -2035,5 +2035,19 @@
     "tags": [
       "SetFilmIzle"
     ]
+  },
+  "a2c113bdf8e49d40427adcaff237ea3546d50849": {
+    "sha": "a2c113bdf8e49d40427adcaff237ea3546d50849",
+    "message": "FilmEkseni: Düzeltme",
+    "description": "Öneri sisteminde çift gelme ve yanlış isimlendirme sorunu çözüldü. 2 Eksik kategori düzeltildi.",
+    "date": "2026-02-13T23:04:05Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmEkseni"
+    ]
   }
 }
