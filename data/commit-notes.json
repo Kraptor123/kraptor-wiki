@@ -2049,5 +2049,19 @@
     "tags": [
       "FilmEkseni"
     ]
+  },
+  "71ba9d9ae64648de75bfb3e82b35ee6bbd0298b1": {
+    "sha": "71ba9d9ae64648de75bfb3e82b35ee6bbd0298b1",
+    "message": "KraptorPlus: Güncelleme",
+    "description": "Yeni kaynak Filmekseni eklendi ve WebDramaTurkey kaynağı düzeltildi.",
+    "date": "2026-02-13T23:16:43Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
