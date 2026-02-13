@@ -1993,5 +1993,19 @@
     "tags": [
       "RecTV"
     ]
+  },
+  "d8b07486510a734ae97caaf3c79bd87154331668": {
+    "sha": "d8b07486510a734ae97caaf3c79bd87154331668",
+    "message": "Youtube: Tekrar Aktif",
+    "description": "Cloudstreame gelen güncelleme ile birlikte videolar oynatılabiliyor. Videoların oynatılması için Cloudstream beta (kırmızı) son sürümünü kullanmalısınız!",
+    "date": "2026-02-13T19:03:44Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Youtube"
+    ]
   }
 }
