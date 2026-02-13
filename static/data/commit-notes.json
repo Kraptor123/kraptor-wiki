@@ -2021,5 +2021,19 @@
     "tags": [
       "TurkAnime"
     ]
+  },
+  "9e05298a29e56a2028966688c4e9b452987e9b70": {
+    "sha": "9e05298a29e56a2028966688c4e9b452987e9b70",
+    "message": "SetFilmİzle: Düzeltme",
+    "description": "SetPlay oynatıcısı düzeltildi.",
+    "date": "2026-02-13T21:30:01Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SetFilmIzle"
+    ]
   }
 }
