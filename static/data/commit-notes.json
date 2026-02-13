@@ -2063,5 +2063,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "1bc7ded81eeb891ea45e40c3227f072d1f4ad9a0": {
+    "sha": "1bc7ded81eeb891ea45e40c3227f072d1f4ad9a0",
+    "message": "WebDramaTurkey: Güncelleme",
+    "description": "Yeni bir kaynak eklendi. Halen bazı videolar cloudflare koruması ve Abbys kaynağının yapılamaması sebebiyle açılmayabilir.",
+    "date": "2026-02-13T23:25:07Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WebDramaTurkey"
+    ]
   }
 }
