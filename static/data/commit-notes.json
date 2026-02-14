@@ -2133,5 +2133,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "12c3585e06c1cde3b13e8b8608c754026b389753": {
+    "sha": "12c3585e06c1cde3b13e8b8608c754026b389753",
+    "message": "Youtube: Güncelleme",
+    "description": "Ayarların arayüzü güncellendi. Artık tamamen televizyon ile uyumlu bir arayüz var.",
+    "date": "2026-02-14T20:10:48Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Youtube"
+    ]
   }
 }
