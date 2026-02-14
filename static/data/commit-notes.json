@@ -2119,5 +2119,19 @@
     "tags": [
       "FullHDFilmizlesene"
     ]
+  },
+  "4052abe774c49f5ca1836e263de453e4761823df": {
+    "sha": "4052abe774c49f5ca1836e263de453e4761823df",
+    "message": "KraptorPlus: Güncelleme",
+    "description": "Ayarlardaki butonlar için iyileştirme yapıldı sıralama hatası düzeltildi ve renk seçimi getirildi.",
+    "date": "2026-02-14T19:27:50Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
