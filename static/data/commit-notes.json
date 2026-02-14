@@ -2091,5 +2091,19 @@
     "tags": [
       "MirrorVerse"
     ]
+  },
+  "6a9db1913c6b4097ec0300316b98e0d8378431bf": {
+    "sha": "6a9db1913c6b4097ec0300316b98e0d8378431bf",
+    "message": "Animecix: Güncelleme",
+    "description": "Fansub isimlendirmesinde iyileştirme yapıldı.",
+    "date": "2026-02-14T12:18:28Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX"
+    ]
   }
 }
