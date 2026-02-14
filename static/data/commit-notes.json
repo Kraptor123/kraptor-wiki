@@ -2077,5 +2077,19 @@
     "tags": [
       "WebDramaTurkey"
     ]
+  },
+  "4d9edd43a6e6cee774dbf3043e5de446a27dfa45": {
+    "sha": "4d9edd43a6e6cee774dbf3043e5de446a27dfa45",
+    "message": "Mirrorverse: Güncelleme",
+    "description": "Prime-Video video oynatma hataları giderildi.",
+    "date": "2026-02-14T12:00:41Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "MirrorVerse"
+    ]
   }
 }
