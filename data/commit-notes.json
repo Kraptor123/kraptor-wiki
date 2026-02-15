@@ -2175,5 +2175,19 @@
     "tags": [
       "YabanciDizi"
     ]
+  },
+  "9f22ca99510ffafc5cefa0f37b40a58b50f11c24": {
+    "sha": "9f22ca99510ffafc5cefa0f37b40a58b50f11c24",
+    "message": "RecTV: Düzeltme",
+    "description": "Bir kanalın açılamama sorunu düzeltildi.",
+    "date": "2026-02-15T19:50:58Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "RecTV"
+    ]
   }
 }
