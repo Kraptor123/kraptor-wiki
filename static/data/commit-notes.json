@@ -2161,5 +2161,19 @@
     "tags": [
       "Youtube"
     ]
+  },
+  "cced36f4bc1ddd983f338cda3386416b241eb2d9": {
+    "sha": "cced36f4bc1ddd983f338cda3386416b241eb2d9",
+    "message": "Yabancidizi: Güncelleme",
+    "description": "Bir kaynağın oynatılamama sorunu giderildi ve kategorilerin yükleme süresi hızlandırıldı.",
+    "date": "2026-02-15T18:33:08Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "YabanciDizi"
+    ]
   }
 }
