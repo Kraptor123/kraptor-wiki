@@ -2189,5 +2189,20 @@
     "tags": [
       "RecTV"
     ]
+  },
+  "3df2759d23c2363bc40fb32a08b5562007fd52c2": {
+    "sha": "3df2759d23c2363bc40fb32a08b5562007fd52c2",
+    "message": "Youtube ve KraptorPlus: Güncelleme",
+    "description": "Televizyon için navigasyon kolaylaştırıldı, Youtube için kategori ekleme ayarı geri eklendi.",
+    "date": "2026-02-16T13:39:24Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus",
+      "Youtube"
+    ]
   }
 }
