@@ -2218,5 +2218,19 @@
     "tags": [
       "WebDramaTurkey"
     ]
+  },
+  "5cb083fbb855e75a461ee24f404b146bdbe748b1": {
+    "sha": "5cb083fbb855e75a461ee24f404b146bdbe748b1",
+    "message": "Update build.gradle.kts",
+    "description": ":hidden:",
+    "date": "2026-02-16T19:16:51Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": true,
+    "tags": [
+      "UgurFilm"
+    ]
   }
 }
