@@ -2204,5 +2204,19 @@
       "KraptorPlus",
       "Youtube"
     ]
+  },
+  "308d42bf1df8a0b87b9b0fa642d0eabd10aaba05": {
+    "sha": "308d42bf1df8a0b87b9b0fa642d0eabd10aaba05",
+    "message": "WebdramaTurkey: Güncelleme",
+    "description": "Yeni bir kaynak eklendi ve bazı kaynakların oynatılamama sorunları giderildi.",
+    "date": "2026-02-16T18:39:19Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WebDramaTurkey"
+    ]
   }
 }
