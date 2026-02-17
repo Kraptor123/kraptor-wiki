@@ -2232,5 +2232,19 @@
     "tags": [
       "UgurFilm"
     ]
+  },
+  "3925d6c1b9c458ace3cd087da2e3f47beb9ae7c3": {
+    "sha": "3925d6c1b9c458ace3cd087da2e3f47beb9ae7c3",
+    "message": "KraptorPlus: Güncelleme",
+    "description": "TürkçeAltyazıORG altyazı kaynağı olarak eklendi. Sunucu limitlerini tüketmemek için filmlerde sadece ilk 5 altyazı yüklenecek.",
+    "date": "2026-02-17T11:41:28Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
