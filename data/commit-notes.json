@@ -2274,5 +2274,19 @@
     "tags": [
       "Youtube"
     ]
+  },
+  "3cf757fc3226fd94e2985b08dfb8f9afaa8737fc": {
+    "sha": "3cf757fc3226fd94e2985b08dfb8f9afaa8737fc",
+    "message": "KraptorPlus: Güncelleme",
+    "description": "TürkçeAltyaziORG altyazı kaynağındaki 5 altyazı limiti kota sebebiyle 3'e düşürüldü. Mevcut yabancı kaynaklar güncellendi, yeni kaynaklar eklendi, Dizilife ve HDFilmDelisi kaynakları eklendi.",
+    "date": "2026-02-18T05:23:39Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
