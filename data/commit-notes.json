@@ -2246,5 +2246,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "e32cb79baac18d9bf4988d7c34e80cf809efd753": {
+    "sha": "e32cb79baac18d9bf4988d7c34e80cf809efd753",
+    "message": "Dizilife: Güncelleme",
+    "description": "Yeni kategoriler eklendi ve KraptorPlus'a kaynak olarak eklenmesi için hazırlık yapıldı.",
+    "date": "2026-02-18T02:49:57Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife"
+    ]
   }
 }
