@@ -2288,5 +2288,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "f893cc84680c8ed9bc86ca5fb1007cc18d724d34": {
+    "sha": "f893cc84680c8ed9bc86ca5fb1007cc18d724d34",
+    "message": "Setfilmizle: Güncelleme",
+    "description": "ExPlay kaynağı düzeltildi.",
+    "date": "2026-02-18T11:35:20Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SetFilmIzle"
+    ]
   }
 }
