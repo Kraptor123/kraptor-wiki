@@ -2302,5 +2302,24 @@
     "tags": [
       "SetFilmIzle"
     ]
+  },
+  "5eb64c27dfb4ab8b8394d1e9a27996e2a7e739c5": {
+    "sha": "5eb64c27dfb4ab8b8394d1e9a27996e2a7e739c5",
+    "message": "Devre dışı kalan eklentiler",
+    "description": "Bu eklentiler ile ilgili artık hiç bir destek verilmeyecek, mevcut cihazınızda yüklüler ise bozulana kadar kullanabileceksiniz.",
+    "date": "2026-02-18T17:49:24Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeIzlesene",
+      "AsyaKing",
+      "BirAsyaDizi",
+      "Dizican",
+      "HintDizi",
+      "TRAnimaci"
+    ]
   }
 }
