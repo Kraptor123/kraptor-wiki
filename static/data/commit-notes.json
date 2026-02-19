@@ -2335,5 +2335,21 @@
     "tags": [
       "WebteIzle"
     ]
+  },
+  "3a6e3b586e36c09c66ab7a3d1f4db54933720a25": {
+    "sha": "3a6e3b586e36c09c66ab7a3d1f4db54933720a25",
+    "message": "Devre dışı bırakılan eklentiler",
+    "description": "Bu eklentiler dizillanın tamamen kopya sitesi olması sebebiyle devre dışı bırakılmıştır. İçerikleri %100 oranında dizillada bulunuyor.",
+    "date": "2026-02-19T14:53:39Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Dizist",
+      "RoketDizi",
+      "Sinefy"
+    ]
   }
 }
