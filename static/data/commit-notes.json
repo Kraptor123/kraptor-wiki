@@ -2379,5 +2379,19 @@
     "tags": [
       "WebteIzle"
     ]
+  },
+  "b2979326d5c21aa18a9d2ec97595482f73f86116": {
+    "sha": "b2979326d5c21aa18a9d2ec97595482f73f86116",
+    "message": "Webteizle: Güncelleme",
+    "description": "Site yeni videolarda cloudflare engeli kullanarak videoları saklıyor olsada, eskiden paylaştığı içerikler için 2 kaynak eklendi.",
+    "date": "2026-02-20T13:59:32Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WebteIzle"
+    ]
   }
 }
