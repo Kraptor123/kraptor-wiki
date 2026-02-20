@@ -2407,5 +2407,19 @@
     "tags": [
       "SeiCode"
     ]
+  },
+  "93c823b0fbf297af8814f976c6f3df813c13d48e": {
+    "sha": "93c823b0fbf297af8814f976c6f3df813c13d48e",
+    "message": "OpenAnime: Geliştirme ve hata giderme",
+    "description": "Video içerisinde alınamayan 4K kaynağı alındı. Mevcut yayınlanmayan bölümlerin gözükme sorunu giderildi. Recommendation (Öneri) sistemi eklendi.",
+    "date": "2026-02-20T16:21:15Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "OpenAnime"
+    ]
   }
 }
