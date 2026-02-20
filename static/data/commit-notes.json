@@ -2421,5 +2421,20 @@
     "tags": [
       "OpenAnime"
     ]
+  },
+  "964399a2a0e2ec3ea91a869740de86ef29c08b65": {
+    "sha": "964399a2a0e2ec3ea91a869740de86ef29c08b65",
+    "message": "Koreanturk ve Webdramaturkey: Geliştirme",
+    "description": "VK video kaynağının extractor'u güncellendi. Koreanturk eklentisinde bot koruması aşıldı.",
+    "date": "2026-02-20T17:26:08Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KoreanTurk",
+      "WebDramaTurkey"
+    ]
   }
 }
