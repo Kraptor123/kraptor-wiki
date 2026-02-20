@@ -2393,5 +2393,19 @@
     "tags": [
       "WebteIzle"
     ]
+  },
+  "bf207a7b021b45034b27acb9df47399c0ad95b4a": {
+    "sha": "bf207a7b021b45034b27acb9df47399c0ad95b4a",
+    "message": "Seicode: Güncelleme",
+    "description": "Önceden sadece ilk kaynağı alıyordu şimdi ise tüm video kaynakları alınabilir durumda.",
+    "date": "2026-02-20T14:41:43Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SeiCode"
+    ]
   }
 }
