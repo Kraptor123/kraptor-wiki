@@ -2436,5 +2436,19 @@
       "KoreanTurk",
       "WebDramaTurkey"
     ]
+  },
+  "4e9b5c0737794e458ead9a8076ec8256603eb334": {
+    "sha": "4e9b5c0737794e458ead9a8076ec8256603eb334",
+    "message": "TRDiziİzle Devre dışı",
+    "description": "İçeriklerinin büyük bir çoğunluğunun telifli olması hatta yayınlandığı gün bile telif yemesi sebebiyle devre dışı bırakılmıştır.",
+    "date": "2026-02-20T17:54:04Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "TrDiziIzle"
+    ]
   }
 }
