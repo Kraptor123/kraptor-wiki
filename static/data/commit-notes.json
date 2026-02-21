@@ -2450,5 +2450,19 @@
     "tags": [
       "TrDiziIzle"
     ]
+  },
+  "16ffac99055b4f184c1e6657d98a14b2eadf98ae": {
+    "sha": "16ffac99055b4f184c1e6657d98a14b2eadf98ae",
+    "message": "Filmzal: Güncelleme",
+    "description": "Pixeldrain kaynağına destek eklendi.",
+    "date": "2026-02-21T12:52:47Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Filmzal"
+    ]
   }
 }
