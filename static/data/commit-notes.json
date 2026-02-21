@@ -2506,5 +2506,19 @@
     "tags": [
       "OnePaceTr"
     ]
+  },
+  "a22542ea584fe35038e86b4f081d45bb9b0dd4dd": {
+    "sha": "a22542ea584fe35038e86b4f081d45bb9b0dd4dd",
+    "message": "Animecix: Geliştirme",
+    "description": "Doodstream kaynağı eklendi.",
+    "date": "2026-02-21T21:31:17Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX"
+    ]
   }
 }
