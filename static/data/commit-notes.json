@@ -2492,5 +2492,19 @@
     "tags": [
       "Filmzal"
     ]
+  },
+  "17f34490812134d9463925d2032cc4508205cfc7": {
+    "sha": "17f34490812134d9463925d2032cc4508205cfc7",
+    "message": "OnePaceTR: Güncelleme",
+    "description": "Arama fonksiyonu eklendi.",
+    "date": "2026-02-21T21:20:29Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "OnePaceTr"
+    ]
   }
 }
