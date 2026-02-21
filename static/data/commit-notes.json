@@ -2520,5 +2520,19 @@
     "tags": [
       "AnimeciX"
     ]
+  },
+  "1b730c5dc1cf54009619daee3d625c72ed9fb527": {
+    "sha": "1b730c5dc1cf54009619daee3d625c72ed9fb527",
+    "message": "BelgeselX: Yeniden düzenlendi",
+    "description": "Site tasarımı değiştiği için baştan aşağı tekrardan yapıldı. Arama özelliği ve bir video kaynağı şuanlık çalışmamakta, gelecekteki güncellemelerde bunlarda düzeltilecek.",
+    "date": "2026-02-21T21:38:23Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "BelgeselX"
+    ]
   }
 }
