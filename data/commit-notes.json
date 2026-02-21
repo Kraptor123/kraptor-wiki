@@ -2464,5 +2464,19 @@
     "tags": [
       "Filmzal"
     ]
+  },
+  "521a92a374da5e6075c4bc828de8eaa30e57b78d": {
+    "sha": "521a92a374da5e6075c4bc828de8eaa30e57b78d",
+    "message": "Youtube: Düzeltme",
+    "description": "Giriş yapma sekmesindeki klavye açılamama sorunları giderildi.",
+    "date": "2026-02-21T13:01:24Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Youtube"
+    ]
   }
 }
