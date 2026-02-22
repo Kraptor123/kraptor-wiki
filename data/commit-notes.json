@@ -2626,5 +2626,19 @@
     "tags": [
       "DiziPalOrijinal"
     ]
+  },
+  "b2d3a1c77acd663c232b79c157cc0003aed2d3b2": {
+    "sha": "b2d3a1c77acd663c232b79c157cc0003aed2d3b2",
+    "message": "Update DiziYoPlugin.kt",
+    "description": ":hidden:",
+    "date": "2026-02-22T14:09:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": true,
+    "tags": [
+      "DiziYo"
+    ]
   }
 }
