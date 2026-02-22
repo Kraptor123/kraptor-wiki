@@ -2704,5 +2704,24 @@
       "TRAnimaci",
       "TrDiziIzle"
     ]
+  },
+  "79622648629a1cea0995319dc8fad8806329af76": {
+    "sha": "79622648629a1cea0995319dc8fad8806329af76",
+    "message": "Video sorununa dair toplu iyileştirme",
+    "description": "Bazı eklentilerde yaşanan videonun oynatılamama sorununu deneysel bir şekilde çözmeyi deniyoruz.",
+    "date": "2026-02-22T19:13:17Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "CizgiveDizi",
+      "JetFilmizle",
+      "KraptorPlus",
+      "SezonlukDizi",
+      "WebteIzle"
+    ]
   }
 }
