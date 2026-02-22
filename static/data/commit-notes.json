@@ -2590,5 +2590,27 @@
     "tags": [
       "DiziYou"
     ]
+  },
+  "6d91e76fc58c119bc46cf7a86726c15f6ed80427": {
+    "sha": "6d91e76fc58c119bc46cf7a86726c15f6ed80427",
+    "message": "Dizikorea kaynak düzeltmesi",
+    "description": "Dizikorea'da Koreanplayer ve vidmoly kaynakları düzeltildi. Vidmoly için diğer eklentilere güncelleme yapıldı.",
+    "date": "2026-02-22T13:43:56Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziKorea",
+      "DiziPalOrijinal",
+      "DiziYo",
+      "Dizilla",
+      "FullHDFilmizlesene",
+      "HintDizi",
+      "RoketDizi",
+      "SelcukFlix",
+      "WebteIzle"
+    ]
   }
 }
