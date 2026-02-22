@@ -2668,5 +2668,19 @@
     "tags": [
       "FilmHane"
     ]
+  },
+  "b42dfe96be9488355a3447431d4a59e2a064d2e0": {
+    "sha": "b42dfe96be9488355a3447431d4a59e2a064d2e0",
+    "message": "Seicode: Düzeltme",
+    "description": "Bir video kaynağının açılamama sorunu giderildi.",
+    "date": "2026-02-22T14:51:03Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SeiCode"
+    ]
   }
 }
