@@ -2654,5 +2654,19 @@
     "tags": [
       "Animeler"
     ]
+  },
+  "650faa7c3bed0cd0f619b664011970fe973c6538": {
+    "sha": "650faa7c3bed0cd0f619b664011970fe973c6538",
+    "message": "Filmhane: Düzeltme",
+    "description": "2 Hatalı kategori silindi.",
+    "date": "2026-02-22T14:45:38Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmHane"
+    ]
   }
 }
