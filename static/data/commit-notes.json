@@ -2640,5 +2640,19 @@
     "tags": [
       "DiziYo"
     ]
+  },
+  "8eff5241f4c044fb475bd733841d2473b6acef6f": {
+    "sha": "8eff5241f4c044fb475bd733841d2473b6acef6f",
+    "message": "Animeler: Yeniden yapım",
+    "description": "Site tasarımı değiştiği için baştan aşağı tekrardan yapıldı.",
+    "date": "2026-02-22T14:17:09Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Animeler"
+    ]
   }
 }
