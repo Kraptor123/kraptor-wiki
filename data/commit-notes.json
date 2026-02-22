@@ -2576,5 +2576,19 @@
     "tags": [
       "OpenAnime"
     ]
+  },
+  "97f1f558ea9b887466096c950768b4d976c18ead": {
+    "sha": "97f1f558ea9b887466096c950768b4d976c18ead",
+    "message": "DiziYou: Düzeltme",
+    "description": "Ana menüdeki bozuk kategori düzeltildi ve yeni kategoriler eklendi",
+    "date": "2026-02-22T13:30:29Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziYou"
+    ]
   }
 }
