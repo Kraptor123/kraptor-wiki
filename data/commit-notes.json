@@ -2562,5 +2562,19 @@
     "tags": [
       "JetFilmizle"
     ]
+  },
+  "9a326153544db893d7a1c09876a08890e8994d5a": {
+    "sha": "9a326153544db893d7a1c09876a08890e8994d5a",
+    "message": "OpenAnime: Düzeltme",
+    "description": "Bir önceki güncellemeden dolayı yaşanan video oynatılamama sorunu giderildi.",
+    "date": "2026-02-22T13:13:19Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "OpenAnime"
+    ]
   }
 }
