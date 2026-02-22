@@ -2723,5 +2723,22 @@
       "SezonlukDizi",
       "WebteIzle"
     ]
+  },
+  "b1db7f5f07890e4082e6c4b17b791375242b2952": {
+    "sha": "b1db7f5f07890e4082e6c4b17b791375242b2952",
+    "message": "Extractor güncellemeleri",
+    "description": "Animeler.me için tonlarca yeni extractor, ugurfilm için mailru düzeltmesi, webdrama ve sezonlukdizi için ise abstream kaynağı eklendi.",
+    "date": "2026-02-22T23:30:21Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Animeler",
+      "SezonlukDizi",
+      "UgurFilm",
+      "WebDramaTurkey"
+    ]
   }
 }
