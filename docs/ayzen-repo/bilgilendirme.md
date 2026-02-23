@@ -15,3 +15,5 @@ Bunlar sırasıyla şöyledir:
 
 * [M3uPlayer](m3uplayer-bilgilendirme.md)
 * [FilmBol](eklenti-bilgi.md)
+* [Torrential](torrential.md)
+* [Koredizi](koredizi.md)
