@@ -1,0 +1,1 @@
+(globalThis.webpackChunkkraptor_wiki=globalThis.webpackChunkkraptor_wiki||[]).push([[5741],{5741(){}}]);

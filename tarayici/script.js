@@ -1,6 +1,5 @@
 class CloudStreamBrowser {
     constructor() {
-        // --- Yapılandırma ---
         this.repos = [
             { code: 'kraptorcs', name: 'CS-Kraptor', url: 'https://raw.githubusercontent.com/Kraptor123/cs-kraptor/refs/heads/builds/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/Kraptor123/cs-kraptor/refs/heads/master/repo.json' },
             { code: 'cskarma', name: 'CS-Karma', url: 'https://raw.githubusercontent.com/Kraptor123/Cs-Karma/refs/heads/builds/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/Kraptor123/cs-Karma/refs/heads/master/repo.json' },
@@ -13,22 +12,19 @@ class CloudStreamBrowser {
 
         this.typeMap = { movie:'Film', tvseries:'Dizi', anime:'Anime', animemovie:'Anime Filmi', asiandrama:'Asya Dizisi', cartoon:'Çizgi Film', documentary:'Belgesel', ova:'OVA', live:'Canlı', nsfw:'Yetişkin' };
 
-        // --- Durum Değişkenleri ---
         this.allPlugins = [];
         this.filteredPlugins = [];
 
-        // Envanter Yapısı: { meta: { initTimestamp: 123... }, items: { 'pluginId': { v:'1.0', fs:123, lu:123 } } }
         this.inventoryData = { meta: null, items: {} };
 
         this.adultConfirmed = localStorage.getItem('adultConfirmed') === 'true';
         this.darkTheme = localStorage.getItem('darkTheme') !== 'false';
 
-        // --- Sabitler ---
         this.colors = ['#6366f1', '#10b981', '#f43f5e', '#f59e0b', '#8b5cf6', '#06b6d4', '#ec4899', '#3b82f6'];
 
-        this.DAYS_NEW = 10;      // Yeni etiketi süresi
-        this.DAYS_UPDATED = 3;   // Güncellendi etiketi süresi
-        this.LS_INVENTORY_KEY = 'cs_plugin_inventory_v2'; // Key'i değiştirdim ki eski hatalı veri karışmasın
+        this.DAYS_NEW = 10;
+        this.DAYS_UPDATED = 3;
+        this.LS_INVENTORY_KEY = 'cs_plugin_inventory_v2';
 
         this.moonSVG = `<svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>`;
         this.sunSVG = `<svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>`;
@@ -43,7 +39,6 @@ class CloudStreamBrowser {
         await this.loadAllPlugins();
     }
 
-    // --- Tema ve Olaylar ---
     setupTheme() {
         const icon = document.querySelector('.theme-icon');
         if (!this.darkTheme) {
@@ -79,7 +74,6 @@ class CloudStreamBrowser {
         document.getElementById('adultNo')?.addEventListener('click', () => ov.style.display = 'none');
     }
 
-    // --- Yardımcı Fonksiyonlar ---
     canonicalAuthor(raw) {
         if (!raw) return 'bilinmiyor';
         return String(raw).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-zA-Z0-9]/g, '').toLowerCase().replace(/\d+$/, '');
@@ -102,7 +96,6 @@ class CloudStreamBrowser {
         return Math.abs(h);
     }
 
-    // --- Veri Yükleme ---
     async loadAllPlugins() {
         this.showLoading(true);
 
@@ -122,7 +115,6 @@ class CloudStreamBrowser {
         const rawPlugins = results.flat();
         const map = new Map();
 
-        // Eklentileri Birleştir
         rawPlugins.forEach(p => {
             const id = (p.internalName || p.name || '').trim();
             const key = id.toLowerCase();
@@ -170,57 +162,44 @@ class CloudStreamBrowser {
             authorsCanon: Array.from(p.allAuthorsCanon)
         }));
 
-        // 1. Durumları İşle
         this.processPluginStatuses();
 
-        // 2. İstatistikleri ve Filtreleri Hazırla
         this.updateStats();
         this.populateFilterOptions();
 
-        // 3. Ekrana Bas
         this.filterPlugins();
         this.showLoading(false);
     }
 
-    // --- YENİ / GÜNCELLENDİ MANTIĞI (Düzeltilmiş) ---
     processPluginStatuses() {
         const rawLS = localStorage.getItem(this.LS_INVENTORY_KEY);
         const now = Date.now();
         let changed = false;
 
-        // 1. LS'den Veriyi Yükle veya İlk Kez Oluştur
         if (rawLS) {
             try {
                 this.inventoryData = JSON.parse(rawLS);
-                // Eski format koruması (eğer yapı bozuksa sıfırla)
                 if (!this.inventoryData.meta || !this.inventoryData.items) throw new Error();
             } catch (e) {
                 this.inventoryData = { meta: { initTimestamp: now }, items: {} };
                 changed = true;
             }
         } else {
-            // İLK ZİYARET: "initTimestamp" şu anki zaman olur.
             this.inventoryData = { meta: { initTimestamp: now }, items: {} };
             changed = true;
         }
 
-        // 2. Mevcut Eklentileri Envanterle Karşılaştır
         this.allPlugins.forEach(p => {
             const currentVer = this.getMainVersion(p);
             const record = this.inventoryData.items[p.id];
 
             if (!record) {
-                // HİÇ BİLİNMEYEN EKLENTİ (Veritabanına ekle)
-                // fs (first seen) = now
-                // lu (last updated) = now
                 this.inventoryData.items[p.id] = { v: currentVer, fs: now, lu: now };
                 changed = true;
             } else {
-                // ZATEN BİLİNEN EKLENTİ
                 if (record.v !== currentVer) {
-                    // Versiyon değişmiş -> Güncelle
                     record.v = currentVer;
-                    record.lu = now; // Son güncellenme tarihini şimdi yap
+                    record.lu = now;
                     changed = true;
                 }
             }
@@ -246,22 +225,12 @@ class CloudStreamBrowser {
         const newDuration = this.DAYS_NEW * 24 * 60 * 60 * 1000;
         const updateDuration = this.DAYS_UPDATED * 24 * 60 * 60 * 1000;
 
-        // 1. YENİ Mİ?
-        // Kural: Eklentinin ilk görülme tarihi (fs), sistemin kuruluş tarihinden (initTime) BÜYÜK olmalı.
-        // Eşitse (veya çok yakınsa), bu eklenti "kurucu parti"dendir, yeni değildir.
-        // Ayrıca 10 gün geçmemiş olmalı.
-
-        // Güvenlik marjı (1 saniye): Kod çalışırken milisaniye farkları olabilir.
         const isPartOfInitialBatch = (record.fs - initTime) < 1000;
 
         if (!isPartOfInitialBatch && (now - record.fs) < newDuration) {
             return 'new';
         }
 
-        // 2. GÜNCELLENDİ Mİ?
-        // Kural: Son güncelleme tarihi (lu), ilk görülme tarihinden (fs) büyük olmalı.
-        // (Yani eklendiği anda güncellenmiş sayılmaz).
-        // Ve güncelleme üzerinden 3 gün geçmemiş olmalı.
         if (record.lu > record.fs && (now - record.lu) < updateDuration) {
             return 'updated';
         }
@@ -269,7 +238,6 @@ class CloudStreamBrowser {
         return null;
     }
 
-    // --- Filtre Doldurma ---
     populateFilterOptions() {
         const fill = (id, items) => {
             const el = document.getElementById(id);
@@ -279,7 +247,6 @@ class CloudStreamBrowser {
             }).join('');
         };
 
-        // Repo Sıralaması
         const repoCounts = {};
         this.allPlugins.forEach(p => {
             p.repos.forEach(r => {
@@ -291,7 +258,6 @@ class CloudStreamBrowser {
             .map(([name, count]) => ({ val: name, txt: `${name} (${count})` }));
         fill('repoFilter', sortedRepos);
 
-        // Geliştirici Sıralaması
         const devStats = new Map();
         this.allPlugins.forEach(p => {
             p.authors.forEach((originalName, i) => {
@@ -306,7 +272,6 @@ class CloudStreamBrowser {
             .map(([canon, data]) => ({ val: canon, txt: `${data.name} (${data.count})` }));
         fill('developerFilter', sortedDevs);
 
-        // Diğerleri
         const langs = new Set();
         this.allPlugins.forEach(p => { if (p.language) langs.add(p.language); });
 
@@ -317,7 +282,6 @@ class CloudStreamBrowser {
         fill('languageFilter', Array.from(langs).sort().map(l => ({ val: l, txt: langMap[l] || l.toUpperCase() })));
     }
 
-    // --- Filtreleme ---
     filterPlugins() {
         const filters = {
             repo: document.getElementById('repoFilter').value,
@@ -345,7 +309,6 @@ class CloudStreamBrowser {
         this.render();
     }
 
-    // --- Render ---
     render() {
         const grid = document.getElementById('pluginsGrid');
         const noRes = document.getElementById('noResults');
@@ -365,7 +328,6 @@ class CloudStreamBrowser {
         const status = this.getPluginStatus(p);
         const initialRedirect = data.redirectUrl || '#';
 
-        // Badge HTML
         let statusBadge = '';
         if (status === 'new') {
             statusBadge = '<span class="badge-new">YENİ</span>';
@@ -432,7 +394,7 @@ class CloudStreamBrowser {
             </div>
 
             <div class="plugin-description">${this.escapeHtml(data.description || 'Açıklama bulunmuyor.')}</div>
-            
+
             <div class="card-footer">
                 <div class="plugin-types">${typesHTML}</div>
                 ${repoSectionHTML}
