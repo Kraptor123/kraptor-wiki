@@ -2740,5 +2740,19 @@
       "UgurFilm",
       "WebDramaTurkey"
     ]
+  },
+  "b75395b5aece94cf396285c73232a5565e72256e": {
+    "sha": "b75395b5aece94cf396285c73232a5565e72256e",
+    "message": "BelgeselX: Güncelleme",
+    "description": "Bir kaynak düzeltildi ancak arama sonuçları site tarafında halen zorlu olması sebebiyle yapılamadı. Site arama sistemini değiştirene kadar arama yapılamayacak.",
+    "date": "2026-02-23T00:50:21Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "BelgeselX"
+    ]
   }
 }
