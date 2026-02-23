@@ -4,43 +4,45 @@ tags:
   - CloudStream Yardım
 authors: [kraptor, byayzen]
 ---
+
 # Eklentiler Nedir?
 
-Eklentiler, **CloudStream’i işlevsel hâle getiren** ve orijinal geliştiricilerden bağımsız olarak herhangi bir kişinin oluşturabileceği, site verilerini kazıma yöntemiyle alan kod parçacıklarıdır.
+Eklentiler, CloudStream uygulamasını işlevsel hale getiren temel bileşenlerdir. Uygulamanın kendisi bir medya oynatıcı altyapısı sunarken, eklentiler bu altyapıyı web sitelerinden veri kazıma (scraping) yöntemiyle besleyen bağımsız kod parçacıklarıdır.
 
-Her site için geliştiriciler özel kodlar yazar ve CloudStream, bu kodlar sayesinde neler yapacağını bilir. Örneğin:
+Geliştiriciler tarafından her site için özel olarak yazılan bu kodlar, CloudStream'e şu talimatları verir:
+* **Poster:** İçeriğe ait görselin hangi URL üzerinden çekileceği.
+* **Başlık:** İçerik isminin hangi veri alanından alınacağı.
+* **Puan:** İçeriğe ait puanlama bilgisinin nereden okunacağı.
 
-- Filmin posterini buradan al.
-- Filmin başlığını burada göster.
-- Filmin puan'ı bu.
-
-Bu yönlendirmeler sayesinde site, CloudStream ile uyumlu hâle gelir.
-
-> **Önemli:** Herkes eklenti oluşturabilir. Bu nedenle yalnızca güvenilir geliştiricilerin eklentilerini kullanmaya özen gösterin. CloudStream tek başına zararsızdır; ancak eklentiler kötü niyetli kişiler tarafından hazırlanabilir. Önce güvenilirliğini doğrulamak her zaman en güvenli yoldur.
-
+:::danger GÜVENLİK UYARISI
+Eklenti sistemi herkese açık bir mimaridir. Bu durum, kötü niyetli kişilerin eklentiler aracılığıyla risk oluşturmasına zemin hazırlayabilir. Güvenliğiniz için yalnızca doğrulanmış geliştiricilerin repolarını kullanmanız tavsiye edilir.
+:::
 
 ---
 
-## Kraptor Reposunda Özel Eklentiler Nedir?
+## Kraptor Reposu Özel Eklentileri
 
-Özel eklentiler diğer eklentilerden farklı geliştirilmiş daha kompleks eklentilerdir.
+Bazı eklentiler, standart veri kazıma işlemlerinden daha karmaşık ve gelişmiş özellikler barındırır:
 
+### Streamed
+Cs-Karma reposu içerisinde yer alan bu eklenti, spor yayınlarını takip etmek için özel olarak optimize edilmiştir.
 
-## Streamed
-
-**Streamed** eklentisi `cskarma` reposunda bulunur ve Spor yayınları içerir.
-
-## Kraptor+
-
-`Kraptor+` eklentisi repomuza özel olarak geliştirdiğimiz, bir çok site üzerinden (multi api) kaynakları içeriklerde birleştiren ve altyazı ekleyen sürekli geliştirilebilir bir eklentidir.
+### Kraptor+
+Repomuzun en gelişmiş eklentisidir. Çoklu kaynak (Multi-API) yapısı sayesinde farklı platformlardaki kaynakları tek bir içerik altında birleştirir ve entegre altyazı desteği sunar. İçerisinde bazı türk kaynaklarını içermesine rağmen her türk kaynağı eklenebilir değildir.
 
 ---
 
-## Eklentilerin Kodlarını Neden Kapattık?
+## Eklenti Kodlarının Durumu Hakkında
 
-Eklentilerimiz bazı github kullanıcıları tarafından (`kekikdevam`, `UmayTv`, `PyrusDrago`, vb.) sürekli olarak izin istenmeden paylaşılması üzerine geliştirdiğimiz eklentilerin kodlarının kapatılmasına karar verdik. Her ne kadar açık kaynak proje ile insanlara fayda sağlamak öğrenimi kolaylaştırmak için kodlarımızı açık tutmaya çalışsakta adımızın dahi bilinmemesi bizi ne yazık ki bu kararı vermeye itti.
+Başlangıçta açık kaynak felsefesiyle paylaştığımız eklenti kodlarımız, belirli platform kullanıcıları (kekikdevam, UmayTv, PyrusDrago vb.) tarafından izinsiz ve isim belirtilmeden dağıtıldığı için erişime kapatılmıştır. Emeğe saygı ve geliştirici haklarını korumak adına bu karar zorunlu hale gelmiştir.
 
-Eklenti geliştirmek isteyenler için kaynak kodları açık iki repomuz daha mevcut:
+Geliştirme süreçlerini merak eden veya öğrenmek isteyen kullanıcılar için eğitim amaçlı iki açık repomuz hala aktiftir:
 
-* [Cs-Karma](https://github.com/Kraptor123/Cs-Karma/)
-* [Cs-GizliKeyif](https://github.com/Kraptor123/Cs-GizliKeyif)
+* **[Cs-Karma](https://github.com/Kraptor123/Cs-Karma/)**
+* **[Cs-GizliKeyif](https://github.com/Kraptor123/Cs-GizliKeyif)**
+
+---
+
+:::info BİLGİ
+Açık kaynaklı repolarımızı inceleyerek eklenti geliştirme mantığı hakkında teknik bilgi edinebilirsiniz.
+:::

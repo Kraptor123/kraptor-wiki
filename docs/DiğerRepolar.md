@@ -2,40 +2,43 @@
 sidebar_position: 6
 authors: [kraptor]
 ---
+
 # Diğer Repolar
 
-Cs-Kraptor harici iki farklı repoya daha sahibiz.
+Cs-Kraptor harici, farklı ihtiyaçlara ve topluluk isteklerine yönelik geliştirilen diğer resmi repolarımız aşağıdadır.
 
-## Cs-Karma
+---
 
-Cs-Karma reposu Cs-Kraptor için uygun görmediğimiz ayrıca yabancı istekler için eklentiler de geliştirdiğimiz karma bir repodur.
+## 🧩 Cs-Karma
+Cs-Kraptor ana repomuza uygun görmediğimiz deneysel eklentiler ve yabancı dildeki içerik talepleri için oluşturulmuş karma bir havuzdur.
 
-- Kısa Kodu: `cskarma`
+* **Kısa Kod:** `cskarma`
+* **Kapsam:** Deneysel ve Karma eklentiler.
 
-- logosu:    
+<img src="../img/cskarma.png" alt="Cs-Karma Logosu" width="100" />
 
+---
 
-<img src="../img/cskarma.png" alt="Cs-Karma Logosu" width="85" />
+## 🔞 Gizli-Keyif
+Yetişkinlere özel (+18) içerik sağlayan eklentilerin barındığı özel repomuzdur.
 
+* **Kısa Kod:** `gizlikeyif`
+* **Önemli Not:** Eğer eklentiler listede boş görünüyorsa, uygulamadaki NSFW kısıtlamalarını kaldırmanız gerekir. Detaylar için [Dil ve NSFW Ayarları](./cloudstream-yardim/dil_nsfw.md) sayfasına göz atın.
 
-## Gizli-Keyif
+<img src="../img/gizlikeyifogo.png" alt="Gizli Keyif Logosu" width="100" />
 
-+18 eklentileri barındıran yetişkinlere özel repomuzdur.
+---
 
-- Kısa Kodu: `gizlikeyif`
-- Eğer eklentiler gözükmüyorsa:
-  [Dil ve Nsfw](./cloudstream-yardim/dil_nsfw.md)'yi uygulamanız gerekiyor.
-- logosu:
+## 🛠️ Ayzen Repo
+[ByAyzen](https://github.com/ByAyzen) tarafından geliştirilen, topluluktan bağımsız ve keyfi eklentileri içeren kişisel/özel bir repodur.
 
-<img src="../img/gizlikeyifogo.png" alt="Gizli Keyif Logosu" width="85" />
+* **Kısa Kod:** `AyzenCS3`
+* **Rehber:** [Repo Hakkında Bilgilendirme](./ayzen-repo/bilgilendirme.md)
 
-## Ayzen Repo
-Ayzen repo [ByAyzen](https://github.com/ByAyzen) tarafından keyfi olarak geliştirilmiş
-  eklentileri içeren ayrı bir repomuzdur.
+<img src="../img/ayzenrepo.png" alt="Ayzen Repo Logosu" width="100" />
 
-- Kısa Kodu: `AyzenCS3`
+---
 
-- [Repo Hakkında İçerikler](./ayzen-repo/bilgilendirme.md)
-
-- Logosu
-<img src="../img/ayzenrepo.png" alt="Gizli Keyif Logosu" width="85" />
+:::tip Bilgi
+Yukarıdaki kısa kodları CloudStream uygulamasındaki "Eklenti Depoları" kısmına yazarak hızlıca kurulum yapabilirsiniz.
+:::

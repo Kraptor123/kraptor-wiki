@@ -21,20 +21,21 @@
         </svg>
     </button>
     <button id="themeToggle" class="nav-button" aria-label="Temayı Değiştir">
-            <span class="theme-icon">
-            </span>
+        <span class="theme-icon"></span>
     </button>
 </div>
 
 <div class="container">
 
-    <!-- Başlık Alanı -->
     <div class="header">
         <img src="https://raw.githubusercontent.com/Kraptor123/cs-kraptor/refs/heads/master/.github/icons/logo/kraptorfaviconicon.png" alt="CloudStream Logo" class="header-logo">
         <h1>CloudStream</h1>
     </div>
 
-    <!-- İstatistik Kartları -->
+    <div class="beta-announcement" style="background: rgba(245, 158, 11, 0.1); border: 1px solid #f59e0b; color: #f59e0b; padding: 12px 20px; border-radius: 12px; margin: 0 auto 24px auto; max-width: 1000px; font-size: 0.95rem; font-weight: 500; text-align: center; line-height: 1.4;">
+        <strong>Önemli Duyuru:</strong> Cloudstream için beta sürümü tavsiye edilir, şu anlık birçok eklenti stabil sürümde çalışmamakta.
+    </div>
+
     <div class="stats-grid">
         <div class="stat-card">
             <div class="stat-number" id="totalPlugins">0</div>
@@ -48,59 +49,44 @@
             <div class="stat-number" id="totalTypes">0</div>
             <div class="stat-label">İçerik Türü</div>
         </div>
-        <!-- Git Geçmişi Linki-->
         <div class="stat-card clickable-stat" onclick="window.location.href='/kraptor-wiki/commits'">
             <div class="stat-number">Git</div>
             <div class="stat-label">Commit Geçmişi</div>
         </div>
     </div>
 
-    <!-- Filtreleme Kontrolleri -->
     <div class="controls">
         <div class="controls-row">
             <div class="control-group">
                 <label for="repoFilter">Depo Seç</label>
-                <select id="repoFilter">
-                    <option value="">Tüm Depolar</option>
-                </select>
+                <select id="repoFilter"><option value="">Tüm Depolar</option></select>
             </div>
             <div class="control-group">
                 <label for="typeFilter">İçerik Türü</label>
-                <select id="typeFilter">
-                    <option value="">Tüm Türler</option>
-                </select>
+                <select id="typeFilter"><option value="">Tüm Türler</option></select>
             </div>
             <div class="control-group">
                 <label for="languageFilter">Dil</label>
-                <select id="languageFilter">
-                    <option value="">Tüm Diller</option>
-                </select>
+                <select id="languageFilter"><option value="">Tüm Diller</option></select>
             </div>
             <div class="control-group">
                 <label for="developerFilter">Geliştirici</label>
-                <select id="developerFilter">
-                    <option value="">Tüm Geliştiriciler</option>
-                </select>
+                <select id="developerFilter"><option value="">Tüm Geliştiriciler</option></select>
             </div>
         </div>
-
         <div class="control-group search-group">
             <label for="searchInput">Arama</label>
             <input type="text" id="searchInput" placeholder="Eklenti adı, açıklama veya yazar ara..." autocomplete="off">
         </div>
     </div>
 
-    <!-- Yükleniyor Göstergesi -->
     <div id="loadingIndicator" class="loading">
         <div class="spinner"></div>
         <span>Veriler çekiliyor...</span>
     </div>
 
-    <!-- Eklenti Listesi (Grid) -->
-    <div id="pluginsGrid" class="plugins-grid">
-    </div>
+    <div id="pluginsGrid" class="plugins-grid"></div>
 
-    <!-- Sonuç Bulunamadı Mesajı -->
     <div id="noResults" class="no-results" style="display: none; text-align: center; color: var(--text-secondary); padding: 40px;">
         <h3>Sonuç Bulunamadı</h3>
         <p>Aradığınız kriterlere uygun eklenti mevcut değil.</p>
@@ -108,7 +94,6 @@
 
 </div>
 
-<!-- Yetişkin İçerik Onay Modalı -->
 <div id="adultOverlay" class="overlay">
     <div class="adult-modal">
         <h2>Yetişkin İçerik Uyarısı</h2>
@@ -120,7 +105,6 @@
     </div>
 </div>
 
-<!-- JavaScript Dosyası -->
 <script src="script.js?v=6"></script>
 </body>
 </html>
