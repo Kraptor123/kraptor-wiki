@@ -2786,5 +2786,20 @@
       "Animeler",
       "CizgiveDizi"
     ]
+  },
+  "abfb3c4b6f0df2093f1475d8fa55da55c806ff4c": {
+    "sha": "abfb3c4b6f0df2093f1475d8fa55da55c806ff4c",
+    "message": "Diziasya: Düzeltme",
+    "description": "Bir kaynağın oynatılamama sorunu giderildi.",
+    "date": "2026-02-23T19:32:29Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziAsya",
+      "WebteIzle"
+    ]
   }
 }
