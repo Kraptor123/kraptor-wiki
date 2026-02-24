@@ -2801,5 +2801,19 @@
       "DiziAsya",
       "WebteIzle"
     ]
+  },
+  "0cf3dc756b22c5bbdc5682f6ca64d9a505c02e76": {
+    "sha": "0cf3dc756b22c5bbdc5682f6ca64d9a505c02e76",
+    "message": "Jetfilmizle: Geliştirme",
+    "description": "Streamtape kaynağı eklendi.",
+    "date": "2026-02-24T01:09:57Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "JetFilmizle"
+    ]
   }
 }
