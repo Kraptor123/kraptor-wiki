@@ -2871,5 +2871,23 @@
     "tags": [
       "AnimeciX"
     ]
+  },
+  "c11f8974fbb58b5260e17dc1b8e0d0a5f0e72f86": {
+    "sha": "c11f8974fbb58b5260e17dc1b8e0d0a5f0e72f86",
+    "message": "Kraptorplus ve bir kaç eklenti için geliştirme",
+    "description": "Kraptorplus için setfilmizle kaynağı eklendi ve bir kaç eklenti için video oynatma için optimizasyon yapıldı.",
+    "date": "2026-02-25T17:03:47Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "BelgeselX",
+      "CizgiveDizi",
+      "JetFilmizle",
+      "KraptorPlus",
+      "YabanciDizi"
+    ]
   }
 }
