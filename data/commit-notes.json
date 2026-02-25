@@ -2815,5 +2815,19 @@
     "tags": [
       "JetFilmizle"
     ]
+  },
+  "47a3e55681a69b99bf318d2f5774da023db4239a": {
+    "sha": "47a3e55681a69b99bf318d2f5774da023db4239a",
+    "message": "Dizimag: Güncelleme",
+    "description": "Video kaynağındaki sorun giderildi.",
+    "date": "2026-02-25T01:46:40Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziMag"
+    ]
   }
 }
