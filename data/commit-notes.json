@@ -2903,5 +2903,19 @@
     "tags": [
       "HDFilmCehennemi"
     ]
+  },
+  "a0248afb4d0b9f0853b6bf3e4faab2da27946d0d": {
+    "sha": "a0248afb4d0b9f0853b6bf3e4faab2da27946d0d",
+    "message": "HDFilmCehennemi: Geliştirme",
+    "description": "Henüz yayınlanmayan bölümler için \"Yayınlanmadı\" etiketi eklendi ve rapidrame kaynağı için geliştirme yapıldı.",
+    "date": "2026-02-26T19:20:02Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmCehennemi"
+    ]
   }
 }
