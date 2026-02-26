@@ -2946,5 +2946,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "ca95c6aa97eb53468c86f23a9615388948074d82": {
+    "sha": "ca95c6aa97eb53468c86f23a9615388948074d82",
+    "message": "Jetfilmizle: Geliştirme",
+    "description": "Yeni eklenen filmler kategorisi eklendi ve kaynaklarda küçük düzenlemeler yapıldı.",
+    "date": "2026-02-26T21:38:43Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "JetFilmizle"
+    ]
   }
 }
