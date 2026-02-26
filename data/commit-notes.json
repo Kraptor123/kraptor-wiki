@@ -2889,5 +2889,19 @@
       "KraptorPlus",
       "YabanciDizi"
     ]
+  },
+  "c5251bc3f24ee514353102e4ce1215ab0fb6f652": {
+    "sha": "c5251bc3f24ee514353102e4ce1215ab0fb6f652",
+    "message": "HDFilmCehennemi: Hata Düzeltme",
+    "description": "Video oynatılamama sorununa dair deneysel bir hata güncelleme.",
+    "date": "2026-02-26T18:28:05Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmCehennemi"
+    ]
   }
 }
