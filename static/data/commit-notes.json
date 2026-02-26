@@ -2917,5 +2917,20 @@
     "tags": [
       "HDFilmCehennemi"
     ]
+  },
+  "c7f9346354da4391cc4d94b52ab21448b7de4d73": {
+    "sha": "c7f9346354da4391cc4d94b52ab21448b7de4d73",
+    "message": "HDFilmCehennemi ve Filmmakinesi: Geliştirme",
+    "description": "Video oynatma sorunlarında iyileştirme yapıldı ve bir kaç hata giderildi.",
+    "date": "2026-02-26T19:39:47Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmMakinesi",
+      "HDFilmCehennemi"
+    ]
   }
 }
