@@ -2932,5 +2932,19 @@
       "FilmMakinesi",
       "HDFilmCehennemi"
     ]
+  },
+  "1025a3294e4f08003c83c0677407463c3d04f46c": {
+    "sha": "1025a3294e4f08003c83c0677407463c3d04f46c",
+    "message": "KraptorPlus: Geliştirme",
+    "description": "HDFilmCehennemi kaynağında geliştirme yapıldı.",
+    "date": "2026-02-26T21:24:40Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
