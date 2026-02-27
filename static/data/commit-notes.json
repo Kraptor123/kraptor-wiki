@@ -2974,5 +2974,20 @@
     "tags": [
       "KultFilmler"
     ]
+  },
+  "e18fddb0dfafb49b7c9236b1d86f59d1d4c4b389": {
+    "sha": "e18fddb0dfafb49b7c9236b1d86f59d1d4c4b389",
+    "message": "Youtube ve TRT1: Devre dışı",
+    "description": "Youtube video kaynağının yapılamaması sebebiyle devre dışı bırakıldılar.",
+    "date": "2026-02-27T22:41:09Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Trt1",
+      "Youtube"
+    ]
   }
 }
