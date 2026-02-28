@@ -3045,5 +3045,27 @@
     "tags": [
       "RareFilmm"
     ]
+  },
+  "e80b0fda581573892f54b0a307253dbe091eae05": {
+    "sha": "e80b0fda581573892f54b0a307253dbe091eae05",
+    "message": "Toplu video kaynaklarında geliştirme",
+    "description": "Okru video kaynağı diğer eklentilerde düzeltilmiş olarak eklendi ve diğer kaynaklarda küçük geliştirmeler yapıldı.",
+    "date": "2026-02-28T19:48:11Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaWatch",
+      "BelgeselX",
+      "DiziPalOrijinal",
+      "DiziYo",
+      "Dizilla",
+      "FullHDFilmizlesene",
+      "SelcukFlix",
+      "UgurFilm",
+      "WebteIzle"
+    ]
   }
 }
