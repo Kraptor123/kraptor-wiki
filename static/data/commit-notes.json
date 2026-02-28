@@ -3088,5 +3088,20 @@
       "WebDramaTurkey",
       "WebteIzle"
     ]
+  },
+  "6d01adce9b775c1a00bcb5602529fb71da57651e": {
+    "sha": "6d01adce9b775c1a00bcb5602529fb71da57651e",
+    "message": "RecTV: Devre dışı.",
+    "description": "RecTV ile eklentisinin bozulması ve uğraşmak istemediğimiz için devre dışı bırakıldı. Mirrorverse içerisinden ise Disneyplus site üzerinde erişilemediği için kaldırıldı.",
+    "date": "2026-02-28T21:35:52Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "MirrorVerse",
+      "RecTV"
+    ]
   }
 }
