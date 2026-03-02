@@ -3149,5 +3149,19 @@
       "Trt1",
       "Youtube"
     ]
+  },
+  "73df24b7c68a2a2f6736538d9f33cbc3adee18de": {
+    "sha": "73df24b7c68a2a2f6736538d9f33cbc3adee18de",
+    "message": "Inatbox devre ve destek dışı",
+    "description": "Eklenti devre dışı bırakıldı eğer sizde hali hazırda yüklüyse kalmaya devam edecektir ancak bu eklenti hakkında artık hiç bir destek verilmeycektir. Bozulduğu vakit silinecektir.",
+    "date": "2026-03-02T04:22:13Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "InatBox"
+    ]
   }
 }
