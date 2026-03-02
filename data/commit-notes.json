@@ -3188,5 +3188,19 @@
       "Turkdizileri",
       "Tv8"
     ]
+  },
+  "9796fd04db8932ee82d5116b30ef594a61b5d732": {
+    "sha": "9796fd04db8932ee82d5116b30ef594a61b5d732",
+    "message": "BelgeselX: Geliştirme ve Hata Giderme",
+    "description": "Arama sistemi eklendi, Bazı içeriklere girilmeme sorunu ve Bir video kaynağı düzeltildi.",
+    "date": "2026-03-02T22:12:56Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "BelgeselX"
+    ]
   }
 }
