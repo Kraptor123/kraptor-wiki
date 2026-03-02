@@ -3202,5 +3202,19 @@
     "tags": [
       "BelgeselX"
     ]
+  },
+  "70cc40011e317a9dde98dba305070183856f658a": {
+    "sha": "70cc40011e317a9dde98dba305070183856f658a",
+    "message": "TürkDizileri: Hata Düzeltme",
+    "description": "TLC eklentisinin çalışmama sorunu giderildi.",
+    "date": "2026-03-02T22:25:06Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
