@@ -3244,5 +3244,19 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "f4d67e2c0473e873eb2fab330092b9e021c7c3cd": {
+    "sha": "f4d67e2c0473e873eb2fab330092b9e021c7c3cd",
+    "message": "Dizimag: Geliştirme",
+    "description": "Yayınlanmayan bölümlere \"Yayınlanmadı\" belirteci eklendi. Halen bazı bölümler yayınlanmadığı için hata verebilir.",
+    "date": "2026-03-02T23:27:19Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziMag"
+    ]
   }
 }
