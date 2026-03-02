@@ -3163,5 +3163,30 @@
     "tags": [
       "InatBox"
     ]
+  },
+  "1fe33281c853c2dc1fd63288745f2ff9df46c295": {
+    "sha": "1fe33281c853c2dc1fd63288745f2ff9df46c295",
+    "message": "Yeni eklenti ve Devre dışı kalanlar",
+    "description": "Türk kanallarının eklentileri devre dışı bırakıldı ve hepsi Turkdiziler isminde yeni bir eklentiye taşındı.",
+    "date": "2026-03-02T20:47:14Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Atv",
+      "Dmax",
+      "KanalD",
+      "NowTv",
+      "ShowTv",
+      "StarTv",
+      "Teve2",
+      "Tlc",
+      "Trt1",
+      "TrtCocuk",
+      "Turkdizileri",
+      "Tv8"
+    ]
   }
 }
