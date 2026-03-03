@@ -10,7 +10,7 @@ Cs-Kraptor harici, farklı ihtiyaçlara ve topluluk isteklerine yönelik gelişt
 ---
 
 ## 🧩 Cs-Karma
-Cs-Kraptor ana repomuza uygun görmediğimiz deneysel eklentiler ve yabancı dildeki içerik talepleri için oluşturulmuş karma bir havuzdur.
+CSKarma ana repomuza uygun görmediğimiz deneysel eklentiler ve yabancı dildeki içerik talepleri için oluşturulmuş karma bir havuzdur.
 
 * **Kısa Kod:** `cskarma`
 * **Kapsam:** Deneysel ve Karma eklentiler.
