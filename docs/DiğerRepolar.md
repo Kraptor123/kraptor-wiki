@@ -40,5 +40,5 @@ Yetişkinlere özel (+18) içerik sağlayan eklentilerin barındığı özel rep
 ---
 
 :::tip Bilgi
-Yukarıdaki kısa kodları CloudStream uygulamasındaki "Eklenti Depoları" kısmına yazarak hızlıca kurulum yapabilirsiniz.
+Yukarıdaki kısa kodları CloudStream uygulamasındaki "Eklentiler" kısmından repo ekle butonuna tıklayarak yazarak hızlıca kurulum yapabilirsiniz.
 :::
