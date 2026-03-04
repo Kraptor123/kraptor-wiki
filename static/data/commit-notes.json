@@ -3378,5 +3378,19 @@
     "tags": [
       "InatBox"
     ]
+  },
+  "6368b5e9497dce54e27266a145b8244d052f87ed": {
+    "sha": "6368b5e9497dce54e27266a145b8244d052f87ed",
+    "message": "Yeni Eklenti: DiziFilmOrg",
+    "description": "",
+    "date": "2026-03-04T23:20:44Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziFilmORG"
+    ]
   }
 }
