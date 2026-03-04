@@ -3258,5 +3258,20 @@
     "tags": [
       "DiziMag"
     ]
+  },
+  "dfcffeff9487a905aea959a5b0805aab268e7998": {
+    "sha": "dfcffeff9487a905aea959a5b0805aab268e7998",
+    "message": "KraptorPlus ve HDFilmDelisi: Geliştirme",
+    "description": "KraptorPlus için ingilizce ve türkçe dışı altyazılar filtrelendi, Türkçe kaynakların altyazı isimleri olduğu gibi yazıldı, (Örnek: Dizipal'ın altyazısı Dizipal olarak yazılıyor)\n\nHDFilmDelisi: Dublajlı kaynağın alınamama sorunu giderildi.",
+    "date": "2026-03-04T00:46:38Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmDelisi",
+      "KraptorPlus"
+    ]
   }
 }
