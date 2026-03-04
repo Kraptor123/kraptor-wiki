@@ -3364,5 +3364,19 @@
     "tags": [
       "InatBox"
     ]
+  },
+  "1caff8f38440f1c4849dcf96f73d55257859a1d5": {
+    "sha": "1caff8f38440f1c4849dcf96f73d55257859a1d5",
+    "message": "Update build.gradle.kts",
+    "description": ":hidden:",
+    "date": "2026-03-04T23:06:10Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": true,
+    "tags": [
+      "InatBox"
+    ]
   }
 }
