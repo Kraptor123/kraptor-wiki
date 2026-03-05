@@ -3434,5 +3434,19 @@
     "tags": [
       "DiziKorea"
     ]
+  },
+  "80f2c3ddcf4bb59bb729c57057d6eeecada118b3": {
+    "sha": "80f2c3ddcf4bb59bb729c57057d6eeecada118b3",
+    "message": "FilmEkseni: Geliştirme",
+    "description": "Telif sebebiyle bulunmayan içeriklere uyarı eklendi.",
+    "date": "2026-03-05T21:52:44Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmEkseni"
+    ]
   }
 }
