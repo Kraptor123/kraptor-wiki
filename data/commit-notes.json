@@ -3406,5 +3406,19 @@
     "tags": [
       "DiziFilmORG"
     ]
+  },
+  "ca46ee3c8701546af216b54349a253ba3cfce78e": {
+    "sha": "ca46ee3c8701546af216b54349a253ba3cfce78e",
+    "message": "DiziFilmOrg: Hata Düzeltme",
+    "description": "Videolarda ses parçalarının bulunmama sorunu giderildi.",
+    "date": "2026-03-05T17:03:31Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziFilmORG"
+    ]
   }
 }
