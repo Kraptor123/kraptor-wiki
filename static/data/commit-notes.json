@@ -3448,5 +3448,21 @@
     "tags": [
       "FilmEkseni"
     ]
+  },
+  "f066d39231ab8ea1fc425ace355a9a4b819ada9c": {
+    "sha": "f066d39231ab8ea1fc425ace355a9a4b819ada9c",
+    "message": "Hata düzeltme ve Geliştirmeler",
+    "description": "Diziyo ve DiziMag için yayınlanmayan bölümlere belirteçler eklendi. Yabancıdizi'de bir video kaynağındaki sorun giderildi.",
+    "date": "2026-03-05T23:22:04Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziMag",
+      "DiziYo",
+      "YabanciDizi"
+    ]
   }
 }
