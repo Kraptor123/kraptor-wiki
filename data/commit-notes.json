@@ -3464,5 +3464,20 @@
       "DiziYo",
       "YabanciDizi"
     ]
+  },
+  "832e03591be099349d48aa13fa820b3c635e15d0": {
+    "sha": "832e03591be099349d48aa13fa820b3c635e15d0",
+    "message": "Türkdiziler: Geliştirme",
+    "description": "Ayarlar butonu aracılığı ile eklentileri eskisi gibi açıp, kapatıp Cloudstream ana menüsünde gözükmelerini sağlayabilirsiniz.",
+    "date": "2026-03-06T04:44:53Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri",
+      "TvDiziler"
+    ]
   }
 }
