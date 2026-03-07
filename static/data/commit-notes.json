@@ -3522,5 +3522,19 @@
       "FilmEkseni",
       "KraptorPlus"
     ]
+  },
+  "8c705c4d670576206fc87ec8728ae7218f4266e9": {
+    "sha": "8c705c4d670576206fc87ec8728ae7218f4266e9",
+    "message": "Webdramaturkey: Geliştirme",
+    "description": "VK oynatıcısı için geliştirme yapıldı.",
+    "date": "2026-03-07T18:03:48Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WebDramaTurkey"
+    ]
   }
 }
