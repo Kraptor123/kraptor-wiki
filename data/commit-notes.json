@@ -3536,5 +3536,19 @@
     "tags": [
       "WebDramaTurkey"
     ]
+  },
+  "0adf121b47bcd59f30487314cbb31a4388eaad48": {
+    "sha": "0adf121b47bcd59f30487314cbb31a4388eaad48",
+    "message": "Fullhdfilmizlesene: Hata Düzeltme",
+    "description": "Bir video kaynağının oynatılamama sorunu giderildi.",
+    "date": "2026-03-07T23:18:56Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FullHDFilmizlesene"
+    ]
   }
 }
