@@ -3507,5 +3507,20 @@
     "tags": [
       "KoreanTurk"
     ]
+  },
+  "cb412e813bce893b23bb3155b1f68d0e78221df3": {
+    "sha": "cb412e813bce893b23bb3155b1f68d0e78221df3",
+    "message": "KraptorPlus: Geliştirme",
+    "description": "HDFilmDelisi kaynağının yanlış video getirmesi engellendi. Filmeksenindeki video oynatılamama ve fragman getirme sorunları düzeltildi. Altyazıların boş gelme sorunu düzeltildi.",
+    "date": "2026-03-07T06:41:01Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmEkseni",
+      "KraptorPlus"
+    ]
   }
 }
