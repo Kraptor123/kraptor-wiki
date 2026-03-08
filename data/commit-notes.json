@@ -3564,5 +3564,19 @@
     "tags": [
       "CizgiveDizi"
     ]
+  },
+  "f75613f78421a93078491c67b1099954b9d8e0bc": {
+    "sha": "f75613f78421a93078491c67b1099954b9d8e0bc",
+    "message": "Turkdiziler: Güncelleme",
+    "description": "Startv'deki sorunlar giderilerek eklendi. Turkdiziler ana eklentisini kapatma ayarı eklendi.",
+    "date": "2026-03-08T20:57:12Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
