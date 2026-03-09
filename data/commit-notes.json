@@ -3578,5 +3578,20 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "8cc54f91a9b363ae3d248ddfa0d827f500735243": {
+    "sha": "8cc54f91a9b363ae3d248ddfa0d827f500735243",
+    "message": "TvDiziler: Geliştirme",
+    "description": "Yandex ve Youtube linklerini çıkarması iyileştirildi.",
+    "date": "2026-03-09T15:00:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus",
+      "TvDiziler"
+    ]
   }
 }
