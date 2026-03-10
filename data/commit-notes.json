@@ -3612,5 +3612,19 @@
       "FullHDFilmizlesene",
       "SelcukFlix"
     ]
+  },
+  "4b1412332883b9504d8f907ff59d17f69323b801": {
+    "sha": "4b1412332883b9504d8f907ff59d17f69323b801",
+    "message": "DiziPal: Hata Düzeltme",
+    "description": "Ana sayfadaki posterler düzeltildi.",
+    "date": "2026-03-10T21:28:08Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPal"
+    ]
   }
 }
