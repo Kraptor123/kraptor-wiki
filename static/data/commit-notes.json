@@ -3626,5 +3626,20 @@
     "tags": [
       "DiziPal"
     ]
+  },
+  "524474ae08db4e4aba35f473c084ecf23d3bbc2c": {
+    "sha": "524474ae08db4e4aba35f473c084ecf23d3bbc2c",
+    "message": "DiziYO: Geliştirme",
+    "description": "Eklenti farklı siteye taşındı ve baştan aşağı kodu yenilendi. Artık diziyo.sh yerine diziyo.so kullanılacak.",
+    "date": "2026-03-10T21:57:09Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziYo",
+      "FullHDFilmizlesene"
+    ]
   }
 }
