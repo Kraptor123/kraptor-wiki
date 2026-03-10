@@ -3593,5 +3593,24 @@
       "KraptorPlus",
       "TvDiziler"
     ]
+  },
+  "49d3a159c9186cb873d9bae7d2218f84007a6abe": {
+    "sha": "49d3a159c9186cb873d9bae7d2218f84007a6abe",
+    "message": "FullHDFilmizlesene: Hata Düzeltme",
+    "description": "Fastly kaynağının oynatılamama sorunu gderildi.",
+    "date": "2026-03-10T19:17:01Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaWatch",
+      "DiziPalOrijinal",
+      "DiziYo",
+      "Dizilla",
+      "FullHDFilmizlesene",
+      "SelcukFlix"
+    ]
   }
 }
