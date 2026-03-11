@@ -3641,5 +3641,20 @@
       "DiziYo",
       "FullHDFilmizlesene"
     ]
+  },
+  "1e3b0068ab3f5e7088b1b399ec9c653311f9180e": {
+    "sha": "1e3b0068ab3f5e7088b1b399ec9c653311f9180e",
+    "message": "Animely: Geliştirme",
+    "description": "Sitenin kapanması sebebiyle uygulaması eklentiye entegre edildi. Şu anda deneysel olarak kullanılabilir durumdadır. Hatalar barındırabilir veya Bozulabilir.",
+    "date": "2026-03-11T20:23:45Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeElysium",
+      "Animely"
+    ]
   }
 }
