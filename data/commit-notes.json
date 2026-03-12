@@ -3670,5 +3670,19 @@
     "tags": [
       "DiziYo"
     ]
+  },
+  "e610610070233521a240c090cacc432cdc8e8010": {
+    "sha": "e610610070233521a240c090cacc432cdc8e8010",
+    "message": "Dizigom: Geliştirme ve hata giderme",
+    "description": "Video oynatılamama sorunu çözüldü, Film ve Diziler için aktör eklendi ve Filmlere özel önerilenler sistemi eklendi.",
+    "date": "2026-03-12T20:48:50Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziGom"
+    ]
   }
 }
