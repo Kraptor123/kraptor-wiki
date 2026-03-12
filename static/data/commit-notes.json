@@ -3656,5 +3656,19 @@
       "AnimeElysium",
       "Animely"
     ]
+  },
+  "b5790f9091bbae2ed9b7d7c5847377e0337e7886": {
+    "sha": "b5790f9091bbae2ed9b7d7c5847377e0337e7886",
+    "message": "DiziYO: Hata Düzeltme",
+    "description": "Posterlerin boş gelme sorunu ve video oynatılamama sorunu düzeltildi.",
+    "date": "2026-03-12T10:47:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziYo"
+    ]
   }
 }
