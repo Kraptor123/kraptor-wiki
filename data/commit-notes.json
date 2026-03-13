@@ -3684,5 +3684,19 @@
     "tags": [
       "DiziGom"
     ]
+  },
+  "137d5365b71443b1de94f55ed11404d6c110f445": {
+    "sha": "137d5365b71443b1de94f55ed11404d6c110f445",
+    "message": "Türkdiziler: Hata düzeltme",
+    "description": "Kanal D eklentisinin video oynatamama sorunu giderildi.",
+    "date": "2026-03-13T09:48:55Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
