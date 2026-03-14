@@ -3698,5 +3698,19 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "7790ecabb8616e0ac505cd6c328a2c52d78c8282": {
+    "sha": "7790ecabb8616e0ac505cd6c328a2c52d78c8282",
+    "message": "YabanciDizi: Geliştirme",
+    "description": "Video kaynaklarının alınması ile ilgili iyileştirme yapıldı.",
+    "date": "2026-03-14T20:48:18Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "YabanciDizi"
+    ]
   }
 }
