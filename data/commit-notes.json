@@ -3726,5 +3726,20 @@
     "tags": [
       "SinemaCX"
     ]
+  },
+  "7710e584594c234757887faab73686552af59ae7": {
+    "sha": "7710e584594c234757887faab73686552af59ae7",
+    "message": "Dizigom ve FullHDFilmizlesene: Geliştirme",
+    "description": "Dizigom telif uyarısı eklendi ve sitenin değiştirdiği video yöntemini düzenli çalıştırmak için bir yöntem denendi. Bazı cihazlar bu yöntemi desteklemeyebilir ve çalışmayabilir.\n\nFullHDFilmizlesene için vidmoxy video kaynağında yaşanan bir sorun düzeltildi.",
+    "date": "2026-03-15T04:27:44Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziGom",
+      "FullHDFilmizlesene"
+    ]
   }
 }
