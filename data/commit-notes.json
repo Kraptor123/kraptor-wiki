@@ -3741,5 +3741,19 @@
       "DiziGom",
       "FullHDFilmizlesene"
     ]
+  },
+  "1f2dbd9657f5843f9ed3da7f0511cce4806aac63": {
+    "sha": "1f2dbd9657f5843f9ed3da7f0511cce4806aac63",
+    "message": "Animecix: Geliştirme",
+    "description": "Kitsu, anilist, simkl için senkronizasyon desteği eklendi.",
+    "date": "2026-03-16T04:29:24Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX"
+    ]
   }
 }
