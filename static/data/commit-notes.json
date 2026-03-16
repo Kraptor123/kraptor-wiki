@@ -3769,5 +3769,28 @@
     "tags": [
       "Animeler"
     ]
+  },
+  "b063189a1d12c6e16dad2f79fa57c84c245e7c17": {
+    "sha": "b063189a1d12c6e16dad2f79fa57c84c245e7c17",
+    "message": "Hata düzeltmeleri",
+    "description": "HDFilmcehennemi ve Dizifilmorg için kategorilerde düzeltme yapıldı. Diğer eklentiler için ise tür değişimi yapıldı, bazı eklentilerde dizi bazılarında ise var olan film etiketleri silindi.",
+    "date": "2026-03-16T07:31:50Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Animeler",
+      "AsyaAnimeleri",
+      "AsyaWatch",
+      "DiziFilmORG",
+      "DiziYo",
+      "FilmHane",
+      "HDFilmCehennemi",
+      "SeiCode",
+      "SetFilmIzle",
+      "YabanciDizi"
+    ]
   }
 }
