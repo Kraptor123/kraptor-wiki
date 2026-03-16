@@ -3755,5 +3755,19 @@
     "tags": [
       "AnimeciX"
     ]
+  },
+  "6821742ad1bf1578d9bfcf34bf61a14eda91425f": {
+    "sha": "6821742ad1bf1578d9bfcf34bf61a14eda91425f",
+    "message": "Animeler: Hata Düzeltme",
+    "description": "Toplu video kaynaklarınnı ve Mugen kaynağının çalışmama sorunu giderildi.",
+    "date": "2026-03-16T05:54:04Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Animeler"
+    ]
   }
 }
