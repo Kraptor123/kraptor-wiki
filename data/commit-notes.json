@@ -3834,5 +3834,19 @@
     "tags": [
       "FilmModu"
     ]
+  },
+  "1cc809b2927d857ca9f724f72e363b425d4ab2b3": {
+    "sha": "1cc809b2927d857ca9f724f72e363b425d4ab2b3",
+    "message": "YeniWatch: Devre dışı",
+    "description": "Sitenin uzun süredir yeni içerik eklememesi ve var olan bölümlerin silinmesi sebebiyle devre dışı bırakıldı.",
+    "date": "2026-03-17T10:47:14Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "YeniWatch"
+    ]
   }
 }
