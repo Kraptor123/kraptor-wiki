@@ -3806,5 +3806,19 @@
     "tags": [
       "DiziFilmORG"
     ]
+  },
+  "8e6a2172dd9e6a313939db887c92149e6ad18dbe": {
+    "sha": "8e6a2172dd9e6a313939db887c92149e6ad18dbe",
+    "message": "TurkDizileri: Hata düzeltme",
+    "description": "Showtv'de programların, Nowtv'de ise genel bölümlerin alınamama sorunları giderildi.",
+    "date": "2026-03-17T10:32:15Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
