@@ -3820,5 +3820,19 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "47ac1caea7e7255e99fcf6fb7e616ed726dd1d4e": {
+    "sha": "47ac1caea7e7255e99fcf6fb7e616ed726dd1d4e",
+    "message": "Filmmodu: Devre dışı",
+    "description": "Siteye erişilememesi ve uzun süredir yeni içerik barındırmaması sebebiyle devre dışı bırakıldı.",
+    "date": "2026-03-17T10:38:36Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmModu"
+    ]
   }
 }
