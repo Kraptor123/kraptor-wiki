@@ -3848,5 +3848,19 @@
     "tags": [
       "YeniWatch"
     ]
+  },
+  "66dee43b0b14200fb77e481558e065939eed31a8": {
+    "sha": "66dee43b0b14200fb77e481558e065939eed31a8",
+    "message": "AsyaAnimeleri: Geliştirme",
+    "description": "Eklentideki gereksiz kategoriler silindi.",
+    "date": "2026-03-17T11:01:05Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaAnimeleri"
+    ]
   }
 }
