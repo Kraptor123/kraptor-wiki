@@ -3940,5 +3940,17 @@
     "highlight": false,
     "hidden": true,
     "tags": []
+  },
+  "1e1c2df921e54535f7c8c430d0744f1a785f546b": {
+    "sha": "1e1c2df921e54535f7c8c430d0744f1a785f546b",
+    "message": "Update Derleyici.yml",
+    "description": ":hidden:",
+    "date": "2026-03-18T12:43:24Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": true,
+    "tags": []
   }
 }
