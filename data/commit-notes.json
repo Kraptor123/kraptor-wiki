@@ -3966,5 +3966,17 @@
     "tags": [
       "Anizium"
     ]
+  },
+  "e926e8c0b283c7743bb0f8da6b72aea67dcce7e0": {
+    "sha": "e926e8c0b283c7743bb0f8da6b72aea67dcce7e0",
+    "message": "Update Derleyici.yml",
+    "description": ":hidden:",
+    "date": "2026-03-18T12:49:08Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": true,
+    "tags": []
   }
 }
