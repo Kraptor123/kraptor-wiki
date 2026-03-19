@@ -4048,5 +4048,20 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "6a286f545e7a4cc786ff869f1c62bcd666dec422": {
+    "sha": "6a286f545e7a4cc786ff869f1c62bcd666dec422",
+    "message": "Dizifilmorg: Geliştirme",
+    "description": "Dosyaload video kaynağı için destek eklendi.",
+    "date": "2026-03-19T16:55:27Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziFilmORG",
+      "DiziPalOrijinal"
+    ]
   }
 }
