@@ -4063,5 +4063,19 @@
       "DiziFilmORG",
       "DiziPalOrijinal"
     ]
+  },
+  "c736d755365bae5a342b6637b2c92866dceba371": {
+    "sha": "c736d755365bae5a342b6637b2c92866dceba371",
+    "message": "Dizibox: Hata düzeltme",
+    "description": "Vidmoly video kaynağının gelmeme sorunu giderildi.",
+    "date": "2026-03-19T16:59:01Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziBox"
+    ]
   }
 }
