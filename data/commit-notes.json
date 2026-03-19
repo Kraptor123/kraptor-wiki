@@ -4034,5 +4034,19 @@
     "tags": [
       "AsyaMinik"
     ]
+  },
+  "3f7f6bb7df0455d942b7e68bea1490537add5beb": {
+    "sha": "3f7f6bb7df0455d942b7e68bea1490537add5beb",
+    "message": "TurkDizileri: Hata Düzeltme",
+    "description": "Dmax eklentisinin bölümleri yarım çekme sorunu giderildi.",
+    "date": "2026-03-19T06:31:51Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
