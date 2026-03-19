@@ -4006,5 +4006,19 @@
     "tags": [
       "SetFilmIzle"
     ]
+  },
+  "1dcbcaafbe131b74c85624911fc3e1ef0ac780a3": {
+    "sha": "1dcbcaafbe131b74c85624911fc3e1ef0ac780a3",
+    "message": "Kraptorplus: Hata düzeltme",
+    "description": "Sinewix kaynağının çalışmama sorunu giderildi.",
+    "date": "2026-03-19T06:10:47Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
