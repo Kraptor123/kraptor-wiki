@@ -4119,5 +4119,19 @@
     "tags": [
       "Sinezy"
     ]
+  },
+  "e3b60d5b78dbd9786d16edaca64e3f6df7d40edf": {
+    "sha": "e3b60d5b78dbd9786d16edaca64e3f6df7d40edf",
+    "message": "FlixHQ: Devre dışı",
+    "description": "Kimsenin umursamadığı bir eklenti olduğu için artık destek verilmeyecek.",
+    "date": "2026-03-19T18:38:27Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FlixHQ"
+    ]
   }
 }
