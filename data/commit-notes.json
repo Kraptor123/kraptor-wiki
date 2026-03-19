@@ -4077,5 +4077,19 @@
     "tags": [
       "DiziBox"
     ]
+  },
+  "cf94542730b5c475701831e95e4907fa71ebd609": {
+    "sha": "cf94542730b5c475701831e95e4907fa71ebd609",
+    "message": "Jetfilmizle: Hata düzeltme",
+    "description": "FEmbed (Sun) video kaynağının çalışmama sorunu giderildi.",
+    "date": "2026-03-19T17:25:56Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "JetFilmizle"
+    ]
   }
 }
