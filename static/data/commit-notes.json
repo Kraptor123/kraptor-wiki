@@ -3992,5 +3992,19 @@
     "tags": [
       "SezonlukDizi"
     ]
+  },
+  "49f76d7094517cd99b53db47cfd8a38a1a15562a": {
+    "sha": "49f76d7094517cd99b53db47cfd8a38a1a15562a",
+    "message": "Setfilmizle: Geliştirme",
+    "description": "Dublaj ve Altyazı isim etiketlerinde düzenleme yapıldı ve Öneri sistemi eklendi.",
+    "date": "2026-03-19T05:12:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SetFilmIzle"
+    ]
   }
 }
