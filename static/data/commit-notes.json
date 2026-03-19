@@ -4105,5 +4105,19 @@
     "tags": [
       "FilmModu"
     ]
+  },
+  "4fba2402aae30a4a5b145b86eade44a16dc2bfb4": {
+    "sha": "4fba2402aae30a4a5b145b86eade44a16dc2bfb4",
+    "message": "Sinezy: Hata düzeltme",
+    "description": "Video kaynağının çalışmama sorunu giderildi.",
+    "date": "2026-03-19T18:06:22Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Sinezy"
+    ]
   }
 }
