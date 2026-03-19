@@ -4147,5 +4147,19 @@
     "tags": [
       "GinikoCanli"
     ]
+  },
+  "561b661882e743a015b902c799cb9fdd32196f3e": {
+    "sha": "561b661882e743a015b902c799cb9fdd32196f3e",
+    "message": "Sinezy: Geliştirme",
+    "description": "Öneri sistemi eklendi, aktörlerdeki isimlendirmeler düzeltildi ve son güncellemeden dolayı yaşanan video sorunu çözüldü.",
+    "date": "2026-03-19T19:29:50Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Sinezy"
+    ]
   }
 }
