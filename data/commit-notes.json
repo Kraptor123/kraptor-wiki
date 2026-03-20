@@ -4175,5 +4175,19 @@
     "tags": [
       "HDFilmizle"
     ]
+  },
+  "ec884697033a854cf045c2f2fe1226abda0fad99": {
+    "sha": "ec884697033a854cf045c2f2fe1226abda0fad99",
+    "message": "Dizimag: Hata düzeltme",
+    "description": "Video kaynağındaki sorun giderildi.",
+    "date": "2026-03-20T08:44:11Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziMag"
+    ]
   }
 }
