@@ -4189,5 +4189,19 @@
     "tags": [
       "DiziMag"
     ]
+  },
+  "e126563afa73ff067a69378b8350bde37efbe3a5": {
+    "sha": "e126563afa73ff067a69378b8350bde37efbe3a5",
+    "message": "Dizigom: Geliştirme",
+    "description": "Geçen günlerde yapılan deneysel video çıkarma sistemi geri plana atıldı artık video kaynağı çalışmadığı takdirde kullanılacak.",
+    "date": "2026-03-20T12:09:32Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziGom"
+    ]
   }
 }
