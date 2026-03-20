@@ -4217,5 +4217,19 @@
     "tags": [
       "TvDiziler"
     ]
+  },
+  "29d4cbb0ca9f3b80b376df385b40eafddec29351": {
+    "sha": "29d4cbb0ca9f3b80b376df385b40eafddec29351",
+    "message": "Dizimom: Geliştirme ve Hata giderme",
+    "description": "Cloudflare engelini aşmak için yöntem denendi. Video oynatma sorunu giderildi.",
+    "date": "2026-03-20T18:26:38Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziMom"
+    ]
   }
 }
