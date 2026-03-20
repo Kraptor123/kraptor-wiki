@@ -4203,5 +4203,19 @@
     "tags": [
       "DiziGom"
     ]
+  },
+  "12db22f9cbaaa28df1e31be4aeb2291eea9ef857": {
+    "sha": "12db22f9cbaaa28df1e31be4aeb2291eea9ef857",
+    "message": "TVDiziler: Geliştirme",
+    "description": "PuhuTV linkleri için destek eklendi.",
+    "date": "2026-03-20T12:46:04Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "TvDiziler"
+    ]
   }
 }
