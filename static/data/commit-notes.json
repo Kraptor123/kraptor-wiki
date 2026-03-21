@@ -4245,5 +4245,19 @@
     "tags": [
       "DiziMom"
     ]
+  },
+  "f7a1894539475301451189fa6b8091c33f6f4320": {
+    "sha": "f7a1894539475301451189fa6b8091c33f6f4320",
+    "message": "YTS: Geliştirme",
+    "description": "Siteye erişimin cloudflare ile engellenmesi sebebiyle YTSYedek isminde bir kaynak eklendi. Ana menüde görüntülenebilir ve arka planda torrentio çalıştırır.",
+    "date": "2026-03-21T07:58:56Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "YTS"
+    ]
   }
 }
