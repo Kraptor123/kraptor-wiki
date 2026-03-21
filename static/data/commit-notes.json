@@ -4259,5 +4259,19 @@
     "tags": [
       "YTS"
     ]
+  },
+  "96801c48f3f3f54c1e2349422ea7da2be9d4a5cf": {
+    "sha": "96801c48f3f3f54c1e2349422ea7da2be9d4a5cf",
+    "message": "YTS: Geliştirme",
+    "description": "YTSYedek kaynağı için yerelleştirme desteği eklendi.",
+    "date": "2026-03-21T08:42:08Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "YTS"
+    ]
   }
 }
