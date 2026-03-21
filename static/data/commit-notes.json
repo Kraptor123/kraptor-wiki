@@ -4273,5 +4273,19 @@
     "tags": [
       "YTS"
     ]
+  },
+  "ec836e16bf5e438076a808e66a3e96ffa3df4728": {
+    "sha": "ec836e16bf5e438076a808e66a3e96ffa3df4728",
+    "message": "Webteizle: Devre dışı",
+    "description": "Sitenin haftalardır cloudflare captcha sistemi ile videoları çekmemizi engellemesi ile birlikte artık okru kaynaklarıda engellenmiştir, sadece 1 kaynak kaldığı için eklenti artık devre dışı.",
+    "date": "2026-03-21T21:45:52Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WebteIzle"
+    ]
   }
 }
