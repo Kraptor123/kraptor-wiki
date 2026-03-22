@@ -4315,5 +4315,19 @@
     "tags": [
       "DiziWatch"
     ]
+  },
+  "d1a00300eb65c10664693224bb66ae3d237f8693": {
+    "sha": "d1a00300eb65c10664693224bb66ae3d237f8693",
+    "message": "Sinezy: Geliştirme",
+    "description": "Telif sebebiyle kaldırılan filmlere uyarı eklendi.",
+    "date": "2026-03-22T09:13:24Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Sinezy"
+    ]
   }
 }
