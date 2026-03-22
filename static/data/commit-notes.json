@@ -4385,5 +4385,19 @@
     "tags": [
       "Animeler"
     ]
+  },
+  "52bcf7ce12d3ccc606b56fad35f0e73a3ef127a5": {
+    "sha": "52bcf7ce12d3ccc606b56fad35f0e73a3ef127a5",
+    "message": "TrAnimeizle: Geliştirme ve Hata giderme",
+    "description": "Ana video kaynağı OpTraco düzeltildi. HDVid kaynağına destek eklendi.",
+    "date": "2026-03-22T18:01:32Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "TrAnimeIzle"
+    ]
   }
 }
