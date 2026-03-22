@@ -4329,5 +4329,19 @@
     "tags": [
       "Sinezy"
     ]
+  },
+  "fe411107e9b4308af04875c53d6a8b6eaf461285": {
+    "sha": "fe411107e9b4308af04875c53d6a8b6eaf461285",
+    "message": "Dizimom: Hata Düzeltme",
+    "description": "Ana video kaynağı düzeltildi ve eksik bir video kaynağına destek eklendi.",
+    "date": "2026-03-22T10:13:50Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziMom"
+    ]
   }
 }
