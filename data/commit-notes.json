@@ -4343,5 +4343,19 @@
     "tags": [
       "DiziMom"
     ]
+  },
+  "ca72377b99b8e77931fd545f6d877b57cd63e48c": {
+    "sha": "ca72377b99b8e77931fd545f6d877b57cd63e48c",
+    "message": "DizipalOrijinal: Hata Düzeltme",
+    "description": "Sitenin yeni oluşturduğu şifreleme yöntemi çözüldü.",
+    "date": "2026-03-22T12:39:00Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPalOrijinal"
+    ]
   }
 }
