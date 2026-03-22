@@ -4287,5 +4287,19 @@
     "tags": [
       "WebteIzle"
     ]
+  },
+  "2f39cc620ff9894858f29baef73530e0e4959a0d": {
+    "sha": "2f39cc620ff9894858f29baef73530e0e4959a0d",
+    "message": "AsyaAnimeleri: Geliştirme",
+    "description": "2 Yeni video kaynağı eklendi. Yıl bilgisi, açıklama ve poster eklendi. Öneri sistemindeki çift başlık sorunu giderildi.",
+    "date": "2026-03-22T08:54:53Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaAnimeleri"
+    ]
   }
 }
