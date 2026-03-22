@@ -4301,5 +4301,19 @@
     "tags": [
       "AsyaAnimeleri"
     ]
+  },
+  "22f71c6365b39d329c74501b8c7f84b363043564": {
+    "sha": "22f71c6365b39d329c74501b8c7f84b363043564",
+    "message": "DiziWatch: Devre dışı",
+    "description": "Dizillanın yan ve kopya sitesi olması sebebiyle devre dışı.",
+    "date": "2026-03-22T09:09:08Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziWatch"
+    ]
   }
 }
