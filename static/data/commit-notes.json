@@ -4399,5 +4399,19 @@
     "tags": [
       "TrAnimeIzle"
     ]
+  },
+  "bc21d51e62a181cb4b1fd861d67a835124a9991c": {
+    "sha": "bc21d51e62a181cb4b1fd861d67a835124a9991c",
+    "message": "Jetfilmizle: Geliştirme",
+    "description": "Bir video kaynağı için destek eklendi.",
+    "date": "2026-03-23T08:28:29Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "JetFilmizle"
+    ]
   }
 }
