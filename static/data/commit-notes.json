@@ -4441,5 +4441,19 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "fc92b7caa5446f9c1dee6668d96c788e68a88b70": {
+    "sha": "fc92b7caa5446f9c1dee6668d96c788e68a88b70",
+    "message": "TurkAnime: Hata düzeltme",
+    "description": "Ana video kaynağı için geçici düzeltme yapıldı. Tekrar bozulma olasılığı var.",
+    "date": "2026-03-24T10:03:11Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "TurkAnime"
+    ]
   }
 }
