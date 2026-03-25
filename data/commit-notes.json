@@ -4497,5 +4497,19 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "afa31920e86d64cb257e4ac73d20c1d46710388b": {
+    "sha": "afa31920e86d64cb257e4ac73d20c1d46710388b",
+    "message": "AsyaAnimeleri: Hata giderme",
+    "description": "UPNS video kaynağının oynatılamama sorunu giderildi.",
+    "date": "2026-03-25T09:15:10Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaAnimeleri"
+    ]
   }
 }
