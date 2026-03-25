@@ -4469,5 +4469,19 @@
     "tags": [
       "Filmzal"
     ]
+  },
+  "b3c757973e4337220d908385a840557559a165cb": {
+    "sha": "b3c757973e4337220d908385a840557559a165cb",
+    "message": "Turkdizileri: Geliştirme",
+    "description": "Tabii video kaynağı için destek eklendi.",
+    "date": "2026-03-25T08:28:25Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
