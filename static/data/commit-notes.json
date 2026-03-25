@@ -4455,5 +4455,19 @@
     "tags": [
       "TurkAnime"
     ]
+  },
+  "b935bcb7f102e0080e6528211e82917d31d099f8": {
+    "sha": "b935bcb7f102e0080e6528211e82917d31d099f8",
+    "message": "Filmzal: Hata düzeltme",
+    "description": "Video kaynakları için düzenleme yapıldı.",
+    "date": "2026-03-25T08:14:06Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Filmzal"
+    ]
   }
 }
