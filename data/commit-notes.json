@@ -4483,5 +4483,19 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "23cfdac41f23330727a626d4f5e95d0d6999a6ec": {
+    "sha": "23cfdac41f23330727a626d4f5e95d0d6999a6ec",
+    "message": "Turkdizileri: Hata düzeltme",
+    "description": "Dmax eklentisinin bölümleri tam alamama sorunu giderildi.",
+    "date": "2026-03-25T08:55:15Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
