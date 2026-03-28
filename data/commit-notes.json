@@ -4554,5 +4554,19 @@
     "tags": [
       "AsyaFanatiklerim"
     ]
+  },
+  "a55b9d532cffb69c51bd356613b316660cfa795c": {
+    "sha": "a55b9d532cffb69c51bd356613b316660cfa795c",
+    "message": "DiziAsya: Hata düzeltme",
+    "description": "Posterlerin boş gözükme sorunu düzeltildi.",
+    "date": "2026-03-28T18:11:47Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziAsya"
+    ]
   }
 }
