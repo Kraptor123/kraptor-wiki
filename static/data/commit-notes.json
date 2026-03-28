@@ -4610,5 +4610,19 @@
     "tags": [
       "TrAnimeIzle"
     ]
+  },
+  "06553a63e29832a0df9f5a3b778c618ceca799a0": {
+    "sha": "06553a63e29832a0df9f5a3b778c618ceca799a0",
+    "message": "FilmEkseni: Hata düzeltme ve geliştirme",
+    "description": "Eksenload kaynağının çalışmama sorunu düzeltildi. Arama için hızlı arama desteği eklendi.",
+    "date": "2026-03-28T19:08:36Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmEkseni"
+    ]
   }
 }
