@@ -4526,5 +4526,19 @@
       "DiziGom",
       "DiziMag"
     ]
+  },
+  "8c176a8180a98cd9769ea0099af2af1b2dd979c2": {
+    "sha": "8c176a8180a98cd9769ea0099af2af1b2dd979c2",
+    "message": "Cizgimax: Hata düzeltme",
+    "description": "Video oynatma sorunu düzeltildi.",
+    "date": "2026-03-28T17:36:57Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiMax"
+    ]
   }
 }
