@@ -4582,5 +4582,19 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "ea8730a5f89c20f6ccdb0c122a40eea2d39bfef2": {
+    "sha": "ea8730a5f89c20f6ccdb0c122a40eea2d39bfef2",
+    "message": "GinikoCanli: Hata düzeltme",
+    "description": "Video oynatma sorunu düzeltildi.",
+    "date": "2026-03-28T18:43:53Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "GinikoCanli"
+    ]
   }
 }
