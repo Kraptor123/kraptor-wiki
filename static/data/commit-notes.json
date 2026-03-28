@@ -4596,5 +4596,19 @@
     "tags": [
       "GinikoCanli"
     ]
+  },
+  "b6c86010654596b9b81bf94bba96d5557f82b367": {
+    "sha": "b6c86010654596b9b81bf94bba96d5557f82b367",
+    "message": "TRAnimeizle: Hata düzeltme ve geliştirme",
+    "description": "OPTraco kaynağının çalışmama sorunu düzeltildi ve Hexload kaynağı için destek eklendi.",
+    "date": "2026-03-28T18:59:54Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "TrAnimeIzle"
+    ]
   }
 }
