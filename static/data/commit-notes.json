@@ -4540,5 +4540,19 @@
     "tags": [
       "CizgiMax"
     ]
+  },
+  "225265b3d5cc27371f83c6cb6de5bb102fcab2a6": {
+    "sha": "225265b3d5cc27371f83c6cb6de5bb102fcab2a6",
+    "message": "Asyafanatiklerim: Geliştirme",
+    "description": "Sitenin güncellemediği eski vidmoly linkleri için yönlendirme yapıldı.",
+    "date": "2026-03-28T17:47:03Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaFanatiklerim"
+    ]
   }
 }
