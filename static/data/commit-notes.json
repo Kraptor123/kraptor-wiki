@@ -4568,5 +4568,19 @@
     "tags": [
       "DiziAsya"
     ]
+  },
+  "f1882f741d1511627de4a92e2058a322dd0c32d3": {
+    "sha": "f1882f741d1511627de4a92e2058a322dd0c32d3",
+    "message": "Turkdizileri: Hata düzeltme",
+    "description": "NowTV'deki içerik posterlerinin yanlış alınması düzeltildi.",
+    "date": "2026-03-28T18:23:11Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
