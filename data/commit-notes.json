@@ -4624,5 +4624,19 @@
     "tags": [
       "FilmEkseni"
     ]
+  },
+  "2f00dd5e073d9be9a3087490337112c98f953e55": {
+    "sha": "2f00dd5e073d9be9a3087490337112c98f953e55",
+    "message": "TurkAnime: Geliştirme",
+    "description": "Doodstream ve Uqload kaynakları için destek eklendi. Ana video kaynağı alucard oynatılmaya başlandı.",
+    "date": "2026-03-30T20:35:57Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "TurkAnime"
+    ]
   }
 }
