@@ -4638,5 +4638,19 @@
     "tags": [
       "TurkAnime"
     ]
+  },
+  "450ae1c8f068349468819f9f2cdab121943f46a6": {
+    "sha": "450ae1c8f068349468819f9f2cdab121943f46a6",
+    "message": "Cizgimax: Geliştirme ve hata giderme",
+    "description": "Video oynatma sorunu giderildi, bazı içeriklere google drive kaynağı eklendi ve film içeriklerinin kullanılamama sorunu çözüldü.",
+    "date": "2026-03-31T18:34:35Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiMax"
+    ]
   }
 }
