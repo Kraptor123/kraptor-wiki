@@ -4652,5 +4652,19 @@
     "tags": [
       "CizgiMax"
     ]
+  },
+  "9dcbf983bde73ee076cc3059e1d122b66473bedd": {
+    "sha": "9dcbf983bde73ee076cc3059e1d122b66473bedd",
+    "message": "CizgiveDizi: Geliştirme",
+    "description": "İçeriklere ortalama bölüm süresi eklendi.",
+    "date": "2026-03-31T18:52:05Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiveDizi"
+    ]
   }
 }
