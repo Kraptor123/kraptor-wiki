@@ -4666,5 +4666,19 @@
     "tags": [
       "CizgiveDizi"
     ]
+  },
+  "1114c5bb42d1808d920061ce57818df701a06f99": {
+    "sha": "1114c5bb42d1808d920061ce57818df701a06f99",
+    "message": "Jetfilmizle: Hata düzeltme",
+    "description": "Multi video kaynağının çalışmama sorunu giderildi.",
+    "date": "2026-04-01T14:17:11Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "JetFilmizle"
+    ]
   }
 }
