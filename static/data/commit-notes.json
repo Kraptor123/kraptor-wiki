@@ -4680,5 +4680,19 @@
     "tags": [
       "JetFilmizle"
     ]
+  },
+  "7ab11e5f9f863950c671f373a550149beb53a2d9": {
+    "sha": "7ab11e5f9f863950c671f373a550149beb53a2d9",
+    "message": "DiziAsya: Geliştirme",
+    "description": "Yeni kategoriler eklendi, sıralamaları düzenlendi ve İçeriklerin içerisindeki puanlama için sitedeki ortalama puanlar alındı.",
+    "date": "2026-04-02T12:13:27Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziAsya"
+    ]
   }
 }
