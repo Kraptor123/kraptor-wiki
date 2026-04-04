@@ -4708,5 +4708,19 @@
     "tags": [
       "FullHDFilmizlesene"
     ]
+  },
+  "c3e2f04604010ffce45002f2eaffe599940721f4": {
+    "sha": "c3e2f04604010ffce45002f2eaffe599940721f4",
+    "message": "FilmEkseni: Hata düzeltme",
+    "description": "Animasyon kategorisindeki hata giderildi ve ingilizce altyazıların türkçe altyazılar ile iç içe girmesi giderildi.",
+    "date": "2026-04-04T15:00:20Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmEkseni"
+    ]
   }
 }
