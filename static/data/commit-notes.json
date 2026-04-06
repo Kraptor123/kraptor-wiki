@@ -4736,5 +4736,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "417244fec467ab5ab640a7dc9e0b0874c3810e77": {
+    "sha": "417244fec467ab5ab640a7dc9e0b0874c3810e77",
+    "message": "KraptorPlus: Geliştirme",
+    "description": "VegaMovies kaynağı düzeltildi.",
+    "date": "2026-04-06T15:33:00Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
