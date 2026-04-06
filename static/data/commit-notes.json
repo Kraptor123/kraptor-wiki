@@ -4750,5 +4750,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "1e70db7a39c43f6b7632ac6bb573c019fe8d1f98": {
+    "sha": "1e70db7a39c43f6b7632ac6bb573c019fe8d1f98",
+    "message": "Dizilla: Hata düzeltme ve geliştirme",
+    "description": "Açılmama sorunları giderildi ve Yeni kategoriler eklendi.",
+    "date": "2026-04-06T15:36:49Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Dizilla"
+    ]
   }
 }
