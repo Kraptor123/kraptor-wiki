@@ -4764,5 +4764,19 @@
     "tags": [
       "Dizilla"
     ]
+  },
+  "01dc670da7d9077d462595ba1a4c9d091b2ebba8": {
+    "sha": "01dc670da7d9077d462595ba1a4c9d091b2ebba8",
+    "message": "KraptorPlus: Geliştirme",
+    "description": "Icefy kaynağı eklendi (1080p)",
+    "date": "2026-04-07T20:16:04Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
