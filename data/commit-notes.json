@@ -4834,5 +4834,19 @@
     "tags": [
       "DiziYou"
     ]
+  },
+  "f47d8d7022e7836889daa5291fa60b485884537b": {
+    "sha": "f47d8d7022e7836889daa5291fa60b485884537b",
+    "message": "HDFilmCehennemi: Geliştirme",
+    "description": "Film süresi ve Oyuncu rol bilgileri eklendi.",
+    "date": "2026-04-08T00:50:04Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmCehennemi"
+    ]
   }
 }
