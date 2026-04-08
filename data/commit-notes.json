@@ -4820,5 +4820,19 @@
     "tags": [
       "DiziBox"
     ]
+  },
+  "aa436cb4a81d1569160b43e0dc4f4f2c481e9c06": {
+    "sha": "aa436cb4a81d1569160b43e0dc4f4f2c481e9c06",
+    "message": "DiziYou: Geliştirme",
+    "description": "Bölümlerin hangi gün ve tarihte yayınlandığı eklendi.",
+    "date": "2026-04-08T00:26:47Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziYou"
+    ]
   }
 }
