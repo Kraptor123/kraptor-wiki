@@ -4882,5 +4882,19 @@
     "tags": [
       "DiziMag"
     ]
+  },
+  "ec09d4ac8a2f4e44651f78f1b7664c4660395ec9": {
+    "sha": "ec09d4ac8a2f4e44651f78f1b7664c4660395ec9",
+    "message": "Animecix: Geliştirme ve Hata giderme",
+    "description": "İçerik başlıkları yerine LogoUrl özelliği, aktör rolleri, yayın durumu, anime bölüm süreleri ve bölüm eklenme tarihleri eklendi; bölüm başlığının açıklamada gözükme sorunu düzeltildi.",
+    "date": "2026-04-08T20:42:54Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX"
+    ]
   }
 }
