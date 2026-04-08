@@ -4778,5 +4778,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "dff981ca36ba0da17c6816aeafb0d6386da88c95": {
+    "sha": "dff981ca36ba0da17c6816aeafb0d6386da88c95",
+    "message": "WebDramaTurkey: Geliştirme",
+    "description": "Bir kaç kategori devre dışı bırakıldı ve Çin, Kore, Japon dizileri için kategoriler eklendi. Aktör bilgileri eklendi. Final olmuş dizilere \"Tamamlandı\" etiketi eklendi.",
+    "date": "2026-04-08T00:01:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WebDramaTurkey"
+    ]
   }
 }
