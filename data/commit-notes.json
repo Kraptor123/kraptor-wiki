@@ -4868,5 +4868,19 @@
       "MirrorVerse",
       "YTS"
     ]
+  },
+  "7e98830fc729c17e984bb1fbdebc978dffbfebc0": {
+    "sha": "7e98830fc729c17e984bb1fbdebc978dffbfebc0",
+    "message": "DiziMag: Geliştirme",
+    "description": "Dizi ortalama bölüm süresi, Bölümün yayınlanma süresi, Aktör rolleri ve Ana menüye score bilgisi eklendi.",
+    "date": "2026-04-08T12:58:49Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziMag"
+    ]
   }
 }
