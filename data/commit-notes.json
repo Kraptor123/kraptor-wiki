@@ -4848,5 +4848,25 @@
     "tags": [
       "HDFilmCehennemi"
     ]
+  },
+  "6780568ed6f8d21cbaef695750976dfcdd71363d": {
+    "sha": "6780568ed6f8d21cbaef695750976dfcdd71363d",
+    "message": "Eklenti türlerinde düzenleme",
+    "description": "Eklentiler yoğunluklarına göre kategorilendirildi. Örnek: Diziasya = Asya dizileri",
+    "date": "2026-04-08T12:44:39Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziAsia",
+      "DiziAsya",
+      "DiziGom",
+      "DiziKorea",
+      "DiziYo",
+      "MirrorVerse",
+      "YTS"
+    ]
   }
 }
