@@ -4806,5 +4806,19 @@
     "tags": [
       "SeiCode"
     ]
+  },
+  "275cd139fa02fd7c5743a116d73e3c2792aace9c": {
+    "sha": "275cd139fa02fd7c5743a116d73e3c2792aace9c",
+    "message": "Dizibox: Geliştirme",
+    "description": "Aktör bilgileri ve Yeni Eklenenler kategorisi eklendi.",
+    "date": "2026-04-08T00:13:57Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziBox"
+    ]
   }
 }
