@@ -4952,5 +4952,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "71952d28dfde46cce276e56787617c186d4b0bbf": {
+    "sha": "71952d28dfde46cce276e56787617c186d4b0bbf",
+    "message": "Anizium: Geliştirme",
+    "description": "Aktörler, fragman, LogoUrl, Bölüm süresi ve Bölüm yayınlanma tarihi için destek eklendi.",
+    "date": "2026-04-09T21:15:19Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Anizium"
+    ]
   }
 }
