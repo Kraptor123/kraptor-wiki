@@ -4910,5 +4910,19 @@
     "tags": [
       "AnimeciX"
     ]
+  },
+  "981e952d07682b2b851f6b915f1a0810b154e3b6": {
+    "sha": "981e952d07682b2b851f6b915f1a0810b154e3b6",
+    "message": "BelgeselX: Hata giderme",
+    "description": "Bazı belgesellerde bölümlerin tam alınamama sorunu giderildi.",
+    "date": "2026-04-09T00:22:24Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "BelgeselX"
+    ]
   }
 }
