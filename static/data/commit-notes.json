@@ -4938,5 +4938,19 @@
     "tags": [
       "RecTV"
     ]
+  },
+  "9685392bbec6cb2c0c98bda20739c82a81ff1fda": {
+    "sha": "9685392bbec6cb2c0c98bda20739c82a81ff1fda",
+    "message": "KraptorPlus: Geliştirme",
+    "description": "Bölümlerin süresi eklendi ve Posteri olmayan bölümlere göstergelik olarak poster eklendi.",
+    "date": "2026-04-09T20:33:27Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
