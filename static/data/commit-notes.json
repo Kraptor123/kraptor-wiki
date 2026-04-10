@@ -5022,5 +5022,19 @@
     "tags": [
       "YTS"
     ]
+  },
+  "86ddc170ec0557a247012ebe035d18c8c7940149": {
+    "sha": "86ddc170ec0557a247012ebe035d18c8c7940149",
+    "message": "Sinewix: Geliştirme",
+    "description": "Detay sayfasının daha güzel gözükmesi için posterlerde değişiklik yapıldı.",
+    "date": "2026-04-10T15:32:50Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SineWix"
+    ]
   }
 }
