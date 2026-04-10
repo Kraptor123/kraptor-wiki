@@ -5050,5 +5050,19 @@
     "tags": [
       "MirrorVerse"
     ]
+  },
+  "c9a3af2d7526ee360aee4a62a0483b06a58a7856": {
+    "sha": "c9a3af2d7526ee360aee4a62a0483b06a58a7856",
+    "message": "SezonlukDizi: Geliştirme",
+    "description": "TMDB entegrasyonu yapıldı. Logourl, oyuncu bilgileri, dizi tamamlanma bilgisi, imdb puanlaması, bölüm isimlendirmesi, posteri, süresi, yayınlanma tarihi ve açıklaması eklendi.",
+    "date": "2026-04-10T17:06:31Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SezonlukDizi"
+    ]
   }
 }
