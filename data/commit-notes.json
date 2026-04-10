@@ -5008,5 +5008,19 @@
     "tags": [
       "SineWix"
     ]
+  },
+  "10c8802f1e0611359050686e64316a3aa91feef6": {
+    "sha": "10c8802f1e0611359050686e64316a3aa91feef6",
+    "message": "YTS: Geliştirme",
+    "description": "YTSYedek kaynağına TMDB entegrasyonu yapılarak tüm veriler geliştirildi; film başlıkları ve açıklamaları tamamen Türkçe hale getirildi, LogoUrl desteği eklendi, aktör bilgileri fotoğrafları ve rolleriyle birlikte eklendi, daha iyi gözüken posterler eklendi, puanlama ve süre bilgileri TMDB'den çekildi ve Simkl gibi servisler için senkronizasyon desteği sağlandı.",
+    "date": "2026-04-10T15:26:41Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "YTS"
+    ]
   }
 }
