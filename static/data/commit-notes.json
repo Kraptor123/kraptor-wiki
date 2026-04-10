@@ -4994,5 +4994,19 @@
     "tags": [
       "SineWix"
     ]
+  },
+  "4c8445dea66a868bc97f0fca80db6bcdd725465a": {
+    "sha": "4c8445dea66a868bc97f0fca80db6bcdd725465a",
+    "message": "Sinewix: Geliştirme",
+    "description": "Sinewixdeki aktör bilgilerinin yanlış olması sebebiyle artık aktör bilgileri TMDB üzerinden çekiliyor.",
+    "date": "2026-04-10T12:55:32Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SineWix"
+    ]
   }
 }
