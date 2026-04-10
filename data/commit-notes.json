@@ -5092,5 +5092,19 @@
     "tags": [
       "FilmMakinesi"
     ]
+  },
+  "2fd63fd8253ff89050c5dd674700f15a3dbad4aa": {
+    "sha": "2fd63fd8253ff89050c5dd674700f15a3dbad4aa",
+    "message": "HDFilmCehennemi: Geliştirme",
+    "description": "TMDB senkronizasyonuyla birlikte; oyuncu bilgileri, sitenin sağlayamadığı durumlarda fragmanlar ve kalitesiz posterlerin yerini alacak TMDB posterleri, IMDB\n puanları ve dizi durumunun yanı sıra bölümlerin poster, süre, açıklama ve yayın tarihi gibi kullanıcıların işine yarayacak veriler eklendi.",
+    "date": "2026-04-10T17:37:00Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmCehennemi"
+    ]
   }
 }
