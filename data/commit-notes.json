@@ -5120,5 +5120,19 @@
     "tags": [
       "SineWix"
     ]
+  },
+  "3eefe0899bfdffe130f60a014d3fc0f6be6fefb2": {
+    "sha": "3eefe0899bfdffe130f60a014d3fc0f6be6fefb2",
+    "message": "Cizgivedizi: Geliştirme",
+    "description": "LogoUrl desteği eklendi ve bölümlere dizinin posteri eklendi.",
+    "date": "2026-04-10T20:53:19Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiveDizi"
+    ]
   }
 }
