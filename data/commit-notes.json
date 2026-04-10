@@ -4980,5 +4980,19 @@
     "tags": [
       "Anizium"
     ]
+  },
+  "48754c9126136f56377add4e4a082f251782002f": {
+    "sha": "48754c9126136f56377add4e4a082f251782002f",
+    "message": "Sinewix: Geliştirme",
+    "description": "TMDB entegrasyonu yapıldı; SineWix'in yetersiz olduğu durumlarda poster, başlık ve açıklama bilgileri çekildi; yıl, puanlama, içerik bitiş durumları, bölümlere eklenme tarihi ve süresi ile fragmanlar, öneriler sistemi ve Simkl gibi senkronizasyon destekleri eklendi.",
+    "date": "2026-04-10T01:09:58Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SineWix"
+    ]
   }
 }
