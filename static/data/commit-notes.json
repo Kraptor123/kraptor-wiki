@@ -5064,5 +5064,19 @@
     "tags": [
       "SezonlukDizi"
     ]
+  },
+  "5e69b891ca3491d6e70ffd22c352ac029bfebba5": {
+    "sha": "5e69b891ca3491d6e70ffd22c352ac029bfebba5",
+    "message": "Sinewix: Geliştirme",
+    "description": "Logourl'ler artık ilk başta var olan türkçe posterleri alıyor, eğer bulunmuyorlarsa ingilizce olanları alıyor.",
+    "date": "2026-04-10T17:24:52Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SineWix"
+    ]
   }
 }
