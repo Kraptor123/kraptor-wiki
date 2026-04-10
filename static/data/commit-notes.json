@@ -5078,5 +5078,19 @@
     "tags": [
       "SineWix"
     ]
+  },
+  "3b84d8322bde79122563b287a5f6e5d69a7c5d36": {
+    "sha": "3b84d8322bde79122563b287a5f6e5d69a7c5d36",
+    "message": "FilmMakinesi: Geliştirme",
+    "description": "TMDB senkronizasyonuyla birlikte; oyuncu bilgileri, sitenin sağlayamadığı durumlarda fragmanlar, IMDB\n puanları ve dizi durumunun yanı sıra bölümlerin poster, süre, açıklama ve yayın tarihi gibi kullanıcıların işine yarayacak veriler eklendi.",
+    "date": "2026-04-10T17:32:40Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmMakinesi"
+    ]
   }
 }
