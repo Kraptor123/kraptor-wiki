@@ -5036,5 +5036,19 @@
     "tags": [
       "SineWix"
     ]
+  },
+  "c08100b4a142e44e6eaa7fafb02071d6ca4d2bc3": {
+    "sha": "c08100b4a142e44e6eaa7fafb02071d6ca4d2bc3",
+    "message": "MirrorVerse: Geliştirme",
+    "description": "Netmirror ve Primemirror için Aktör bilgisi, LogoUrl, Puanlama, Yıl bilgisi, Bölümlere poster, türkçe başlık ve açıklama eklendi. Netflixmirror için ise öneri sistemi eklendi.",
+    "date": "2026-04-10T16:30:38Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "MirrorVerse"
+    ]
   }
 }
