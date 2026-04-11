@@ -5134,5 +5134,29 @@
     "tags": [
       "CizgiveDizi"
     ]
+  },
+  "dd5dbd9c5db389510660c8ecf84b1d0c1e6fb02b": {
+    "sha": "dd5dbd9c5db389510660c8ecf84b1d0c1e6fb02b",
+    "message": "İndirme özelliği aktif edildi.",
+    "description": "İndirme özelliği kapalı olan eklentilerin indirmeleri açıldı.\n\nUYARI!\nİndirme butonunun açık olması başarıyla indirebileceğiniz anlamına gelmez!",
+    "date": "2026-04-11T00:20:23Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaWatch",
+      "CizgiveDizi",
+      "DiziLife",
+      "FullHDFilmizlesene",
+      "GinikoCanli",
+      "HDFilmCehennemi",
+      "HintDizi",
+      "MirrorVerse",
+      "RecTV",
+      "SelcukFlix",
+      "TvDiziler"
+    ]
   }
 }
