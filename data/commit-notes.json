@@ -5158,5 +5158,19 @@
       "SelcukFlix",
       "TvDiziler"
     ]
+  },
+  "e1d7de6621f127cd02c109c889a6a7ec37454ab8": {
+    "sha": "e1d7de6621f127cd02c109c889a6a7ec37454ab8",
+    "message": "Animely: Geliştirme",
+    "description": "Daha kaliteli posterler alındı, aktör bilgisi eklendi, anime tamamlanma durumu, puanı ve bölümlere bölüm süresi eklendi.",
+    "date": "2026-04-11T01:16:09Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Animely"
+    ]
   }
 }
