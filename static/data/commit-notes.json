@@ -5200,5 +5200,19 @@
     "tags": [
       "DiziPalOrijinal"
     ]
+  },
+  "e288883cec7df401b42752fe0b0d5df700d1f814": {
+    "sha": "e288883cec7df401b42752fe0b0d5df700d1f814",
+    "message": "Cizgivedizi: Geliştirme",
+    "description": "Uzun süredir site posterleri \"avif\" formatında veriyordu ve bizde bunları dönüştürüyorduk. Şimdi ise cihazınız android 12 ve altında ise dönüştürülmeye devam edilecek ancak üstünde ise dönüştürülmeyecek. Dönüştürülme yapılmazsa daha hızlı posterler gelecek ancak cihaz desteklemiyor ise posterler bozulabilir.",
+    "date": "2026-04-12T00:26:40Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiveDizi"
+    ]
   }
 }
