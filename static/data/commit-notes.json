@@ -5256,5 +5256,19 @@
     "tags": [
       "SetFilmIzle"
     ]
+  },
+  "79efbf934035d07ab147808a482530eeeac213bb": {
+    "sha": "79efbf934035d07ab147808a482530eeeac213bb",
+    "message": "Animeler: Geliştirme",
+    "description": "Anilist entegre edildi. İçerik bilgileri buna göre alındı.",
+    "date": "2026-04-12T12:08:07Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Animeler"
+    ]
   }
 }
