@@ -5214,5 +5214,19 @@
     "tags": [
       "CizgiveDizi"
     ]
+  },
+  "871730da748adf8a6ded30f1ba62d83fbad4362d": {
+    "sha": "871730da748adf8a6ded30f1ba62d83fbad4362d",
+    "message": "Dizigom: Geliştirme",
+    "description": "TMDB entegrasyonu yapıldı. Logourl, açıklamalar, puan, yıl, aktör, dizi tamamlanma durumu gibi bilgiler eklendi. Bölümlere yayınlanma tarihi, açıklaması başlığı ve diğer detaylar eklendi.",
+    "date": "2026-04-12T09:23:32Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziGom"
+    ]
   }
 }
