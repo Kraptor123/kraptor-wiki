@@ -5270,5 +5270,19 @@
     "tags": [
       "Animeler"
     ]
+  },
+  "26ad71fbc890b3ff73b1869a872e24935c16e155": {
+    "sha": "26ad71fbc890b3ff73b1869a872e24935c16e155",
+    "message": "OpenAnime: Geliştirme",
+    "description": "Logourl, Anime durumu ve Bölüm süresi eklendi.",
+    "date": "2026-04-12T17:05:42Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "OpenAnime"
+    ]
   }
 }
