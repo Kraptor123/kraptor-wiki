@@ -5228,5 +5228,19 @@
     "tags": [
       "DiziGom"
     ]
+  },
+  "a0a8096e87478fce26eed27505b813f1e2e39582": {
+    "sha": "a0a8096e87478fce26eed27505b813f1e2e39582",
+    "message": "Dizimom: Hata giderme",
+    "description": "Son eklenen bölümler kategorisinin posterleri düzeltildi.",
+    "date": "2026-04-12T10:52:36Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziMom"
+    ]
   }
 }
