@@ -5242,5 +5242,19 @@
     "tags": [
       "DiziMom"
     ]
+  },
+  "b9c642e469e8c493ba27a360d8dcdb808526823d": {
+    "sha": "b9c642e469e8c493ba27a360d8dcdb808526823d",
+    "message": "Setfilmizle: Geliştirme",
+    "description": "Diğer eklentilere yapılan Tmdb entegrasyonu bu eklentiyede yapıldı. Önerilenlerdeki kalitesiz posterler yerine daha kaliteli posterler eklendi.",
+    "date": "2026-04-12T11:18:07Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SetFilmIzle"
+    ]
   }
 }
