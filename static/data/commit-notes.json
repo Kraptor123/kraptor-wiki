@@ -5284,5 +5284,28 @@
     "tags": [
       "OpenAnime"
     ]
+  },
+  "cfb1b5caaa17e37aba21c7b26a53a935e6d4a636": {
+    "sha": "cfb1b5caaa17e37aba21c7b26a53a935e6d4a636",
+    "message": "Simkl senkronizasyonu için hata giderme",
+    "description": "TMDB entegrasyonu yapılmış eklentilerde Simkl, myanimelist ve anilist gibi servisler için senkronizasyon desteği eklendi.",
+    "date": "2026-04-13T02:51:46Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "Anizium",
+      "DiziGom",
+      "FilmMakinesi",
+      "HDFilmCehennemi",
+      "MirrorVerse",
+      "OpenAnime",
+      "SetFilmIzle",
+      "SezonlukDizi",
+      "SineWix"
+    ]
   }
 }
