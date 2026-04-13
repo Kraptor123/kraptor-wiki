@@ -5307,5 +5307,21 @@
       "SezonlukDizi",
       "SineWix"
     ]
+  },
+  "a6d0bc0292ddc6e84d543173124d910741a76aa9": {
+    "sha": "a6d0bc0292ddc6e84d543173124d910741a76aa9",
+    "message": "Hata düzeltmeleri",
+    "description": "Jetfilmizle sitesinde yanıt vermeyen kategoriler eklentiyi bozuyordu, artık otomatik kapanacaklar. Cizgimax ve YTS sitelerine erişim sağlanamazsa ekrana bir uyarı gelecek.",
+    "date": "2026-04-13T15:45:52Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiMax",
+      "JetFilmizle",
+      "YTS"
+    ]
   }
 }
