@@ -5337,5 +5337,19 @@
     "tags": [
       "DiziFilmORG"
     ]
+  },
+  "6ab426e489e893e1e3f1d1742eb0a78e05df3ae7": {
+    "sha": "6ab426e489e893e1e3f1d1742eb0a78e05df3ae7",
+    "message": "DizifilmOrg: Geliştirme",
+    "description": "TMDB entegrasyonu yapıldı. Diğer eklentilerde olduğu gibi bir çok yenilik eklendi.",
+    "date": "2026-04-13T16:57:15Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziFilmORG"
+    ]
   }
 }
