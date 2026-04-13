@@ -5323,5 +5323,19 @@
       "JetFilmizle",
       "YTS"
     ]
+  },
+  "79b1416bf325107b4727eecc67ee0894f806a5bf": {
+    "sha": "79b1416bf325107b4727eecc67ee0894f806a5bf",
+    "message": "DizifilmOrg: Hata giderme",
+    "description": "Videolardaki altyazı sorunu giderildi.",
+    "date": "2026-04-13T16:42:17Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziFilmORG"
+    ]
   }
 }
