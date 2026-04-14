@@ -5365,5 +5365,20 @@
     "tags": [
       "DiziLife"
     ]
+  },
+  "652200c08fe0ba9cbd35073618c8e12249a08cc2": {
+    "sha": "652200c08fe0ba9cbd35073618c8e12249a08cc2",
+    "message": "Dizibox: Hata giderme",
+    "description": "Vidmoly kaynağındaki şifreleme çözüldü.",
+    "date": "2026-04-14T16:05:41Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziBox",
+      "KoreanTurk"
+    ]
   }
 }
