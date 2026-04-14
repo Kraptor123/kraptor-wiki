@@ -5380,5 +5380,20 @@
       "DiziBox",
       "KoreanTurk"
     ]
+  },
+  "1aa7a0c4380630208fde5f59fea5d0082ede8e1f": {
+    "sha": "1aa7a0c4380630208fde5f59fea5d0082ede8e1f",
+    "message": "AsyaWatch ve Selcukflix: Geliştirme",
+    "description": "Sitede çalışmayan film serileri kısımları arama sonuçlarından filtrelendi.",
+    "date": "2026-04-14T19:00:20Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaWatch",
+      "SelcukFlix"
+    ]
   }
 }
