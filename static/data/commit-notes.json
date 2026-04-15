@@ -5423,5 +5423,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "5baacb5ac82fcaf7af77dc3cd767d91fc4a5d035": {
+    "sha": "5baacb5ac82fcaf7af77dc3cd767d91fc4a5d035",
+    "message": "Kraptorplus: Geliştirme",
+    "description": "Ayarlar kısmına deneysel stremio eklentileri eklendi. Video kaynağı ekleyebilir ve isimlendirmesini filtreleyebilirsiniz.",
+    "date": "2026-04-15T21:41:43Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
