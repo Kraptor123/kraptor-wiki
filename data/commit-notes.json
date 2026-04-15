@@ -5409,5 +5409,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "4d9b37bf21d57ebdd716d0bd8098bfb3379367d6": {
+    "sha": "4d9b37bf21d57ebdd716d0bd8098bfb3379367d6",
+    "message": "KraptorPlus: Geliştirme",
+    "description": "Ayarlar kısmına filtreleme seçenekleri eklendi. İstenmeyen dil veya kategoriler filtrelenebilir.",
+    "date": "2026-04-15T19:16:15Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
