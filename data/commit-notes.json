@@ -5395,5 +5395,19 @@
       "AsyaWatch",
       "SelcukFlix"
     ]
+  },
+  "71c7a444f3f1b569f3027b7f5e01e55aae35670a": {
+    "sha": "71c7a444f3f1b569f3027b7f5e01e55aae35670a",
+    "message": "Kraptorplus: Geliştirme",
+    "description": "Vegamovies ve 4KHDHub kaynaklarının dizilerde yanlış bölümü alma sorunu giderildi. HDHub4u kaynağının dizi kısmı sorunlu olduğu için dizilerde kullanılamayacak. Wyzie altyazı kaynağındaki sorun giderildi.",
+    "date": "2026-04-15T17:59:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
