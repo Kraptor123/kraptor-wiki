@@ -5451,5 +5451,19 @@
     "tags": [
       "DiziFilmORG"
     ]
+  },
+  "5f3baa397ea64dace59bf5d2991e3792f92b8331": {
+    "sha": "5f3baa397ea64dace59bf5d2991e3792f92b8331",
+    "message": "WFilmizle: Yeni eklenti",
+    "description": "TMDB entegre bir şekilde eklendi.",
+    "date": "2026-04-16T21:50:45Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WFilmizle"
+    ]
   }
 }
