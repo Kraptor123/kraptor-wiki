@@ -5465,5 +5465,24 @@
     "tags": [
       "WFilmizle"
     ]
+  },
+  "f986c5be1fe92202e9c94226f8ffe308d9a538ae": {
+    "sha": "f986c5be1fe92202e9c94226f8ffe308d9a538ae",
+    "message": "Hata düzeltme",
+    "description": "Fourpichive kaynaklarında (Dizilla, Selcukflix ve Asyawatch) video oynatma sorunu giderildi.",
+    "date": "2026-04-17T06:00:45Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaWatch",
+      "DiziPalOrijinal",
+      "DiziYo",
+      "Dizilla",
+      "FullHDFilmizlesene",
+      "SelcukFlix"
+    ]
   }
 }
