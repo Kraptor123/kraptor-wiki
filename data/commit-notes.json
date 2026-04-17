@@ -5535,5 +5535,20 @@
       "FullHDFilmizlesene",
       "SelcukFlix"
     ]
+  },
+  "ae271ff275433ee6613fe5baaa8df658a40c4418": {
+    "sha": "ae271ff275433ee6613fe5baaa8df658a40c4418",
+    "message": "HDFilmcehennemi ve Filmmakinesi: Geliştirme",
+    "description": "Yayınlanmayan bölümler TMDB üzerinden denetleyip eklentide gösterilmeyecek.",
+    "date": "2026-04-17T13:19:15Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmMakinesi",
+      "HDFilmCehennemi"
+    ]
   }
 }
