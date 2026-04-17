@@ -5550,5 +5550,19 @@
       "FilmMakinesi",
       "HDFilmCehennemi"
     ]
+  },
+  "1d67c3b9a3d680bf14840c53d4033cb70415c04b": {
+    "sha": "1d67c3b9a3d680bf14840c53d4033cb70415c04b",
+    "message": "WebDramaTurkey: Hata düzeltme",
+    "description": "Cloudflare engeli aşıldı.",
+    "date": "2026-04-17T17:56:14Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WebDramaTurkey"
+    ]
   }
 }
