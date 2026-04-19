@@ -5564,5 +5564,19 @@
     "tags": [
       "WebDramaTurkey"
     ]
+  },
+  "045ae61899d0ec75e7010e111f87246705582a80": {
+    "sha": "045ae61899d0ec75e7010e111f87246705582a80",
+    "message": "Dizilife: Hata düzeltme",
+    "description": "Bazı içeriklerdeki video oynatma sorunları giderildi. Video isimlendirmesindeki tekrara düşen kalite etiketleri silindi.",
+    "date": "2026-04-19T20:10:03Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife"
+    ]
   }
 }
