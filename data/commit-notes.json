@@ -5610,5 +5610,19 @@
     "tags": [
       "AsyaAnimeleri"
     ]
+  },
+  "e00e6fb58fe61906dbdcd88940f0a93656cb70e8": {
+    "sha": "e00e6fb58fe61906dbdcd88940f0a93656cb70e8",
+    "message": "YTSYedek: Hata giderme",
+    "description": "Site değişikliği sonucu bozulan eklenti düzeltildi.",
+    "date": "2026-04-21T07:13:12Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "YTS"
+    ]
   }
 }
