@@ -5596,5 +5596,19 @@
       "KanalD",
       "YeniWatch"
     ]
+  },
+  "34d003b0717e74af9568f00f3f4500c087b7c477": {
+    "sha": "34d003b0717e74af9568f00f3f4500c087b7c477",
+    "message": "AsyaAnimeleri: Geliştirme",
+    "description": "Bölüm eklenme tarihi eklendi ve Bölüm isimlerinde düzenleme yapıldı.",
+    "date": "2026-04-21T06:22:45Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaAnimeleri"
+    ]
   }
 }
