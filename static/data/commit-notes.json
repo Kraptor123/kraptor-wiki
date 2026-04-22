@@ -5624,5 +5624,19 @@
     "tags": [
       "YTS"
     ]
+  },
+  "fb2a0497bc94c380e102fb4c5d0865889a8a6c8b": {
+    "sha": "fb2a0497bc94c380e102fb4c5d0865889a8a6c8b",
+    "message": "DiziPal: Hata giderme",
+    "description": "Video oynatma sorunları giderildi.",
+    "date": "2026-04-22T04:40:32Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPal"
+    ]
   }
 }
