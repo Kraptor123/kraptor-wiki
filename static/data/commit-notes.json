@@ -5654,5 +5654,19 @@
       "HDFilmCehennemi",
       "KraptorPlus"
     ]
+  },
+  "65ef797e8964e21f0be595096e77305d675c407b": {
+    "sha": "65ef797e8964e21f0be595096e77305d675c407b",
+    "message": "DiziPal: Hata giderme",
+    "description": "Video oynatma ve film süre bilgisindeki sorunlar giderildi.",
+    "date": "2026-04-23T06:51:40Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPal"
+    ]
   }
 }
