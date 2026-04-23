@@ -5668,5 +5668,19 @@
     "tags": [
       "DiziPal"
     ]
+  },
+  "5cfffb8ec39726c00644684a0c9c2edf0ba97914": {
+    "sha": "5cfffb8ec39726c00644684a0c9c2edf0ba97914",
+    "message": "HDFilmizle: Hata giderme",
+    "description": "Video oynatma sorunları giderildi.",
+    "date": "2026-04-23T19:08:14Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmizle"
+    ]
   }
 }
