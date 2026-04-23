@@ -5638,5 +5638,21 @@
     "tags": [
       "DiziPal"
     ]
+  },
+  "973276330959dee81b5183d4d57e4696d9d93059": {
+    "sha": "973276330959dee81b5183d4d57e4696d9d93059",
+    "message": "HDFilmCehennemi: Hata giderme",
+    "description": "Yeni yayınlanan içeriklerin geç açılma sorunu giderildi.",
+    "date": "2026-04-23T03:39:47Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPal",
+      "HDFilmCehennemi",
+      "KraptorPlus"
+    ]
   }
 }
