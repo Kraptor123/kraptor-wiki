@@ -5716,5 +5716,19 @@
       "FullHDFilmizlesene",
       "SelcukFlix"
     ]
+  },
+  "69767302871452f86c14023e094b7430b32b1f67": {
+    "sha": "69767302871452f86c14023e094b7430b32b1f67",
+    "message": "Watch2movies: Devre dışı",
+    "description": "Bozuk olması ve artık güncelleme yapılmayacağı için devre dışı bırakıldı.",
+    "date": "2026-04-25T09:53:51Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Watch2Movies"
+    ]
   }
 }
