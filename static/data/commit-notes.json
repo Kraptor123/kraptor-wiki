@@ -5780,5 +5780,20 @@
     "tags": [
       "AnimeciX"
     ]
+  },
+  "eed6dbae6b414940ba81cc2430a7464f55b64e8f": {
+    "sha": "eed6dbae6b414940ba81cc2430a7464f55b64e8f",
+    "message": "Dizimom ve WFilmizle: Hata giderme",
+    "description": "Bazı içeriklere özel video oynatma sorunları giderildi.",
+    "date": "2026-04-25T10:41:24Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziMom",
+      "WFilmizle"
+    ]
   }
 }
