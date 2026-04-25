@@ -5752,5 +5752,19 @@
       "YabanciDizi",
       "Youtube"
     ]
+  },
+  "d141eef6942d5b1c55506cab96497a56db478b5e": {
+    "sha": "d141eef6942d5b1c55506cab96497a56db478b5e",
+    "message": "Animecix: Geliştirme",
+    "description": "TMDB entegrasyonu genişletildi daha fazla bilgi alındı.",
+    "date": "2026-04-25T10:07:30Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX"
+    ]
   }
 }
