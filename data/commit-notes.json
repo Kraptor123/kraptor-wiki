@@ -5871,5 +5871,19 @@
       "SineWix",
       "YTS"
     ]
+  },
+  "49216723d5a4b35205f8923467bbf695f85f52aa": {
+    "sha": "49216723d5a4b35205f8923467bbf695f85f52aa",
+    "message": "Turkdizileri: Hata giderme",
+    "description": "Nowtv video oynatma sorunu giderildi.",
+    "date": "2026-04-26T18:22:09Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
