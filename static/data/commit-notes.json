@@ -5795,5 +5795,20 @@
       "DiziMom",
       "WFilmizle"
     ]
+  },
+  "cb2f94be4cd2987fdbc725081191beb07a3a135e": {
+    "sha": "cb2f94be4cd2987fdbc725081191beb07a3a135e",
+    "message": "HDFilmizle: Hata giderme",
+    "description": "Bazı içeriklerdeki video oynatma sorunları giderildi.",
+    "date": "2026-04-26T05:22:04Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "HDFilmizle"
+    ]
   }
 }
