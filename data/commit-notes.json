@@ -5917,5 +5917,19 @@
       "Dizilla",
       "SelcukFlix"
     ]
+  },
+  "4a4f8626039f8cb5657af9cf4165765c5848f3dd": {
+    "sha": "4a4f8626039f8cb5657af9cf4165765c5848f3dd",
+    "message": "Asyawatch: Geliştirme",
+    "description": "Tmdb entegrasyonu eklendi.",
+    "date": "2026-04-27T14:51:50Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaWatch"
+    ]
   }
 }
