@@ -5902,5 +5902,20 @@
       "Dizilla",
       "FullHDFilmizlesene"
     ]
+  },
+  "453b15c930f400273978edba7347e59a3bb71b30": {
+    "sha": "453b15c930f400273978edba7347e59a3bb71b30",
+    "message": "Dizilla ve Selcukflix: Geliştirme",
+    "description": "İki eklentiyede TMDB entegrasyonu eklendi.",
+    "date": "2026-04-27T14:50:46Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Dizilla",
+      "SelcukFlix"
+    ]
   }
 }
