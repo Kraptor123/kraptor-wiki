@@ -6021,5 +6021,19 @@
       "AsyaWatch",
       "DiziGom"
     ]
+  },
+  "d8fcce7a117404ded71af4c941e4da3b410bfb21": {
+    "sha": "d8fcce7a117404ded71af4c941e4da3b410bfb21",
+    "message": "KanalD: Geliştirme",
+    "description": "LogoUrl desteği eklendi ve bölümleri bulunmayan içeriklerden fragmanlar alındı.",
+    "date": "2026-04-28T15:55:00Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
