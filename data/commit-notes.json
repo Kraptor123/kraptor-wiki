@@ -6035,5 +6035,19 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "6bb6323d5965273c54ccd4ed86cadf4c8c862d65": {
+    "sha": "6bb6323d5965273c54ccd4ed86cadf4c8c862d65",
+    "message": "DizipalOrijinal: Geliştirme",
+    "description": "TMDB entegrasyonu eklendi.",
+    "date": "2026-04-28T16:46:28Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPalOrijinal"
+    ]
   }
 }
