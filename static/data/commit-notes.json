@@ -6122,5 +6122,19 @@
     "tags": [
       "JetFilmizle"
     ]
+  },
+  "5c2c34ca67dfc7ec913789e55d5a8328c9d01d1e": {
+    "sha": "5c2c34ca67dfc7ec913789e55d5a8328c9d01d1e",
+    "message": "DiziBox: Geliştirme",
+    "description": "Popüler bölümler ve Son eklenen bölümler kategorilerine yan poster desteği eklendi. Bölüm isimlendirmesi düzeltildi.",
+    "date": "2026-04-29T18:18:28Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziBox"
+    ]
   }
 }
