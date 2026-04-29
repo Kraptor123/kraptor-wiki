@@ -6108,5 +6108,19 @@
       "InatBox",
       "SezonlukDizi"
     ]
+  },
+  "c3785da8c041edc551d040620c1ac0cb56b41a74": {
+    "sha": "c3785da8c041edc551d040620c1ac0cb56b41a74",
+    "message": "Jetfilmizle:Hata giderme",
+    "description": "Bazı video kaynaklarının alınamama sorunu giderildi.",
+    "date": "2026-04-29T15:02:27Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "JetFilmizle"
+    ]
   }
 }
