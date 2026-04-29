@@ -6092,5 +6092,21 @@
     "tags": [
       "FilmMakinesi"
     ]
+  },
+  "1fb3e5411967322d5da080bfaeeb429fafa0f094": {
+    "sha": "1fb3e5411967322d5da080bfaeeb429fafa0f094",
+    "message": "SezonlukDizi: Geliştirme",
+    "description": "Dzen video kaynağı için destek eklendi.",
+    "date": "2026-04-29T14:44:42Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziBox",
+      "InatBox",
+      "SezonlukDizi"
+    ]
   }
 }
