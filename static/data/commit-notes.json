@@ -6063,5 +6063,20 @@
     "tags": [
       "WebDramaTurkey"
     ]
+  },
+  "257b1efac564309c6d8dcfb25790e55f2040f884": {
+    "sha": "257b1efac564309c6d8dcfb25790e55f2040f884",
+    "message": "DiziAsya: Geliştirme",
+    "description": "Filmlere süre bilgisi, animelere ve asya dizilerine ise dizi durumu ve daha fazla detay eklendi.",
+    "date": "2026-04-29T10:38:57Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziAsya",
+      "WebDramaTurkey"
+    ]
   }
 }
