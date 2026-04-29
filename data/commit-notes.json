@@ -6078,5 +6078,19 @@
       "DiziAsya",
       "WebDramaTurkey"
     ]
+  },
+  "ef1cf26ce49604366f8d8445d20974461fbc7110": {
+    "sha": "ef1cf26ce49604366f8d8445d20974461fbc7110",
+    "message": "Filmmakinesi: Hata giderme",
+    "description": "Close kaynağındaki video oynatma sorunları giderildi.",
+    "date": "2026-04-29T13:53:01Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmMakinesi"
+    ]
   }
 }
