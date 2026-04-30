@@ -6136,5 +6136,22 @@
     "tags": [
       "DiziBox"
     ]
+  },
+  "07ee4f1502ade06939d75ac2999e954921ac0910": {
+    "sha": "07ee4f1502ade06939d75ac2999e954921ac0910",
+    "message": "Dizilla ve Selcukflix: Geliştirme",
+    "description": "Tmdb entegrasyonu isimle eşleştirildiği için yanlış sonuç verebiliyordu. Şuan ki güncelleme ile birlikte bu durum azaltıldı.",
+    "date": "2026-04-30T15:19:32Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaWatch",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "SelcukFlix"
+    ]
   }
 }
