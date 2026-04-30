@@ -6168,5 +6168,19 @@
       "FilmModu",
       "SetFilmIzle"
     ]
+  },
+  "77c1dc27652f2c0c1867798d28baf6907606b2e6": {
+    "sha": "77c1dc27652f2c0c1867798d28baf6907606b2e6",
+    "message": "DizipalOrijinal: Geliştirme",
+    "description": "Yeni eklenen diziler kategorisi düzeltildi, imdb puanı olan kategori ise silindi.",
+    "date": "2026-04-30T18:39:11Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPalOrijinal"
+    ]
   }
 }
