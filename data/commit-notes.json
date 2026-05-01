@@ -6182,5 +6182,22 @@
     "tags": [
       "DiziPalOrijinal"
     ]
+  },
+  "d92972427f8501c0ca03c5f15a3bb48c7c0240be": {
+    "sha": "d92972427f8501c0ca03c5f15a3bb48c7c0240be",
+    "message": "Genel Geliştirme",
+    "description": "Asyawatch, Selcukflix, Dizilla ve DizipalOrijinal eklentilerinde tmdb'den sonuç alınması için isim eşleşmelerinde iyileştirme yapıldı.",
+    "date": "2026-05-01T06:37:00Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaWatch",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "SelcukFlix"
+    ]
   }
 }
