@@ -6199,5 +6199,29 @@
       "Dizilla",
       "SelcukFlix"
     ]
+  },
+  "78d7fa2e7e848a90c99da1b4203159efb0210d4e": {
+    "sha": "78d7fa2e7e848a90c99da1b4203159efb0210d4e",
+    "message": "Genel Geliştirme ve Hata giderme",
+    "description": "Sinewix: Ana menü ve aramadaki score puanları uygulamanın geçersiz puanlar içermesi sebebiyle silindi. Kategori isimlerindeki küçük hata giderildi.\n\nWFilmizle: İçerik sayfasına yeni detaylar eklendi ve poster sorunları giderildi.\n\nTmdb entegrasyonu içeren tüm eklentilere içerik derecelendirme puanları (+15, +18 vs.) eklendi.",
+    "date": "2026-05-01T15:04:19Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaWatch",
+      "DiziFilmORG",
+      "DiziGom",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "FilmMakinesi",
+      "HDFilmCehennemi",
+      "SelcukFlix",
+      "SezonlukDizi",
+      "SineWix",
+      "WFilmizle"
+    ]
   }
 }
