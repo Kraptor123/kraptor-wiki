@@ -6223,5 +6223,19 @@
       "SineWix",
       "WFilmizle"
     ]
+  },
+  "9c78f1dde676a84711549c2e051b07d994d58034": {
+    "sha": "9c78f1dde676a84711549c2e051b07d994d58034",
+    "message": "WFilmizle: Hata giderme",
+    "description": "Video oynatma sorunları giderildi.",
+    "date": "2026-05-01T15:13:34Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WFilmizle"
+    ]
   }
 }
