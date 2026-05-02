@@ -6268,5 +6268,19 @@
       "Dizilla",
       "SelcukFlix"
     ]
+  },
+  "4885ef26e07d395d81e78c52c99be371be69d817": {
+    "sha": "4885ef26e07d395d81e78c52c99be371be69d817",
+    "message": "DiziLife: Geliştirme ve Hata giderme",
+    "description": "TMDB Entegrasyonu yapıldı, detaylar buna göre alındı. Sitenin rate limit vermemesi için kategoriler azaltıldı.",
+    "date": "2026-05-02T12:27:01Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife"
+    ]
   }
 }
