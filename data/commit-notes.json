@@ -6296,5 +6296,19 @@
     "tags": [
       "DiziLife"
     ]
+  },
+  "4383d075556c1371cb4ae3853507adbd0ad79030": {
+    "sha": "4383d075556c1371cb4ae3853507adbd0ad79030",
+    "message": "TurkDizileri: Geliştirme",
+    "description": "Önerilenler sistemi eklendi ve Sitede bölüm bulunamazsa eklenti o diziyi yüklemeyip uyarı verecek.",
+    "date": "2026-05-02T12:53:43Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
