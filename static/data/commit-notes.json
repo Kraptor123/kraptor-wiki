@@ -6338,5 +6338,19 @@
     "tags": [
       "TurkAnime"
     ]
+  },
+  "35499be6e01fa0d575eeef96445dab6259ee751d": {
+    "sha": "35499be6e01fa0d575eeef96445dab6259ee751d",
+    "message": "WebDramaTurkey: Geliştirme",
+    "description": "Detay sayfasına içeriklerin çevirilme durumları eklendi.",
+    "date": "2026-05-03T10:40:33Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WebDramaTurkey"
+    ]
   }
 }
