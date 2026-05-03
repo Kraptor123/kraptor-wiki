@@ -6324,5 +6324,19 @@
     "tags": [
       "FilmHane"
     ]
+  },
+  "ba7eb251bd7aad9174e316b134fddbb2dc696570": {
+    "sha": "ba7eb251bd7aad9174e316b134fddbb2dc696570",
+    "message": "TurkAnime: Geliştirme",
+    "description": "2026 Animeleri kategorisindeki çift gelen sonuçlar filtrelendi.",
+    "date": "2026-05-03T09:57:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "TurkAnime"
+    ]
   }
 }
