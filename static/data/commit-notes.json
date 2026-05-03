@@ -6381,5 +6381,22 @@
     "tags": [
       "SeiCode"
     ]
+  },
+  "19c27aad72dfc75fd8c82aaa8a1122dde953d611": {
+    "sha": "19c27aad72dfc75fd8c82aaa8a1122dde953d611",
+    "message": "Genel Düzeltme",
+    "description": "Pichive kaynaklarında çakışma yaratan hata düzeltildi.",
+    "date": "2026-05-03T13:22:30Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "FullHDFilmizlesene"
+    ]
   }
 }
