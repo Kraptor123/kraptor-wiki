@@ -6412,5 +6412,23 @@
     "tags": [
       "DiziBox"
     ]
+  },
+  "8c7daf341cf4bb425883c7eea71ff3dc84c1a92f": {
+    "sha": "8c7daf341cf4bb425883c7eea71ff3dc84c1a92f",
+    "message": "Genel Düzeltme",
+    "description": "Pichive video kaynağındaki altyazı sorunları giderildi. Dizilla sitesinden dolayı çift gelen içerikler filtrelendi. Bölüm isimleri düzeltildi.",
+    "date": "2026-05-03T17:10:26Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "FullHDFilmizlesene",
+      "WFilmizle"
+    ]
   }
 }
