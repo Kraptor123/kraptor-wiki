@@ -6352,5 +6352,20 @@
     "tags": [
       "WebDramaTurkey"
     ]
+  },
+  "eb5c9f414924a092ca0749f9b84c660e19129d09": {
+    "sha": "eb5c9f414924a092ca0749f9b84c660e19129d09",
+    "message": "Dizilife: Geliştirme",
+    "description": "Önceden çıkartılmış bazı kategoriler tekrardan eklendi. Bunun yapılabilmesi için ana sayfanın hızı biraz yavaşlatıldı.",
+    "date": "2026-05-03T11:16:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife",
+      "Dizilla"
+    ]
   }
 }
