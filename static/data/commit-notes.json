@@ -6310,5 +6310,19 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "434b8d057a10d62f5a627e0452cd3c72f8dec90a": {
+    "sha": "434b8d057a10d62f5a627e0452cd3c72f8dec90a",
+    "message": "Filmhane: Hata düzeltme",
+    "description": "Video oynatma sorunları giderildi.",
+    "date": "2026-05-03T09:44:00Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmHane"
+    ]
   }
 }
