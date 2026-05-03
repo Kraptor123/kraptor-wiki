@@ -6398,5 +6398,19 @@
       "Dizilla",
       "FullHDFilmizlesene"
     ]
+  },
+  "94a77ccf9b4792928e13ee5ee3bba06019f5d845": {
+    "sha": "94a77ccf9b4792928e13ee5ee3bba06019f5d845",
+    "message": "Dizibox: Hata düzeltme",
+    "description": "Cloudflare engeli aşıldı.",
+    "date": "2026-05-03T14:04:07Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziBox"
+    ]
   }
 }
