@@ -6447,5 +6447,19 @@
       "Dizilla",
       "FullHDFilmizlesene"
     ]
+  },
+  "a9c688cd4388f24ab3e3dfda59ba8a41116f54b5": {
+    "sha": "a9c688cd4388f24ab3e3dfda59ba8a41116f54b5",
+    "message": "KraptorPlus: Geliştirme",
+    "description": "Bir kaç deneysel 4k kaynağı eklendi. Webdramaturkey'in sadece asya dizilerinde çıkması için bir güncelleme yapıldı.",
+    "date": "2026-05-04T17:10:56Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
