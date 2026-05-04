@@ -6461,5 +6461,21 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "b1a136abfc4aa784b3dc0779a485c27053c897b6": {
+    "sha": "b1a136abfc4aa784b3dc0779a485c27053c897b6",
+    "message": "Genel Düzeltme",
+    "description": "Pichive kaynaklarında bazı videoların açılmama sorunu giderildi. Selcukflix bölüm posterlerinin gelmeme sorunu giderildi.",
+    "date": "2026-05-04T18:04:20Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaWatch",
+      "Dizilla",
+      "SelcukFlix"
+    ]
   }
 }
