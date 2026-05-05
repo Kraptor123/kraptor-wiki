@@ -6491,5 +6491,19 @@
     "tags": [
       "KickTR"
     ]
+  },
+  "0de9268c9cfa7bca7fd1184b457e8831a0597111": {
+    "sha": "0de9268c9cfa7bca7fd1184b457e8831a0597111",
+    "message": "DiziLife: Hata Düzeltme",
+    "description": "Video oynatma sorunları giderildi.",
+    "date": "2026-05-05T12:51:44Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife"
+    ]
   }
 }
