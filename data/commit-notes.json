@@ -6505,5 +6505,19 @@
     "tags": [
       "DiziLife"
     ]
+  },
+  "7a49cac2c7ea4bd89003e4f389f285f4a8bccf7b": {
+    "sha": "7a49cac2c7ea4bd89003e4f389f285f4a8bccf7b",
+    "message": "Cizgivedizi: Hata Düzeltme",
+    "description": "Site değişikliği sebebiyle eklenti baştan aşağı tekrardan yapıldı.",
+    "date": "2026-05-05T14:01:49Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiveDizi"
+    ]
   }
 }
