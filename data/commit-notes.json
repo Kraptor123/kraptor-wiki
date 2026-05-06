@@ -6533,5 +6533,19 @@
     "tags": [
       "AnimeciX"
     ]
+  },
+  "97ce005cc3258b7e90f44b6a259fd6f5a7300f63": {
+    "sha": "97ce005cc3258b7e90f44b6a259fd6f5a7300f63",
+    "message": "ÇizgiveDizi: Hata Düzeltme",
+    "description": "Filmlerde video oynatma ve logourl'nin bulunamama sorunları düzeltildi.",
+    "date": "2026-05-06T11:41:43Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiveDizi"
+    ]
   }
 }
