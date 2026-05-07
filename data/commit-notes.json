@@ -6617,5 +6617,20 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "1878a5faf01e7148407a0d17d375b177800a0150": {
+    "sha": "1878a5faf01e7148407a0d17d375b177800a0150",
+    "message": "FilmHane: Geliştirme ve Hata Düzeltme",
+    "description": "Sitenin tasarımı değiştiği için baştan aşağı tekrardan yapıldı. Yapılırken Tmdb entegrasyonu uygulandı.",
+    "date": "2026-05-07T20:20:12Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife",
+      "FilmHane"
+    ]
   }
 }
