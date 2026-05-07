@@ -6589,5 +6589,19 @@
     "tags": [
       "Dizilla"
     ]
+  },
+  "335c5602c773cc528030f887ee83c58a484d24c4": {
+    "sha": "335c5602c773cc528030f887ee83c58a484d24c4",
+    "message": "Çizgivedizi: Hata Düzeltme",
+    "description": "Sezon ve Bölümlerdeki hatalar giderildi.",
+    "date": "2026-05-07T12:36:54Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiveDizi"
+    ]
   }
 }
