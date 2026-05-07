@@ -6603,5 +6603,19 @@
     "tags": [
       "CizgiveDizi"
     ]
+  },
+  "d6579347da70b05294bbe99e4b85a172b1f7a8ec": {
+    "sha": "d6579347da70b05294bbe99e4b85a172b1f7a8ec",
+    "message": "TurkDizileri: Geliştirme",
+    "description": "TRT1: Siteden dolayı çift gelen içerikler filtrelendi, bölüm isimleri düzeltildi.",
+    "date": "2026-05-07T18:29:36Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
