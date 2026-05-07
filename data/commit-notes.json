@@ -6575,5 +6575,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "ae6c9c7f6b609ac97e095852d97128dfc40ac923": {
+    "sha": "ae6c9c7f6b609ac97e095852d97128dfc40ac923",
+    "message": "Dizilla: Hata Düzeltme",
+    "description": "Bazı posterlerin boş gelme sorunları düzeltildi.",
+    "date": "2026-05-07T12:08:42Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Dizilla"
+    ]
   }
 }
