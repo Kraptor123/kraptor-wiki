@@ -6632,5 +6632,19 @@
       "DiziLife",
       "FilmHane"
     ]
+  },
+  "adb1f1ba692f312b6f10a81892f6d1104c3af161": {
+    "sha": "adb1f1ba692f312b6f10a81892f6d1104c3af161",
+    "message": "SelcukFlix: Hata Düzeltme",
+    "description": "Site yavaşladığı için bağlantı sorunları yaşanıyordu, bazı kategoriler kaldırılarak sorun giderildi.",
+    "date": "2026-05-08T11:45:18Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SelcukFlix"
+    ]
   }
 }
