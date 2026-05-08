@@ -6646,5 +6646,20 @@
     "tags": [
       "SelcukFlix"
     ]
+  },
+  "b8f529e2664c03c9385e75d5203348d8f99a3647": {
+    "sha": "b8f529e2664c03c9385e75d5203348d8f99a3647",
+    "message": "Animecix: Hata Düzeltme",
+    "description": "İçeriklerin geç yüklenmesine sebebiyet veren hata giderildi.",
+    "date": "2026-05-08T15:41:11Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "Turkdizileri"
+    ]
   }
 }
