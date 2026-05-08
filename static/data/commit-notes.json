@@ -6661,5 +6661,19 @@
       "AnimeciX",
       "Turkdizileri"
     ]
+  },
+  "44bda41dad65285dcc3ce39d75c28571c6df0ec5": {
+    "sha": "44bda41dad65285dcc3ce39d75c28571c6df0ec5",
+    "message": "KraptorPlus: Geliştirme",
+    "description": "Bir yeni dizi kaynağı eklendi ve kullanılabilmesi için ayarlardan febbox ile giriş yapılması gerekli. Real debrid desteği eklendi. Dizilerde ve bölümlerdeki eksik detaylar eklendi.",
+    "date": "2026-05-08T18:44:38Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
