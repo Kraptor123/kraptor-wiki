@@ -6764,5 +6764,19 @@
     "tags": [
       "HDFilmDelisi"
     ]
+  },
+  "1b7230b1762893ef3ed2968761c7a878147bd64a": {
+    "sha": "1b7230b1762893ef3ed2968761c7a878147bd64a",
+    "message": "HDFilmizle: Geliştirme",
+    "description": "Eklentide eksik olan dizi bilgileri alındı. Tmdb entegrasyonu yapıldı.",
+    "date": "2026-05-09T20:52:03Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmizle"
+    ]
   }
 }
