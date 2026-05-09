@@ -6689,5 +6689,19 @@
     "tags": [
       "AnimeciX"
     ]
+  },
+  "1952b2004787afbb3fbd99a28b9a12809ba2e2e3": {
+    "sha": "1952b2004787afbb3fbd99a28b9a12809ba2e2e3",
+    "message": "KraptorPlus: Geliştirme ve Hata Düzeltme",
+    "description": "Febbox'daki hatalar giderildi ve Febbox'a özel olarak Showbox kaynağı eklendi. Vixsrc kaynağı eklendi. Bazı türk kaynaklarındaki sorunlar giderildi.",
+    "date": "2026-05-09T13:19:07Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
