@@ -6750,5 +6750,19 @@
     "tags": [
       "DiziGom"
     ]
+  },
+  "e0f44989b69920344575c2c5421894f2edd20b2a": {
+    "sha": "e0f44989b69920344575c2c5421894f2edd20b2a",
+    "message": "HDFilmDelisi: Geliştirme",
+    "description": "Sitenin altyazıları uzun süredir cloudstream'de çalıştırılamadığı için Türkçealtyazıorg, opensubtitles ve wyzie gibi kaynaklardan altyazılar alındı. Tmdb entegrasyonu yapıldı.",
+    "date": "2026-05-09T20:51:31Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmDelisi"
+    ]
   }
 }
