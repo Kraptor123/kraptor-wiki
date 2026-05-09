@@ -6703,5 +6703,24 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "82b567310ff2938c80293b8512c9c181f1e87d66": {
+    "sha": "82b567310ff2938c80293b8512c9c181f1e87d66",
+    "message": "Genel Hata Düzeltme",
+    "description": "Dizimom: Ana menü posterleri düzeltildi. Bir çok eklentide bölüm isimlendirmeleri düzeltildi.",
+    "date": "2026-05-09T13:43:42Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziBox",
+      "DiziMag",
+      "DiziMom",
+      "DiziPal",
+      "DiziYo",
+      "DiziYou"
+    ]
   }
 }
