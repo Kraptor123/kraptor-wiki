@@ -6722,5 +6722,19 @@
       "DiziYo",
       "DiziYou"
     ]
+  },
+  "07cd574f12bbaa5a39dfeed677083c0ffa9c88bf": {
+    "sha": "07cd574f12bbaa5a39dfeed677083c0ffa9c88bf",
+    "message": "Dizibox: Geliştirme ve Düzeltme",
+    "description": "Popüler diziler kategorisine yan poster desteği eklendi. Ana sayfada bölüm olarak gözüken içeriklerin açılmama sorunu giderildi.",
+    "date": "2026-05-09T19:39:39Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziBox"
+    ]
   }
 }
