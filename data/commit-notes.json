@@ -6778,5 +6778,24 @@
     "tags": [
       "HDFilmizle"
     ]
+  },
+  "8b5d528a091b0098d2e0a11bacbc49bf46432ccb": {
+    "sha": "8b5d528a091b0098d2e0a11bacbc49bf46432ccb",
+    "message": "Genel Geliştirme ve Düzeltme",
+    "description": "Filmmakinesi: Bölüm puanları düzeltildi.\nFilmEkseni: Sitede hata veren içeriklere uyarı eklendi.\nUgurFilm: Sitenin yasaklı olduğu uyarı olarak verildi.\n\nCizgimax ve Sinewix eklentilerinde bölüm isimlendirmeleri düzeltildi.",
+    "date": "2026-05-09T21:27:10Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiMax",
+      "DiziGom",
+      "FilmEkseni",
+      "FilmMakinesi",
+      "SineWix",
+      "UgurFilm"
+    ]
   }
 }
