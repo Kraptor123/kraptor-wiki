@@ -6736,5 +6736,19 @@
     "tags": [
       "DiziBox"
     ]
+  },
+  "672ef210c2c0116009fe4d1d2a382ad2c48e20d9": {
+    "sha": "672ef210c2c0116009fe4d1d2a382ad2c48e20d9",
+    "message": "DiziGom: Geliştirme",
+    "description": "Tmdb entegrasyonu sitede bulunan imdb id ile yapılıyordu ancak site bu bilgiyi her içerikte vermediği için artık isim üzerindende tmdb'den aratılacak.\nAyrıca son eklenen bölümler kısmına yan poster desteği eklendi.",
+    "date": "2026-05-09T19:57:33Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziGom"
+    ]
   }
 }
