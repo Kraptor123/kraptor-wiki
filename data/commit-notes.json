@@ -6949,5 +6949,19 @@
     "highlight": false,
     "hidden": true,
     "tags": []
+  },
+  "f2726bf254364719e6c922ba1b0ad0437e2cde18": {
+    "sha": "f2726bf254364719e6c922ba1b0ad0437e2cde18",
+    "message": "ÇizgiveDizi: Geliştirme",
+    "description": "Site çok yavaş olduğu için önbellekleme sistemi entegre edildi. Her 2 günde bir kez mevcut içerikler önbelleklenecek ve cihazınızdan yüklenecek.",
+    "date": "2026-05-10T17:34:32Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiveDizi"
+    ]
   }
 }
