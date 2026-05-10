@@ -6871,5 +6871,19 @@
     "tags": [
       "WFilmizle"
     ]
+  },
+  "6ba8fdd8444c130ee6665c310c4160ae92eb5540": {
+    "sha": "6ba8fdd8444c130ee6665c310c4160ae92eb5540",
+    "message": "WFilmizle: Hata Düzeltme",
+    "description": "Son güncellemede yapılan hata sonucunda eklentinin ana menüde gözükmemesi düzeltildi.",
+    "date": "2026-05-10T16:24:30Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WFilmizle"
+    ]
   }
 }
