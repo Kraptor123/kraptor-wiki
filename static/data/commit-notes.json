@@ -6797,5 +6797,19 @@
       "SineWix",
       "UgurFilm"
     ]
+  },
+  "96860b01a49161b8b20ab9e7700938841bcf1b0b": {
+    "sha": "96860b01a49161b8b20ab9e7700938841bcf1b0b",
+    "message": "KraptorPlus: Hata Düzeltme",
+    "description": "Sinewix kaynağı düzeltildi.",
+    "date": "2026-05-10T09:12:36Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
