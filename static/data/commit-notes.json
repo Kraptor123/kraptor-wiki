@@ -6979,5 +6979,21 @@
       "FullHDIzle",
       "Watch2Movies"
     ]
+  },
+  "c0cfddb3b5d628ff426130cd5efe1dc2a7f476a9": {
+    "sha": "c0cfddb3b5d628ff426130cd5efe1dc2a7f476a9",
+    "message": "Animecix: Hata Düzeltme",
+    "description": "Video oynatma sorunu giderildi.",
+    "date": "2026-05-10T22:37:29Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "Animeler",
+      "Turkdizileri"
+    ]
   }
 }
