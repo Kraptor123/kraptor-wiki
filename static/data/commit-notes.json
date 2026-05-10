@@ -6825,5 +6825,37 @@
     "tags": [
       "HDFilmizle"
     ]
+  },
+  "da41baf6a3efdfaa215ea5d0420e3f1e6da6038c": {
+    "sha": "da41baf6a3efdfaa215ea5d0420e3f1e6da6038c",
+    "message": "TMDB Geliştirmeleri",
+    "description": "Önemli eklentilerin büyük bir çoğunluğunda TMDB entegrasyonu genişletildi. Tüm eklentiler artık aynı detay seviyesine sahip.",
+    "date": "2026-05-10T13:03:52Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "Anizium",
+      "AsyaWatch",
+      "DiziFilmORG",
+      "DiziGom",
+      "DiziLife",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "FilmHane",
+      "FilmMakinesi",
+      "HDFilmCehennemi",
+      "HDFilmDelisi",
+      "HDFilmizle",
+      "OpenAnime",
+      "SelcukFlix",
+      "SezonlukDizi",
+      "SineWix",
+      "WFilmizle",
+      "YTS"
+    ]
   }
 }
