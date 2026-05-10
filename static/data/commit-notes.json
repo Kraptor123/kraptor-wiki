@@ -6963,5 +6963,21 @@
     "tags": [
       "CizgiveDizi"
     ]
+  },
+  "9d983265ce6caf7149c46829f06f6a8e110182bd": {
+    "sha": "9d983265ce6caf7149c46829f06f6a8e110182bd",
+    "message": "Silinen Eklentiler",
+    "description": "FullHDİzle, Watch2Movies ve BirAsyaDizisi eklentileri kalitesiz olmaları sebebiyle repodan silindi.",
+    "date": "2026-05-10T18:43:50Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "BirAsyaDizi",
+      "FullHDIzle",
+      "Watch2Movies"
+    ]
   }
 }
