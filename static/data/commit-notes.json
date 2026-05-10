@@ -6811,5 +6811,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "1fefba7f3a3db2920d0df128e2355f712789e2e0": {
+    "sha": "1fefba7f3a3db2920d0df128e2355f712789e2e0",
+    "message": "HDFilmizle: Hata Düzeltme",
+    "description": "Arama ve dün yapılmış olan TMDB entegrasyonundaki hatalar giderildi.",
+    "date": "2026-05-10T09:48:39Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmizle"
+    ]
   }
 }
