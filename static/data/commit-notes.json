@@ -7040,5 +7040,21 @@
     "tags": [
       "FilmEkseni"
     ]
+  },
+  "b17c8408b6a3c8b592284331a3639218eb969c70": {
+    "sha": "b17c8408b6a3c8b592284331a3639218eb969c70",
+    "message": "Anizium: Hata Düzeltme",
+    "description": "Tmdb'den dolayı alınan yanlış bilgiler düzeltildi.",
+    "date": "2026-05-11T16:54:08Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Anizium",
+      "Dizilla",
+      "HDFilmCehennemi"
+    ]
   }
 }
