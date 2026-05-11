@@ -7056,5 +7056,38 @@
       "Dizilla",
       "HDFilmCehennemi"
     ]
+  },
+  "7427e860abf6b0b77013f555218f60ea8e59d030": {
+    "sha": "7427e860abf6b0b77013f555218f60ea8e59d030",
+    "message": "TMDB: Hata Düzeltme",
+    "description": "TMDB destekli eklentilerdeki SIMKL senkron sorunu düzeltildi.",
+    "date": "2026-05-11T18:13:47Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "Anizium",
+      "AsyaWatch",
+      "DiziFilmORG",
+      "DiziGom",
+      "DiziLife",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "FilmEkseni",
+      "FilmHane",
+      "FilmMakinesi",
+      "HDFilmCehennemi",
+      "HDFilmDelisi",
+      "HDFilmizle",
+      "OpenAnime",
+      "SelcukFlix",
+      "SezonlukDizi",
+      "SineWix",
+      "WFilmizle",
+      "YTS"
+    ]
   }
 }
