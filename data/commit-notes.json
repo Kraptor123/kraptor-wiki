@@ -7103,5 +7103,43 @@
     "tags": [
       "DiziLife"
     ]
+  },
+  "4996f0f28fa2c4410fee12a621d4e5e5efb7d941": {
+    "sha": "4996f0f28fa2c4410fee12a621d4e5e5efb7d941",
+    "message": "Genel Geliştirme ve Hata Düzeltme",
+    "description": "Setfilmizle: Setplay kaynağındaki video oynatma sorunu giderildi.\n\nTmdb içeren eklentilerdeki içerik derecelendirme puanları düzenlenip tamamlandı.",
+    "date": "2026-05-11T21:42:30Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "AsyaWatch",
+      "BelgeselX",
+      "CizgiMax",
+      "DiziFilmORG",
+      "DiziGom",
+      "DiziLife",
+      "DiziMom",
+      "DiziPalOrijinal",
+      "DiziYou",
+      "Dizilla",
+      "FilmEkseni",
+      "FilmHane",
+      "FilmMakinesi",
+      "HDFilmCehennemi",
+      "HDFilmDelisi",
+      "HDFilmizle",
+      "KultFilmler",
+      "OpenAnime",
+      "SelcukFlix",
+      "SetFilmIzle",
+      "SezonlukDizi",
+      "SineWix",
+      "WFilmizle",
+      "YTS"
+    ]
   }
 }
