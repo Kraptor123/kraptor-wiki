@@ -7026,5 +7026,19 @@
     "tags": [
       "DiziPalOrijinal"
     ]
+  },
+  "568f2aea896ad4b1113d7762cbb2d878321753f5": {
+    "sha": "568f2aea896ad4b1113d7762cbb2d878321753f5",
+    "message": "FilmEkseni: Geliştirme ve Hata Düzeltme",
+    "description": "Video oynatma sorunları giderildi. Dizilere destek eklendi ve TMDB entegrasyonu yapıldı.",
+    "date": "2026-05-11T12:52:28Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmEkseni"
+    ]
   }
 }
