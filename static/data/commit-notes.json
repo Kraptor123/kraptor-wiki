@@ -7089,5 +7089,19 @@
       "WFilmizle",
       "YTS"
     ]
+  },
+  "3cebdd626ba9a1b89147d9c03e0a49e208f6767b": {
+    "sha": "3cebdd626ba9a1b89147d9c03e0a49e208f6767b",
+    "message": "DiziLife: Hata Düzeltme",
+    "description": "Site tasarımı değiştiği için eklenti baştan aşağı tekrardan yapıldı.",
+    "date": "2026-05-11T19:21:09Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife"
+    ]
   }
 }
