@@ -7235,5 +7235,20 @@
       "RecTV",
       "SeiCode"
     ]
+  },
+  "3669386a2754a3af8ebf2c47fcf9ca90af897539": {
+    "sha": "3669386a2754a3af8ebf2c47fcf9ca90af897539",
+    "message": "AsyaFanatikleri: Geliştirme",
+    "description": "İçerik sayfasına yeni detaylar eklendi; Aktör bilgileri, dizi tamamlanma durumu, yıl bilgisi, daha kaliteli poster ve bölüm yayınlanma tarihi.",
+    "date": "2026-05-12T17:13:25Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaFanatiklerim",
+      "DiziPalOrijinal"
+    ]
   }
 }
