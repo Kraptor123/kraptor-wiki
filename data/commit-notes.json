@@ -7197,5 +7197,20 @@
     "tags": [
       "SineWix"
     ]
+  },
+  "479db0c8e3e3662e842e542f2a6946172c028371": {
+    "sha": "479db0c8e3e3662e842e542f2a6946172c028371",
+    "message": "WFilmizle: Hata Giderme",
+    "description": "Arama sonuçlarındaki isimlendirme hataları giderildi.",
+    "date": "2026-05-12T15:20:41Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FullHDFilmizlesene",
+      "WFilmizle"
+    ]
   }
 }
