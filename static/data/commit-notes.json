@@ -7155,5 +7155,19 @@
     "tags": [
       "Animeler"
     ]
+  },
+  "6db9d79f66b81c68394c984a6b0548b9b1089e29": {
+    "sha": "6db9d79f66b81c68394c984a6b0548b9b1089e29",
+    "message": "CizgiMax: Hata Düzeltme",
+    "description": "Site tasarımı değiştiği için baştan aşağı tekrardan yapıldı. Videoların büyük bir çoğunluğu site tarafında sorunlu.",
+    "date": "2026-05-12T13:29:15Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiMax"
+    ]
   }
 }
