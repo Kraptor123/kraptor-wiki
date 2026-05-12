@@ -7183,5 +7183,19 @@
     "tags": [
       "KoreanTurk"
     ]
+  },
+  "471baa61eaf990bbc45767f59f6664c3fdce52d9": {
+    "sha": "471baa61eaf990bbc45767f59f6664c3fdce52d9",
+    "message": "Sinewix: Geliştirme",
+    "description": "Eksik kalmış olan içerik tür bilgileri alındı.",
+    "date": "2026-05-12T14:44:22Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SineWix"
+    ]
   }
 }
