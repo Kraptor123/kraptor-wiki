@@ -7141,5 +7141,19 @@
       "WFilmizle",
       "YTS"
     ]
+  },
+  "7a57053bfe4aa1486ec8eb1d0eb3bb5c52aad1db": {
+    "sha": "7a57053bfe4aa1486ec8eb1d0eb3bb5c52aad1db",
+    "message": "Animeler: Hata Düzeltme",
+    "description": "Hatalı 2 kategori ve Anime başlıkları düzeltildi.",
+    "date": "2026-05-12T06:37:53Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Animeler"
+    ]
   }
 }
