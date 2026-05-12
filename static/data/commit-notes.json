@@ -7250,5 +7250,19 @@
       "AsyaFanatiklerim",
       "DiziPalOrijinal"
     ]
+  },
+  "39feee1e9f96e6200cb4281c55d63b5d6a3057fa": {
+    "sha": "39feee1e9f96e6200cb4281c55d63b5d6a3057fa",
+    "message": "RecTV: Devre dışı",
+    "description": "",
+    "date": "2026-05-12T19:15:33Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "RecTV"
+    ]
   }
 }
