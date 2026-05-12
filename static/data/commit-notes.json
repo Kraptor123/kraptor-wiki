@@ -7212,5 +7212,28 @@
       "FullHDFilmizlesene",
       "WFilmizle"
     ]
+  },
+  "3094d5d735a8eec4f04dee65c0a0cf57ff16ec23": {
+    "sha": "3094d5d735a8eec4f04dee65c0a0cf57ff16ec23",
+    "message": "OnePaceTR: Geliştirme ve Hata Düzeltme",
+    "description": "Google drive kaynağı düzeltildi. Bölümlerin mangaya denk gelen sayıları içerik sayfasına eklendi. Bölüm süresi gibi detaylar eklendi.",
+    "date": "2026-05-12T16:50:54Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "CizgiMax",
+      "CizgiveDizi",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "FullHDFilmizlesene",
+      "InatBox",
+      "OnePaceTr",
+      "RecTV",
+      "SeiCode"
+    ]
   }
 }
