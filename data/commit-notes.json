@@ -7264,5 +7264,22 @@
     "tags": [
       "RecTV"
     ]
+  },
+  "bd4cc209a87933fb6773b9c51130ed4eb3142fda": {
+    "sha": "bd4cc209a87933fb6773b9c51130ed4eb3142fda",
+    "message": "Genel Hata Düzeltme",
+    "description": "Pichive kaynaklarındaki altyazı sorununun kaynağı tespit edilip giderildi.",
+    "date": "2026-05-13T01:15:06Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "FullHDFilmizlesene"
+    ]
   }
 }
