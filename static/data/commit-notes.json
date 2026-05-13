@@ -7357,5 +7357,42 @@
       "Dizilla",
       "FullHDFilmizlesene"
     ]
+  },
+  "6437ee14bc24b153f76f26c18cfb398a6b418e7a": {
+    "sha": "6437ee14bc24b153f76f26c18cfb398a6b418e7a",
+    "message": "Genel Geliştirme",
+    "description": "WFilmizle: Fragman bilgisi eklendi.\nSelcukflix: Tmdb eşleştirmesi geliştirildi.\nJetfilmizle: Simkl için senkronizasyon desteği eklendi.\nHDFilmDelisi: İçerik tür bilgisi eklendi.\nDizigom: İçerik tür bilgisi eklendi.\nAnizium: İçerik tür bilgisi eklendi.\nÇizgivedizi: Dizilere önerilenler eklendi.",
+    "date": "2026-05-13T15:32:26Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "Anizium",
+      "AsyaWatch",
+      "CizgiveDizi",
+      "DiziFilmORG",
+      "DiziGom",
+      "DiziLife",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "FilmEkseni",
+      "FilmHane",
+      "FilmMakinesi",
+      "HDFilmCehennemi",
+      "HDFilmDelisi",
+      "HDFilmizle",
+      "JetFilmizle",
+      "KraptorPlus",
+      "OpenAnime",
+      "SelcukFlix",
+      "SetFilmIzle",
+      "SezonlukDizi",
+      "SineWix",
+      "WFilmizle",
+      "YTS"
+    ]
   }
 }
