@@ -7408,5 +7408,20 @@
     "tags": [
       "YesilCamTv"
     ]
+  },
+  "5469fd6f833678c9674727a8d2a87929ccc9016a": {
+    "sha": "5469fd6f833678c9674727a8d2a87929ccc9016a",
+    "message": "DiziFilmORG: Geliştirme ve Hata Düzeltme",
+    "description": "Arama sonuçları düzeltildi ve Ana menüye Dublaj/Altyazi etiketi eklendi.",
+    "date": "2026-05-13T18:36:31Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziFilmORG",
+      "UgurFilm"
+    ]
   }
 }
