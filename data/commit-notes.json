@@ -7394,5 +7394,19 @@
       "WFilmizle",
       "YTS"
     ]
+  },
+  "90b2f98b68c40542636b1e6ae40fabd4e5155ef2": {
+    "sha": "90b2f98b68c40542636b1e6ae40fabd4e5155ef2",
+    "message": "YeşilcamTV: Devre dışı",
+    "description": "Site bir kaç haftadır çökmüş durumda olduğu için devre dışı bırakıldı.",
+    "date": "2026-05-13T18:19:22Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "YesilCamTv"
+    ]
   }
 }
