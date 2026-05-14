@@ -7439,5 +7439,19 @@
       "FilmMakinesi",
       "HDFilmCehennemi"
     ]
+  },
+  "fb3b84b7fadf454b6d75846beb33f24c04626a86": {
+    "sha": "fb3b84b7fadf454b6d75846beb33f24c04626a86",
+    "message": "Dizibox: Geliştirme",
+    "description": "İçerik sayfasına bölüm yayınlanma tarihi eklendi.",
+    "date": "2026-05-14T23:55:27Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziBox"
+    ]
   }
 }
