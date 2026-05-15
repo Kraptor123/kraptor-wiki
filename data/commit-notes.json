@@ -7453,5 +7453,19 @@
     "tags": [
       "DiziBox"
     ]
+  },
+  "ebbe8a3bbabb3c266d2f67c12a75456a22e4132f": {
+    "sha": "ebbe8a3bbabb3c266d2f67c12a75456a22e4132f",
+    "message": "Turkdizileri: Geliştirme ve Hata Düzeltme",
+    "description": "ATV Eklentisindeki bölümlerin tam gelmeme sorunu düzeltildi ve açıklama, bölüm posteri, oyuncu bilgisi gibi detaylar eklendi.",
+    "date": "2026-05-15T19:33:16Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
