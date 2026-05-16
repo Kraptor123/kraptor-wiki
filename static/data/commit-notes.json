@@ -7512,5 +7512,19 @@
     "tags": [
       "DiziGom"
     ]
+  },
+  "c78713e0300b61eba04c65c03aa06a3897eb7e56": {
+    "sha": "c78713e0300b61eba04c65c03aa06a3897eb7e56",
+    "message": "DiziPal: Geliştirme",
+    "description": "İçeriğin hangi ülkenin yapımı olduğu bilgiler arasına eklendi.",
+    "date": "2026-05-16T15:54:01Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPal"
+    ]
   }
 }
