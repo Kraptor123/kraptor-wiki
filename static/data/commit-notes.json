@@ -7467,5 +7467,22 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "2d5995b0ba81ea7d7d1aaf4104e63f85ba4c7a58": {
+    "sha": "2d5995b0ba81ea7d7d1aaf4104e63f85ba4c7a58",
+    "message": "Genel Geliştirme",
+    "description": "Animecix: Eksik olan fragman bilgisi eklendi.\nDiziyo: Aktör posterleri, Fragman, LogoUrl, Bölüm yayın tarihi, Önerilenler ve Son eklenen bölümler kategorisine yan poster desteği eklendi.\nDiziFilm: Eklenti ismi \"DiziFilm\" olarak değiştirildi, Tür bilgisi eklendi.",
+    "date": "2026-05-16T05:44:57Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "DiziFilmORG",
+      "DiziYo",
+      "SeiCode"
+    ]
   }
 }
