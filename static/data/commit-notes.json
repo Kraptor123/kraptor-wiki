@@ -7484,5 +7484,19 @@
       "DiziYo",
       "SeiCode"
     ]
+  },
+  "7a48ac6244d1c3448f6fcca09664caa54e74c12c": {
+    "sha": "7a48ac6244d1c3448f6fcca09664caa54e74c12c",
+    "message": "FullHDFilmizlesene: Geliştirme",
+    "description": "TMDB entegrasyonu sağlandı.",
+    "date": "2026-05-16T09:22:11Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FullHDFilmizlesene"
+    ]
   }
 }
