@@ -7540,5 +7540,19 @@
     "tags": [
       "AnimeciX"
     ]
+  },
+  "453c23a0efed47002003db6db4e4cf10144f9e80": {
+    "sha": "453c23a0efed47002003db6db4e4cf10144f9e80",
+    "message": "Anizium: Geliştirme",
+    "description": "Eksik olan film ve bölüm detayları alındı.",
+    "date": "2026-05-16T19:11:50Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Anizium"
+    ]
   }
 }
