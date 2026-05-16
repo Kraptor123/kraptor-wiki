@@ -7526,5 +7526,19 @@
     "tags": [
       "DiziPal"
     ]
+  },
+  "14f6de3682dbad7cbca7027efa837334c839d08e": {
+    "sha": "14f6de3682dbad7cbca7027efa837334c839d08e",
+    "message": "Animecix: Hata Düzeltme",
+    "description": "Bazı animelerde bölümler tam alınamama, bölüm isimleri ve açıklamalarının ise gelmeme sorunları giderildi.",
+    "date": "2026-05-16T18:52:13Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX"
+    ]
   }
 }
