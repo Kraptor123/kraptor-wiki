@@ -7568,5 +7568,19 @@
     "tags": [
       "Dizilla"
     ]
+  },
+  "72105d48b8a8b95f27e2f7d1fd6cbb140a026eaa": {
+    "sha": "72105d48b8a8b95f27e2f7d1fd6cbb140a026eaa",
+    "message": "HDFilmCehennemi: Hata Düzeltme",
+    "description": "Tür bilgileri düzeltildi.",
+    "date": "2026-05-17T14:13:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmCehennemi"
+    ]
   }
 }
