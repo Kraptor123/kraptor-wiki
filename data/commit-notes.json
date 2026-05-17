@@ -7582,5 +7582,20 @@
     "tags": [
       "HDFilmCehennemi"
     ]
+  },
+  "b40d45d30b8ee0929cbce22e7d1d13e269d9e7c5": {
+    "sha": "b40d45d30b8ee0929cbce22e7d1d13e269d9e7c5",
+    "message": "Dizimag: Geliştirme",
+    "description": "Site taraflı boş gelen posterlerde fragmanların posterleri kullanılacak.",
+    "date": "2026-05-17T14:29:12Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziMag",
+      "SineWix"
+    ]
   }
 }
