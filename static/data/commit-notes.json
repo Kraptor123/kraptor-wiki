@@ -7554,5 +7554,19 @@
     "tags": [
       "Anizium"
     ]
+  },
+  "9dd380e47f639185a4c5cfa7815547f4bd7a776a": {
+    "sha": "9dd380e47f639185a4c5cfa7815547f4bd7a776a",
+    "message": "Dizilla: Hata Düzeltme",
+    "description": "Sitedeki bozuk Son Bölümler kategorisi bir yöntem bulunarak düzeltildi.",
+    "date": "2026-05-17T14:02:13Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Dizilla"
+    ]
   }
 }
