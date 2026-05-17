@@ -7615,5 +7615,19 @@
       "FullHDFilmizlesene",
       "WebDramaTurkey"
     ]
+  },
+  "bc3f968b10927701e6fc7ba56d84955cfd142e91": {
+    "sha": "bc3f968b10927701e6fc7ba56d84955cfd142e91",
+    "message": "DiziLife: Geliştirme",
+    "description": "Site yavaş olduğu için önbellekleme sistemi eklendi. Artık yeni bir içerik gelmediği sürece önbellek ile eklenti anında kullanılabilecek.",
+    "date": "2026-05-17T17:52:13Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziLife"
+    ]
   }
 }
