@@ -7706,5 +7706,21 @@
       "FullHDFilmizlesene",
       "gradle"
     ]
+  },
+  "badf09442b68deabb6c2b0efd1749628aa88d289": {
+    "sha": "badf09442b68deabb6c2b0efd1749628aa88d289",
+    "message": "WebdramaTurkey: Geliştirme",
+    "description": "Filmlere daha kaliteli posterler eklendi.",
+    "date": "2026-05-18T20:27:03Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "DiziLife",
+      "WebDramaTurkey"
+    ]
   }
 }
