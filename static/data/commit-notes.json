@@ -7770,5 +7770,20 @@
       "FilmModu",
       "KoreanTurk"
     ]
+  },
+  "f59b7058fdc50f94a750404a0c8a2b12f39dbf8c": {
+    "sha": "f59b7058fdc50f94a750404a0c8a2b12f39dbf8c",
+    "message": "DiziGom: Önemli Güncelleme",
+    "description": "Site ismini, logosunu ve diğer bilgilerini tamamiyle değiştirdiğin için baştan aşağı tekrardan yapıldı. Eklentinin ismi DiziPod olarak değiştirildi, repo menüsünden tekrar indirmeniz gerekecek.",
+    "date": "2026-05-19T14:36:19Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziGom",
+      "Dizipod"
+    ]
   }
 }
