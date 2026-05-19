@@ -7755,5 +7755,20 @@
       "TvDiziler",
       "YTS"
     ]
+  },
+  "537cfeea2a62a12681edecc3975529267822e410": {
+    "sha": "537cfeea2a62a12681edecc3975529267822e410",
+    "message": "Filmmodu: Devre Dışı",
+    "description": "Sitesi bozuk durumda olduğu için devre dışı bırakıldı.",
+    "date": "2026-05-19T12:36:40Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmModu",
+      "KoreanTurk"
+    ]
   }
 }
