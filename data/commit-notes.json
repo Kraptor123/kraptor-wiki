@@ -7851,5 +7851,19 @@
     "highlight": false,
     "hidden": true,
     "tags": []
+  },
+  "558b564f9bc4d3d66a77b679b40d6c47ae550758": {
+    "sha": "558b564f9bc4d3d66a77b679b40d6c47ae550758",
+    "message": "DiziPod: Hata Düzeltme",
+    "description": "Yeni Bölümler kategorisindeki içeriklere girince bölümler dahil bir çok detayın gelmeme sorunu giderildi.",
+    "date": "2026-05-20T18:03:26Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Dizipod"
+    ]
   }
 }
