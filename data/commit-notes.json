@@ -7799,5 +7799,19 @@
     "tags": [
       "DiziMag"
     ]
+  },
+  "1a541ecdcdffdbed5d8f15ad968b5aa017319995": {
+    "sha": "1a541ecdcdffdbed5d8f15ad968b5aa017319995",
+    "message": "Çizgivedizi: Hata Düzeltme",
+    "description": "Sitedeki değişiklik sonucu bozulan eklenti düzeltildi.",
+    "date": "2026-05-20T15:33:25Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiveDizi"
+    ]
   }
 }
