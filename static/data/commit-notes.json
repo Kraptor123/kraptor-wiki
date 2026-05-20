@@ -7785,5 +7785,19 @@
       "DiziGom",
       "Dizipod"
     ]
+  },
+  "b0e03a7f0096b44430f9d2a2f647ac18ad8de620": {
+    "sha": "b0e03a7f0096b44430f9d2a2f647ac18ad8de620",
+    "message": "Dizimag: Devre dışı",
+    "description": "Site uzun süredir yeni içerik paylaşmıyor ve posterleri bozuk durumdaydı, anlık olarak siteye erişilemediği için devre dışı.",
+    "date": "2026-05-20T11:45:29Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziMag"
+    ]
   }
 }
