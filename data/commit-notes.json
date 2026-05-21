@@ -7990,5 +7990,19 @@
       "Dizilla",
       "FullHDFilmizlesene"
     ]
+  },
+  "17f9afc69ea2c821c8c6e4982855f99ee15cd501": {
+    "sha": "17f9afc69ea2c821c8c6e4982855f99ee15cd501",
+    "message": "Turkdizileri: Hata Düzeltme",
+    "description": "Kanal D eklentisindeki video oynatma sorunları giderildi.",
+    "date": "2026-05-21T19:46:53Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
