@@ -7877,5 +7877,41 @@
     "highlight": false,
     "hidden": true,
     "tags": []
+  },
+  "5a176897a3c2fcd97ac89646eb7bfaca899b02b0": {
+    "sha": "5a176897a3c2fcd97ac89646eb7bfaca899b02b0",
+    "message": "KraptorPlus: Hata Düzeltme",
+    "description": "Aktör bilgileri düzeltildi.",
+    "date": "2026-05-21T02:56:44Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "Anizium",
+      "AsyaWatch",
+      "DiziFilmORG",
+      "DiziLife",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "Dizipod",
+      "FilmEkseni",
+      "FilmHane",
+      "FilmMakinesi",
+      "FullHDFilmizlesene",
+      "HDFilmCehennemi",
+      "HDFilmDelisi",
+      "HDFilmizle",
+      "KraptorPlus",
+      "OpenAnime",
+      "SelcukFlix",
+      "SetFilmIzle",
+      "SezonlukDizi",
+      "SineWix",
+      "WFilmizle",
+      "YTS"
+    ]
   }
 }
