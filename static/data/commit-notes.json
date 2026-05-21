@@ -7942,5 +7942,19 @@
       "FilmMakinesi",
       "HDFilmCehennemi"
     ]
+  },
+  "643207ad6d49f329b95d916a0c7def2551d0cdef": {
+    "sha": "643207ad6d49f329b95d916a0c7def2551d0cdef",
+    "message": "SezonlukDizi: Hata Düzeltme",
+    "description": "Filemoon video kaynağı düzeltildi.",
+    "date": "2026-05-21T19:24:22Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SezonlukDizi"
+    ]
   }
 }
