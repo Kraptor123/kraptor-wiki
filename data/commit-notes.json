@@ -8117,5 +8117,19 @@
     "tags": [
       "DiziBox"
     ]
+  },
+  "147c8fc2db1602bd486a54b9d1de5bbce8fd3f6b": {
+    "sha": "147c8fc2db1602bd486a54b9d1de5bbce8fd3f6b",
+    "message": "FilmEkseni: Geliştirme",
+    "description": "Ana sayfa önbellekleme sistemi eklendi. Artık yeni eklenen filmler kategorisi hariç 12 saat önbellekleme yapılacak.",
+    "date": "2026-05-22T21:02:15Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmEkseni"
+    ]
   }
 }
