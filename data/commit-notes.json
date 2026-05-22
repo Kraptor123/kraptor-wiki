@@ -8103,5 +8103,19 @@
     "tags": [
       "JetFilmizle"
     ]
+  },
+  "c251bd8733752225a8d9ac1dd4936f408e765f14": {
+    "sha": "c251bd8733752225a8d9ac1dd4936f408e765f14",
+    "message": "DiziBox: Hata Düzeltme",
+    "description": "Tüm kategorilerin yüklenememesini sağlayan bir hata giderildi.",
+    "date": "2026-05-22T20:24:44Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziBox"
+    ]
   }
 }
