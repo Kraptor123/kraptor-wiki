@@ -8046,5 +8046,19 @@
     "tags": [
       "BelgeselX"
     ]
+  },
+  "20b0f4a5603b4adc3d96373769abd6f7c34ce103": {
+    "sha": "20b0f4a5603b4adc3d96373769abd6f7c34ce103",
+    "message": "DiziPal: Geliştirme",
+    "description": "Önbellekleme süresi 6 saat'den 2 güne uzatıldı. Yeni filmler ve Yeni diziler kategorisinde önbellekleme kapatıldı.",
+    "date": "2026-05-22T18:41:35Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPal"
+    ]
   }
 }
