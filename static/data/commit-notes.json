@@ -8018,5 +8018,19 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "27fd031fa0984800e58b38b2bf833e1f03bc052e": {
+    "sha": "27fd031fa0984800e58b38b2bf833e1f03bc052e",
+    "message": "CizgiMax: Hata Düzeltme",
+    "description": "Bazı içeriklerde yaşanan video oynatma sorunları giderildi.",
+    "date": "2026-05-22T17:38:34Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiMax"
+    ]
   }
 }
