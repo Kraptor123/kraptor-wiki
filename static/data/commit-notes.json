@@ -8060,5 +8060,19 @@
     "tags": [
       "DiziPal"
     ]
+  },
+  "8a333d302ed38afcd1b92fb445c361c008082b5b": {
+    "sha": "8a333d302ed38afcd1b92fb445c361c008082b5b",
+    "message": "AnimeciX: Geliştirme",
+    "description": "Kategorilerde değişiklik yapılarak en son içeriği alacak şekilde güncellendi. Eklenti hızını arttırmak için önbellekleme geliştirildi.",
+    "date": "2026-05-22T19:23:43Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX"
+    ]
   }
 }
