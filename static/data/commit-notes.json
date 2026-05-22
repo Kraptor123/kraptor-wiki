@@ -8089,5 +8089,19 @@
       "DiziMom",
       "WFilmizle"
     ]
+  },
+  "aaef5bd61272851e565e1aafdbc76452d6c16d87": {
+    "sha": "aaef5bd61272851e565e1aafdbc76452d6c16d87",
+    "message": "JetFilmizle: Geliştirme",
+    "description": "Arama ve İçerik sayfasındaki başlıklarda olmaması gereken yazılar filtrelendi. 1 yeni video kaynağı eklendi.",
+    "date": "2026-05-22T20:14:32Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "JetFilmizle"
+    ]
   }
 }
