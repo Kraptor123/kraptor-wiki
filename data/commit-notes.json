@@ -8160,5 +8160,19 @@
     "tags": [
       "HDFilmizle"
     ]
+  },
+  "f49b99a407f76a2392c5257a5e22e1c9456c714d": {
+    "sha": "f49b99a407f76a2392c5257a5e22e1c9456c714d",
+    "message": "Selcukflix: Geliştirme",
+    "description": "Sitenin ana menüsü yavaş olduğu için önbellekleme sistemi eklendi. 6 saat'de bir kez olmak üzere belirli kategoriler önbellekleniyor.",
+    "date": "2026-05-23T18:09:57Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SelcukFlix"
+    ]
   }
 }
