@@ -8131,5 +8131,20 @@
     "tags": [
       "FilmEkseni"
     ]
+  },
+  "92a07f90485dc85f6b2110314c5328850fa78095": {
+    "sha": "92a07f90485dc85f6b2110314c5328850fa78095",
+    "message": "FullHDFilmizlesene: Geliştirme ve Hata Düzeltme",
+    "description": "Yeni eklenenler kategorisindeki sayfalama sorunu giderildi. Bir kaç kategori hariç kategorilere 12 saatlik önbellekleme uygulandı.",
+    "date": "2026-05-23T01:22:49Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "BelgeselX",
+      "FullHDFilmizlesene"
+    ]
   }
 }
