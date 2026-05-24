@@ -8216,5 +8216,19 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "9f3dc6e28443cd978496feb46830f1e9a2fc5dda": {
+    "sha": "9f3dc6e28443cd978496feb46830f1e9a2fc5dda",
+    "message": "Turkdizileri: Hata Düzeltme",
+    "description": "Atv eklentisindeki arama sonuçlarında bazı yanlış çıkan sonuçlar filtrelendi ve tam alınamayan sezonlar/bölümler alındı.",
+    "date": "2026-05-24T12:01:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
