@@ -8202,5 +8202,19 @@
     "tags": [
       "MirrorVerse"
     ]
+  },
+  "2332a80f9b6ed406a7cd26a105d08a0cc243c8d3": {
+    "sha": "2332a80f9b6ed406a7cd26a105d08a0cc243c8d3",
+    "message": "Turkdizileri: Geliştirme ve Hata Düzeltme",
+    "description": "Dmax: Bölüm isimlendirmesindeki bir hata giderildi.\n\nTLC: Önerilenler ve bölüm posteri eklendi.",
+    "date": "2026-05-24T04:30:28Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
