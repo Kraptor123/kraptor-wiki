@@ -8174,5 +8174,31 @@
     "tags": [
       "SelcukFlix"
     ]
+  },
+  "7f47152123e42d8ae7303e00ea7c537213ae41e2": {
+    "sha": "7f47152123e42d8ae7303e00ea7c537213ae41e2",
+    "message": "sd",
+    "description": "",
+    "date": "2026-05-24T04:00:39Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": true,
+    "tags": []
+  },
+  "784d279293c3560319b32e4011cff17b1a232a50": {
+    "sha": "784d279293c3560319b32e4011cff17b1a232a50",
+    "message": "MirrorVerse: Hata Düzeltme",
+    "description": "Geçici olarak eklentide düzeltme yapıldı.",
+    "date": "2026-05-24T04:00:29Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "MirrorVerse"
+    ]
   }
 }
