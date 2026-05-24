@@ -8230,5 +8230,20 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "31d2eea84e09c04df3f29f7531cfba10ede4471d": {
+    "sha": "31d2eea84e09c04df3f29f7531cfba10ede4471d",
+    "message": "Sinewix: Hata Düzeltme",
+    "description": "Eklentinin çalışmasını engelleyen bir hata giderildi.",
+    "date": "2026-05-24T19:27:38Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SelcukFlix",
+      "SineWix"
+    ]
   }
 }
