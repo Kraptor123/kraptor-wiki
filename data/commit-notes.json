@@ -8245,5 +8245,19 @@
       "SelcukFlix",
       "SineWix"
     ]
+  },
+  "9f7f95067539f12d3661a91c5cd4ab3f1746b8cc": {
+    "sha": "9f7f95067539f12d3661a91c5cd4ab3f1746b8cc",
+    "message": "FilmModu: Hata Düzeltme",
+    "description": "Ana menüde bazı kategorilerin sayfalamasının aynı içeriği döndürme sorunu giderildi.",
+    "date": "2026-05-24T19:48:00Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmModu"
+    ]
   }
 }
