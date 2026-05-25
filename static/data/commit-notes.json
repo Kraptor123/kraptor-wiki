@@ -8259,5 +8259,19 @@
     "tags": [
       "FilmModu"
     ]
+  },
+  "72ea7ec9b8883529d98ab59772beaf90c55e48dc": {
+    "sha": "72ea7ec9b8883529d98ab59772beaf90c55e48dc",
+    "message": "HDFilmizle: Devre dışı",
+    "description": "Cloudflare engeli aşılamadığı için şimdilik devre dışı.",
+    "date": "2026-05-25T02:58:02Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmizle"
+    ]
   }
 }
