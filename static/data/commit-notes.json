@@ -8304,5 +8304,48 @@
     "tags": [
       "Dizipod"
     ]
+  },
+  "4d7cf97dab35c98607889c5273f57da3ce08cea5": {
+    "sha": "4d7cf97dab35c98607889c5273f57da3ce08cea5",
+    "message": "SelcukFlix: Kategori İsim",
+    "description": "Yeni bölümler kategorisinde isimlerin boş gelmesi sorununun çözümü.",
+    "date": "2026-05-27T13:58:15Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SelcukFlix"
+    ]
+  },
+  "55cddcdd6822aa0f0c7c0e775c225971f1e299c7": {
+    "sha": "55cddcdd6822aa0f0c7c0e775c225971f1e299c7",
+    "message": "Animely: Favicon",
+    "description": "Favicon Güncellemesi",
+    "date": "2026-05-27T13:57:16Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Animely"
+    ]
+  },
+  "bea3e944f48aa394d7636f697069529a9e099868": {
+    "sha": "bea3e944f48aa394d7636f697069529a9e099868",
+    "message": "Animely: Favicon",
+    "description": "Favicon Güncellemesi",
+    "date": "2026-05-27T13:44:24Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Animely",
+      "FullHDFilmizlesene"
+    ]
   }
 }
