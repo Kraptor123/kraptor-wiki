@@ -8403,5 +8403,19 @@
     "tags": [
       "Turkdizileri"
     ]
+  },
+  "885ad35472b64b8a0a8073df587ea86c9622651e": {
+    "sha": "885ad35472b64b8a0a8073df587ea86c9622651e",
+    "message": "TurkDizileri: Hata Düzeltme",
+    "description": "StarTv bazı açılmayan diziler düzeltildi dizilerde bölüm sıralaması düzeltildi.",
+    "date": "2026-05-27T16:30:32Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
