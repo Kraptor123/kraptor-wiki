@@ -8375,5 +8375,19 @@
     "tags": [
       "FilmHane"
     ]
+  },
+  "63978246c73a83f3b35000878ffd178d61965bed": {
+    "sha": "63978246c73a83f3b35000878ffd178d61965bed",
+    "message": "Sinezy: Hata Düzeltme",
+    "description": "Arama sonuçlarından izle kelimesi filtrelendi.",
+    "date": "2026-05-27T15:56:33Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Sinezy"
+    ]
   }
 }
