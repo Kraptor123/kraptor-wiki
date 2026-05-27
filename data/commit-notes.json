@@ -8290,5 +8290,19 @@
       "DiziLife",
       "DiziPal"
     ]
+  },
+  "709e944698b3d3672140096bda13f6b9481ab1fd": {
+    "sha": "709e944698b3d3672140096bda13f6b9481ab1fd",
+    "message": "DiziPod: Filmlerde farklı olan id'nin doğru şekilde yakalanmasının sağlanması.",
+    "description": "",
+    "date": "2026-05-27T13:32:40Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Dizipod"
+    ]
   }
 }
