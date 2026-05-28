@@ -8431,5 +8431,19 @@
     "tags": [
       "Animely"
     ]
+  },
+  "46cb006f7a68ebfd8d2316eb4f69900ef519c392": {
+    "sha": "46cb006f7a68ebfd8d2316eb4f69900ef519c392",
+    "message": "HDFilmizle: Aktif",
+    "description": "Sitedeki cloudflare koruması kaldırıldığı için eklenti tekrar aktif edildi.",
+    "date": "2026-05-28T09:55:05Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmizle"
+    ]
   }
 }
