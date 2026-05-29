@@ -8459,5 +8459,41 @@
     "tags": [
       "FullHDFilmizlesene"
     ]
+  },
+  "c2c27cd89bec819bc7b0abccf23dba9db9fd73f2": {
+    "sha": "c2c27cd89bec819bc7b0abccf23dba9db9fd73f2",
+    "message": "DizipalOrijinal: Hata Düzeltme",
+    "description": "İçeriklerdeki yıl bilgisi düzeltildi ve böylece buna bağlı olarak çalışan tmdb entegrasyonu düzeltilmiş oldu.",
+    "date": "2026-05-29T15:57:07Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "Anizium",
+      "AsyaWatch",
+      "DiziFilmORG",
+      "DiziLife",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "Dizipod",
+      "FilmEkseni",
+      "FilmHane",
+      "FilmMakinesi",
+      "FullHDFilmizlesene",
+      "HDFilmCehennemi",
+      "HDFilmDelisi",
+      "HDFilmizle",
+      "MirrorVerse",
+      "OpenAnime",
+      "SelcukFlix",
+      "SetFilmIzle",
+      "SezonlukDizi",
+      "SineWix",
+      "WFilmizle",
+      "YTS"
+    ]
   }
 }
