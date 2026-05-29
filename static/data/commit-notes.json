@@ -8575,5 +8575,19 @@
       "WFilmizle",
       "YTS"
     ]
+  },
+  "0ea1cf2dab29795d1f8553f0e593ef5ef98891e1": {
+    "sha": "0ea1cf2dab29795d1f8553f0e593ef5ef98891e1",
+    "message": "TurkDizileri: Geliştirme",
+    "description": "TLC eklentisinde eksik bölümler alındı ve önerilenler düzeltildi.",
+    "date": "2026-05-29T16:58:00Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Turkdizileri"
+    ]
   }
 }
