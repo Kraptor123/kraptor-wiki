@@ -8495,5 +8495,20 @@
       "WFilmizle",
       "YTS"
     ]
+  },
+  "9152c9c4fcd387a5f34e515276821eb6c5111bff": {
+    "sha": "9152c9c4fcd387a5f34e515276821eb6c5111bff",
+    "message": "Turkdizileri: Hata Düzeltme",
+    "description": "StarTV eklentisindeki bölüm isimlendirmeleri düzeltildi.",
+    "date": "2026-05-29T16:10:31Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "MirrorVerse",
+      "Turkdizileri"
+    ]
   }
 }
