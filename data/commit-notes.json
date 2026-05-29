@@ -8510,5 +8510,19 @@
       "MirrorVerse",
       "Turkdizileri"
     ]
+  },
+  "6a7783efa06fec7398d7cf25ae1ed421c26dcfcc": {
+    "sha": "6a7783efa06fec7398d7cf25ae1ed421c26dcfcc",
+    "message": "Sinezy: Geliştirme",
+    "description": "Telif sebebiyle kaldırılmış içerikler artık hata verecek.",
+    "date": "2026-05-29T16:16:12Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Sinezy"
+    ]
   }
 }
