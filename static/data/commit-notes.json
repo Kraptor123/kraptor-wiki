@@ -8539,5 +8539,41 @@
       "AnimeciX",
       "DiziLife"
     ]
+  },
+  "ab12265b6bad13bdc4f3e5b5441fd8da42979e9b": {
+    "sha": "ab12265b6bad13bdc4f3e5b5441fd8da42979e9b",
+    "message": "DizipalOrijinal: Geliştirme",
+    "description": "Yeni eklenen bölümler kategorisinde sezon ve bölüm yazıları 2x5 gibi kısa ve anlaşılabilir olarak gözükecek.",
+    "date": "2026-05-29T16:38:22Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "Anizium",
+      "AsyaWatch",
+      "DiziFilmORG",
+      "DiziLife",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "Dizipod",
+      "FilmEkseni",
+      "FilmHane",
+      "FilmMakinesi",
+      "FullHDFilmizlesene",
+      "HDFilmCehennemi",
+      "HDFilmDelisi",
+      "HDFilmizle",
+      "MirrorVerse",
+      "OpenAnime",
+      "SelcukFlix",
+      "SetFilmIzle",
+      "SezonlukDizi",
+      "SineWix",
+      "WFilmizle",
+      "YTS"
+    ]
   }
 }
