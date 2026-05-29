@@ -8524,5 +8524,20 @@
     "tags": [
       "Sinezy"
     ]
+  },
+  "449d76d24eb06297d068a1e32990bd1fddd51d9e": {
+    "sha": "449d76d24eb06297d068a1e32990bd1fddd51d9e",
+    "message": "DiziLife: Hata Düzeltme",
+    "description": "Önbellek sisteminden dolayı posterlerin bozuk gelme sorunu düzeltildi.",
+    "date": "2026-05-29T16:29:03Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "DiziLife"
+    ]
   }
 }
