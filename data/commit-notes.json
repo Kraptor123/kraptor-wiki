@@ -8634,5 +8634,22 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "b70f3de27b40882b5173ba5e8768af0be703af0c": {
+    "sha": "b70f3de27b40882b5173ba5e8768af0be703af0c",
+    "message": "FilmEkseni: Geliştirme",
+    "description": "Yetişkin içerikli bir kategori sadece NSFW ayarı açık kullanıcılara görünecek şekilde ayarlandı. Telif sebebiyle silinmiş içeriklere hata mesajı eklendi.",
+    "date": "2026-05-30T18:25:46Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "BelgeselX",
+      "DiziLife",
+      "DiziPal",
+      "FilmEkseni"
+    ]
   }
 }
