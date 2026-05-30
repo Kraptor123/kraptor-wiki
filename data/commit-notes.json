@@ -8605,5 +8605,20 @@
       "DiziLife",
       "SelcukFlix"
     ]
+  },
+  "b9a6a9a0030bc4c7e2a29888bb71ed0c29823baf": {
+    "sha": "b9a6a9a0030bc4c7e2a29888bb71ed0c29823baf",
+    "message": "Selcukflix: Hata Düzeltme",
+    "description": "Önbelleklemeden dolayı yaşanan bozuk poster sorunu giderildi.",
+    "date": "2026-05-30T04:57:17Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPalOrijinal",
+      "SelcukFlix"
+    ]
   }
 }
