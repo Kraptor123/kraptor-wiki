@@ -8674,5 +8674,28 @@
       "RecTV",
       "Turkdizileri"
     ]
+  },
+  "04bc0ee8b314e993b912a21b1fadd1c9831af8d8": {
+    "sha": "04bc0ee8b314e993b912a21b1fadd1c9831af8d8",
+    "message": "YTSYedek: Hata Düzeltme",
+    "description": "Site yapısı değiştiği için eklenti düzeltildi.",
+    "date": "2026-05-30T20:02:35Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "BelgeselX",
+      "CizgiveDizi",
+      "DiziLife",
+      "DiziPal",
+      "FilmEkseni",
+      "FullHDFilmizlesene",
+      "KraptorPlus",
+      "SelcukFlix",
+      "YTS"
+    ]
   }
 }
