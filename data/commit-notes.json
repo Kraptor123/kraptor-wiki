@@ -8620,5 +8620,19 @@
       "DiziPalOrijinal",
       "SelcukFlix"
     ]
+  },
+  "2348b8f228aee3d5f96b427f4f012b51beb8e753": {
+    "sha": "2348b8f228aee3d5f96b427f4f012b51beb8e753",
+    "message": "KraptorPlus: Hata Düzeltme",
+    "description": "Dizilife kaynağı düzeltildi ve Sinewix'den gelen yanlış videolar filtrelendi.",
+    "date": "2026-05-30T08:07:23Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
