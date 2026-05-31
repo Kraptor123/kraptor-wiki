@@ -9039,5 +9039,21 @@
     "tags": [
       "WFilmizle"
     ]
+  },
+  "342593aa84fd0ef542be1fc8d0452a3bf5210c08": {
+    "sha": "342593aa84fd0ef542be1fc8d0452a3bf5210c08",
+    "message": "SezonlukDizi ve DDizi: Hata Düzeltme",
+    "description": "DDizi çin bir video kaynağına destek eklendi. Başlık isimlendirmesi düzeltildi. Sezonlukdizide filemoon kaynağı düzeltildi.",
+    "date": "2026-05-31T12:58:14Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Ddizi",
+      "HDFilmizle",
+      "SezonlukDizi"
+    ]
   }
 }
