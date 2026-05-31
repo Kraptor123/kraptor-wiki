@@ -8884,5 +8884,22 @@
     "tags": [
       "YTS"
     ]
+  },
+  "ae144c33f88a4635213cacf728540e1f9111e2a4": {
+    "sha": "ae144c33f88a4635213cacf728540e1f9111e2a4",
+    "message": "Genel Güncelleme",
+    "description": "Pichive kaynaklarında bazen yaşanan video oynatma sorunu giderildi.",
+    "date": "2026-05-31T10:56:16Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "FullHDFilmizlesene"
+    ]
   }
 }
