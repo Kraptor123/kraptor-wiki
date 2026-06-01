@@ -9496,5 +9496,19 @@
     "highlight": false,
     "hidden": true,
     "tags": []
+  },
+  "dc3aa4691c92258cbbc2f6293449fa921d556954": {
+    "sha": "dc3aa4691c92258cbbc2f6293449fa921d556954",
+    "message": "SelcukFlix: Hata Düzeltme",
+    "description": "Eklenti tamamen bozulmuştu ve düzeltildi.",
+    "date": "2026-06-01T19:02:06Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SelcukFlix"
+    ]
   }
 }
