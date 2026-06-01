@@ -9591,5 +9591,22 @@
       "Dizilla",
       "FullHDFilmizlesene"
     ]
+  },
+  "e1f0567c6a8aef473a68920f0d1c51e37dc8865a": {
+    "sha": "e1f0567c6a8aef473a68920f0d1c51e37dc8865a",
+    "message": "Toplu Güncelleme",
+    "description": "Stabilde çökme problemlerine yol açan bazı problemler için düzeltmeler",
+    "date": "2026-06-01T20:18:04Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Anizium",
+      "KraptorPlus",
+      "RecTV",
+      "WebDramaTurkey"
+    ]
   }
 }
