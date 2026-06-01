@@ -9414,5 +9414,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "395dac5846a844deb0cd8551e02712ba1fcdc013": {
+    "sha": "395dac5846a844deb0cd8551e02712ba1fcdc013",
+    "message": "KraptorPlus: Hata Düzeltme",
+    "description": "Uygulamayı çökerten bir hatayı gidermek için güncelleme yapıldı.",
+    "date": "2026-06-01T12:35:42Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
