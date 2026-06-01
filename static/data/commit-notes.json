@@ -9531,5 +9531,20 @@
       "UgurFilm",
       "WebteIzle"
     ]
+  },
+  "5d494b16efc249ca91beafdee62bdd1e02699a85": {
+    "sha": "5d494b16efc249ca91beafdee62bdd1e02699a85",
+    "message": "Dizimom ve WFilmizle: Hata Düzeltme",
+    "description": "HDMomPlayer video kaynağındaki video oynatma sorunları giderildi.",
+    "date": "2026-06-01T19:43:14Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziMom",
+      "WFilmizle"
+    ]
   }
 }
