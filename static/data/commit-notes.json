@@ -9428,5 +9428,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "c96002b62211ef17239a7827f9b8b28f64fe0e11": {
+    "sha": "c96002b62211ef17239a7827f9b8b28f64fe0e11",
+    "message": "KraptorPlus: Devre Dışı",
+    "description": "Geçici olarak bakıma alındı. Eklenti yüklü kalmış ise siliniz.",
+    "date": "2026-06-01T13:03:21Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
