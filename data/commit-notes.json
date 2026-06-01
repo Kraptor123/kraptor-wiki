@@ -9189,5 +9189,17 @@
       "RecTV",
       "YTS"
     ]
+  },
+  "7064aab93ded1d031683fb3875beab3a793d152e": {
+    "sha": "7064aab93ded1d031683fb3875beab3a793d152e",
+    "message": "Update Derleyici.yml",
+    "description": ":hidden:",
+    "date": "2026-06-01T06:27:55Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": true,
+    "tags": []
   }
 }
