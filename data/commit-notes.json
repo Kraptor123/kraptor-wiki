@@ -9458,5 +9458,19 @@
       "KraptorPlus",
       "RecTV"
     ]
+  },
+  "93404b8847fbe2fcb49985c7efb45b0ac9c27214": {
+    "sha": "93404b8847fbe2fcb49985c7efb45b0ac9c27214",
+    "message": "build gradle",
+    "description": "gradle wrapper güncelleme",
+    "date": "2026-06-01T18:21:15Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "gradle"
+    ]
   }
 }
