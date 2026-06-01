@@ -9608,5 +9608,19 @@
       "RecTV",
       "WebDramaTurkey"
     ]
+  },
+  "6173ca6236217f7479b1bfca7a0a1a3fd9008c99": {
+    "sha": "6173ca6236217f7479b1bfca7a0a1a3fd9008c99",
+    "message": "KraptorPlus: Geliştirme",
+    "description": "Torbox için destek eklendi.",
+    "date": "2026-06-01T20:55:59Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
