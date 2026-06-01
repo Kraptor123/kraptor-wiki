@@ -9484,5 +9484,17 @@
     "highlight": false,
     "hidden": true,
     "tags": []
+  },
+  "9f1b8b8777b0cd7680256642c20fb4a5468bfb52": {
+    "sha": "9f1b8b8777b0cd7680256642c20fb4a5468bfb52",
+    "message": "build gradle",
+    "description": "gradle güncelleme :hidden:",
+    "date": "2026-06-01T18:42:33Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": true,
+    "tags": []
   }
 }
