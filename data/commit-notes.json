@@ -9656,5 +9656,21 @@
       "KoreanTurk",
       "YesilCamTv"
     ]
+  },
+  "434a9896288cd69a084387bfa27dbe9cbce34fc9": {
+    "sha": "434a9896288cd69a084387bfa27dbe9cbce34fc9",
+    "message": "FilmEkseni: Hata Düzeltme",
+    "description": "Site tasarımı değiştiği için eklenti tekrardan yapıldı.",
+    "date": "2026-06-02T21:34:01Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmEkseni",
+      "KraptorPlus",
+      "Turkdizileri"
+    ]
   }
 }
