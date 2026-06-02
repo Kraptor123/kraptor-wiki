@@ -9640,5 +9640,21 @@
       "WebteIzle",
       "Youtube"
     ]
+  },
+  "6e628d7f9a6256643c9925c9f814f81b866ffad3": {
+    "sha": "6e628d7f9a6256643c9925c9f814f81b866ffad3",
+    "message": "Silinen eklentiler",
+    "description": "YeşilcamTV, Dizimag ve Koreanturk siteleri tamamen öldüğü için eklentileri silindi.",
+    "date": "2026-06-02T17:32:49Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziMag",
+      "KoreanTurk",
+      "YesilCamTv"
+    ]
   }
 }
