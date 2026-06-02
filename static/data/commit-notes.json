@@ -9622,5 +9622,23 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "328b567a74e3bee6d2f02592aebd6060a0fd4c58": {
+    "sha": "328b567a74e3bee6d2f02592aebd6060a0fd4c58",
+    "message": "Genel Hata Düzeltme",
+    "description": "Stabil ve eski sürüm Beta kullanıcıları için düzeltme yapıldı.",
+    "date": "2026-06-02T08:56:40Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus",
+      "RecTV",
+      "Turkdizileri",
+      "WebteIzle",
+      "Youtube"
+    ]
   }
 }
