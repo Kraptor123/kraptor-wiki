@@ -9714,5 +9714,19 @@
     "tags": [
       "WFilmizle"
     ]
+  },
+  "5c15769f4d4906f96756f77d0e34563223fbb450": {
+    "sha": "5c15769f4d4906f96756f77d0e34563223fbb450",
+    "message": "TurkAnime: Geliştirme",
+    "description": "İçerik posterleri düzeltildi, önerilenler ve aktör bilgileri alındı. Bazı bilgiler ise anilist tarafından çekilmesi için destek sağlandı.",
+    "date": "2026-06-03T17:36:04Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "TurkAnime"
+    ]
   }
 }
