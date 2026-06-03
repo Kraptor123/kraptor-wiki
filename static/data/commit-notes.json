@@ -9700,5 +9700,19 @@
     "tags": [
       "DiziKorea"
     ]
+  },
+  "bb64f8c80bd18aa638e573742a384ed0e7d23432": {
+    "sha": "bb64f8c80bd18aa638e573742a384ed0e7d23432",
+    "message": "WFilmizle: Hata Düzeltme",
+    "description": "Vidmoly kaynağı eksik kalmıştı ve şuanda alındı.",
+    "date": "2026-06-03T10:34:58Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WFilmizle"
+    ]
   }
 }
