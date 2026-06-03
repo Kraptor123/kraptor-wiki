@@ -9686,5 +9686,19 @@
     "tags": [
       "DiziLife"
     ]
+  },
+  "3ca1ca85997339e863a9833645ee5f92719752ba": {
+    "sha": "3ca1ca85997339e863a9833645ee5f92719752ba",
+    "message": "Dizikorea: Devre Dışı",
+    "description": "Sitesi kapalı olduğu için şimdilik devre dışı.",
+    "date": "2026-06-03T10:25:07Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziKorea"
+    ]
   }
 }
