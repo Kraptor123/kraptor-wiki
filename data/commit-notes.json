@@ -9728,5 +9728,19 @@
     "tags": [
       "TurkAnime"
     ]
+  },
+  "8158778d79c7c37b35091b2300d733c3f55fdfbc": {
+    "sha": "8158778d79c7c37b35091b2300d733c3f55fdfbc",
+    "message": "SinemaCX: Hata Düzeltme",
+    "description": "Bazı içeriklerde yaşanan video oynatma sorunu düzeltildi.",
+    "date": "2026-06-03T18:03:22Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SinemaCX"
+    ]
   }
 }
