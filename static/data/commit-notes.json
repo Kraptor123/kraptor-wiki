@@ -9756,5 +9756,19 @@
     "tags": [
       "MirrorVerse"
     ]
+  },
+  "beaa583ffaa000b1aa4895df96e7d7f294bc57bd": {
+    "sha": "beaa583ffaa000b1aa4895df96e7d7f294bc57bd",
+    "message": "YeniKaynak: Geliştirme ve Hata Düzeltme",
+    "description": "Video oynatma sorunları giderildi, tür bilgilerindeki gereksiz sonuçlar filtrelendi ve öneri sistemi eklendi.",
+    "date": "2026-06-03T19:12:19Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "YeniKaynak"
+    ]
   }
 }
