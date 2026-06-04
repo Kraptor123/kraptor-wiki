@@ -9806,5 +9806,19 @@
       "WFilmizle",
       "YTS"
     ]
+  },
+  "57847f02c64b37874b6667d4cf5b70306e169294": {
+    "sha": "57847f02c64b37874b6667d4cf5b70306e169294",
+    "message": "Filmmodu: Hata Düzeltme",
+    "description": "Arama sonuçlarında sadece 1 içerik bulunmuşsa gözükmüyorlardı, düzeltildi.",
+    "date": "2026-06-04T11:17:58Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "FilmModu"
+    ]
   }
 }
