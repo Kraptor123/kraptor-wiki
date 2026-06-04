@@ -9872,5 +9872,19 @@
     "tags": [
       "Dizigecesi"
     ]
+  },
+  "8933fa842ac253e2d4ab80e9553f88b2fa41902d": {
+    "sha": "8933fa842ac253e2d4ab80e9553f88b2fa41902d",
+    "message": "OpenAnime: Hata Düzeltme",
+    "description": "Video oynatma sorunları giderildi.",
+    "date": "2026-06-04T16:44:00Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "OpenAnime"
+    ]
   }
 }
