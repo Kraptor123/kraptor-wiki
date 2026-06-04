@@ -331,8 +331,6 @@ class CloudStreamBrowser {
         let statusBadge = '';
         if (status === 'new') {
             statusBadge = '<span class="badge-new">YENİ</span>';
-        } else if (status === 'updated') {
-            statusBadge = '<span class="badge-updated">GÜNCELLENDİ</span>';
         }
 
         const headerHTML = `
