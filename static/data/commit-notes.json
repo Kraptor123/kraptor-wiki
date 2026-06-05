@@ -9942,5 +9942,32 @@
     "tags": [
       "Dizigecesi"
     ]
+  },
+  "3c9cf37479fa76092842f81891b425ce01784517": {
+    "sha": "3c9cf37479fa76092842f81891b425ce01784517",
+    "message": "Merge remote-tracking branch 'origin/master'",
+    "description": "",
+    "date": "2026-06-05T10:51:54Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": []
+  },
+  "5c625fe87948351cbbfd17fe330d3a151ddac8cd": {
+    "sha": "5c625fe87948351cbbfd17fe330d3a151ddac8cd",
+    "message": "Favicon güncellemesi",
+    "description": ":hidden:",
+    "date": "2026-06-05T10:38:38Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": true,
+    "tags": [
+      "DiziPal",
+      "SinemaCX"
+    ]
   }
 }
