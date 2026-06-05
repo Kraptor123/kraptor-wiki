@@ -9983,5 +9983,19 @@
     "tags": [
       "DiziYo"
     ]
+  },
+  "cc23b4ba161f27ae10737d806f59126a271ba938": {
+    "sha": "cc23b4ba161f27ae10737d806f59126a271ba938",
+    "message": "DiziYou: Geliştirme",
+    "description": "Tmdb entegrasyonu yapıldı.",
+    "date": "2026-06-05T11:22:01Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziYou"
+    ]
   }
 }
