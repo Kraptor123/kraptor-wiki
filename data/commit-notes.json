@@ -9969,5 +9969,19 @@
       "DiziPal",
       "SinemaCX"
     ]
+  },
+  "4a97776e2d67ace5c3b1a8008ed2d4d768f911ee": {
+    "sha": "4a97776e2d67ace5c3b1a8008ed2d4d768f911ee",
+    "message": "DiziYO: Hata Düzeltme",
+    "description": "Video oynatma sorunları giderildi.",
+    "date": "2026-06-05T11:12:24Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziYo"
+    ]
   }
 }
