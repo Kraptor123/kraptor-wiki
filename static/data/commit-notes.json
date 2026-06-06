@@ -10067,5 +10067,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "bcf398287fc95a57e9515d8231c4999ee22790f7": {
+    "sha": "bcf398287fc95a57e9515d8231c4999ee22790f7",
+    "message": "KraptorPlus Hata Duzeltme",
+    "description": "Ayarlarin kaydolmamasi sorunu giderildi.",
+    "date": "2026-06-06T14:32:35Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
