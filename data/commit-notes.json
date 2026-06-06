@@ -10081,5 +10081,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "c15c51cd25ecdccbe0e6b2883d6c147bba071d40": {
+    "sha": "c15c51cd25ecdccbe0e6b2883d6c147bba071d40",
+    "message": "HDFilmCehennemi Hata Duzeltme",
+    "description": "Mantik hatasi giderildi",
+    "date": "2026-06-06T14:57:25Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmCehennemi"
+    ]
   }
 }
