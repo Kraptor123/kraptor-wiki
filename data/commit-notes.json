@@ -10039,5 +10039,19 @@
     "tags": [
       "HDFilmCehennemi"
     ]
+  },
+  "721289fa72092f4612aa02e5f8dfeb4734b64f44": {
+    "sha": "721289fa72092f4612aa02e5f8dfeb4734b64f44",
+    "message": "HDFilmCehennemi Hata Duzeltme",
+    "description": "HDFilmCehenneminde bazi cihazlarda video acilmamasi sorununa cozum ve takip icin ekstra logcatler eklendi.",
+    "date": "2026-06-06T14:20:40Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmCehennemi"
+    ]
   }
 }
