@@ -10141,5 +10141,19 @@
       "Dizilla",
       "FullHDFilmizlesene"
     ]
+  },
+  "5ed80464ca5c31d23a5cca36a4bffced60662938": {
+    "sha": "5ed80464ca5c31d23a5cca36a4bffced60662938",
+    "message": "AsyaAnimeleri: Hata Düzeltme",
+    "description": "Çalışmayan 2 kaynak düzeltildi",
+    "date": "2026-06-07T11:17:40Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaAnimeleri"
+    ]
   }
 }
