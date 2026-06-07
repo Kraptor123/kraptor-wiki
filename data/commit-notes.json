@@ -10123,5 +10123,23 @@
     "tags": [
       "HDFilmCehennemi"
     ]
+  },
+  "247e152eca3bf652891101f096cd8ca29eaf439a": {
+    "sha": "247e152eca3bf652891101f096cd8ca29eaf439a",
+    "message": "Dizifilm: Hata Düzeltme",
+    "description": "Dosyaload video kaynağı düzeltildi.",
+    "date": "2026-06-07T09:19:53Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "DiziFilmORG",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "FullHDFilmizlesene"
+    ]
   }
 }
