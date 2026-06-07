@@ -10155,5 +10155,19 @@
     "tags": [
       "AsyaAnimeleri"
     ]
+  },
+  "7ae27a9a9b7b5ca8f115ca2bfaacf8f542a07d83": {
+    "sha": "7ae27a9a9b7b5ca8f115ca2bfaacf8f542a07d83",
+    "message": "BelgeselX: Geliştirme",
+    "description": "Sitedeki arama sonuçlarından çift gelen sonuçlar filtrelendi.",
+    "date": "2026-06-07T11:22:21Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "BelgeselX"
+    ]
   }
 }
