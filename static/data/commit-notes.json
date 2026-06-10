@@ -10270,5 +10270,19 @@
       "DiziPalOrijinal",
       "TurkAnime"
     ]
+  },
+  "2c5d8056594917881704b2287a12c7b43a48ce45": {
+    "sha": "2c5d8056594917881704b2287a12c7b43a48ce45",
+    "message": "DiziAsya: Geliştirme",
+    "description": "Aktör bilgileri alındı.",
+    "date": "2026-06-10T20:22:50Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziAsya"
+    ]
   }
 }
