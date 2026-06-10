@@ -10255,5 +10255,20 @@
       "YeniKaynak",
       "gradle"
     ]
+  },
+  "5931084cb77b6c51b492b148c6dd6990d13283bf": {
+    "sha": "5931084cb77b6c51b492b148c6dd6990d13283bf",
+    "message": "TurkAnime: Geliştirme",
+    "description": "Bazı içerikler için daha kaliteli posterler alındı.",
+    "date": "2026-06-10T10:58:13Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPalOrijinal",
+      "TurkAnime"
+    ]
   }
 }
