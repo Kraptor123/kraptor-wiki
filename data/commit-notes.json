@@ -10284,5 +10284,19 @@
     "tags": [
       "DiziAsya"
     ]
+  },
+  "75b455345d80a0cc24ad768b718f32bd76f07ca1": {
+    "sha": "75b455345d80a0cc24ad768b718f32bd76f07ca1",
+    "message": "DDizi: Hata Düzeltme",
+    "description": "Bir video kaynağı düzeltildi ve Ana sayfa posterleri yan poster olarak değiştirildi.",
+    "date": "2026-06-10T20:30:00Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Ddizi"
+    ]
   }
 }
