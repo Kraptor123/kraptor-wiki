@@ -10298,5 +10298,20 @@
     "tags": [
       "Ddizi"
     ]
+  },
+  "725ff264727f4dfdbaed3b96288246fc7d3eb910": {
+    "sha": "725ff264727f4dfdbaed3b96288246fc7d3eb910",
+    "message": "BelgeselX: Hata Düzeltme",
+    "description": "Bazı içeriklerde yaşanan bölüm alınamama sorunları giderildi.",
+    "date": "2026-06-11T12:47:57Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "BelgeselX",
+      "Ddizi"
+    ]
   }
 }
