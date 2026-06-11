@@ -10313,5 +10313,19 @@
       "BelgeselX",
       "Ddizi"
     ]
+  },
+  "18b0186f3eb8654852f600284d3355379147b9ad": {
+    "sha": "18b0186f3eb8654852f600284d3355379147b9ad",
+    "message": "DiziKorea: Aktif",
+    "description": "Sitesi düzeltildiği için aktif edildi. Halen site kaynaklı bazı problemler mevcut.",
+    "date": "2026-06-11T21:13:07Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziKorea"
+    ]
   }
 }
