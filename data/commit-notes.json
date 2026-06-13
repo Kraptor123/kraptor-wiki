@@ -10327,5 +10327,19 @@
     "tags": [
       "DiziKorea"
     ]
+  },
+  "d5a57f1e948b34b1e89b35c148033ed70fa0c955": {
+    "sha": "d5a57f1e948b34b1e89b35c148033ed70fa0c955",
+    "message": "KraptorPlus: Hata Düzeltme",
+    "description": "GoatAPI (4K) kaynaklarında bazı videoların çalışmama sorunu giderildi. Webdramaturkey, Filmekseni, Selcukflix ve Sinewix kaynakları düzeltildi. Asya dizileri için KissKH eklendi.",
+    "date": "2026-06-13T11:55:21Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
