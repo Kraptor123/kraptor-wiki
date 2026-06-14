@@ -10355,5 +10355,19 @@
     "tags": [
       "Filmzal"
     ]
+  },
+  "17fb6d42b8d37f4a972557c74400a8fdcd6c4339": {
+    "sha": "17fb6d42b8d37f4a972557c74400a8fdcd6c4339",
+    "message": "UgurFilm: Devre Dışı",
+    "description": "Site artık tamamen öldüğü için devre dışı. Kullanıcıların cihazından silinmesi için şimdilik devre dışı ancak yakında eklenti silinecek.",
+    "date": "2026-06-14T15:03:43Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "UgurFilm"
+    ]
   }
 }
