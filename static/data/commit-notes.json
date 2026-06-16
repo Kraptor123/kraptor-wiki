@@ -10369,5 +10369,21 @@
     "tags": [
       "UgurFilm"
     ]
+  },
+  "79faa069e2e90f765b2ab1c32858b2da0eb6a776": {
+    "sha": "79faa069e2e90f765b2ab1c32858b2da0eb6a776",
+    "message": "Genel Hata Düzeltme",
+    "description": "Repo geneli Vidstack video kaynağı düzeltildi.",
+    "date": "2026-06-16T21:56:19Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziAsya",
+      "Dizigecesi",
+      "WebDramaTurkey"
+    ]
   }
 }
