@@ -10399,5 +10399,19 @@
     "tags": [
       "KultFilmler"
     ]
+  },
+  "f0dd51f05fd73fa622be89d53e5c2033f920df1d": {
+    "sha": "f0dd51f05fd73fa622be89d53e5c2033f920df1d",
+    "message": "DDizi: Hata Düzeltme",
+    "description": "Bazı içeriklerin oynatılamama sorunu düzeltildi.",
+    "date": "2026-06-17T20:16:37Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Ddizi"
+    ]
   }
 }
