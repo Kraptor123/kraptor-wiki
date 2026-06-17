@@ -10385,5 +10385,19 @@
       "Dizigecesi",
       "WebDramaTurkey"
     ]
+  },
+  "e18644b5092d8a27d21d063aa9705c98d40d812c": {
+    "sha": "e18644b5092d8a27d21d063aa9705c98d40d812c",
+    "message": "Kültfilmler: Hata Düzeltme",
+    "description": "Site tasarımı değiştiği için eklenti sıfırdan tekrar yapıldı.",
+    "date": "2026-06-17T20:07:52Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KultFilmler"
+    ]
   }
 }
