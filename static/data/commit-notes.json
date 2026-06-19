@@ -10428,5 +10428,19 @@
       "AnimPow",
       "Turkdizileri"
     ]
+  },
+  "b7705af39a4340aea761c8655994f04f1f77cb53": {
+    "sha": "b7705af39a4340aea761c8655994f04f1f77cb53",
+    "message": "DiziKorea: Hata Düzeltme",
+    "description": "Eklentinin ana sayfası düzeltildi.",
+    "date": "2026-06-19T18:17:38Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziKorea"
+    ]
   }
 }
