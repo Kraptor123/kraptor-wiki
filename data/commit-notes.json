@@ -10457,5 +10457,20 @@
       "AnimPow",
       "DiziAsia"
     ]
+  },
+  "99dfeb232929cb0f68e5f066bf37d4e787dd9c2a": {
+    "sha": "99dfeb232929cb0f68e5f066bf37d4e787dd9c2a",
+    "message": "Kraptorplus: Geliştirme ve Düzeltme",
+    "description": "Çalışmayan bazı kaynaklar kapatıldı. Video yükleme hızlandırıldı.",
+    "date": "2026-06-21T13:18:50Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus",
+      "MirrorVerse"
+    ]
   }
 }
