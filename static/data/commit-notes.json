@@ -10486,5 +10486,19 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "52447bc379ddbd2aaac390315917e0821f1290eb": {
+    "sha": "52447bc379ddbd2aaac390315917e0821f1290eb",
+    "message": "Seicode: Geliştirme",
+    "description": "Bir diğer sitesi olan Seiwatch sitesine geçiş yapıldı. Eklenti sıfırdan düzenlendi.",
+    "date": "2026-06-22T08:36:12Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "SeiCode"
+    ]
   }
 }
