@@ -10577,5 +10577,19 @@
       "SezonlukDizi",
       "__Temel"
     ]
+  },
+  "eda7cf7e53f0a74537ff3da2ee7b8a63cbe230dd": {
+    "sha": "eda7cf7e53f0a74537ff3da2ee7b8a63cbe230dd",
+    "message": "DiziKorea: Hata Düzeltme",
+    "description": "Site tasarımı değiştiği için eklenti sıfırdan yapıldı.",
+    "date": "2026-06-28T16:48:30Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziKorea"
+    ]
   }
 }
