@@ -10683,5 +10683,19 @@
       "WFilmizle",
       "YTS"
     ]
+  },
+  "d6f358e1068a8bac4f59f5cf8a97435f20241f4b": {
+    "sha": "d6f358e1068a8bac4f59f5cf8a97435f20241f4b",
+    "message": "DiziYo: Geliştirme",
+    "description": "Dizi durum bilgisi ve Dublaj - Altyazı bilgisi eklendi.",
+    "date": "2026-06-29T22:31:42Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziYo"
+    ]
   }
 }
