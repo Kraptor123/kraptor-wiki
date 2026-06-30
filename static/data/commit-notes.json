@@ -10697,5 +10697,19 @@
     "tags": [
       "DiziYo"
     ]
+  },
+  "06f995350411a8cfe570cb86f282cb1fa680bd15": {
+    "sha": "06f995350411a8cfe570cb86f282cb1fa680bd15",
+    "message": "Animely: Geliştirme",
+    "description": "İçerik sayfasındaki bazı bilgiler anilist'den alındı.",
+    "date": "2026-06-30T20:57:42Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Animely"
+    ]
   }
 }
