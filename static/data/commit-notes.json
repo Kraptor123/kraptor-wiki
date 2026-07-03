@@ -10711,5 +10711,19 @@
     "tags": [
       "Animely"
     ]
+  },
+  "09edca863f9d05ca78db7f072c8dd237067e6b50": {
+    "sha": "09edca863f9d05ca78db7f072c8dd237067e6b50",
+    "message": "KraptorPlus: Bazı düzeltmeler",
+    "description": "Daha geliştirilecektir test amaçlı güncellenmiştir.",
+    "date": "2026-07-03T20:53:04Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
