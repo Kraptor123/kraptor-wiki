@@ -10785,5 +10785,19 @@
       "FullHDFilmizlesene",
       "TrAnimeIzle"
     ]
+  },
+  "98df32830d692207e197e78cf5b12b202a4fd90d": {
+    "sha": "98df32830d692207e197e78cf5b12b202a4fd90d",
+    "message": "TRAnimeİzle: Geliştirme",
+    "description": "Çerez çözme işlemleri otomatikleştirildi. Artık arka planda eklenti kendiliğinden çözüyor ve kullanıcılara zahmet bırakmıyor.",
+    "date": "2026-07-05T02:38:09Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "TrAnimeIzle"
+    ]
   }
 }
