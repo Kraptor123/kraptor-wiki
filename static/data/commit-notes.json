@@ -10825,5 +10825,19 @@
     "highlight": false,
     "hidden": true,
     "tags": []
+  },
+  "8e42d166cad1cceffd524ccb6a364cb76424eb6f": {
+    "sha": "8e42d166cad1cceffd524ccb6a364cb76424eb6f",
+    "message": "AnimPow: Geliştirme",
+    "description": "Video açılma hızları iyileştirildi. Tmdb entegrasyonu yapıldı.",
+    "date": "2026-07-05T22:51:19Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimPow"
+    ]
   }
 }
