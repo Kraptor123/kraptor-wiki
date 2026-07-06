@@ -10900,5 +10900,31 @@
       "YeniKaynak",
       "Youtube"
     ]
+  },
+  "dd0e2ed9159d99bb6ca585f7bf640a1b7a622725": {
+    "sha": "dd0e2ed9159d99bb6ca585f7bf640a1b7a622725",
+    "message": "Merge remote-tracking branch 'origin/master'",
+    "description": "# Conflicts:\n#\tMirrorVerse/src/main/kotlin/com/kraptor/DisneyPlusProvider.kt\n#\tMirrorVerse/src/main/kotlin/com/kraptor/PrimeVideoMirrorProvider.kt",
+    "date": "2026-07-06T16:15:08Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": []
+  },
+  "6036efe334dcd139e3aec7678f3c44e03d4c8de4": {
+    "sha": "6036efe334dcd139e3aec7678f3c44e03d4c8de4",
+    "message": "MirrorVerse: Netflix, Disney ve Prime tekrar aktif.",
+    "description": "Uzun süredir çalışmayan disney de artık aktif hale getirilmiştir iyi seyirler.",
+    "date": "2026-07-06T16:14:43Z",
+    "author": "kraptor123",
+    "avatar": "https://avatars.githubusercontent.com/u/89366989?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "MirrorVerse"
+    ]
   }
 }
