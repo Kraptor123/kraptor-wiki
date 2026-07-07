@@ -10983,5 +10983,20 @@
       "AnimeciX",
       "__Temel"
     ]
+  },
+  "f095cd804d909f7a5d334f8385e9f13b4288249f": {
+    "sha": "f095cd804d909f7a5d334f8385e9f13b4288249f",
+    "message": "DiziAsya: Geliştirme",
+    "description": "Sitenin yeni video kaynağı Dias eklendi.",
+    "date": "2026-07-07T01:28:46Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziAsya",
+      "__Temel"
+    ]
   }
 }
