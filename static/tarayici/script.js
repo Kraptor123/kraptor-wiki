@@ -7,10 +7,30 @@ class CloudStreamBrowser {
             { code: 'sarapcanagii', name: 'SarapcanAgii', url: 'https://raw.githubusercontent.com/sarapcanagii/Pitipitii/builds/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/builds/repo.json' },
             { code: 'Makoto2', name: 'Makoto2', url: 'https://raw.githubusercontent.com/Sertel392/Makotogecici/main/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/Sertel392/Makotogecici/refs/heads/main/repo.json' },
             { code: 'gizlikeyif', name: 'Gizli-Keyif', url: 'https://raw.githubusercontent.com/Kraptor123/Cs-GizliKeyif/refs/heads/builds/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/Kraptor123/Cs-GizliKeyif/refs/heads/master/repo.json' },
-            { code: 'AyzenCS3', name: 'Ayzen-CS3', url: 'https://raw.githubusercontent.com/ByAyzen/AyzenCS3/refs/heads/builds/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/ByAyzen/AyzenCS3/refs/heads/builds/repo.json' }
+            { code: 'AyzenCS3', name: 'Ayzen-CS3', url: 'https://raw.githubusercontent.com/ByAyzen/AyzenCS3/refs/heads/builds/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/ByAyzen/AyzenCS3/refs/heads/builds/repo.json' },
+            { code: 'cagirepo', name: 'Çagi Repo', url: 'https://raw.githubusercontent.com/caca1403/cloudstream-cagi-eklenti/builds/plugins.json', redirectUrl: 'https://kraptor123.github.io/redirect/?r=cloudstreamrepo://raw.githubusercontent.com/caca1403/cloudstream-cagi-eklenti/main/repo.json' }
         ];
 
         this.typeMap = { movie:'Film', tvseries:'Dizi', anime:'Anime', animemovie:'Anime Filmi', asiandrama:'Asya Dizisi', cartoon:'Çizgi Film', documentary:'Belgesel', ova:'OVA', live:'Canlı', nsfw:'Yetişkin' };
+
+        this.langMap = {
+            tr: 'Türkçe',
+            en: 'İngilizce',
+            ar: 'Arapça',
+            ru: 'Rusça',
+            de: 'Almanca',
+            fr: 'Fransızca',
+            es: 'İspanyolca',
+            az: 'Azerice',
+            it: 'İtalyanca',
+            pt: 'Portekizce',
+            hi: 'Hintçe',
+            ja: 'Japonca',
+            ko: 'Korece',
+            zh: 'Çince',
+            vi: 'Vietnamca',
+            id: 'Endonezyaca'
+        };
 
         this.allPlugins = [];
         this.filteredPlugins = [];
@@ -273,13 +293,12 @@ class CloudStreamBrowser {
         fill('developerFilter', sortedDevs);
 
         const langs = new Set();
-        this.allPlugins.forEach(p => { if (p.language) langs.add(p.language); });
+        this.allPlugins.forEach(p => { if (p.language) langs.add(p.language.toLowerCase()); });
 
         const sortedTypes = Object.keys(this.typeMap).sort((a,b) => this.typeMap[a].localeCompare(this.typeMap[b]));
         fill('typeFilter', sortedTypes.map(t => ({ val: t, txt: this.typeMap[t] })));
 
-        const langMap = { tr:'Türkçe', en:'İngilizce', ar:'Arapça', ru:'Rusça', de:'Almanca', fr:'Fransızca' };
-        fill('languageFilter', Array.from(langs).sort().map(l => ({ val: l, txt: langMap[l] || l.toUpperCase() })));
+        fill('languageFilter', Array.from(langs).sort().map(l => ({ val: l, txt: this.langMap[l] || l.toUpperCase() })));
     }
 
     filterPlugins() {
@@ -388,7 +407,7 @@ class CloudStreamBrowser {
                         <div class="plugin-version">v${data.version || '1.0'}</div>
                     </div>
                 </div>
-                <div class="card-lang">${data.language ? data.language.toUpperCase() : ''}</div>
+                <div class="card-lang">${data.language ? (this.langMap[data.language.toLowerCase()] || data.language.toUpperCase()) : ''}</div>
             </div>
 
             <div class="plugin-description">${this.escapeHtml(data.description || 'Açıklama bulunmuyor.')}</div>
@@ -425,7 +444,7 @@ class CloudStreamBrowser {
                 card.querySelector('.plugin-version').textContent = `v${data.version||'?'}`;
                 card.querySelector('.plugin-description').textContent = data.description || 'Açıklama yok.';
                 card.querySelector('.plugin-icon').src = data.iconUrl || 'https://placehold.co/72/black/white/?text=Kraptor\\nWiki';
-                card.querySelector('.card-lang').textContent = data.language ? data.language.toUpperCase() : '';
+                card.querySelector('.card-lang').textContent = data.language ? (this.langMap[data.language.toLowerCase()] || data.language.toUpperCase()) : '';
                 card.querySelector('.plugin-authors').innerHTML = this.createAuthorsHTML(data.authors, data.authorsCanon);
                 const linkBtn = card.querySelector('.repo-link-btn');
                 if (linkBtn && data.redirectUrl) linkBtn.href = data.redirectUrl;

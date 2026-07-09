@@ -1,0 +1,21 @@
+{
+  "name": "Kraptor Wiki",
+  "short_name": "KraptorWiki",
+  "start_url": "/kraptor-wiki/",
+  "display": "standalone",
+  "background_color": "#101218",
+  "theme_color": "#0061a4",
+  "description": "CloudStream Yardım ve Eklenti Tarayıcısı",
+  "icons": [
+    {
+      "src": "img/kraptorlogo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/kraptorlogo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

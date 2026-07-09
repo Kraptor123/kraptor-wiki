@@ -13,6 +13,22 @@ const config = {
   title: 'Kraptor\'un CloudStream Wikisi',
   tagline: 'Buradan CloudStream Hakkında Yardım Alabilirsiniz.',
   favicon: 'img/favicon.ico',
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'manifest',
+        href: '/kraptor-wiki/manifest.json',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'theme-color',
+        content: '#0061a4',
+      },
+    },
+  ],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -83,18 +99,23 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Viki',
+            label: '📚 Viki',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/docs/eklenti-tarayici/tarayici',
+            label: '🧩 Eklenti Tarayıcısı',
+            position: 'left',
+          },
           {
             to: '/commits',
             label: '📝 Commitler',
-            position: 'left', // veya 'right'
+            position: 'left',
           },
           {
             href: 'https://github.com/Kraptor123',
             label: 'GitHub',
             position: 'right',
+            className: 'navbar-github-link',
           },
         ],
       },
@@ -162,9 +183,9 @@ const config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       ({
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
+        language: ["tr"],
+        searchBarShortcutHint: false,
 
         // For Docs using Chinese, it is recomended to set:
         // language: ["en", "zh"],
