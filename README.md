@@ -10,4 +10,9 @@ Kraptor'un CloudStream Wikisi.
 5. Diğer repolar hakkında bilgiler.
 6. Ve daha fazlası
 
+## Linkler
+- [Wiki](https://kraptor123.github.io/kraptor-wiki/)
+- [Eklenti Tarayıcısı](https://kraptor123.github.io/kraptor-wiki/tarayici/tarayici.html)
+- [Commit (Güncellemeler)](https://kraptor123.github.io/kraptor-wiki/commits/)
+
 [![Docusaurus](https://img.shields.io/badge/docusaurus-readme-green)](/README-docusaurus.md)
