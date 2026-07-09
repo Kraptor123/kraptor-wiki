@@ -11077,5 +11077,35 @@
       "HDFilmCehennemi",
       "KraptorPlus"
     ]
+  },
+  "8195485af7063b62ba363bb9fc49c048c9d216a1": {
+    "sha": "8195485af7063b62ba363bb9fc49c048c9d216a1",
+    "message": "ss",
+    "description": ":hidden:",
+    "date": "2026-07-09T13:00:17Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": true,
+    "tags": [
+      "Tabii"
+    ]
+  },
+  "432281596dcf2cd15d4f8d069e5d1a07f1040cb4": {
+    "sha": "432281596dcf2cd15d4f8d069e5d1a07f1040cb4",
+    "message": "YeşilcamTV: Tekrar Eklendi",
+    "description": "Site tekrar aktif olduğu için kaldırılan eklenti yeniden yüklendi.",
+    "date": "2026-07-09T12:59:25Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziPalOrijinal",
+      "Tabii",
+      "YesilCamTv"
+    ]
   }
 }
