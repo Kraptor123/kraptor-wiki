@@ -11169,5 +11169,19 @@
     "tags": [
       "Animely"
     ]
+  },
+  "09427a0352ee2a4d52257191cb27b8668bd017e7": {
+    "sha": "09427a0352ee2a4d52257191cb27b8668bd017e7",
+    "message": "KraptorPlus: Geliştirme",
+    "description": "TMDB'den gelen açıklamalarda türkçe yok ise ingilizce açıklama alınacak.",
+    "date": "2026-07-10T15:10:25Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
