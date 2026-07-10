@@ -11139,5 +11139,21 @@
       "FullHDFilmizlesene",
       "TvDiziler"
     ]
+  },
+  "ebc9aa21ebaa173d2a4f8a74016c916e09a521a8": {
+    "sha": "ebc9aa21ebaa173d2a4f8a74016c916e09a521a8",
+    "message": "ÇizgiveDizi: Geliştirme",
+    "description": "Çocuklar için içeriklere yaş bilgisi eklendi.",
+    "date": "2026-07-10T12:18:59Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimPow",
+      "CizgiveDizi",
+      "DiziPalOrijinal"
+    ]
   }
 }
