@@ -11198,5 +11198,19 @@
       "HDFilmizle",
       "SetFilmIzle"
     ]
+  },
+  "46f51fc4daa7dbd734c8d0257144f5eae4d7d2e5": {
+    "sha": "46f51fc4daa7dbd734c8d0257144f5eae4d7d2e5",
+    "message": "KraptorPlus: Geliştirme",
+    "description": "Yeni 4K kaynakları eklendi. TürkçeAltyaziORG cihaz içerisinde çözülecek şekilde eklendi. Türkçe bazı kaynaklardaki hatalar giderildi. Daha büyük bir güncelleme sonra yapılacak.",
+    "date": "2026-07-10T20:13:29Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
