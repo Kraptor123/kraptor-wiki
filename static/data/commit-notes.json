@@ -11183,5 +11183,20 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "81b7bbbfd928b6663963eb0561b406c7caa95fe0": {
+    "sha": "81b7bbbfd928b6663963eb0561b406c7caa95fe0",
+    "message": "SetFilmİzle: Geliştirme ve Hata Düzeltme",
+    "description": "Son eklenen bölümlere yan poster desteği eklendi. Arama ve bazı hatalı posterler düzeltildi.",
+    "date": "2026-07-10T16:48:06Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmizle",
+      "SetFilmIzle"
+    ]
   }
 }
