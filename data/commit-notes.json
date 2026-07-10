@@ -11155,5 +11155,19 @@
       "CizgiveDizi",
       "DiziPalOrijinal"
     ]
+  },
+  "cc981608676d7a7de8446a2fa75ae361f90e0a49": {
+    "sha": "cc981608676d7a7de8446a2fa75ae361f90e0a49",
+    "message": "Animely: Geliştirme",
+    "description": "Son eklenen bölümler kategorisi en üste taşındı.",
+    "date": "2026-07-10T15:05:56Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Animely"
+    ]
   }
 }
