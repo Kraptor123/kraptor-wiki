@@ -11238,5 +11238,19 @@
       "SineWix",
       "YTS"
     ]
+  },
+  "7bac482546b7e68e721b496091386afc5941ac6b": {
+    "sha": "7bac482546b7e68e721b496091386afc5941ac6b",
+    "message": "KraptorPlus: Geliştirme",
+    "description": "Bir çok 4K ve 1080P video kaynağı eklendi. Altyazı kaynakları daha düzgün çalışır vaziyete getirildi.",
+    "date": "2026-07-11T15:46:16Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
