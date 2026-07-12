@@ -11330,5 +11330,19 @@
       "Youtube",
       "__Temel"
     ]
+  },
+  "45c26465f47afacece5e788f3882927c72ead3f1": {
+    "sha": "45c26465f47afacece5e788f3882927c72ead3f1",
+    "message": "UgurFilm: Silindi",
+    "description": "Uzun süredir site ölü durumdaydı ve artık tamamen kapandığı için eklenti repodan silindi.",
+    "date": "2026-07-12T01:09:00Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "UgurFilm"
+    ]
   }
 }
