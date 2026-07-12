@@ -11344,5 +11344,19 @@
     "tags": [
       "UgurFilm"
     ]
+  },
+  "0410c904d71bf34467e400bff4f4db1d153f8036": {
+    "sha": "0410c904d71bf34467e400bff4f4db1d153f8036",
+    "message": "HDFilmCehennemi: Hata Düzeltme",
+    "description": "Eklentiyi kilitleyen bir hata düzeltildi.",
+    "date": "2026-07-12T12:34:47Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmCehennemi"
+    ]
   }
 }
