@@ -11386,5 +11386,20 @@
     "tags": [
       "HDFilmizle"
     ]
+  },
+  "892b6cc60f8d7d209b8df85ed0bc84215dc10f0f": {
+    "sha": "892b6cc60f8d7d209b8df85ed0bc84215dc10f0f",
+    "message": "KraptorPlus: Geliştirme ve Hata Düzeltme",
+    "description": "SubMaker altyazı kaynağı eklendi. Wyziesubs için artık API key gerektiği için ayarlara API key girme kısmı eklendi. HDFilmizle yayınlanmayan bölümlerde filtrelendi.",
+    "date": "2026-07-13T01:32:51Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus",
+      "__New"
+    ]
   }
 }
