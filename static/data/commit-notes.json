@@ -11701,5 +11701,20 @@
       "YTS",
       "YabanciDizi"
     ]
+  },
+  "c7aabdee608c0bbf689c33e05b2d2fa75242aeaa": {
+    "sha": "c7aabdee608c0bbf689c33e05b2d2fa75242aeaa",
+    "message": "CizgiveDizi: Hata Düzeltme",
+    "description": "Ana menünün yüklenmesini engelleyen bir hatanın çözülmesi denendi.",
+    "date": "2026-07-15T12:20:32Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "CizgiveDizi",
+      "InatBox"
+    ]
   }
 }
