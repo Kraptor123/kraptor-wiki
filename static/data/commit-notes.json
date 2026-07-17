@@ -11790,5 +11790,19 @@
       "Dizilla",
       "FullHDFilmizlesene"
     ]
+  },
+  "5d03136bfd761ff47236d4b69db422214de8e07e": {
+    "sha": "5d03136bfd761ff47236d4b69db422214de8e07e",
+    "message": "AnimPow: Hata Düzeltme",
+    "description": "Rezil sitenin aes şifrelemesi çözüldü. Hala bazı hatalar var.",
+    "date": "2026-07-17T20:37:31Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimPow"
+    ]
   }
 }
