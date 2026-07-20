@@ -11804,5 +11804,19 @@
     "tags": [
       "AnimPow"
     ]
+  },
+  "aff2034903f3f3db6cbf0d54be6ea2bb884bdc7a": {
+    "sha": "aff2034903f3f3db6cbf0d54be6ea2bb884bdc7a",
+    "message": "DramaDizilerim: Hata Düzeltme",
+    "description": "Bazı içeriklerde video oynatma ve altyazı sorunları giderildi.",
+    "date": "2026-07-20T08:19:40Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DramaDizilerim"
+    ]
   }
 }
