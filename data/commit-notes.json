@@ -11847,5 +11847,19 @@
       "WFilmizle",
       "YeniKaynak"
     ]
+  },
+  "ff6018ec43261285b2a4e576f98223f4dcf78231": {
+    "sha": "ff6018ec43261285b2a4e576f98223f4dcf78231",
+    "message": "YTSYedek: Hata Düzeltme",
+    "description": "İçerik sayfasını bozan bir hata giderildi.",
+    "date": "2026-07-24T20:56:03Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "YTS"
+    ]
   }
 }
