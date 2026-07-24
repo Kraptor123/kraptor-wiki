@@ -11861,5 +11861,24 @@
     "tags": [
       "YTS"
     ]
+  },
+  "64c35ffe943683440fe1debcd0f995b7237538aa": {
+    "sha": "64c35ffe943683440fe1debcd0f995b7237538aa",
+    "message": "DiziFilm: Hata Düzeltme",
+    "description": "Video oynatma sorunları giderildi.",
+    "date": "2026-07-24T21:20:11Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "DiziFilmORG",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "FullHDFilmizlesene",
+      "YTS"
+    ]
   }
 }
