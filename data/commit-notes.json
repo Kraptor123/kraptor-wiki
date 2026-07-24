@@ -11880,5 +11880,19 @@
       "FullHDFilmizlesene",
       "YTS"
     ]
+  },
+  "0be3a8156f1e17c1b3989a953651b1db710232b7": {
+    "sha": "0be3a8156f1e17c1b3989a953651b1db710232b7",
+    "message": "HDFilmCehennemi: Hata Düzeltme",
+    "description": "Hatalı kategoriler düzeltildi.",
+    "date": "2026-07-24T21:23:13Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "HDFilmCehennemi"
+    ]
   }
 }
