@@ -11923,5 +11923,20 @@
     "tags": [
       "Animely"
     ]
+  },
+  "743a52833558a884f6e69666d625745ff74aae37": {
+    "sha": "743a52833558a884f6e69666d625745ff74aae37",
+    "message": "KraptorPlus: Geliştirme ve Hata Düzeltme",
+    "description": "DiziPod ve WFilmizle kaynakları eklendi. Bazı kaynaklarda isimlendirme ve çalışmama sorunları giderildi. Yaş derecelendirmesi geliştirildi.",
+    "date": "2026-07-24T22:34:02Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Dizipod",
+      "KraptorPlus"
+    ]
   }
 }
