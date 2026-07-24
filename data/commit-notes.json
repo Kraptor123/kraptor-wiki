@@ -11832,5 +11832,20 @@
     "tags": [
       "RecTV"
     ]
+  },
+  "6e7564dbfff192c16e86eec3199d3d7400503503": {
+    "sha": "6e7564dbfff192c16e86eec3199d3d7400503503",
+    "message": "YeniKaynak: Hata Düzeltme",
+    "description": "Eklenti sıfırdan yapıldı.",
+    "date": "2026-07-24T20:48:24Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "WFilmizle",
+      "YeniKaynak"
+    ]
   }
 }
