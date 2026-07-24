@@ -11909,5 +11909,19 @@
       "DiziLife",
       "HDFilmCehennemi"
     ]
+  },
+  "2b26157a5b2f0fac975364dea9c9258e94c3569a": {
+    "sha": "2b26157a5b2f0fac975364dea9c9258e94c3569a",
+    "message": "Animely: Geliştirme",
+    "description": "Eklenti açılış süresi hızlandırıldı.",
+    "date": "2026-07-24T21:45:48Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "Animely"
+    ]
   }
 }
