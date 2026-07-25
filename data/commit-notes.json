@@ -11970,5 +11970,19 @@
     "tags": [
       "Animely"
     ]
+  },
+  "e11fb87cf1107d3d86d0ac64659c2ddefd98c24b": {
+    "sha": "e11fb87cf1107d3d86d0ac64659c2ddefd98c24b",
+    "message": "KraptorPlus: Geliştirme",
+    "description": "KMMovies kaynağı eklendi. Stremio eklentileri için geliştirme yapıldı.",
+    "date": "2026-07-25T14:18:52Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
