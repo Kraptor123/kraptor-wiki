@@ -11984,5 +11984,20 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "3744c42fc67a4e211a2d0e8775b7e1622ec8df4e": {
+    "sha": "3744c42fc67a4e211a2d0e8775b7e1622ec8df4e",
+    "message": "Kategori Güncellemesi",
+    "description": "HDFilmizle ve DiziAsia için kategoriler eklendi ve yeniden ayarlandı.",
+    "date": "2026-07-26T23:05:20Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "DiziAsia",
+      "HDFilmizle"
+    ]
   }
 }
