@@ -12042,5 +12042,22 @@
       "DiziPalOrijinal",
       "RecTV"
     ]
+  },
+  "7fbd759cacb853d123ff25e6ce6ef149fedab494": {
+    "sha": "7fbd759cacb853d123ff25e6ce6ef149fedab494",
+    "message": "FullHDFilmizlesene: Hata Düzeltme",
+    "description": "RapidVid kaynağının video oynatma sorunları giderildi.",
+    "date": "2026-08-01T16:52:05Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AnimeciX",
+      "DiziPalOrijinal",
+      "Dizilla",
+      "FullHDFilmizlesene"
+    ]
   }
 }
