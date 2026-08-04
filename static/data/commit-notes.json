@@ -12090,5 +12090,20 @@
     "tags": [
       "KraptorPlus"
     ]
+  },
+  "56e4455a226d6cd70ca00c9f6e497c5e459d3b6c": {
+    "sha": "56e4455a226d6cd70ca00c9f6e497c5e459d3b6c",
+    "message": "SetFilmizle: Hata Düzeltme",
+    "description": "Video oynatma hatası düzeltildi.",
+    "date": "2026-08-04T22:38:46Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus",
+      "SetFilmIzle"
+    ]
   }
 }
