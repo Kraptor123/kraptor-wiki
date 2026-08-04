@@ -12076,5 +12076,19 @@
       "Dizilla",
       "FullHDFilmizlesene"
     ]
+  },
+  "82d2bce5ccc5cd732f08ee8aa2c711924e5ac32b": {
+    "sha": "82d2bce5ccc5cd732f08ee8aa2c711924e5ac32b",
+    "message": "KraptorPlus: Geliştirme ve Hata Düzeltme",
+    "description": "Eklentiyi ilk kez kullanacaklar için uyarı metini eklendi. Bazı kaynaklardaki hatalar giderildi.",
+    "date": "2026-08-04T22:13:35Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "KraptorPlus"
+    ]
   }
 }
