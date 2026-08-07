@@ -12122,5 +12122,19 @@
       "Dizilla",
       "FullHDFilmizlesene"
     ]
+  },
+  "111dd33881104b95972a833689ee306225443ce9": {
+    "sha": "111dd33881104b95972a833689ee306225443ce9",
+    "message": "AsyaMinik: Devre Dışı",
+    "description": "Sitenin bir kaç gündür kapalı olması sebebiyle eklenti devre dışı bırakıldı.",
+    "date": "2026-08-07T22:59:33Z",
+    "author": "ByAyzen",
+    "avatar": "https://avatars.githubusercontent.com/u/189399597?v=4",
+    "note": "",
+    "highlight": false,
+    "hidden": false,
+    "tags": [
+      "AsyaMinik"
+    ]
   }
 }
